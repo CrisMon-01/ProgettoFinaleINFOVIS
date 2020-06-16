@@ -1,0 +1,5333 @@
+Stazioni;Data;T-MIN;T-MAX
+Abbadia S.Salvatore;01/03/2020;5,7;8,4
+Abbadia S.Salvatore;02/03/2020;6,0;8,6
+Abbadia S.Salvatore;03/03/2020;1,6;8,1
+Abbadia S.Salvatore;04/03/2020;1,6;8,1
+Abbadia S.Salvatore;05/03/2020;1,6;10,2
+Abbadia S.Salvatore;06/03/2020;2,8;11,8
+Abbadia S.Salvatore;07/03/2020;1,3;6,7
+Abbadia S.Salvatore;08/03/2020;1,3;7,7
+Abbadia S.Salvatore;09/03/2020;1,4;9,8
+Abbadia S.Salvatore;10/03/2020;2,6;10,6
+Abbadia S.Salvatore;11/03/2020;4,3;15,5
+Abbadia S.Salvatore;12/03/2020;4,1;12,0
+Abbadia S.Salvatore;13/03/2020;4,2;11,5
+Abbadia S.Salvatore;14/03/2020;6,0;11,5
+Abbadia S.Salvatore;15/03/2020;2,0;9,5
+Abbadia S.Salvatore;16/03/2020;2,8;14,2
+Abbadia S.Salvatore;17/03/2020;4,8;14,2
+Abbadia S.Salvatore;18/03/2020;6,8;13,5
+Abbadia S.Salvatore;19/03/2020;5,7;17,0
+Abbadia S.Salvatore;20/03/2020;6,6;16,2
+Abbadia S.Salvatore;21/03/2020;5,5;15,3
+Abbadia S.Salvatore;22/03/2020;2,2;13,0
+Abbadia S.Salvatore;23/03/2020;-3,3;1,9
+Abbadia S.Salvatore;24/03/2020;-3,6;1,2
+Abbadia S.Salvatore;25/03/2020;-3,5;1,7
+Abbadia S.Salvatore;26/03/2020;-1,8;2,6
+Abbadia S.Salvatore;27/03/2020;2,2;6,3
+Abbadia S.Salvatore;28/03/2020;4,1;11,7
+Abbadia S.Salvatore;29/03/2020;4,1;13,6
+Abbadia S.Salvatore;30/03/2020;4,6;13,2
+Abbadia S.Salvatore;31/03/2020;-1,8;4,9
+Abbazia Trisulti;01/03/2020;4,1;9,3
+Abbazia Trisulti;02/03/2020;5,2;9,6
+Abbazia Trisulti;03/03/2020;1,8;6,9
+Abbazia Trisulti;04/03/2020;1,2;9,9
+Abbazia Trisulti;05/03/2020;1,9;10,8
+Abbazia Trisulti;06/03/2020;3,4;9,6
+Abbazia Trisulti;07/03/2020;2,4;10,6
+Abbazia Trisulti;08/03/2020;2,0;8,9
+Abbazia Trisulti;09/03/2020;1,2;9,6
+Abbazia Trisulti;10/03/2020;5,3;11,8
+Abbazia Trisulti;11/03/2020;4,6;15,6
+Abbazia Trisulti;12/03/2020;7,4;17,0
+Abbazia Trisulti;13/03/2020;6,9;15,1
+Abbazia Trisulti;14/03/2020;6,2;13,0
+Abbazia Trisulti;15/03/2020;6,0;13,0
+Abbazia Trisulti;16/03/2020;3,3;15,0
+Abbazia Trisulti;17/03/2020;6,2;14,3
+Abbazia Trisulti;18/03/2020;6,0;16,2
+Abbazia Trisulti;19/03/2020;7,6;17,3
+Abbazia Trisulti;20/03/2020;7,4;16,7
+Abbazia Trisulti;21/03/2020;7,1;15,2
+Abbazia Trisulti;22/03/2020;6,6;14,0
+Abbazia Trisulti;23/03/2020;-1,9;8,2
+Abbazia Trisulti;24/03/2020;-2,4;5,1
+Abbazia Trisulti;25/03/2020;-1,6;5,1
+Abbazia Trisulti;26/03/2020;0,8;7,4
+Abbazia Trisulti;27/03/2020;5,0;10,2
+Abbazia Trisulti;28/03/2020;4,3;10,3
+Abbazia Trisulti;29/03/2020;4,0;13,1
+Abbazia Trisulti;30/03/2020;5,5;12,3
+Abbazia Trisulti;31/03/2020;1,2;10,1
+Acquapendente;01/03/2020;7,2;12,9
+Acquapendente;02/03/2020;7,6;11,6
+Acquapendente;03/03/2020;4,2;13,5
+Acquapendente;04/03/2020;-0,6;18,3
+Acquapendente;05/03/2020;-1,7;14,9
+Acquapendente;06/03/2020;2,0;17,9
+Acquapendente;07/03/2020;0,7;13,6
+Acquapendente;08/03/2020;-1,2;16,8
+Acquapendente;09/03/2020;-1,9;17,9
+Acquapendente;10/03/2020;0,6;21,7
+Acquapendente;11/03/2020;-1,1;22,0
+Acquapendente;12/03/2020;5,6;13,2
+Acquapendente;13/03/2020;5,4;14,4
+Acquapendente;14/03/2020;4,4;14,2
+Acquapendente;15/03/2020;2,5;18,0
+Acquapendente;16/03/2020;-2,3;22,0
+Acquapendente;17/03/2020;-0,7;22,7
+Acquapendente;18/03/2020;-0,6;21,5
+Acquapendente;19/03/2020;-0,7;22,4
+Acquapendente;20/03/2020;0,2;21,3
+Acquapendente;21/03/2020;0,9;21,1
+Acquapendente;22/03/2020;4,1;20,8
+Acquapendente;23/03/2020;0,4;9,7
+Acquapendente;24/03/2020;-0,9;8,5
+Acquapendente;25/03/2020;-0,4;10,7
+Acquapendente;26/03/2020;1,2;6,9
+Acquapendente;27/03/2020;6,0;13,6
+Acquapendente;28/03/2020;4,0;19,8
+Acquapendente;29/03/2020;0,4;21,3
+Acquapendente;30/03/2020;3,3;20,6
+Acquapendente;31/03/2020;1,7;10,5
+Allumiere;01/03/2020;8,7;10,7
+Allumiere;02/03/2020;7,8;10,8
+Allumiere;03/03/2020;4,3;11,3
+Allumiere;04/03/2020;3,8;11,4
+Allumiere;05/03/2020;4,1;12,4
+Allumiere;06/03/2020;6,9;13,5
+Allumiere;07/03/2020;4,9;11,5
+Allumiere;08/03/2020;4,8;11,7
+Allumiere;09/03/2020;4,1;12,1
+Allumiere;10/03/2020;4,1;14,9
+Allumiere;11/03/2020;7,6;14,8
+Allumiere;12/03/2020;5,9;13,3
+Allumiere;13/03/2020;7,6;13,0
+Allumiere;14/03/2020;9,1;11,1
+Allumiere;15/03/2020;6,1;14,9
+Allumiere;16/03/2020;6,7;14,0
+Allumiere;17/03/2020;7,3;15,8
+Allumiere;18/03/2020;8,2;17,3
+Allumiere;19/03/2020;9,5;17,5
+Allumiere;20/03/2020;8,1;16,0
+Allumiere;21/03/2020;6,5;16,2
+Allumiere;22/03/2020;5,8;16,8
+Allumiere;23/03/2020;0,3;5,8
+Allumiere;24/03/2020;-1,6;4,7
+Allumiere;25/03/2020;-2,4;10,0
+Allumiere;26/03/2020;0,1;7,6
+Allumiere;27/03/2020;5,7;13,4
+Allumiere;28/03/2020;5,9;14,0
+Allumiere;29/03/2020;5,7;14,5
+Allumiere;30/03/2020;6,0;13,9
+Allumiere;31/03/2020;1,3;12,3
+Amatrice;01/03/2020;1,3;12,3
+Amatrice;02/03/2020;4,0;13,1
+Amatrice;03/03/2020;1,9;8,1
+Amatrice;04/03/2020;-1,8;10,9
+Amatrice;05/03/2020;-2,1;13,7
+Amatrice;06/03/2020;1,4;12,9
+Amatrice;07/03/2020;-0,1;9,9
+Amatrice;08/03/2020;-4,4;7,6
+Amatrice;09/03/2020;-6,3;12,0
+Amatrice;10/03/2020;0,4;11,8
+Amatrice;11/03/2020;-2,0;20,6
+Amatrice;12/03/2020;1,7;20,7
+Amatrice;13/03/2020;2,2;22,1
+Amatrice;14/03/2020;1,9;17,7
+Amatrice;15/03/2020;-2,4;10,6
+Amatrice;16/03/2020;-5,2;14,8
+Amatrice;17/03/2020;-3,4;16,1
+Amatrice;18/03/2020;-3,2;17,4
+Amatrice;19/03/2020;-2,8;18,5
+Amatrice;20/03/2020;-1,0;19,2
+Amatrice;21/03/2020;0,1;17,2
+Amatrice;22/03/2020;1,2;13,5
+Amatrice;23/03/2020;-4,3;3,6
+Amatrice;24/03/2020;-4,7;-0,2
+Amatrice;25/03/2020;-5,7;2,2
+Amatrice;26/03/2020;-0,9;3,1
+Amatrice;27/03/2020;2,1;8,7
+Amatrice;28/03/2020;0,0;11,2
+Amatrice;29/03/2020;-2,7;15,6
+Amatrice;30/03/2020;3,4;14,2
+Amatrice;31/03/2020;-3,2;3,7
+Anzio;01/03/2020;11,8;14,7
+Anzio;02/03/2020;11,2;14,8
+Anzio;03/03/2020;8,1;13,6
+Anzio;04/03/2020;7,0;14,0
+Anzio;05/03/2020;6,5;14,2
+Anzio;06/03/2020;12,4;14,5
+Anzio;07/03/2020;8,4;15,0
+Anzio;08/03/2020;8,1;15,4
+Anzio;09/03/2020;6,8;14,2
+Anzio;10/03/2020;7,9;14,5
+Anzio;11/03/2020;8,7;15,3
+Anzio;12/03/2020;8,5;16,4
+Anzio;13/03/2020;10,7;15,8
+Anzio;14/03/2020;12,4;15,4
+Anzio;15/03/2020;9,9;16,4
+Anzio;16/03/2020;8,8;16,0
+Anzio;17/03/2020;10,1;15,7
+Anzio;18/03/2020;9,7;16,2
+Anzio;19/03/2020;11,2;17,0
+Anzio;20/03/2020;9,5;16,2
+Anzio;21/03/2020;8,9;16,0
+Anzio;22/03/2020;9,9;17,1
+Anzio;23/03/2020;7,4;15,1
+Anzio;24/03/2020;3,6;10,1
+Anzio;25/03/2020;2,8;11,0
+Anzio;26/03/2020;4,7;13,8
+Anzio;27/03/2020;9,7;13,0
+Anzio;28/03/2020;10,0;15,1
+Anzio;29/03/2020;10,0;15,5
+Anzio;30/03/2020;9,5;15,0
+Anzio;31/03/2020;7,3;15,7
+Aprilia;01/03/2020;10,9;15,2
+Aprilia;02/03/2020;9,7;15,4
+Aprilia;03/03/2020;7,5;13,1
+Aprilia;04/03/2020;6,3;15,1
+Aprilia;05/03/2020;4,7;15,3
+Aprilia;06/03/2020;10,1;13,7
+Aprilia;07/03/2020;7,8;15,9
+Aprilia;08/03/2020;6,1;15,9
+Aprilia;09/03/2020;5,6;14,3
+Aprilia;10/03/2020;6,0;15,4
+Aprilia;11/03/2020;6,3;17,3
+Aprilia;12/03/2020;7,9;17,5
+Aprilia;13/03/2020;9,5;15,5
+Aprilia;14/03/2020;11,6;14,8
+Aprilia;15/03/2020;9,0;16,7
+Aprilia;16/03/2020;8,3;17,4
+Aprilia;17/03/2020;7,6;16,7
+Aprilia;18/03/2020;8,5;18,1
+Aprilia;19/03/2020;9,5;19,3
+Aprilia;20/03/2020;8,6;17,9
+Aprilia;21/03/2020;8,8;16,9
+Aprilia;22/03/2020;9,2;18,1
+Aprilia;23/03/2020;6,7;14,5
+Aprilia;24/03/2020;2,6;9,8
+Aprilia;25/03/2020;2,7;12,1
+Aprilia;26/03/2020;4,5;13,0
+Aprilia;27/03/2020;9,1;13,8
+Aprilia;28/03/2020;9,6;15,1
+Aprilia;29/03/2020;8,7;16,3
+Aprilia;30/03/2020;8,9;16,9
+Aprilia;31/03/2020;6,5;17,9
+Ardea;01/03/2020;11,0;16,1
+Ardea;02/03/2020;8,7;16,5
+Ardea;03/03/2020;7,5;14,4
+Ardea;04/03/2020;1,5;16,2
+Ardea;05/03/2020;6,0;16,6
+Ardea;06/03/2020;11,1;15,8
+Ardea;07/03/2020;5,3;16,7
+Ardea;08/03/2020;4,7;19,0
+Ardea;09/03/2020;1,3;16,9
+Ardea;10/03/2020;2,3;17,3
+Ardea;11/03/2020;2,1;18,4
+Ardea;12/03/2020;3,3;18,8
+Ardea;13/03/2020;6,0;18,8
+Ardea;14/03/2020;10,9;17,3
+Ardea;15/03/2020;9,1;19,6
+Ardea;16/03/2020;2,6;18,6
+Ardea;17/03/2020;1,6;18,8
+Ardea;18/03/2020;3,7;20,2
+Ardea;19/03/2020;2,1;20,9
+Ardea;20/03/2020;1,1;19,5
+Ardea;21/03/2020;1,3;19,9
+Ardea;22/03/2020;3,1;19,7
+Ardea;23/03/2020;6,0;15,2
+Ardea;24/03/2020;2,5;11,2
+Ardea;25/03/2020;0,2;13,8
+Ardea;26/03/2020;4,9;13,1
+Ardea;27/03/2020;6,9;16,1
+Ardea;28/03/2020;7,1;18,1
+Ardea;29/03/2020;6,8;18,5
+Ardea;30/03/2020;4,1;18,6
+Ardea;31/03/2020;3,8;19,0
+Arsoli;01/03/2020;2,2;14,3
+Arsoli;02/03/2020;6,8;15,7
+Arsoli;03/03/2020;2,8;9,7
+Arsoli;04/03/2020;-1,2;16,4
+Arsoli;05/03/2020;-0,5;16,2
+Arsoli;06/03/2020;5,6;14,1
+Arsoli;07/03/2020;3,2;15,5
+Arsoli;08/03/2020;1,6;16,4
+Arsoli;09/03/2020;-0,6;15,6
+Arsoli;10/03/2020;-2,1;18,3
+Arsoli;11/03/2020;0,6;21,0
+Arsoli;12/03/2020;0,6;21,6
+Arsoli;13/03/2020;1,1;19,9
+Arsoli;14/03/2020;8,3;15,2
+Arsoli;15/03/2020;5,0;20,1
+Arsoli;16/03/2020;0,6;20,0
+Arsoli;17/03/2020;1,2;18,0
+Arsoli;18/03/2020;1,5;21,4
+Arsoli;19/03/2020;0,1;22,5
+Arsoli;20/03/2020;2,5;21,0
+Arsoli;21/03/2020;1,7;20,0
+Arsoli;22/03/2020;2,5;21,1
+Arsoli;23/03/2020;1,8;15,7
+Arsoli;24/03/2020;-1,8;10,5
+Arsoli;25/03/2020;-0,9;13,1
+Arsoli;26/03/2020;3,7;12,1
+Arsoli;27/03/2020;6,4;17,1
+Arsoli;28/03/2020;5,8;14,4
+Arsoli;29/03/2020;1,9;17,3
+Arsoli;30/03/2020;6,4;17,4
+Arsoli;31/03/2020;3,8;17,3
+Baccano;01/03/2020;9,0;14,3
+Baccano;02/03/2020;9,0;13,7
+Baccano;03/03/2020;6,6;12,8
+Baccano;04/03/2020;1,2;16,1
+Baccano;05/03/2020;1,9;15,9
+Baccano;06/03/2020;3,7;15,9
+Baccano;07/03/2020;0,8;16,5
+Baccano;08/03/2020;2,6;16,5
+Baccano;09/03/2020;0,0;14,7
+Baccano;10/03/2020;2,1;19,3
+Baccano;11/03/2020;-0,3;20,3
+Baccano;12/03/2020;-0,8;17,7
+Baccano;13/03/2020;5,5;15,1
+Baccano;14/03/2020;7,9;13,5
+Baccano;15/03/2020;6,4;20,8
+Baccano;16/03/2020;2,3;20,5
+Baccano;17/03/2020;2,8;18,9
+Baccano;18/03/2020;2,6;21,2
+Baccano;19/03/2020;1,8;21,9
+Baccano;20/03/2020;-1,0;20,1
+Baccano;21/03/2020;-0,4;19,4
+Baccano;22/03/2020;2,2;22,0
+Baccano;23/03/2020;0,8;10,6
+Baccano;24/03/2020;-1,9;9,3
+Baccano;25/03/2020;-1,4;13,8
+Baccano;26/03/2020;2,7;10,8
+Baccano;27/03/2020;5,4;16,4
+Baccano;28/03/2020;5,5;16,6
+Baccano;29/03/2020;2,3;18,6
+Baccano;30/03/2020;3,7;19,6
+Baccano;31/03/2020;2,8;16,4
+Bagnoregio;01/03/2020;6,6;12,3
+Bagnoregio;02/03/2020;7,3;11,8
+Bagnoregio;03/03/2020;4,2;10,1
+Bagnoregio;04/03/2020;2,4;11,8
+Bagnoregio;05/03/2020;2,3;11,8
+Bagnoregio;06/03/2020;5,6;14,3
+Bagnoregio;07/03/2020;4,0;11,8
+Bagnoregio;08/03/2020;4,3;12,6
+Bagnoregio;09/03/2020;3,0;12,1
+Bagnoregio;10/03/2020;4,0;15,4
+Bagnoregio;11/03/2020;7,1;16,8
+Bagnoregio;12/03/2020;6,0;15,5
+Bagnoregio;13/03/2020;6,3;11,9
+Bagnoregio;14/03/2020;8,1;12,0
+Bagnoregio;15/03/2020;5,4;14,5
+Bagnoregio;16/03/2020;4,9;18,0
+Bagnoregio;17/03/2020;6,1;17,3
+Bagnoregio;18/03/2020;7,5;18,7
+Bagnoregio;19/03/2020;8,9;19,9
+Bagnoregio;20/03/2020;8,1;18,3
+Bagnoregio;21/03/2020;7,6;17,7
+Bagnoregio;22/03/2020;4,7;18,1
+Bagnoregio;23/03/2020;-0,6;5,9
+Bagnoregio;24/03/2020;-1,9;5,7
+Bagnoregio;25/03/2020;-2,4;9,9
+Bagnoregio;26/03/2020;0,1;8,3
+Bagnoregio;27/03/2020;6,0;13,4
+Bagnoregio;28/03/2020;5,9;16,6
+Bagnoregio;29/03/2020;5,2;16,9
+Bagnoregio;30/03/2020;6,8;16,0
+Bagnoregio;31/03/2020;0,4;8,2
+Barbarano;01/03/2020;9,6;13,7
+Barbarano;02/03/2020;9,3;12,9
+Barbarano;03/03/2020;6,3;12,5
+Barbarano;04/03/2020;2,5;12,4
+Barbarano;05/03/2020;3,0;14,0
+Barbarano;06/03/2020;6,4;15,4
+Barbarano;07/03/2020;3,8;12,4
+Barbarano;08/03/2020;4,4;12,7
+Barbarano;09/03/2020;2,1;13,0
+Barbarano;10/03/2020;4,8;15,2
+Barbarano;11/03/2020;4,7;16,6
+Barbarano;12/03/2020;5,9;15,1
+Barbarano;13/03/2020;7,4;15,3
+Barbarano;14/03/2020;9,9;14,1
+Barbarano;15/03/2020;6,8;16,8
+Barbarano;16/03/2020;6,0;16,4
+Barbarano;17/03/2020;6,6;16,9
+Barbarano;18/03/2020;5,1;19,6
+Barbarano;19/03/2020;7,6;19,4
+Barbarano;20/03/2020;6,5;17,7
+Barbarano;21/03/2020;6,0;17,1
+Barbarano;22/03/2020;7,8;19,0
+Barbarano;23/03/2020;2,6;7,6
+Barbarano;24/03/2020;-0,7;6,3
+Barbarano;25/03/2020;-1,3;10,5
+Barbarano;26/03/2020;2,0;10,3
+Barbarano;27/03/2020;6,5;15,8
+Barbarano;28/03/2020;5,3;14,9
+Barbarano;29/03/2020;6,0;15,8
+Barbarano;30/03/2020;6,5;15,4
+Barbarano;31/03/2020;3,2;12,6
+Bolsena;01/03/2020;6,7;13,1
+Bolsena;02/03/2020;9,2;12,6
+Bolsena;03/03/2020;6,0;13,2
+Bolsena;04/03/2020;1,9;13,0
+Bolsena;05/03/2020;1,8;13,5
+Bolsena;06/03/2020;5,1;16,6
+Bolsena;07/03/2020;3,7;12,2
+Bolsena;08/03/2020;4,1;13,1
+Bolsena;09/03/2020;1,9;13,3
+Bolsena;10/03/2020;5,8;15,8
+Bolsena;11/03/2020;3,7;18,5
+Bolsena;12/03/2020;7,3;15,8
+Bolsena;13/03/2020;7,1;13,8
+Bolsena;14/03/2020;7,3;14,9
+Bolsena;15/03/2020;7,4;14,9
+Bolsena;16/03/2020;4,0;18,8
+Bolsena;17/03/2020;4,7;17,5
+Bolsena;18/03/2020;5,7;18,7
+Bolsena;19/03/2020;6,5;21,0
+Bolsena;20/03/2020;4,8;19,6
+Bolsena;21/03/2020;5,0;18,3
+Bolsena;22/03/2020;7,1;18,4
+Bolsena;23/03/2020;1,5;7,2
+Bolsena;24/03/2020;-1,1;7,1
+Bolsena;25/03/2020;0,3;8,6
+Bolsena;26/03/2020;1,9;8,4
+Bolsena;27/03/2020;7,9;13,6
+Bolsena;28/03/2020;6,4;17,2
+Bolsena;29/03/2020;4,5;19,4
+Bolsena;30/03/2020;5,4;17,4
+Bolsena;31/03/2020;3,0;9,0
+Borgo Montello;01/03/2020;10,9;17,4
+Borgo Montello;02/03/2020;8,0;17,4
+Borgo Montello;03/03/2020;5,6;15,0
+Borgo Montello;04/03/2020;3,3;17,5
+Borgo Montello;05/03/2020;2,9;16,7
+Borgo Montello;06/03/2020;9,5;17,3
+Borgo Montello;07/03/2020;5,7;19,3
+Borgo Montello;08/03/2020;2,6;18,2
+Borgo Montello;09/03/2020;1,3;17,0
+Borgo Montello;10/03/2020;2,9;17,1
+Borgo Montello;11/03/2020;2,7;20,2
+Borgo Montello;12/03/2020;4,0;18,6
+Borgo Montello;13/03/2020;5,9;18,3
+Borgo Montello;14/03/2020;9,5;17,3
+Borgo Montello;15/03/2020;6,9;19,2
+Borgo Montello;16/03/2020;4,4;19,3
+Borgo Montello;17/03/2020;4,0;19,5
+Borgo Montello;18/03/2020;5,1;20,4
+Borgo Montello;19/03/2020;3,8;20,4
+Borgo Montello;20/03/2020;3,4;19,9
+Borgo Montello;21/03/2020;2,9;19,1
+Borgo Montello;22/03/2020;4,3;20,9
+Borgo Montello;23/03/2020;5,5;18,0
+Borgo Montello;24/03/2020;-1,5;14,3
+Borgo Montello;25/03/2020;-1,9;15,9
+Borgo Montello;26/03/2020;4,9;16,7
+Borgo Montello;27/03/2020;9,1;16,0
+Borgo Montello;28/03/2020;9,1;19,8
+Borgo Montello;29/03/2020;7,9;23,1
+Borgo Montello;30/03/2020;7,1;22,3
+Borgo Montello;31/03/2020;8,6;26,2
+Borgorose;01/03/2020;-0,7;11,9
+Borgorose;02/03/2020;5,1;12,2
+Borgorose;03/03/2020;1,3;7,4
+Borgorose;04/03/2020;-2,4;10,3
+Borgorose;05/03/2020;-3,5;12,1
+Borgorose;06/03/2020;3,2;11,9
+Borgorose;07/03/2020;0,8;10,8
+Borgorose;08/03/2020;-1,8;9,5
+Borgorose;09/03/2020;-4,6;10,7
+Borgorose;10/03/2020;-3,1;12,7
+Borgorose;11/03/2020;-2,3;17,4
+Borgorose;12/03/2020;-0,3;18,5
+Borgorose;13/03/2020;1,1;19,8
+Borgorose;14/03/2020;3,2;13,1
+Borgorose;15/03/2020;0,9;13,3
+Borgorose;16/03/2020;-2,3;18,1
+Borgorose;17/03/2020;-1,4;16,9
+Borgorose;18/03/2020;-0,8;17,8
+Borgorose;19/03/2020;-1,6;19,1
+Borgorose;20/03/2020;0,0;17,8
+Borgorose;21/03/2020;1,2;17,9
+Borgorose;22/03/2020;2,6;14,2
+Borgorose;23/03/2020;-2,5;8,7
+Borgorose;24/03/2020;-6,2;3,1
+Borgorose;25/03/2020;-7,8;5,4
+Borgorose;26/03/2020;0,8;8,7
+Borgorose;27/03/2020;4,6;12,1
+Borgorose;28/03/2020;3,8;10,7
+Borgorose;29/03/2020;0,4;15,1
+Borgorose;30/03/2020;2,4;14,4
+Borgorose;31/03/2020;-0,7;9,4
+Bracciano;01/03/2020;9,2;14,1
+Bracciano;02/03/2020;9,8;13,0
+Bracciano;03/03/2020;7,5;13,3
+Bracciano;04/03/2020;5,8;14,6
+Bracciano;05/03/2020;4,9;14,9
+Bracciano;06/03/2020;7,8;15,5
+Bracciano;07/03/2020;6,1;13,6
+Bracciano;08/03/2020;7,6;15,5
+Bracciano;09/03/2020;4,7;14,0
+Bracciano;10/03/2020;7,3;18,0
+Bracciano;11/03/2020;7,7;17,7
+Bracciano;12/03/2020;6,3;17,3
+Bracciano;13/03/2020;9,5;14,4
+Bracciano;14/03/2020;10,7;13,4
+Bracciano;15/03/2020;8,1;21,0
+Bracciano;16/03/2020;5,8;19,3
+Bracciano;17/03/2020;6,8;18,0
+Bracciano;18/03/2020;8,0;20,3
+Bracciano;19/03/2020;8,0;20,5
+Bracciano;20/03/2020;7,5;19,3
+Bracciano;21/03/2020;7,5;18,8
+Bracciano;22/03/2020;8,9;21,2
+Bracciano;23/03/2020;3,0;9,8
+Bracciano;24/03/2020;1,2;8,0
+Bracciano;25/03/2020;1,1;13,2
+Bracciano;26/03/2020;3,4;11,3
+Bracciano;27/03/2020;8,7;15,6
+Bracciano;28/03/2020;8,8;16,3
+Bracciano;29/03/2020;7,2;17,3
+Bracciano;30/03/2020;7,9;17,8
+Bracciano;31/03/2020;4,8;15,2
+Brusciano;01/03/2020;0,4;7,7
+Brusciano;02/03/2020;2,9;9,9
+Brusciano;03/03/2020;-1,2;3,1
+Brusciano;04/03/2020;-2,9;5,4
+Brusciano;05/03/2020;-2,2;9,1
+Brusciano;06/03/2020;-0,1;7,2
+Brusciano;07/03/2020;-0,6;6,4
+Brusciano;08/03/2020;-2,3;4,8
+Brusciano;09/03/2020;-3,1;5,8
+Brusciano;10/03/2020;-1,1;8,6
+Brusciano;11/03/2020;0,7;13,8
+Brusciano;12/03/2020;5,7;15,5
+Brusciano;13/03/2020;6,7;16,8
+Brusciano;14/03/2020;5,0;12,3
+Brusciano;15/03/2020;-0,9;8,7
+Brusciano;16/03/2020;-1,9;13,2
+Brusciano;17/03/2020;1,4;12,1
+Brusciano;18/03/2020;2,3;14,0
+Brusciano;19/03/2020;3,3;15,1
+Brusciano;20/03/2020;4,1;14,3
+Brusciano;21/03/2020;2,7;14,1
+Brusciano;22/03/2020;1,5;11,1
+Brusciano;23/03/2020;-7,2;1,5
+Brusciano;24/03/2020;-7,8;-2,2
+Brusciano;25/03/2020;-8,1;2,0
+Brusciano;26/03/2020;-1,8;5,2
+Brusciano;27/03/2020;1,0;7,8
+Brusciano;28/03/2020;1,0;7,2
+Brusciano;29/03/2020;0,6;11,9
+Brusciano;30/03/2020;1,7;10,7
+Brusciano;31/03/2020;-5,0;4,8
+Campaegli;01/03/2020;1,2;6,1
+Campaegli;02/03/2020;1,5;6
+Campaegli;03/03/2020;-2,9;2,7
+Campaegli;04/03/2020;-3,6;5,3
+Campaegli;05/03/2020;-4,2;9
+Campaegli;06/03/2020;-0,1;4,5
+Campaegli;07/03/2020;-0,8;3,9
+Campaegli;08/03/2020;-2,9;5,3
+Campaegli;09/03/2020;-4,6;5,3
+Campaegli;10/03/2020;-0,6;7,8
+Campaegli;11/03/2020;0,4;12,1
+Campaegli;12/03/2020;2,8;12,8
+Campaegli;13/03/2020;4,4;16,8
+Campaegli;14/03/2020;3,2;12,9
+Campaegli;15/03/2020;-0,3;10,2
+Campaegli;16/03/2020;-0,9;10,6
+Campaegli;17/03/2020;-2,2;10
+Campaegli;18/03/2020;-1,6;11
+Campaegli;19/03/2020;-1,1;11,9
+Campaegli;20/03/2020;0;11,4
+Campaegli;21/03/2020;0,2;10,7
+Campaegli;22/03/2020;1,7;9
+Campaegli;23/03/2020;-7,4;5,1
+Campaegli;24/03/2020;-8,2;-1,9
+Campaegli;25/03/2020;-7,3;0,1
+Campaegli;26/03/2020;-2,5;2,5
+Campaegli;27/03/2020;0,4;7,3
+Campaegli;28/03/2020;1,1;5,9
+Campaegli;29/03/2020;1,4;7,2
+Campaegli;30/03/2020;0,4;7,9
+Campaegli;31/03/2020;-1,9;8
+Campo di Carne;01/03/2020;10,6;15,8
+Campo di Carne;02/03/2020;7,1;16,3
+Campo di Carne;03/03/2020;5,1;13,8
+Campo di Carne;04/03/2020;2,1;16
+Campo di Carne;05/03/2020;3,4;16,4
+Campo di Carne;06/03/2020;10,6;15,3
+Campo di Carne;07/03/2020;4,2;16,8
+Campo di Carne;08/03/2020;3,3;18
+Campo di Carne;09/03/2020;1,2;15,7
+Campo di Carne;10/03/2020;2,2;16,1
+Campo di Carne;11/03/2020;2,9;17,6
+Campo di Carne;12/03/2020;4,3;17,9
+Campo di Carne;13/03/2020;6,5;17,2
+Campo di Carne;14/03/2020;10;15,9
+Campo di Carne;15/03/2020;7,6;18
+Campo di Carne;16/03/2020;4,1;18,2
+Campo di Carne;17/03/2020;3,6;18
+Campo di Carne;18/03/2020;5,1;19,8
+Campo di Carne;19/03/2020;4,2;20,3
+Campo di Carne;20/03/2020;3,3;18,3
+Campo di Carne;21/03/2020;3,3;18,3
+Campo di Carne;22/03/2020;4,6;19
+Campo di Carne;23/03/2020;4,1;15,4
+Campo di Carne;24/03/2020;0,8;11,6
+Campo di Carne;25/03/2020;-2,8;13,4
+Campo di Carne;26/03/2020;4,5;13,8
+Campo di Carne;27/03/2020;7,2;14,6
+Campo di Carne;28/03/2020;8;17
+Campo di Carne;29/03/2020;7,4;18
+Campo di Carne;30/03/2020;5,9;17,3
+Campo di Carne;31/03/2020;5,1;18,5
+Campodimele;01/03/2020;7,2;12,3
+Campodimele;02/03/2020;7,4;10,6
+Campodimele;03/03/2020;3,5;9,3
+Campodimele;04/03/2020;2,6;11,9
+Campodimele;05/03/2020;4;11,3
+Campodimele;06/03/2020;6;10,1
+Campodimele;07/03/2020;4,5;12,4
+Campodimele;08/03/2020;3,5;11,3
+Campodimele;09/03/2020;2,4;10,2
+Campodimele;10/03/2020;5,3;12,4
+Campodimele;11/03/2020;7,2;14,8
+Campodimele;12/03/2020;8,2;16,3
+Campodimele;13/03/2020;6,8;13,1
+Campodimele;14/03/2020;7,6;14,8
+Campodimele;15/03/2020;7,9;15
+Campodimele;16/03/2020;6,3;15,7
+Campodimele;17/03/2020;6,9;14,1
+Campodimele;18/03/2020;7,6;15,5
+Campodimele;19/03/2020;9,5;17,5
+Campodimele;20/03/2020;9;15,7
+Campodimele;21/03/2020;8,4;15,5
+Campodimele;22/03/2020;8,2;15,5
+Campodimele;23/03/2020;0,1;8,7
+Campodimele;24/03/2020;-1,3;5,1
+Campodimele;25/03/2020;-1,5;4,8
+Campodimele;26/03/2020;0,4;6,8
+Campodimele;27/03/2020;5,6;10,2
+Campodimele;28/03/2020;5,3;12,7
+Campodimele;29/03/2020;6,2;13,7
+Campodimele;30/03/2020;6,8;14,7
+Campodimele;31/03/2020;1,5;12,9
+Campoli Appennino;01/03/2020;5,1;11,8
+Campoli Appennino;02/03/2020;6,7;12,4
+Campoli Appennino;03/03/2020;2,9;10,1
+Campoli Appennino;04/03/2020;1,8;11,7
+Campoli Appennino;05/03/2020;2,7;13,2
+Campoli Appennino;06/03/2020;4,3;11,3
+Campoli Appennino;07/03/2020;4,2;12,4
+Campoli Appennino;08/03/2020;4,2;10,7
+Campoli Appennino;09/03/2020;2;11,7
+Campoli Appennino;10/03/2020;4,9;13,1
+Campoli Appennino;11/03/2020;5,2;16,7
+Campoli Appennino;12/03/2020;7,2;17,9
+Campoli Appennino;13/03/2020;6,2;15,8
+Campoli Appennino;14/03/2020;8,6;15,7
+Campoli Appennino;15/03/2020;7,5;14,8
+Campoli Appennino;16/03/2020;4;16,7
+Campoli Appennino;17/03/2020;6,2;16,1
+Campoli Appennino;18/03/2020;6,9;17,8
+Campoli Appennino;19/03/2020;7,9;18,6
+Campoli Appennino;20/03/2020;9,2;18
+Campoli Appennino;21/03/2020;7,8;16,3
+Campoli Appennino;22/03/2020;7,2;16
+Campoli Appennino;23/03/2020;-0,2;9,4
+Campoli Appennino;24/03/2020;-0,6;4,9
+Campoli Appennino;25/03/2020;-1,6;7,9
+Campoli Appennino;26/03/2020;2,6;10,7
+Campoli Appennino;27/03/2020;6,2;14,1
+Campoli Appennino;28/03/2020;5;10,6
+Campoli Appennino;29/03/2020;5,2;15,4
+Campoli Appennino;30/03/2020;6,7;15,3
+Campoli Appennino;31/03/2020;1,6;14,2
+Canino rlazio;01/03/2020;9,7;14,5
+Canino rlazio;02/03/2020;9,3;13,5
+Canino rlazio;03/03/2020;6,1;14,2
+Canino rlazio;04/03/2020;3,2;16,9
+Canino rlazio;05/03/2020;2,2;14,4
+Canino rlazio;06/03/2020;7,1;18,4
+Canino rlazio;07/03/2020;4,4;13,9
+Canino rlazio;08/03/2020;5,2;14,6
+Canino rlazio;09/03/2020;1,1;14,3
+Canino rlazio;10/03/2020;6,7;18,6
+Canino rlazio;11/03/2020;3,3;18,8
+Canino rlazio;12/03/2020;7,3;15
+Canino rlazio;13/03/2020;9;14,7
+Canino rlazio;14/03/2020;10;14,8
+Canino rlazio;15/03/2020;8,4;16,3
+Canino rlazio;16/03/2020;5,9;20
+Canino rlazio;17/03/2020;5,4;19,4
+Canino rlazio;18/03/2020;5,2;20,8
+Canino rlazio;19/03/2020;6,3;21,2
+Canino rlazio;20/03/2020;4,7;20,4
+Canino rlazio;21/03/2020;5,2;19,3
+Canino rlazio;22/03/2020;7,5;20,3
+Canino rlazio;23/03/2020;3,2;8,9
+Canino rlazio;24/03/2020;-0,9;8,2
+Canino rlazio;25/03/2020;1,4;10,1
+Canino rlazio;26/03/2020;2,6;9,3
+Canino rlazio;27/03/2020;8,3;15,1
+Canino rlazio;28/03/2020;6,7;17,7
+Canino rlazio;29/03/2020;5,6;18,8
+Canino rlazio;30/03/2020;4,9;19,8
+Canino rlazio;31/03/2020;4,5;11,4
+Carpineto Romano;01/03/2020;8,3;13,4
+Carpineto Romano;02/03/2020;6,9;12,8
+Carpineto Romano;03/03/2020;2,4;8,9
+Carpineto Romano;04/03/2020;1,6;13,4
+Carpineto Romano;05/03/2020;2,7;13,5
+Carpineto Romano;06/03/2020;7,3;11,3
+Carpineto Romano;07/03/2020;3,4;11,8
+Carpineto Romano;08/03/2020;3,1;13
+Carpineto Romano;09/03/2020;1,3;12,5
+Carpineto Romano;10/03/2020;3,1;14
+Carpineto Romano;11/03/2020;4,6;17,8
+Carpineto Romano;12/03/2020;5,9;18,1
+Carpineto Romano;13/03/2020;5,6;17,1
+Carpineto Romano;14/03/2020;7,2;13,5
+Carpineto Romano;15/03/2020;7,5;16,2
+Carpineto Romano;16/03/2020;4,5;18,1
+Carpineto Romano;17/03/2020;6,1;14,9
+Carpineto Romano;18/03/2020;6,2;17,4
+Carpineto Romano;19/03/2020;6,4;19,3
+Carpineto Romano;20/03/2020;7,5;18,9
+Carpineto Romano;21/03/2020;6,9;17,6
+Carpineto Romano;22/03/2020;6,9;17,1
+Carpineto Romano;23/03/2020;2,2;12,8
+Carpineto Romano;24/03/2020;-2;7,2
+Carpineto Romano;25/03/2020;-2,7;8,6
+Carpineto Romano;26/03/2020;0,5;8,8
+Carpineto Romano;27/03/2020;6,4;13,3
+Carpineto Romano;28/03/2020;5,9;12,3
+Carpineto Romano;29/03/2020;5,5;15,7
+Carpineto Romano;30/03/2020;5,3;13,5
+Carpineto Romano;31/03/2020;4,8;11,3
+Castello Vici;01/03/2020;8;13,6
+Castello Vici;02/03/2020;9;12,5
+Castello Vici;03/03/2020;6,4;11,4
+Castello Vici;04/03/2020;4,1;12,5
+Castello Vici;05/03/2020;4,5;12,2
+Castello Vici;06/03/2020;5,7;14
+Castello Vici;07/03/2020;4,4;11,9
+Castello Vici;08/03/2020;6,2;13,7
+Castello Vici;09/03/2020;3,4;11,9
+Castello Vici;10/03/2020;5,6;14,4
+Castello Vici;11/03/2020;6,3;15,3
+Castello Vici;12/03/2020;4,1;14,3
+Castello Vici;13/03/2020;7,3;12,4
+Castello Vici;14/03/2020;9,1;10,7
+Castello Vici;15/03/2020;7,8;16,2
+Castello Vici;16/03/2020;5,4;17,5
+Castello Vici;17/03/2020;7;14,7
+Castello Vici;18/03/2020;6,8;16,9
+Castello Vici;19/03/2020;7,3;16,9
+Castello Vici;20/03/2020;6;16,2
+Castello Vici;21/03/2020;6;15,5
+Castello Vici;22/03/2020;7;17,1
+Castello Vici;23/03/2020;1,6;8,2
+Castello Vici;24/03/2020;0,1;6,7
+Castello Vici;25/03/2020;-0,7;10,5
+Castello Vici;26/03/2020;2,8;10,1
+Castello Vici;27/03/2020;7,5;14,1
+Castello Vici;28/03/2020;7,3;14
+Castello Vici;29/03/2020;6,3;14,5
+Castello Vici;30/03/2020;6,8;14,9
+Castello Vici;31/03/2020;3,9;12,9
+Ceccano rlazio;01/03/2020;6,2;20,1
+Ceccano rlazio;02/03/2020;6,7;20,6
+Ceccano rlazio;03/03/2020;6,1;15,7
+Ceccano rlazio;04/03/2020;3,4;22,3
+Ceccano rlazio;05/03/2020;1,5;21
+Ceccano rlazio;06/03/2020;9,1;21,1
+Ceccano rlazio;07/03/2020;7,6;21,2
+Ceccano rlazio;08/03/2020;2,4;21,8
+Ceccano rlazio;09/03/2020;-0,5;19,2
+Ceccano rlazio;10/03/2020;2;22,6
+Ceccano rlazio;11/03/2020;2;24,1
+Ceccano rlazio;12/03/2020;2,9;24,7
+Ceccano rlazio;13/03/2020;6;21,8
+Ceccano rlazio;14/03/2020;9,7;19,1
+Ceccano rlazio;15/03/2020;9,4;21,9
+Ceccano rlazio;16/03/2020;1,2;21,4
+Ceccano rlazio;17/03/2020;0,6;19,9
+Ceccano rlazio;18/03/2020;2,5;22,4
+Ceccano rlazio;19/03/2020;1,4;23,8
+Ceccano rlazio;20/03/2020;1,9;22,9
+Ceccano rlazio;21/03/2020;1,9;21,2
+Ceccano rlazio;22/03/2020;2,4;22,9
+Ceccano rlazio;23/03/2020;4,9;16,3
+Ceccano rlazio;24/03/2020;-1,9;12,6
+Ceccano rlazio;25/03/2020;-5,3;12,5
+Ceccano rlazio;26/03/2020;3,8;10,6
+Ceccano rlazio;27/03/2020;7,6;17,4
+Ceccano rlazio;28/03/2020;7,4;17
+Ceccano rlazio;29/03/2020;3,6;20,7
+Ceccano rlazio;30/03/2020;6,4;19,6
+Ceccano rlazio;31/03/2020;2,4;18,2
+Cecchina;01/03/2020;10,7;14,1
+Cecchina;02/03/2020;9,8;14,7
+Cecchina;03/03/2020;7,1;11,3
+Cecchina;04/03/2020;5,5;14,6
+Cecchina;05/03/2020;5,4;15,2
+Cecchina;06/03/2020;9;12,9
+Cecchina;07/03/2020;7,3;15,2
+Cecchina;08/03/2020;5,9;16,1
+Cecchina;09/03/2020;5,4;14,8
+Cecchina;10/03/2020;7;15,5
+Cecchina;11/03/2020;7,9;18,2
+Cecchina;12/03/2020;8,8;17,8
+Cecchina;13/03/2020;9,1;15,1
+Cecchina;14/03/2020;10,8;14,5
+Cecchina;15/03/2020;8,8;18
+Cecchina;16/03/2020;8,4;18
+Cecchina;17/03/2020;8,7;17
+Cecchina;18/03/2020;8,9;18,8
+Cecchina;19/03/2020;10,6;20
+Cecchina;20/03/2020;8,9;18,7
+Cecchina;21/03/2020;8,7;18,9
+Cecchina;22/03/2020;9,2;18,9
+Cecchina;23/03/2020;4,1;12,9
+Cecchina;24/03/2020;2;9,1
+Cecchina;25/03/2020;2,4;12,5
+Cecchina;26/03/2020;3,3;12,6
+Cecchina;27/03/2020;8,5;14
+Cecchina;28/03/2020;8,7;14,6
+Cecchina;29/03/2020;7,9;17,1
+Cecchina;30/03/2020;8,2;18,5
+Cecchina;31/03/2020;5,3;16,3
+Cervaro;01/03/2020;8,5;14,1
+Cervaro;02/03/2020;8,8;15,9
+Cervaro;03/03/2020;5,9;13,2
+Cervaro;04/03/2020;3,4;15,6
+Cervaro;05/03/2020;4,3;15,6
+Cervaro;06/03/2020;8,4;16
+Cervaro;07/03/2020;6,1;13,6
+Cervaro;08/03/2020;5,1;14,8
+Cervaro;09/03/2020;3,2;14,3
+Cervaro;10/03/2020;4,2;17,2
+Cervaro;11/03/2020;5,6;19
+Cervaro;12/03/2020;6,9;19
+Cervaro;13/03/2020;8,9;17,6
+Cervaro;14/03/2020;9,9;18,9
+Cervaro;15/03/2020;9,8;17,3
+Cervaro;16/03/2020;6;19,3
+Cervaro;17/03/2020;6,9;18,3
+Cervaro;18/03/2020;7,4;20,6
+Cervaro;19/03/2020;8,4;21,8
+Cervaro;20/03/2020;7,9;19,6
+Cervaro;21/03/2020;7,3;18,4
+Cervaro;22/03/2020;8,2;19,5
+Cervaro;23/03/2020;2,6;11
+Cervaro;24/03/2020;-0,7;8,7
+Cervaro;25/03/2020;-0,8;7,4
+Cervaro;26/03/2020;4,7;11,9
+Cervaro;27/03/2020;8,6;14,9
+Cervaro;28/03/2020;7,1;15,7
+Cervaro;29/03/2020;6,8;18
+Cervaro;30/03/2020;7,5;17,5
+Cervaro;31/03/2020;3,4;16,1
+Cimino;01/03/2020;5,5;8,9
+Cimino;02/03/2020;5,5;8,9
+Cimino;03/03/2020;2,6;8,4
+Cimino;04/03/2020;0,3;9,5
+Cimino;05/03/2020;-0,5;11,8
+Cimino;06/03/2020;3,4;11,1
+Cimino;07/03/2020;1;9,9
+Cimino;08/03/2020;-0,1;9,9
+Cimino;09/03/2020;-0,1;10,8
+Cimino;10/03/2020;0,2;12,2
+Cimino;11/03/2020;3,1;14,8
+Cimino;12/03/2020;6;15,9
+Cimino;13/03/2020;4,8;13,8
+Cimino;14/03/2020;5,8;9,3
+Cimino;15/03/2020;1,8;13,7
+Cimino;16/03/2020;3,5;14,6
+Cimino;17/03/2020;4,9;14,2
+Cimino;18/03/2020;4,4;18,3
+Cimino;19/03/2020;5,8;17,4
+Cimino;20/03/2020;6,2;16,3
+Cimino;21/03/2020;6;15,9
+Cimino;22/03/2020;1,3;17,5
+Cimino;23/03/2020;-5,9;5,9
+Cimino;24/03/2020;-6,2;3,3
+Cimino;25/03/2020;-5,2;8,4
+Cimino;26/03/2020;-1,1;7,1
+Cimino;27/03/2020;2,2;14
+Cimino;28/03/2020;2,8;12,4
+Cimino;29/03/2020;4,1;14,7
+Cimino;30/03/2020;4,3;14,9
+Cimino;31/03/2020;-3;9,5
+Cisterna di Latina;01/03/2020;10,4;15,5
+Cisterna di Latina;02/03/2020;9,3;15,7
+Cisterna di Latina;03/03/2020;6,3;12,9
+Cisterna di Latina;04/03/2020;4,7;15,9
+Cisterna di Latina;05/03/2020;4,1;14,8
+Cisterna di Latina;06/03/2020;7,6;13,8
+Cisterna di Latina;07/03/2020;5,9;15,8
+Cisterna di Latina;08/03/2020;3,9;16
+Cisterna di Latina;09/03/2020;2,3;15,1
+Cisterna di Latina;10/03/2020;5,4;16,3
+Cisterna di Latina;11/03/2020;5,3;19,2
+Cisterna di Latina;12/03/2020;5,3;18,1
+Cisterna di Latina;13/03/2020;6,9;15,8
+Cisterna di Latina;14/03/2020;11;15,1
+Cisterna di Latina;15/03/2020;9;17,6
+Cisterna di Latina;16/03/2020;7,3;17,8
+Cisterna di Latina;17/03/2020;6,8;17,2
+Cisterna di Latina;18/03/2020;6,8;18,9
+Cisterna di Latina;19/03/2020;8,3;19,6
+Cisterna di Latina;20/03/2020;6,5;18,6
+Cisterna di Latina;21/03/2020;6,3;17,5
+Cisterna di Latina;22/03/2020;7;19,3
+Cisterna di Latina;23/03/2020;6,1;16,2
+Cisterna di Latina;24/03/2020;1,7;10
+Cisterna di Latina;25/03/2020;0,9;11,8
+Cisterna di Latina;26/03/2020;3,9;14,7
+Cisterna di Latina;27/03/2020;8,1;14,2
+Cisterna di Latina;28/03/2020;-5,8;14,8
+Cisterna di Latina;29/03/2020;-6;17,4
+Cisterna di Latina;30/03/2020;7,1;17,3
+Cisterna di Latina;31/03/2020;6,9;17,7
+Cittaducale;01/03/2020;3,7;14,8
+Cittaducale;02/03/2020;7,3;13,8
+Cittaducale;03/03/2020;3,4;7,9
+Cittaducale;04/03/2020;-0,8;13,6
+Cittaducale;05/03/2020;-1,9;15,5
+Cittaducale;06/03/2020;4,9;15,6
+Cittaducale;07/03/2020;3,3;12,8
+Cittaducale;08/03/2020;-;-
+Cittaducale;09/03/2020;-;-
+Cittaducale;10/03/2020;-;-
+Cittaducale;11/03/2020;-;-
+Cittaducale;12/03/2020;-;-
+Cittaducale;13/03/2020;-;-
+Cittaducale;14/03/2020;-;-
+Cittaducale;15/03/2020;-;-
+Cittaducale;16/03/2020;-;-
+Cittaducale;17/03/2020;-;-
+Cittaducale;18/03/2020;-;-
+Cittaducale;19/03/2020;-;-
+Cittaducale;20/03/2020;-;-
+Cittaducale;21/03/2020;-;-
+Cittaducale;22/03/2020;-;-
+Cittaducale;23/03/2020;-;-
+Cittaducale;24/03/2020;-;-
+Cittaducale;25/03/2020;-;-
+Cittaducale;26/03/2020;-;-
+Cittaducale;27/03/2020;-;-
+Cittaducale;28/03/2020;-;-
+Cittaducale;29/03/2020;-;-
+Cittaducale;30/03/2020;-;-
+Cittaducale;31/03/2020;-;-
+Cittareale;01/03/2020;-1,2;11,7
+Cittareale;02/03/2020;1,8;11,9
+Cittareale;03/03/2020;1,6;6,1
+Cittareale;04/03/2020;-1,8;10
+Cittareale;05/03/2020;-3,9;12,6
+Cittareale;06/03/2020;1,5;11
+Cittareale;07/03/2020;0,1;9,1
+Cittareale;08/03/2020;-4,2;8,3
+Cittareale;09/03/2020;-6,5;11,1
+Cittareale;10/03/2020;-0,3;12,3
+Cittareale;11/03/2020;-3,6;17,6
+Cittareale;12/03/2020;-2;19,3
+Cittareale;13/03/2020;-0,9;20
+Cittareale;14/03/2020;1,1;17,3
+Cittareale;15/03/2020;-2,6;11,1
+Cittareale;16/03/2020;-5,8;17,2
+Cittareale;17/03/2020;-3,8;17,6
+Cittareale;18/03/2020;-3,7;17,2
+Cittareale;19/03/2020;-3,9;19,2
+Cittareale;20/03/2020;-2,2;19
+Cittareale;21/03/2020;-1;17,5
+Cittareale;22/03/2020;1;12,8
+Cittareale;23/03/2020;-3,8;3,7
+Cittareale;24/03/2020;-4,4;1,6
+Cittareale;25/03/2020;-9,4;3,7
+Cittareale;26/03/2020;-0,2;6,1
+Cittareale;27/03/2020;2,6;11,1
+Cittareale;28/03/2020;0,8;11,3
+Cittareale;29/03/2020;0,7;16,1
+Cittareale;30/03/2020;2,5;14,2
+Cittareale;31/03/2020;-1,8;4,3
+Civitavecchia;01/03/2020;12,6;15,2
+Civitavecchia;02/03/2020;13;15
+Civitavecchia;03/03/2020;8,3;15,1
+Civitavecchia;04/03/2020;5,5;15
+Civitavecchia;05/03/2020;7,1;14,8
+Civitavecchia;06/03/2020;10;16,9
+Civitavecchia;07/03/2020;8,2;14,8
+Civitavecchia;08/03/2020;7,2;16
+Civitavecchia;09/03/2020;6,7;15,1
+Civitavecchia;10/03/2020;8,5;17,3
+Civitavecchia;11/03/2020;7,9;17,5
+Civitavecchia;12/03/2020;10,3;15,5
+Civitavecchia;13/03/2020;11,2;17
+Civitavecchia;14/03/2020;11,3;15,7
+Civitavecchia;15/03/2020;10,1;19,6
+Civitavecchia;16/03/2020;10,2;17,2
+Civitavecchia;17/03/2020;9;18,4
+Civitavecchia;18/03/2020;8,2;17,7
+Civitavecchia;19/03/2020;9,2;18,1
+Civitavecchia;20/03/2020;9,1;17
+Civitavecchia;21/03/2020;9,9;17
+Civitavecchia;22/03/2020;9,8;18,3
+Civitavecchia;23/03/2020;5,4;11
+Civitavecchia;24/03/2020;0,3;9,8
+Civitavecchia;25/03/2020;2,7;12,2
+Civitavecchia;26/03/2020;4;12,1
+Civitavecchia;27/03/2020;9,1;17,1
+Civitavecchia;28/03/2020;9,8;17,6
+Civitavecchia;29/03/2020;10,8;17,4
+Civitavecchia;30/03/2020;8,9;16,7
+Civitavecchia;31/03/2020;6,2;16
+Civitella Cesi;01/03/2020;10,6;14,6
+Civitella Cesi;02/03/2020;10;13,8
+Civitella Cesi;03/03/2020;7,4;15,4
+Civitella Cesi;04/03/2020;2,1;14,5
+Civitella Cesi;05/03/2020;1,6;15,9
+Civitella Cesi;06/03/2020;6,4;17,3
+Civitella Cesi;07/03/2020;3,5;14,6
+Civitella Cesi;08/03/2020;3,4;14,8
+Civitella Cesi;09/03/2020;2,4;16,2
+Civitella Cesi;10/03/2020;2,6;17,3
+Civitella Cesi;11/03/2020;4,1;18,4
+Civitella Cesi;12/03/2020;5,8;16,6
+Civitella Cesi;13/03/2020;8,2;16,7
+Civitella Cesi;14/03/2020;10;14,1
+Civitella Cesi;15/03/2020;6,8;18,7
+Civitella Cesi;16/03/2020;5,5;19,5
+Civitella Cesi;17/03/2020;5,3;19
+Civitella Cesi;18/03/2020;4,4;22,5
+Civitella Cesi;19/03/2020;5,3;21,7
+Civitella Cesi;20/03/2020;4,9;19,6
+Civitella Cesi;21/03/2020;4,8;19,7
+Civitella Cesi;22/03/2020;6,7;20,5
+Civitella Cesi;23/03/2020;1,7;9,4
+Civitella Cesi;24/03/2020;-2,6;8,5
+Civitella Cesi;25/03/2020;-2,4;13,5
+Civitella Cesi;26/03/2020;2,7;11,8
+Civitella Cesi;27/03/2020;6,4;17,9
+Civitella Cesi;28/03/2020;5,2;16,9
+Civitella Cesi;29/03/2020;5,9;18,1
+Civitella Cesi;30/03/2020;5,7;17,6
+Civitella Cesi;31/03/2020;3,5;15
+Collalto Sabino;01/03/2020;3,8;10
+Collalto Sabino;02/03/2020;5,5;11,1
+Collalto Sabino;03/03/2020;1,4;5,9
+Collalto Sabino;04/03/2020;1;9,3
+Collalto Sabino;05/03/2020;2;10,9
+Collalto Sabino;06/03/2020;2,5;9,7
+Collalto Sabino;07/03/2020;2,4;8,4
+Collalto Sabino;08/03/2020;1,9;8,1
+Collalto Sabino;09/03/2020;1;9,1
+Collalto Sabino;10/03/2020;2;11,5
+Collalto Sabino;11/03/2020;5,6;15,3
+Collalto Sabino;12/03/2020;8,4;16,8
+Collalto Sabino;13/03/2020;7,8;16,9
+Collalto Sabino;14/03/2020;6,1;10,7
+Collalto Sabino;15/03/2020;3,6;13,4
+Collalto Sabino;16/03/2020;2,5;15
+Collalto Sabino;17/03/2020;6,2;13
+Collalto Sabino;18/03/2020;5,7;16,6
+Collalto Sabino;19/03/2020;7;17,1
+Collalto Sabino;20/03/2020;8,4;16,9
+Collalto Sabino;21/03/2020;7,5;14,9
+Collalto Sabino;22/03/2020;4,2;13,7
+Collalto Sabino;23/03/2020;-3,6;8,3
+Collalto Sabino;24/03/2020;-4,8;2,2
+Collalto Sabino;25/03/2020;-4,8;5,9
+Collalto Sabino;26/03/2020;-0,2;6,3
+Collalto Sabino;27/03/2020;4,3;10,1
+Collalto Sabino;28/03/2020;3,8;11,2
+Collalto Sabino;29/03/2020;4,7;12,2
+Collalto Sabino;30/03/2020;5,4;12,8
+Collalto Sabino;31/03/2020;-1,2;9,9
+Colle San Magno;01/03/2020;6,4;13,8
+Colle San Magno;02/03/2020;4,9;14,4
+Colle San Magno;03/03/2020;3,1;11
+Colle San Magno;04/03/2020;0,2;14,1
+Colle San Magno;05/03/2020;0,8;14,2
+Colle San Magno;06/03/2020;6,3;13,5
+Colle San Magno;07/03/2020;3,1;14,5
+Colle San Magno;08/03/2020;0,9;14,1
+Colle San Magno;09/03/2020;0,2;12,8
+Colle San Magno;10/03/2020;-0,1;14,9
+Colle San Magno;11/03/2020;2,7;17,9
+Colle San Magno;12/03/2020;4;19,6
+Colle San Magno;13/03/2020;3,4;16,4
+Colle San Magno;14/03/2020;5,8;17
+Colle San Magno;15/03/2020;2,7;16,5
+Colle San Magno;16/03/2020;1,4;17,8
+Colle San Magno;17/03/2020;2,8;16,8
+Colle San Magno;18/03/2020;3,9;19,1
+Colle San Magno;19/03/2020;3,6;19,8
+Colle San Magno;20/03/2020;4,6;19,1
+Colle San Magno;21/03/2020;4,3;17,6
+Colle San Magno;22/03/2020;4,1;18,4
+Colle San Magno;23/03/2020;2;12,8
+Colle San Magno;24/03/2020;-3;8,4
+Colle San Magno;25/03/2020;-5,1;8,7
+Colle San Magno;26/03/2020;2,5;10,3
+Colle San Magno;27/03/2020;4,6;14,2
+Colle San Magno;28/03/2020;5,5;12,8
+Colle San Magno;29/03/2020;5,3;16,6
+Colle San Magno;30/03/2020;4,3;17,9
+Colle San Magno;31/03/2020;3,3;15,1
+Colle la Croce;01/03/2020;4,9;11,5
+Colle la Croce;02/03/2020;4,6;10
+Colle la Croce;03/03/2020;0,8;5,3
+Colle la Croce;04/03/2020;-1,1;8
+Colle la Croce;05/03/2020;-1,7;10,5
+Colle la Croce;06/03/2020;2,3;9,7
+Colle la Croce;07/03/2020;0,1;6,8
+Colle la Croce;08/03/2020;-1,3;6,8
+Colle la Croce;09/03/2020;-1,7;8,2
+Colle la Croce;10/03/2020;1,5;10,4
+Colle la Croce;11/03/2020;2,3;15,5
+Colle la Croce;12/03/2020;6;17,3
+Colle la Croce;13/03/2020;6,6;17,9
+Colle la Croce;14/03/2020;5,8;14,4
+Colle la Croce;15/03/2020;1,1;11
+Colle la Croce;16/03/2020;-1,3;15,3
+Colle la Croce;17/03/2020;3;14,8
+Colle la Croce;18/03/2020;2,3;15,4
+Colle la Croce;19/03/2020;4,6;17,2
+Colle la Croce;20/03/2020;4,9;15
+Colle la Croce;21/03/2020;4,1;16,5
+Colle la Croce;22/03/2020;2,9;13,2
+Colle la Croce;23/03/2020;-5,6;2,8
+Colle la Croce;24/03/2020;-6,2;-0,9
+Colle la Croce;25/03/2020;-6,3;3,2
+Colle la Croce;26/03/2020;-2,2;6,8
+Colle la Croce;27/03/2020;1,3;9,5
+Colle la Croce;28/03/2020;2,6;10,3
+Colle la Croce;29/03/2020;2,4;13,6
+Colle la Croce;30/03/2020;2,8;11,7
+Colle la Croce;31/03/2020;-3,9;4,9
+Collegio Romano;01/03/2020;12,3;17
+Collegio Romano;02/03/2020;12;16,6
+Collegio Romano;03/03/2020;9,9;14,4
+Collegio Romano;04/03/2020;7,1;16,2
+Collegio Romano;05/03/2020;6,7;18
+Collegio Romano;06/03/2020;11,4;18,9
+Collegio Romano;07/03/2020;7,7;18,5
+Collegio Romano;08/03/2020;7,9;17,9
+Collegio Romano;09/03/2020;6,4;17,6
+Collegio Romano;10/03/2020;7,6;20,2
+Collegio Romano;11/03/2020;7,2;21,6
+Collegio Romano;12/03/2020;10,3;21,1
+Collegio Romano;13/03/2020;10,3;18,4
+Collegio Romano;14/03/2020;13,6;15,8
+Collegio Romano;15/03/2020;10,6;21,7
+Collegio Romano;16/03/2020;7,4;21,1
+Collegio Romano;17/03/2020;7,6;20,1
+Collegio Romano;18/03/2020;8,1;23,3
+Collegio Romano;19/03/2020;7,9;23,5
+Collegio Romano;20/03/2020;7,8;22,1
+Collegio Romano;21/03/2020;8,1;22,2
+Collegio Romano;22/03/2020;9,8;23,2
+Collegio Romano;23/03/2020;5,4;13,3
+Collegio Romano;24/03/2020;3,2;10,7
+Collegio Romano;25/03/2020;2;17
+Collegio Romano;26/03/2020;6;12,2
+Collegio Romano;27/03/2020;9,6;18,2
+Collegio Romano;28/03/2020;10,2;20,1
+Collegio Romano;29/03/2020;9,6;20,5
+Collegio Romano;30/03/2020;10,1;21,1
+Collegio Romano;31/03/2020;6,9;18,4
+Colli sul Velino;01/03/2020;4;14,1
+Colli sul Velino;02/03/2020;8,2;14,4
+Colli sul Velino;03/03/2020;4,6;9,6
+Colli sul Velino;04/03/2020;2,8;12,1
+Colli sul Velino;05/03/2020;-0,7;14,6
+Colli sul Velino;06/03/2020;5,2;15,6
+Colli sul Velino;07/03/2020;3,5;13,6
+Colli sul Velino;08/03/2020;2,2;13,4
+Colli sul Velino;09/03/2020;-2,1;12,6
+Colli sul Velino;10/03/2020;1,4;15,5
+Colli sul Velino;11/03/2020;0,8;18,3
+Colli sul Velino;12/03/2020;2,4;21,1
+Colli sul Velino;13/03/2020;4,2;19,1
+Colli sul Velino;14/03/2020;7,6;13,5
+Colli sul Velino;15/03/2020;5,8;19,3
+Colli sul Velino;16/03/2020;1,5;18,2
+Colli sul Velino;17/03/2020;1,5;16,7
+Colli sul Velino;18/03/2020;2,1;20,1
+Colli sul Velino;19/03/2020;1,7;21
+Colli sul Velino;20/03/2020;2,6;21,3
+Colli sul Velino;21/03/2020;3,5;18,7
+Colli sul Velino;22/03/2020;6,2;21,1
+Colli sul Velino;23/03/2020;0,5;8,5
+Colli sul Velino;24/03/2020;-2,1;5,3
+Colli sul Velino;25/03/2020;-4,3;11,5
+Colli sul Velino;26/03/2020;4,5;16,7
+Colli sul Velino;27/03/2020;8,5;17,7
+Colli sul Velino;28/03/2020;6,1;17,1
+Colli sul Velino;29/03/2020;3,3;16,9
+Colli sul Velino;30/03/2020;6;18,6
+Colli sul Velino;31/03/2020;2,3;9,1
+Configni;01/03/2020;6,2;13,5
+Configni;02/03/2020;8,8;13,1
+Configni;03/03/2020;4,6;9,6
+Configni;04/03/2020;2,8;10,9
+Configni;05/03/2020;1,9;12,6
+Configni;06/03/2020;7,6;12,8
+Configni;07/03/2020;4,9;11,2
+Configni;08/03/2020;4,3;11,8
+Configni;09/03/2020;2,5;13,1
+Configni;10/03/2020;3,5;13,4
+Configni;11/03/2020;5,9;17,9
+Configni;12/03/2020;4,8;16,7
+Configni;13/03/2020;7,2;15,8
+Configni;14/03/2020;8,8;12,7
+Configni;15/03/2020;5,8;15,4
+Configni;16/03/2020;3,9;16,6
+Configni;17/03/2020;6,6;16,7
+Configni;18/03/2020;4,8;17,9
+Configni;19/03/2020;7,8;19,2
+Configni;20/03/2020;7,5;18,1
+Configni;21/03/2020;7,8;17,6
+Configni;22/03/2020;6,3;17,6
+Configni;23/03/2020;1,1;7,3
+Configni;24/03/2020;-1,1;4,4
+Configni;25/03/2020;-2,7;9,8
+Configni;26/03/2020;3,2;13
+Configni;27/03/2020;6,5;16,8
+Configni;28/03/2020;6,2;14,2
+Configni;29/03/2020;5,8;17,3
+Configni;30/03/2020;7,4;16,5
+Configni;31/03/2020;2;9,6
+Corchiano;01/03/2020;8,1;14,7
+Corchiano;02/03/2020;5,5;14,6
+Corchiano;03/03/2020;6;13,9
+Corchiano;04/03/2020;2,5;13,8
+Corchiano;05/03/2020;2,6;15,2
+Corchiano;06/03/2020;3,7;15,3
+Corchiano;07/03/2020;1,7;14,2
+Corchiano;08/03/2020;2,5;14,7
+Corchiano;09/03/2020;-0,6;14,4
+Corchiano;10/03/2020;3,7;16,7
+Corchiano;11/03/2020;1,2;20,2
+Corchiano;12/03/2020;1,8;17,8
+Corchiano;13/03/2020;3,5;16,9
+Corchiano;14/03/2020;6,4;13,8
+Corchiano;15/03/2020;6,3;17,9
+Corchiano;16/03/2020;2,3;19
+Corchiano;17/03/2020;3,3;19
+Corchiano;18/03/2020;3,8;20,8
+Corchiano;19/03/2020;4,3;21,2
+Corchiano;20/03/2020;2;20,7
+Corchiano;21/03/2020;1,3;19,6
+Corchiano;22/03/2020;4,7;20,5
+Corchiano;23/03/2020;2,3;8,9
+Corchiano;24/03/2020;-1,8;7,8
+Corchiano;25/03/2020;-1,2;12
+Corchiano;26/03/2020;3,1;12,6
+Corchiano;27/03/2020;7;18
+Corchiano;28/03/2020;7,2;17,1
+Corchiano;29/03/2020;3,3;18,6
+Corchiano;30/03/2020;5,7;17,6
+Corchiano;31/03/2020;3,5;12,9
+Cori;01/03/2020;10,8;14,5
+Cori;02/03/2020;9,7;14,7
+Cori;03/03/2020;6,4;10,6
+Cori;04/03/2020;4,9;14,4
+Cori;05/03/2020;5,6;13,4
+Cori;06/03/2020;9,2;11,9
+Cori;07/03/2020;7,2;13,2
+Cori;08/03/2020;6,5;14
+Cori;09/03/2020;4,7;13,1
+Cori;10/03/2020;6,3;14,5
+Cori;11/03/2020;7,6;17,3
+Cori;12/03/2020;9;17,4
+Cori;13/03/2020;8,3;15
+Cori;14/03/2020;9,4;12,9
+Cori;15/03/2020;10,1;15,3
+Cori;16/03/2020;7,8;16,7
+Cori;17/03/2020;9,4;15,2
+Cori;18/03/2020;9,1;17,3
+Cori;19/03/2020;10,3;18,8
+Cori;20/03/2020;10,1;17,4
+Cori;21/03/2020;9;15,9
+Cori;22/03/2020;9,4;16,6
+Cori;23/03/2020;4,8;13,9
+Cori;24/03/2020;2;8,6
+Cori;25/03/2020;1,3;10,2
+Cori;26/03/2020;3,3;13,5
+Cori;27/03/2020;7,7;12,8
+Cori;28/03/2020;8,3;12
+Cori;29/03/2020;7,3;15,1
+Cori;30/03/2020;8;15,1
+Cori;31/03/2020;7,4;14,9
+Cosa ad Alatri;01/03/2020;4,4;14,7
+Cosa ad Alatri;02/03/2020;5,1;16,5
+Cosa ad Alatri;03/03/2020;3,9;12,6
+Cosa ad Alatri;04/03/2020;0,4;15,3
+Cosa ad Alatri;05/03/2020;0;15,2
+Cosa ad Alatri;06/03/2020;6,7;16,6
+Cosa ad Alatri;07/03/2020;3,8;14,7
+Cosa ad Alatri;08/03/2020;2,3;15,1
+Cosa ad Alatri;09/03/2020;0;14,7
+Cosa ad Alatri;10/03/2020;1,7;17
+Cosa ad Alatri;11/03/2020;1,5;19,6
+Cosa ad Alatri;12/03/2020;2,6;21,3
+Cosa ad Alatri;13/03/2020;3,3;18,5
+Cosa ad Alatri;14/03/2020;8,3;16,7
+Cosa ad Alatri;15/03/2020;5,2;19,3
+Cosa ad Alatri;16/03/2020;1,1;18,7
+Cosa ad Alatri;17/03/2020;2;18,4
+Cosa ad Alatri;18/03/2020;2,7;20,4
+Cosa ad Alatri;19/03/2020;3,1;21,6
+Cosa ad Alatri;20/03/2020;3,2;21
+Cosa ad Alatri;21/03/2020;3,6;19,8
+Cosa ad Alatri;22/03/2020;3,3;20,5
+Cosa ad Alatri;23/03/2020;2,9;13,8
+Cosa ad Alatri;24/03/2020;-2,3;9,1
+Cosa ad Alatri;25/03/2020;-3,8;10,8
+Cosa ad Alatri;26/03/2020;3,3;9,3
+Cosa ad Alatri;27/03/2020;6,2;16,6
+Cosa ad Alatri;28/03/2020;6,7;14,8
+Cosa ad Alatri;29/03/2020;2,5;19,1
+Cosa ad Alatri;30/03/2020;5,3;17,5
+Cosa ad Alatri;31/03/2020;3,8;17,9
+Esperia;01/03/2020;8,4;15,9
+Esperia;02/03/2020;10,2;15,8
+Esperia;03/03/2020;5,8;13
+Esperia;04/03/2020;3,9;15,5
+Esperia;05/03/2020;4,7;14,7
+Esperia;06/03/2020;7,6;14
+Esperia;07/03/2020;6,4;15
+Esperia;08/03/2020;5,2;14,6
+Esperia;09/03/2020;3,5;12,8
+Esperia;10/03/2020;6,8;15,6
+Esperia;11/03/2020;6,6;18,1
+Esperia;12/03/2020;7,4;19,6
+Esperia;13/03/2020;7,6;16,1
+Esperia;14/03/2020;10,3;16,6
+Esperia;15/03/2020;9,3;16,8
+Esperia;16/03/2020;7,6;17,2
+Esperia;17/03/2020;7,5;17,2
+Esperia;18/03/2020;7,9;19,1
+Esperia;19/03/2020;9,8;20,6
+Esperia;20/03/2020;8,8;19,2
+Esperia;21/03/2020;7,7;18
+Esperia;22/03/2020;8,7;17,6
+Esperia;23/03/2020;2,6;10,8
+Esperia;24/03/2020;0,8;8,3
+Esperia;25/03/2020;0,3;7,1
+Esperia;26/03/2020;4;10,7
+Esperia;27/03/2020;8,4;12,2
+Esperia;28/03/2020;7;15
+Esperia;29/03/2020;7,6;16,8
+Esperia;30/03/2020;8;16,7
+Esperia;31/03/2020;2,1;13,5
+Ferentino;01/03/2020;7;13,3
+Ferentino;02/03/2020;8;14,8
+Ferentino;03/03/2020;4,3;11,2
+Ferentino;04/03/2020;3,5;13,5
+Ferentino;05/03/2020;3,9;14,2
+Ferentino;06/03/2020;6,4;13,4
+Ferentino;07/03/2020;5,7;13,7
+Ferentino;08/03/2020;5;15,2
+Ferentino;09/03/2020;2,9;14
+Ferentino;10/03/2020;5,1;15,7
+Ferentino;11/03/2020;5,5;18
+Ferentino;12/03/2020;7,3;19,8
+Ferentino;13/03/2020;7,7;17,7
+Ferentino;14/03/2020;10,2;15,1
+Ferentino;15/03/2020;8,3;18,3
+Ferentino;16/03/2020;6;17,3
+Ferentino;17/03/2020;7,3;16,3
+Ferentino;18/03/2020;7,7;19,9
+Ferentino;19/03/2020;8,8;20,4
+Ferentino;20/03/2020;9,1;19,7
+Ferentino;21/03/2020;8,6;19,1
+Ferentino;22/03/2020;8,3;19,1
+Ferentino;23/03/2020;2,9;14,2
+Ferentino;24/03/2020;-1,4;8,2
+Ferentino;25/03/2020;-0,2;9,9
+Ferentino;26/03/2020;2,1;8,6
+Ferentino;27/03/2020;7,6;14,3
+Ferentino;28/03/2020;7;14,6
+Ferentino;29/03/2020;6,8;18,3
+Ferentino;30/03/2020;8,1;16,5
+Ferentino;31/03/2020;4;15,5
+Fianello;01/03/2020;9,1;15,6
+Fianello;02/03/2020;9,9;16
+Fianello;03/03/2020;7,5;15,9
+Fianello;04/03/2020;2,9;14,8
+Fianello;05/03/2020;1,6;17,8
+Fianello;06/03/2020;8,6;17,4
+Fianello;07/03/2020;5,8;15,4
+Fianello;08/03/2020;4;15,8
+Fianello;09/03/2020;1,5;17,2
+Fianello;10/03/2020;3,8;17
+Fianello;11/03/2020;3,4;22,3
+Fianello;12/03/2020;7,4;21,9
+Fianello;13/03/2020;8,7;21,1
+Fianello;14/03/2020;9,1;14,9
+Fianello;15/03/2020;5,7;19,7
+Fianello;16/03/2020;2,1;21,5
+Fianello;17/03/2020;3,8;20,5
+Fianello;18/03/2020;3,6;23
+Fianello;19/03/2020;4,5;24
+Fianello;20/03/2020;4,2;23,9
+Fianello;21/03/2020;4,9;23,1
+Fianello;22/03/2020;7,8;21,8
+Fianello;23/03/2020;3,1;10,3
+Fianello;24/03/2020;-0,7;8,5
+Fianello;25/03/2020;-1,5;14,1
+Fianello;26/03/2020;4,5;14,8
+Fianello;27/03/2020;8,4;21,8
+Fianello;28/03/2020;6,9;20,2
+Fianello;29/03/2020;5;23,3
+Fianello;30/03/2020;7,4;21,5
+Fianello;31/03/2020;4,3;14,8
+Fiano Romano;01/03/2020;4,5;16,2
+Fiano Romano;02/03/2020;8,9;16,3
+Fiano Romano;03/03/2020;7,2;13,2
+Fiano Romano;04/03/2020;0;14,8
+Fiano Romano;05/03/2020;-0,4;15,1
+Fiano Romano;06/03/2020;4,5;15,7
+Fiano Romano;07/03/2020;1;15,8
+Fiano Romano;08/03/2020;2,4;16,2
+Fiano Romano;09/03/2020;-1,6;15
+Fiano Romano;10/03/2020;2,9;17,4
+Fiano Romano;11/03/2020;0,3;19,2
+Fiano Romano;12/03/2020;5,5;18,6
+Fiano Romano;13/03/2020;5,7;16,9
+Fiano Romano;14/03/2020;9,8;14,1
+Fiano Romano;15/03/2020;4;19,4
+Fiano Romano;16/03/2020;0,3;18,8
+Fiano Romano;17/03/2020;0,7;17,7
+Fiano Romano;18/03/2020;-0,2;20
+Fiano Romano;19/03/2020;0,2;21
+Fiano Romano;20/03/2020;0,3;20,1
+Fiano Romano;21/03/2020;0,8;19,2
+Fiano Romano;22/03/2020;3;21,5
+Fiano Romano;23/03/2020;3,7;12,3
+Fiano Romano;24/03/2020;-3,6;9,6
+Fiano Romano;25/03/2020;-0,4;13,5
+Fiano Romano;26/03/2020;5,8;14,6
+Fiano Romano;27/03/2020;7,3;16,8
+Fiano Romano;28/03/2020;5,7;15,8
+Fiano Romano;29/03/2020;2,4;18,3
+Fiano Romano;30/03/2020;4,6;18,4
+Fiano Romano;31/03/2020;1,8;15,3
+Filettino;01/03/2020;-0,4;10,6
+Filettino;02/03/2020;2,7;8,9
+Filettino;03/03/2020;0,2;5,4
+Filettino;04/03/2020;-1,4;9,6
+Filettino;05/03/2020;-1;9,9
+Filettino;06/03/2020;0,9;9,1
+Filettino;07/03/2020;0,9;7,8
+Filettino;08/03/2020;-0,4;8,8
+Filettino;09/03/2020;-2,3;9,4
+Filettino;10/03/2020;2;11,9
+Filettino;11/03/2020;1,4;15,9
+Filettino;12/03/2020;4,8;17,1
+Filettino;13/03/2020;4,7;17,6
+Filettino;14/03/2020;4,5;15,9
+Filettino;15/03/2020;2,6;12,7
+Filettino;16/03/2020;-0,6;14,2
+Filettino;17/03/2020;1,9;14,1
+Filettino;18/03/2020;2,9;15,5
+Filettino;19/03/2020;3,7;16,3
+Filettino;20/03/2020;4,1;16,4
+Filettino;21/03/2020;2,9;14,3
+Filettino;22/03/2020;4,5;12,9
+Filettino;23/03/2020;-4,2;7
+Filettino;24/03/2020;-4,8;3,2
+Filettino;25/03/2020;-4,2;3,2
+Filettino;26/03/2020;-0,7;4,5
+Filettino;27/03/2020;2,7;9,3
+Filettino;28/03/2020;3,4;10,5
+Filettino;29/03/2020;1;12
+Filettino;30/03/2020;2,8;10,3
+Filettino;31/03/2020;0,4;10,1
+Fiora a Montalto di Castro;01/03/2020;9,5;15,9
+Fiora a Montalto di Castro;02/03/2020;11,2;15
+Fiora a Montalto di Castro;03/03/2020;7,6;16,3
+Fiora a Montalto di Castro;04/03/2020;3,5;16,9
+Fiora a Montalto di Castro;05/03/2020;2,7;15
+Fiora a Montalto di Castro;06/03/2020;6;17,6
+Fiora a Montalto di Castro;07/03/2020;3,5;14,9
+Fiora a Montalto di Castro;08/03/2020;3,9;15,9
+Fiora a Montalto di Castro;09/03/2020;1,1;15,3
+Fiora a Montalto di Castro;10/03/2020;5,3;18,6
+Fiora a Montalto di Castro;11/03/2020;2,6;17,3
+Fiora a Montalto di Castro;12/03/2020;8;15,8
+Fiora a Montalto di Castro;13/03/2020;8,9;16,9
+Fiora a Montalto di Castro;14/03/2020;8,7;15,3
+Fiora a Montalto di Castro;15/03/2020;6,4;18,2
+Fiora a Montalto di Castro;16/03/2020;4,9;17,7
+Fiora a Montalto di Castro;17/03/2020;3,5;18,5
+Fiora a Montalto di Castro;18/03/2020;3;20,3
+Fiora a Montalto di Castro;19/03/2020;5;18,9
+Fiora a Montalto di Castro;20/03/2020;3,2;18,9
+Fiora a Montalto di Castro;21/03/2020;6,4;18
+Fiora a Montalto di Castro;22/03/2020;5,7;19,5
+Fiora a Montalto di Castro;23/03/2020;4,4;10,8
+Fiora a Montalto di Castro;24/03/2020;-2,2;10,2
+Fiora a Montalto di Castro;25/03/2020;2,5;13,1
+Fiora a Montalto di Castro;26/03/2020;4,5;11,4
+Fiora a Montalto di Castro;27/03/2020;6,9;16,6
+Fiora a Montalto di Castro;28/03/2020;5,4;16,8
+Fiora a Montalto di Castro;29/03/2020;5,8;17,3
+Fiora a Montalto di Castro;30/03/2020;4,5;17,2
+Fiora a Montalto di Castro;31/03/2020;4,6;13,9
+Fiuggi;01/03/2020;4;10,1
+Fiuggi;02/03/2020;5;11,1
+Fiuggi;03/03/2020;0,8;6,9
+Fiuggi;04/03/2020;0,1;10,8
+Fiuggi;05/03/2020;1,2;12,5
+Fiuggi;06/03/2020;3,4;11,4
+Fiuggi;07/03/2020;2,9;11
+Fiuggi;08/03/2020;1;10,9
+Fiuggi;09/03/2020;0,2;10
+Fiuggi;10/03/2020;2,1;12,1
+Fiuggi;11/03/2020;5;15,1
+Fiuggi;12/03/2020;6,2;17
+Fiuggi;13/03/2020;5,2;15,9
+Fiuggi;14/03/2020;6,7;13,8
+Fiuggi;15/03/2020;5,7;14,2
+Fiuggi;16/03/2020;1,8;15,1
+Fiuggi;17/03/2020;4,3;13,3
+Fiuggi;18/03/2020;4,6;16,3
+Fiuggi;19/03/2020;5,7;17,9
+Fiuggi;20/03/2020;6,5;17,4
+Fiuggi;21/03/2020;5,5;16,4
+Fiuggi;22/03/2020;5,4;16,3
+Fiuggi;23/03/2020;-1,7;12,7
+Fiuggi;24/03/2020;-3,8;6,7
+Fiuggi;25/03/2020;-4,7;7,6
+Fiuggi;26/03/2020;0;10,8
+Fiuggi;27/03/2020;4,3;13,7
+Fiuggi;28/03/2020;4;10,8
+Fiuggi;29/03/2020;3,2;14,5
+Fiuggi;30/03/2020;4,4;13,3
+Fiuggi;31/03/2020;3;12,5
+Fondi;01/03/2020;11,1;16,6
+Fondi;02/03/2020;10,5;18
+Fondi;03/03/2020;8,1;15,4
+Fondi;04/03/2020;6,2;17
+Fondi;05/03/2020;5,9;16,1
+Fondi;06/03/2020;10,5;17,4
+Fondi;07/03/2020;8,9;18,8
+Fondi;08/03/2020;6,8;17,8
+Fondi;09/03/2020;5,6;15,9
+Fondi;10/03/2020;5,7;18,2
+Fondi;11/03/2020;6,8;18,7
+Fondi;12/03/2020;7,5;19
+Fondi;13/03/2020;9,4;19,3
+Fondi;14/03/2020;11,8;19,4
+Fondi;15/03/2020;10,3;19,6
+Fondi;16/03/2020;8,3;20,4
+Fondi;17/03/2020;8;19,4
+Fondi;18/03/2020;8,6;19,7
+Fondi;19/03/2020;7,5;21
+Fondi;20/03/2020;7,7;19,3
+Fondi;21/03/2020;7,6;19,2
+Fondi;22/03/2020;8,4;20,5
+Fondi;23/03/2020;7;15,1
+Fondi;24/03/2020;4,1;11,5
+Fondi;25/03/2020;4,1;11,6
+Fondi;26/03/2020;6,6;13,9
+Fondi;27/03/2020;9,5;15,2
+Fondi;28/03/2020;9,2;17,1
+Fondi;29/03/2020;8,2;19,1
+Fondi;30/03/2020;9;19
+Fondi;31/03/2020;7,9;18,9
+Fontana Liri Superiore;01/03/2020;8,3;14,4
+Fontana Liri Superiore;02/03/2020;9,1;15,2
+Fontana Liri Superiore;03/03/2020;5,7;11,4
+Fontana Liri Superiore;04/03/2020;3,5;14,1
+Fontana Liri Superiore;05/03/2020;4,8;14,9
+Fontana Liri Superiore;06/03/2020;6,3;14,1
+Fontana Liri Superiore;07/03/2020;6,2;14,5
+Fontana Liri Superiore;08/03/2020;4,9;15
+Fontana Liri Superiore;09/03/2020;4,3;13,6
+Fontana Liri Superiore;10/03/2020;5,4;16
+Fontana Liri Superiore;11/03/2020;6,6;18,6
+Fontana Liri Superiore;12/03/2020;7,4;19,9
+Fontana Liri Superiore;13/03/2020;8,6;17
+Fontana Liri Superiore;14/03/2020;10,5;16,5
+Fontana Liri Superiore;15/03/2020;7,6;18,6
+Fontana Liri Superiore;16/03/2020;6,5;18,5
+Fontana Liri Superiore;17/03/2020;8;16,9
+Fontana Liri Superiore;18/03/2020;7,8;20,1
+Fontana Liri Superiore;19/03/2020;9,6;21,5
+Fontana Liri Superiore;20/03/2020;9,2;20,3
+Fontana Liri Superiore;21/03/2020;8,8;18,7
+Fontana Liri Superiore;22/03/2020;8,9;19
+Fontana Liri Superiore;23/03/2020;2,8;14,6
+Fontana Liri Superiore;24/03/2020;1,2;9
+Fontana Liri Superiore;25/03/2020;-0,9;9,9
+Fontana Liri Superiore;26/03/2020;2,9;10,6
+Fontana Liri Superiore;27/03/2020;7,5;16
+Fontana Liri Superiore;28/03/2020;6,9;13,6
+Fontana Liri Superiore;29/03/2020;7,7;18,4
+Fontana Liri Superiore;30/03/2020;7,7;17,1
+Fontana Liri Superiore;31/03/2020;3,2;16,2
+Formello;01/03/2020;7,7;14
+Formello;02/03/2020;8,8;13,1
+Formello;03/03/2020;6,3;12
+Formello;04/03/2020;4,5;14,4
+Formello;05/03/2020;4,3;14,4
+Formello;06/03/2020;7,3;13,9
+Formello;07/03/2020;5,5;15,5
+Formello;08/03/2020;5,6;14,9
+Formello;09/03/2020;4,1;14,1
+Formello;10/03/2020;4,9;17,1
+Formello;11/03/2020;7,3;18,3
+Formello;12/03/2020;6,5;16,8
+Formello;13/03/2020;8,9;14,5
+Formello;14/03/2020;10;13,1
+Formello;15/03/2020;7,3;18,8
+Formello;16/03/2020;5,4;18,7
+Formello;17/03/2020;7,3;17,1
+Formello;18/03/2020;7,9;18,8
+Formello;19/03/2020;8,7;20,4
+Formello;20/03/2020;8,5;19,5
+Formello;21/03/2020;7,9;18,2
+Formello;22/03/2020;8,2;20,3
+Formello;23/03/2020;0,5;10,3
+Formello;24/03/2020;0;8
+Formello;25/03/2020;-1,1;13,2
+Formello;26/03/2020;2,8;10,7
+Formello;27/03/2020;7,7;15,3
+Formello;28/03/2020;7,6;14,5
+Formello;29/03/2020;7,1;17,2
+Formello;30/03/2020;8;17,4
+Formello;31/03/2020;3,4;15,9
+Fosso di Pantanello ad Ostia;01/03/2020;12;16
+Fosso di Pantanello ad Ostia;02/03/2020;10,1;15,4
+Fosso di Pantanello ad Ostia;03/03/2020;5,8;14,7
+Fosso di Pantanello ad Ostia;04/03/2020;4,2;16,3
+Fosso di Pantanello ad Ostia;05/03/2020;2,5;15,8
+Fosso di Pantanello ad Ostia;06/03/2020;11,6;17
+Fosso di Pantanello ad Ostia;07/03/2020;3,7;16,8
+Fosso di Pantanello ad Ostia;08/03/2020;3,1;17,6
+Fosso di Pantanello ad Ostia;09/03/2020;1,7;15,9
+Fosso di Pantanello ad Ostia;10/03/2020;3,6;16,9
+Fosso di Pantanello ad Ostia;11/03/2020;2,5;18,5
+Fosso di Pantanello ad Ostia;12/03/2020;3,7;17,8
+Fosso di Pantanello ad Ostia;13/03/2020;7,2;16,3
+Fosso di Pantanello ad Ostia;14/03/2020;10,3;17,8
+Fosso di Pantanello ad Ostia;15/03/2020;8;18,3
+Fosso di Pantanello ad Ostia;16/03/2020;4,6;17,9
+Fosso di Pantanello ad Ostia;17/03/2020;3,5;18,3
+Fosso di Pantanello ad Ostia;18/03/2020;4,9;18,7
+Fosso di Pantanello ad Ostia;19/03/2020;3,9;19,1
+Fosso di Pantanello ad Ostia;20/03/2020;2,3;18,4
+Fosso di Pantanello ad Ostia;21/03/2020;3;19,3
+Fosso di Pantanello ad Ostia;22/03/2020;4;20
+Fosso di Pantanello ad Ostia;23/03/2020;5,8;14
+Fosso di Pantanello ad Ostia;24/03/2020;2,8;10,6
+Fosso di Pantanello ad Ostia;25/03/2020;2,1;13,7
+Fosso di Pantanello ad Ostia;26/03/2020;4,8;11,7
+Fosso di Pantanello ad Ostia;27/03/2020;7,3;15,7
+Fosso di Pantanello ad Ostia;28/03/2020;7,4;17,2
+Fosso di Pantanello ad Ostia;29/03/2020;7,2;17,7
+Fosso di Pantanello ad Ostia;30/03/2020;4,4;18,4
+Fosso di Pantanello ad Ostia;31/03/2020;5;19,3
+Frascati;01/03/2020;11,1;15,2
+Frascati;02/03/2020;9,7;15,3
+Frascati;03/03/2020;7,9;11,2
+Frascati;04/03/2020;5,1;14,5
+Frascati;05/03/2020;4,8;15,4
+Frascati;06/03/2020;9,6;15,1
+Frascati;07/03/2020;7,5;14,9
+Frascati;08/03/2020;5,9;16
+Frascati;09/03/2020;5,4;15,6
+Frascati;10/03/2020;5,6;17,3
+Frascati;11/03/2020;9,1;19,8
+Frascati;12/03/2020;9,2;19,1
+Frascati;13/03/2020;9,4;16,9
+Frascati;14/03/2020;11,3;13,8
+Frascati;15/03/2020;7,9;19,5
+Frascati;16/03/2020;9,1;19
+Frascati;17/03/2020;10,2;18,3
+Frascati;18/03/2020;10,1;20,7
+Frascati;19/03/2020;11,8;21,2
+Frascati;20/03/2020;10,3;20
+Frascati;21/03/2020;9,6;19,1
+Frascati;22/03/2020;10,5;20,9
+Frascati;23/03/2020;2,7;11,8
+Frascati;24/03/2020;0,9;7,9
+Frascati;25/03/2020;-0,2;13,6
+Frascati;26/03/2020;3,8;12,1
+Frascati;27/03/2020;8,1;17,2
+Frascati;28/03/2020;8,4;15,8
+Frascati;29/03/2020;8,4;18,2
+Frascati;30/03/2020;9,5;19,7
+Frascati;31/03/2020;4,5;17
+Frosinone;01/03/2020;5,9;16,6
+Frosinone;02/03/2020;4,8;18,7
+Frosinone;03/03/2020;4,4;13,5
+Frosinone;04/03/2020;0;17,4
+Frosinone;05/03/2020;-0,8;16,5
+Frosinone;06/03/2020;7,4;17,5
+Frosinone;07/03/2020;4,5;16,2
+Frosinone;08/03/2020;1;18,3
+Frosinone;09/03/2020;-0,8;16,6
+Frosinone;10/03/2020;0,5;19,1
+Frosinone;11/03/2020;0;20,7
+Frosinone;12/03/2020;1,1;22,4
+Frosinone;13/03/2020;5,3;20,6
+Frosinone;14/03/2020;9,8;17,9
+Frosinone;15/03/2020;9,2;21,8
+Frosinone;16/03/2020;1,6;20,2
+Frosinone;17/03/2020;0,3;20,3
+Frosinone;18/03/2020;1,5;22,1
+Frosinone;19/03/2020;1;23,3
+Frosinone;20/03/2020;1,7;22,4
+Frosinone;21/03/2020;1,6;20,8
+Frosinone;22/03/2020;1,7;22
+Frosinone;23/03/2020;4,9;17,5
+Frosinone;24/03/2020;-2,5;12,8
+Frosinone;25/03/2020;-5,3;12,5
+Frosinone;26/03/2020;4;11,3
+Frosinone;27/03/2020;6,8;16,9
+Frosinone;28/03/2020;7,5;17,9
+Frosinone;29/03/2020;2,8;20
+Frosinone;30/03/2020;5,6;19,1
+Frosinone;31/03/2020;2,4;17,9
+Gaeta;01/03/2020;11,7;16
+Gaeta;02/03/2020;11,5;18,1
+Gaeta;03/03/2020;8,5;14,9
+Gaeta;04/03/2020;7,3;15,3
+Gaeta;05/03/2020;7,5;15,4
+Gaeta;06/03/2020;11,2;15,7
+Gaeta;07/03/2020;8,9;16,9
+Gaeta;08/03/2020;7,9;16,3
+Gaeta;09/03/2020;6,2;15
+Gaeta;10/03/2020;7,8;16,3
+Gaeta;11/03/2020;8,6;16,9
+Gaeta;12/03/2020;9,6;17,1
+Gaeta;13/03/2020;10,1;16,7
+Gaeta;14/03/2020;11,7;17,7
+Gaeta;15/03/2020;10,5;19,9
+Gaeta;16/03/2020;10,2;19,1
+Gaeta;17/03/2020;9,2;17,7
+Gaeta;18/03/2020;10;18,1
+Gaeta;19/03/2020;9,8;19,9
+Gaeta;20/03/2020;10,2;17,7
+Gaeta;21/03/2020;9,6;19,3
+Gaeta;22/03/2020;10,9;19,4
+Gaeta;23/03/2020;6,8;14,5
+Gaeta;24/03/2020;3;12,2
+Gaeta;25/03/2020;2,8;10
+Gaeta;26/03/2020;7,7;14
+Gaeta;27/03/2020;9,1;12,2
+Gaeta;28/03/2020;8,9;17,7
+Gaeta;29/03/2020;9,1;17,7
+Gaeta;30/03/2020;9,3;17,3
+Gaeta;31/03/2020;7,2;18
+Giuliano di Roma;01/03/2020;8;14,7
+Giuliano di Roma;02/03/2020;9,6;15
+Giuliano di Roma;03/03/2020;4,8;11,5
+Giuliano di Roma;04/03/2020;3,8;14,2
+Giuliano di Roma;05/03/2020;4,4;14
+Giuliano di Roma;06/03/2020;6,4;13,2
+Giuliano di Roma;07/03/2020;6,3;13,2
+Giuliano di Roma;08/03/2020;5,1;14,9
+Giuliano di Roma;09/03/2020;3,7;13
+Giuliano di Roma;10/03/2020;5,2;15,4
+Giuliano di Roma;11/03/2020;6,3;17,1
+Giuliano di Roma;12/03/2020;7,8;18,2
+Giuliano di Roma;13/03/2020;8,3;16,2
+Giuliano di Roma;14/03/2020;10,4;14,9
+Giuliano di Roma;15/03/2020;9,7;17,2
+Giuliano di Roma;16/03/2020;5,7;18
+Giuliano di Roma;17/03/2020;7,6;16,3
+Giuliano di Roma;18/03/2020;7,8;18,1
+Giuliano di Roma;19/03/2020;8,7;19,7
+Giuliano di Roma;20/03/2020;8,6;18,5
+Giuliano di Roma;21/03/2020;8,4;17,8
+Giuliano di Roma;22/03/2020;7,9;18,3
+Giuliano di Roma;23/03/2020;3,8;13,2
+Giuliano di Roma;24/03/2020;1;8,9
+Giuliano di Roma;25/03/2020;-1,6;9,6
+Giuliano di Roma;26/03/2020;2,8;9,4
+Giuliano di Roma;27/03/2020;7,8;14,3
+Giuliano di Roma;28/03/2020;7,1;13,4
+Giuliano di Roma;29/03/2020;6,9;16,6
+Giuliano di Roma;30/03/2020;7,6;16,6
+Giuliano di Roma;31/03/2020;5,5;13,9
+Graffignano;01/03/2020;8,4;16,1
+Graffignano;02/03/2020;9,4;15,2
+Graffignano;03/03/2020;6,9;15,1
+Graffignano;04/03/2020;1;15,7
+Graffignano;05/03/2020;0,9;16,3
+Graffignano;06/03/2020;6,3;17,8
+Graffignano;07/03/2020;4;14,8
+Graffignano;08/03/2020;4,2;14,7
+Graffignano;09/03/2020;-0,2;15,7
+Graffignano;10/03/2020;6,2;17,8
+Graffignano;11/03/2020;1,6;20,6
+Graffignano;12/03/2020;7;19,1
+Graffignano;13/03/2020;6,9;15,9
+Graffignano;14/03/2020;7,4;16,1
+Graffignano;15/03/2020;6,6;17,1
+Graffignano;16/03/2020;0,2;20,8
+Graffignano;17/03/2020;2,6;20,2
+Graffignano;18/03/2020;2,2;22,1
+Graffignano;19/03/2020;2,8;22,9
+Graffignano;20/03/2020;2,9;21,5
+Graffignano;21/03/2020;3;21
+Graffignano;22/03/2020;7,9;20,5
+Graffignano;23/03/2020;2;8,5
+Graffignano;24/03/2020;-0,4;7,8
+Graffignano;25/03/2020;0,3;11,4
+Graffignano;26/03/2020;3,8;12
+Graffignano;27/03/2020;9,4;16
+Graffignano;28/03/2020;7,9;19,8
+Graffignano;29/03/2020;3,7;22
+Graffignano;30/03/2020;6,1;19,5
+Graffignano;31/03/2020;3,7;12
+Guadamello;01/03/2020;10,8;15,8
+Guadamello;02/03/2020;8,7;16,4
+Guadamello;03/03/2020;8,1;14,8
+Guadamello;04/03/2020;-;-
+Guadamello;05/03/2020;1,8;14,8
+Guadamello;06/03/2020;8,7;16
+Guadamello;07/03/2020;5,3;15,9
+Guadamello;08/03/2020;4;15,3
+Guadamello;09/03/2020;0,9;15,3
+Guadamello;10/03/2020;2,8;17,6
+Guadamello;11/03/2020;1,9;20,7
+Guadamello;12/03/2020;4,6;18,4
+Guadamello;13/03/2020;6,4;17,7
+Guadamello;14/03/2020;8,9;14,5
+Guadamello;15/03/2020;5,9;18,3
+Guadamello;16/03/2020;1,8;19,8
+Guadamello;17/03/2020;3,5;19,2
+Guadamello;18/03/2020;2,6;21,8
+Guadamello;19/03/2020;3,6;21,9
+Guadamello;20/03/2020;3,3;21,9
+Guadamello;21/03/2020;3,2;20,8
+Guadamello;22/03/2020;8,1;21,4
+Guadamello;23/03/2020;4,1;10,7
+Guadamello;24/03/2020;-1,3;8,6
+Guadamello;25/03/2020;-0,3;11,3
+Guadamello;26/03/2020;6,5;14
+Guadamello;27/03/2020;9,1;18
+Guadamello;28/03/2020;7,7;17,4
+Guadamello;29/03/2020;6,5;19,3
+Guadamello;30/03/2020;7,2;18,8
+Guadamello;31/03/2020;5,2;12,8
+Guidonia;01/03/2020;8,4;16,3
+Guidonia;02/03/2020;10,5;16,7
+Guidonia;03/03/2020;8;12,6
+Guidonia;04/03/2020;3,7;15
+Guidonia;05/03/2020;3,2;16,5
+Guidonia;06/03/2020;9,4;15,3
+Guidonia;07/03/2020;6,7;16,5
+Guidonia;08/03/2020;4,2;16,6
+Guidonia;09/03/2020;2,5;16
+Guidonia;10/03/2020;3,5;17,8
+Guidonia;11/03/2020;5,6;20
+Guidonia;12/03/2020;6,8;19,9
+Guidonia;13/03/2020;8;18,2
+Guidonia;14/03/2020;12,1;14,6
+Guidonia;15/03/2020;8,4;20,7
+Guidonia;16/03/2020;5,5;19,5
+Guidonia;17/03/2020;7,2;18,5
+Guidonia;18/03/2020;6,2;20,8
+Guidonia;19/03/2020;7,3;22,2
+Guidonia;20/03/2020;7,3;20,9
+Guidonia;21/03/2020;7,2;20
+Guidonia;22/03/2020;8,7;22
+Guidonia;23/03/2020;4,7;13,5
+Guidonia;24/03/2020;1,7;9,8
+Guidonia;25/03/2020;-2;13,9
+Guidonia;26/03/2020;4,6;14,5
+Guidonia;27/03/2020;8;16,9
+Guidonia;28/03/2020;8,2;15,8
+Guidonia;29/03/2020;6,8;18,8
+Guidonia;30/03/2020;8,4;19,1
+Guidonia;31/03/2020;5,5;16,8
+Ischia di Castro;01/03/2020;7,8;11,7
+Ischia di Castro;02/03/2020;8,1;10,9
+Ischia di Castro;03/03/2020;4,2;11
+Ischia di Castro;04/03/2020;4,1;11,7
+Ischia di Castro;05/03/2020;3,9;12,7
+Ischia di Castro;06/03/2020;6,6;14,6
+Ischia di Castro;07/03/2020;4,2;11
+Ischia di Castro;08/03/2020;5,4;11,5
+Ischia di Castro;09/03/2020;4,1;12,9
+Ischia di Castro;10/03/2020;4,9;14,1
+Ischia di Castro;11/03/2020;6,7;16,5
+Ischia di Castro;12/03/2020;6,3;12,9
+Ischia di Castro;13/03/2020;7,8;12,2
+Ischia di Castro;14/03/2020;8,3;13,5
+Ischia di Castro;15/03/2020;6,1;13,4
+Ischia di Castro;16/03/2020;5,9;17,6
+Ischia di Castro;17/03/2020;7,9;16,2
+Ischia di Castro;18/03/2020;9,2;17,4
+Ischia di Castro;19/03/2020;9,7;19
+Ischia di Castro;20/03/2020;8,6;17,9
+Ischia di Castro;21/03/2020;6,9;16,9
+Ischia di Castro;22/03/2020;5,7;17,4
+Ischia di Castro;23/03/2020;0,3;5,6
+Ischia di Castro;24/03/2020;-1,4;5,8
+Ischia di Castro;25/03/2020;-1,2;7,3
+Ischia di Castro;26/03/2020;0,5;6,8
+Ischia di Castro;27/03/2020;6;12,4
+Ischia di Castro;28/03/2020;6,6;15,6
+Ischia di Castro;29/03/2020;6,4;17,5
+Ischia di Castro;30/03/2020;6,9;15,4
+Ischia di Castro;31/03/2020;1,5;8,6
+Itri;01/03/2020;9,2;12
+Itri;02/03/2020;9,8;13,1
+Itri;03/03/2020;6,7;11
+Itri;04/03/2020;5,9;12,7
+Itri;05/03/2020;7,3;12,5
+Itri;06/03/2020;8,7;12,6
+Itri;07/03/2020;6;14,2
+Itri;08/03/2020;6,5;12,9
+Itri;09/03/2020;6;11,1
+Itri;10/03/2020;6,8;12,9
+Itri;11/03/2020;8;14,4
+Itri;12/03/2020;9,4;15,1
+Itri;13/03/2020;8,5;14,3
+Itri;14/03/2020;9,9;14,4
+Itri;15/03/2020;10,1;17,3
+Itri;16/03/2020;9;15,9
+Itri;17/03/2020;10,2;15,3
+Itri;18/03/2020;10,5;16,4
+Itri;19/03/2020;10,8;18,2
+Itri;20/03/2020;10,3;15,6
+Itri;21/03/2020;-;-
+Itri;22/03/2020;-;-
+Itri;23/03/2020;-;-
+Itri;24/03/2020;1,6;8,5
+Itri;25/03/2020;2;7,3
+Itri;26/03/2020;5,7;13,4
+Itri;27/03/2020;7;11,4
+Itri;28/03/2020;7,2;13,6
+Itri;29/03/2020;8,1;14,1
+Itri;30/03/2020;8,7;16
+Itri;31/03/2020;4,8;15
+Ladispoli rlazio;01/03/2020;11,3;14,7
+Ladispoli rlazio;02/03/2020;11,9;14,3
+Ladispoli rlazio;03/03/2020;8,5;13,8
+Ladispoli rlazio;04/03/2020;5,7;14,9
+Ladispoli rlazio;05/03/2020;5,1;13,5
+Ladispoli rlazio;06/03/2020;11,3;16,0
+Ladispoli rlazio;07/03/2020;6,9;14,6
+Ladispoli rlazio;08/03/2020;7,7;16,2
+Ladispoli rlazio;09/03/2020;4,5;14,2
+Ladispoli rlazio;10/03/2020;6,5;16,5
+Ladispoli rlazio;11/03/2020;5,6;15,0
+Ladispoli rlazio;12/03/2020;7,6;16,3
+Ladispoli rlazio;13/03/2020;9,7;15,5
+Ladispoli rlazio;14/03/2020;10,8;14,6
+Ladispoli rlazio;15/03/2020;9,8;18,7
+Ladispoli rlazio;16/03/2020;7,9;17,0
+Ladispoli rlazio;17/03/2020;8,2;17,1
+Ladispoli rlazio;18/03/2020;6,9;16,1
+Ladispoli rlazio;19/03/2020;8,7;17,5
+Ladispoli rlazio;20/03/2020;6,8;15,5
+Ladispoli rlazio;21/03/2020;7,4;15,2
+Ladispoli rlazio;22/03/2020;8,2;16,1
+Ladispoli rlazio;23/03/2020;4,8;12,3
+Ladispoli rlazio;24/03/2020;1,8;9,2
+Ladispoli rlazio;25/03/2020;3,0;12,0
+Ladispoli rlazio;26/03/2020;4,0;12,3
+Ladispoli rlazio;27/03/2020;10,0;14,9
+Ladispoli rlazio;28/03/2020;8,8;14,4
+Ladispoli rlazio;29/03/2020;7,3;15,6
+Ladispoli rlazio;30/03/2020;6,8;15,1
+Ladispoli rlazio;31/03/2020;6,2;16,4
+Lago di Albano;01/03/2020;10,9;14,1
+Lago di Albano;02/03/2020;9,8;14,3
+Lago di Albano;03/03/2020;7,2;11,9
+Lago di Albano;04/03/2020;5,6;15,8
+Lago di Albano;05/03/2020;4,6;15,3
+Lago di Albano;06/03/2020;8,7;14,5
+Lago di Albano;07/03/2020;6,3;15,6
+Lago di Albano;08/03/2020;5,2;17,4
+Lago di Albano;09/03/2020;5,2;15,4
+Lago di Albano;10/03/2020;5,2;16,4
+Lago di Albano;11/03/2020;6,3;19,2
+Lago di Albano;12/03/2020;7,3;19,4
+Lago di Albano;13/03/2020;8,0;15,1
+Lago di Albano;14/03/2020;10,8;13,9
+Lago di Albano;15/03/2020;7,9;17,6
+Lago di Albano;16/03/2020;6,6;17,7
+Lago di Albano;17/03/2020;6,9;16,7
+Lago di Albano;18/03/2020;8,7;19,7
+Lago di Albano;19/03/2020;7,8;20,5
+Lago di Albano;20/03/2020;7,6;19,1
+Lago di Albano;21/03/2020;7,5;18,5
+Lago di Albano;22/03/2020;8,7;19,8
+Lago di Albano;23/03/2020;4,1;14,7
+Lago di Albano;24/03/2020;1,2;10,7
+Lago di Albano;25/03/2020;0,8;13,1
+Lago di Albano;26/03/2020;3,6;12,9
+Lago di Albano;27/03/2020;7,8;14,7
+Lago di Albano;28/03/2020;8,2;13,7
+Lago di Albano;29/03/2020;7,4;16,6
+Lago di Albano;30/03/2020;7,8;18,5
+Lago di Albano;31/03/2020;4,4;17,0
+Lago di Corbara;01/03/2020;8,6;15,0
+Lago di Corbara;02/03/2020;8,7;15,2
+Lago di Corbara;03/03/2020;6,8;13,5
+Lago di Corbara;04/03/2020;2,5;13,0
+Lago di Corbara;05/03/2020;1,4;14,3
+Lago di Corbara;06/03/2020;6,4;17,0
+Lago di Corbara;07/03/2020;4,0;12,8
+Lago di Corbara;08/03/2020;4,5;13,1
+Lago di Corbara;09/03/2020;0,4;15,0
+Lago di Corbara;10/03/2020;3,2;17,0
+Lago di Corbara;11/03/2020;2,0;19,8
+Lago di Corbara;12/03/2020;6,0;17,5
+Lago di Corbara;13/03/2020;7,2;15,3
+Lago di Corbara;14/03/2020;7,6;15,1
+Lago di Corbara;15/03/2020;7,2;14,9
+Lago di Corbara;16/03/2020;1,2;19,1
+Lago di Corbara;17/03/2020;2,9;18,7
+Lago di Corbara;18/03/2020;2,6;19,1
+Lago di Corbara;19/03/2020;3,2;21,9
+Lago di Corbara;20/03/2020;3,2;20,5
+Lago di Corbara;21/03/2020;4,0;20,0
+Lago di Corbara;22/03/2020;7,6;18,2
+Lago di Corbara;23/03/2020;4,4;8,8
+Lago di Corbara;24/03/2020;-1,4;6,9
+Lago di Corbara;25/03/2020;1,5;8,8
+Lago di Corbara;26/03/2020;4,4;10,8
+Lago di Corbara;27/03/2020;9,3;13,3
+Lago di Corbara;28/03/2020;8,5;19,1
+Lago di Corbara;29/03/2020;3,9;19,0
+Lago di Corbara;30/03/2020;6,5;17,2
+Lago di Corbara;31/03/2020;5,4;10,3
+Lago di Nemi;01/03/2020;10,3;12,8
+Lago di Nemi;02/03/2020;9,4;12,9
+Lago di Nemi;03/03/2020;4,3;9,8
+Lago di Nemi;04/03/2020;2,7;13,8
+Lago di Nemi;05/03/2020;3,4;12,4
+Lago di Nemi;06/03/2020;8,0;11,7
+Lago di Nemi;07/03/2020;4,7;14,3
+Lago di Nemi;08/03/2020;2,5;15,4
+Lago di Nemi;09/03/2020;2,8;12,2
+Lago di Nemi;10/03/2020;2,2;13,3
+Lago di Nemi;11/03/2020;3,5;17,4
+Lago di Nemi;12/03/2020;4,0;16,2
+Lago di Nemi;13/03/2020;5,5;14,1
+Lago di Nemi;14/03/2020;9,8;13,3
+Lago di Nemi;15/03/2020;6,5;14,4
+Lago di Nemi;16/03/2020;3,9;15,1
+Lago di Nemi;17/03/2020;4,2;14,8
+Lago di Nemi;18/03/2020;5,4;16,4
+Lago di Nemi;19/03/2020;4,4;17,7
+Lago di Nemi;20/03/2020;4,0;16,4
+Lago di Nemi;21/03/2020;4,1;15,8
+Lago di Nemi;22/03/2020;5,1;17,9
+Lago di Nemi;23/03/2020;4,4;13,0
+Lago di Nemi;24/03/2020;-0,2;8,5
+Lago di Nemi;25/03/2020;-0,3;11,2
+Lago di Nemi;26/03/2020;2,5;12,4
+Lago di Nemi;27/03/2020;5,5;12,4
+Lago di Nemi;28/03/2020;6,5;12,0
+Lago di Nemi;29/03/2020;5,1;13,9
+Lago di Nemi;30/03/2020;5,5;15,9
+Lago di Nemi;31/03/2020;5,2;16,1
+Lanuvio;01/03/2020;11,1;15,0
+Lanuvio;02/03/2020;9,3;15,5
+Lanuvio;03/03/2020;5,8;13,0
+Lanuvio;04/03/2020;3,5;14,9
+Lanuvio;05/03/2020;3,2;15,6
+Lanuvio;06/03/2020;8,7;14,2
+Lanuvio;07/03/2020;6,8;15,6
+Lanuvio;08/03/2020;5,0;16,7
+Lanuvio;09/03/2020;2,1;14,5
+Lanuvio;10/03/2020;4,3;16,3
+Lanuvio;11/03/2020;4,0;18,2
+Lanuvio;12/03/2020;5,2;18,0
+Lanuvio;13/03/2020;6,8;15,9
+Lanuvio;14/03/2020;10,0;15,4
+Lanuvio;15/03/2020;7,0;17,7
+Lanuvio;16/03/2020;6,3;17,5
+Lanuvio;17/03/2020;5,2;17,6
+Lanuvio;18/03/2020;5,1;18,8
+Lanuvio;19/03/2020;6,8;19,8
+Lanuvio;20/03/2020;4,9;18,7
+Lanuvio;21/03/2020;4,9;18,8
+Lanuvio;22/03/2020;6,3;18,9
+Lanuvio;23/03/2020;4,9;14,2
+Lanuvio;24/03/2020;1,6;9,6
+Lanuvio;25/03/2020;0,0;12,4
+Lanuvio;26/03/2020;4,1;13,4
+Lanuvio;27/03/2020;7,4;14,7
+Lanuvio;28/03/2020;8,0;16,1
+Lanuvio;29/03/2020;7,8;17,2
+Lanuvio;30/03/2020;6,0;18,0
+Lanuvio;31/03/2020;5,6;17,8
+Latina;01/03/2020;11,7;17,3
+Latina;02/03/2020;10,8;18,4
+Latina;03/03/2020;8,6;14,4
+Latina;04/03/2020;5,0;16,7
+Latina;05/03/2020;5,3;16,4
+Latina;06/03/2020;11,2;16,3
+Latina;07/03/2020;8,5;17,7
+Latina;08/03/2020;5,7;18,2
+Latina;09/03/2020;5,2;16,3
+Latina;10/03/2020;6,4;17,3
+Latina;11/03/2020;5,8;20,6
+Latina;12/03/2020;6,7;19,6
+Latina;13/03/2020;8,6;18,4
+Latina;14/03/2020;11,7;17,6
+Latina;15/03/2020;9,1;19,6
+Latina;16/03/2020;7,7;19,6
+Latina;17/03/2020;7,5;19,0
+Latina;18/03/2020;7,6;20,2
+Latina;19/03/2020;8,1;21,4
+Latina;20/03/2020;6,6;20,1
+Latina;21/03/2020;7,2;20,1
+Latina;22/03/2020;7,9;20,5
+Latina;23/03/2020;7,8;17,9
+Latina;24/03/2020;2,9;12,1
+Latina;25/03/2020;1,0;13,5
+Latina;26/03/2020;5,0;14,9
+Latina;27/03/2020;9,6;16,2
+Latina;28/03/2020;10,1;16,9
+Latina;29/03/2020;8,1;19,1
+Latina;30/03/2020;8,4;19,7
+Latina;31/03/2020;7,6;19,8
+Lenola;01/03/2020;7,7;12,1
+Lenola;02/03/2020;7,6;14,5
+Lenola;03/03/2020;3,5;11,4
+Lenola;04/03/2020;2,3;13,6
+Lenola;05/03/2020;2,6;12,8
+Lenola;06/03/2020;7,1;13,3
+Lenola;07/03/2020;4,5;13,7
+Lenola;08/03/2020;3,1;12,1
+Lenola;09/03/2020;2,1;11,9
+Lenola;10/03/2020;2,4;15,2
+Lenola;11/03/2020;3,8;15,3
+Lenola;12/03/2020;5,6;15,8
+Lenola;13/03/2020;5,6;15,0
+Lenola;14/03/2020;8,5;15,5
+Lenola;15/03/2020;7,9;16,2
+Lenola;16/03/2020;5,1;17,0
+Lenola;17/03/2020;5,1;15,7
+Lenola;18/03/2020;6,1;16,9
+Lenola;19/03/2020;6,4;18,3
+Lenola;20/03/2020;6,1;16,5
+Lenola;21/03/2020;5,7;16,9
+Lenola;22/03/2020;5,5;18,0
+Lenola;23/03/2020;1,8;10,1
+Lenola;24/03/2020;-1,2;8,6
+Lenola;25/03/2020;-1,5;7,1
+Lenola;26/03/2020;2,6;8,7
+Lenola;27/03/2020;6,7;12,1
+Lenola;28/03/2020;5,8;14,2
+Lenola;29/03/2020;5,0;16,2
+Lenola;30/03/2020;5,4;16,2
+Lenola;31/03/2020;2,8;15,8
+Leonessa;01/03/2020;6,4;11,4
+Leonessa;02/03/2020;5,9;10,7
+Leonessa;03/03/2020;1,8;6,0
+Leonessa;04/03/2020;0,2;10,2
+Leonessa;05/03/2020;-4,4;11,4
+Leonessa;06/03/2020;2,2;11,0
+Leonessa;07/03/2020;0,0;8,4
+Leonessa;08/03/2020;-3,5;7,7
+Leonessa;09/03/2020;-6,0;10,1
+Leonessa;10/03/2020;0,2;11,9
+Leonessa;11/03/2020;-2,6;17,2
+Leonessa;12/03/2020;-0,7;18,2
+Leonessa;13/03/2020;0,5;18,9
+Leonessa;14/03/2020;2,1;15,1
+Leonessa;15/03/2020;2,1;12,1
+Leonessa;16/03/2020;-3,6;16,4
+Leonessa;17/03/2020;-2,6;16,2
+Leonessa;18/03/2020;-2,7;16,7
+Leonessa;19/03/2020;-2,5;17,5
+Leonessa;20/03/2020;-1,3;17,3
+Leonessa;21/03/2020;-0,3;16,6
+Leonessa;22/03/2020;4,1;14,6
+Leonessa;23/03/2020;-4,1;4,4
+Leonessa;24/03/2020;-5,8;0,2
+Leonessa;25/03/2020;-8,1;4,6
+Leonessa;26/03/2020;-1,4;6,6
+Leonessa;27/03/2020;3,2;10,6
+Leonessa;28/03/2020;1,0;12,0
+Leonessa;29/03/2020;-1,3;14,3
+Leonessa;30/03/2020;1,7;12,9
+Leonessa;31/03/2020;-3,5;5,7
+Licenza;01/03/2020;2,7;12,6
+Licenza;02/03/2020;8,0;13,0
+Licenza;03/03/2020;2,9;8,8
+Licenza;04/03/2020;0,6;13,9
+Licenza;05/03/2020;0,4;13,7
+Licenza;06/03/2020;5,2;11,9
+Licenza;07/03/2020;3,3;12,8
+Licenza;08/03/2020;2,3;13,2
+Licenza;09/03/2020;-0,9;13,1
+Licenza;10/03/2020;3,4;15,8
+Licenza;11/03/2020;2,7;18,4
+Licenza;12/03/2020;3,4;18,5
+Licenza;13/03/2020;4,1;16,9
+Licenza;14/03/2020;8,7;12,9
+Licenza;15/03/2020;6,1;17,6
+Licenza;16/03/2020;2,2;17,3
+Licenza;17/03/2020;3,4;16,9
+Licenza;18/03/2020;4,1;18,1
+Licenza;19/03/2020;4,7;19,7
+Licenza;20/03/2020;4,7;19,3
+Licenza;21/03/2020;5,1;17,4
+Licenza;22/03/2020;5,8;18,4
+Licenza;23/03/2020;-0,3;13,1
+Licenza;24/03/2020;-2,2;8,3
+Licenza;25/03/2020;-2,1;9,6
+Licenza;26/03/2020;5,1;12,6
+Licenza;27/03/2020;6,6;16,0
+Licenza;28/03/2020;6,5;13,4
+Licenza;29/03/2020;3,5;15,5
+Licenza;30/03/2020;4,6;15,6
+Licenza;31/03/2020;3,0;15,2
+Liri a Ceprano;01/03/2020;4,5;17,7
+Liri a Ceprano;02/03/2020;5,2;18,1
+Liri a Ceprano;03/03/2020;6,2;14,5
+Liri a Ceprano;04/03/2020;1,1;16,9
+Liri a Ceprano;05/03/2020;0,1;16,9
+Liri a Ceprano;06/03/2020;8,1;15,9
+Liri a Ceprano;07/03/2020;5,8;16,6
+Liri a Ceprano;08/03/2020;1,0;17,9
+Liri a Ceprano;09/03/2020;0,0;15,5
+Liri a Ceprano;10/03/2020;0,1;18,2
+Liri a Ceprano;11/03/2020;0,9;20,7
+Liri a Ceprano;12/03/2020;1,6;22,1
+Liri a Ceprano;13/03/2020;5,4;19,0
+Liri a Ceprano;14/03/2020;9,7;18,3
+Liri a Ceprano;15/03/2020;6,8;20,2
+Liri a Ceprano;16/03/2020;1,4;20,9
+Liri a Ceprano;17/03/2020;1,1;19,2
+Liri a Ceprano;18/03/2020;2,4;22,4
+Liri a Ceprano;19/03/2020;1,5;23,4
+Liri a Ceprano;20/03/2020;2,1;22,2
+Liri a Ceprano;21/03/2020;2,4;20,7
+Liri a Ceprano;22/03/2020;2,8;21,2
+Liri a Ceprano;23/03/2020;5,4;15,3
+Liri a Ceprano;24/03/2020;-1,5;11,3
+Liri a Ceprano;25/03/2020;-4,5;12,6
+Liri a Ceprano;26/03/2020;4,5;10,5
+Liri a Ceprano;27/03/2020;6,9;17,6
+Liri a Ceprano;28/03/2020;7,9;16,0
+Liri a Ceprano;29/03/2020;5,1;20,3
+Liri a Ceprano;30/03/2020;6,1;20,1
+Liri a Ceprano;31/03/2020;3,2;18,1
+Liri a Civitella Roveto;01/03/2020;1,9;12,8
+Liri a Civitella Roveto;02/03/2020;7,3;13,7
+Liri a Civitella Roveto;03/03/2020;4,2;11,2
+Liri a Civitella Roveto;04/03/2020;0,5;13,0
+Liri a Civitella Roveto;05/03/2020;-0,5;14,6
+Liri a Civitella Roveto;06/03/2020;5,4;13,5
+Liri a Civitella Roveto;07/03/2020;4,9;13,2
+Liri a Civitella Roveto;08/03/2020;0,9;11,8
+Liri a Civitella Roveto;09/03/2020;-1,0;12,9
+Liri a Civitella Roveto;10/03/2020;3,1;14,3
+Liri a Civitella Roveto;11/03/2020;0,8;18,7
+Liri a Civitella Roveto;12/03/2020;2,2;19,4
+Liri a Civitella Roveto;13/03/2020;3,1;17,6
+Liri a Civitella Roveto;14/03/2020;6,0;17,0
+Liri a Civitella Roveto;15/03/2020;6,6;14,7
+Liri a Civitella Roveto;16/03/2020;2,9;18,2
+Liri a Civitella Roveto;17/03/2020;1,2;17,9
+Liri a Civitella Roveto;18/03/2020;3,0;19,3
+Liri a Civitella Roveto;19/03/2020;4,1;20,8
+Liri a Civitella Roveto;20/03/2020;2,6;20,2
+Liri a Civitella Roveto;21/03/2020;2,8;18,3
+Liri a Civitella Roveto;22/03/2020;5,7;15,1
+Liri a Civitella Roveto;23/03/2020;0,4;8,8
+Liri a Civitella Roveto;24/03/2020;-2,4;5,7
+Liri a Civitella Roveto;25/03/2020;-2,3;6,1
+Liri a Civitella Roveto;26/03/2020;1,9;8,7
+Liri a Civitella Roveto;27/03/2020;6,4;13,3
+Liri a Civitella Roveto;28/03/2020;6,4;13,3
+Liri a Civitella Roveto;29/03/2020;1,8;17,8
+Liri a Civitella Roveto;30/03/2020;6,3;16,3
+Liri a Civitella Roveto;31/03/2020;2,8;12,3
+Lugnano;01/03/2020;5,8;14,1
+Lugnano;02/03/2020;8,3;14,9
+Lugnano;03/03/2020;4,5;9,0
+Lugnano;04/03/2020;0,0;12,3
+Lugnano;05/03/2020;-0,4;14,0
+Lugnano;06/03/2020;5,7;13,8
+Lugnano;07/03/2020;2,8;12,6
+Lugnano;08/03/2020;1,1;13,2
+Lugnano;09/03/2020;-1,3;13,1
+Lugnano;10/03/2020;1,5;14,0
+Lugnano;11/03/2020;1,6;19,5
+Lugnano;12/03/2020;3,4;20,5
+Lugnano;13/03/2020;4,2;20,3
+Lugnano;14/03/2020;7,1;13,0
+Lugnano;15/03/2020;4,1;17,8
+Lugnano;16/03/2020;1,4;18,9
+Lugnano;17/03/2020;2,3;16,8
+Lugnano;18/03/2020;2,6;20,3
+Lugnano;19/03/2020;4,1;20,3
+Lugnano;20/03/2020;3,9;21,0
+Lugnano;21/03/2020;4,1;19,5
+Lugnano;22/03/2020;6,4;18,4
+Lugnano;23/03/2020;-0,7;11,4
+Lugnano;24/03/2020;-2,8;6,0
+Lugnano;25/03/2020;-4,3;9,3
+Lugnano;26/03/2020;3,9;12,8
+Lugnano;27/03/2020;6,6;16,5
+Lugnano;28/03/2020;5,9;14,8
+Lugnano;29/03/2020;2,9;17,9
+Lugnano;30/03/2020;4,7;16,8
+Lugnano;31/03/2020;0,9;11,1
+Maccarese rlazio;01/03/2020;12,0;15,6
+Maccarese rlazio;02/03/2020;10,8;14,9
+Maccarese rlazio;03/03/2020;8,0;14,4
+Maccarese rlazio;04/03/2020;5,9;14,8
+Maccarese rlazio;05/03/2020;3,6;14,2
+Maccarese rlazio;06/03/2020;12,5;16,4
+Maccarese rlazio;07/03/2020;6,3;15,4
+Maccarese rlazio;08/03/2020;6,8;16,7
+Maccarese rlazio;09/03/2020;3,2;14,9
+Maccarese rlazio;10/03/2020;5,4;16,0
+Maccarese rlazio;11/03/2020;4,8;16,0
+Maccarese rlazio;12/03/2020;6,5;16,7
+Maccarese rlazio;13/03/2020;9,0;15,8
+Maccarese rlazio;14/03/2020;11,4;15,7
+Maccarese rlazio;15/03/2020;9,2;17,8
+Maccarese rlazio;16/03/2020;6,6;17,2
+Maccarese rlazio;17/03/2020;6,5;16,9
+Maccarese rlazio;18/03/2020;6,3;16,7
+Maccarese rlazio;19/03/2020;6,6;18,6
+Maccarese rlazio;20/03/2020;5,1;17,3
+Maccarese rlazio;21/03/2020;5,7;16,8
+Maccarese rlazio;22/03/2020;6,6;17,1
+Maccarese rlazio;23/03/2020;4,1;12,8
+Maccarese rlazio;24/03/2020;2,5;10,6
+Maccarese rlazio;25/03/2020;1,5;12,7
+Maccarese rlazio;26/03/2020;5,1;11,3
+Maccarese rlazio;27/03/2020;8,6;15,5
+Maccarese rlazio;28/03/2020;9,0;15,5
+Maccarese rlazio;29/03/2020;8,2;16,4
+Maccarese rlazio;30/03/2020;6,9;15,8
+Maccarese rlazio;31/03/2020;6,4;17,2
+Mandrione;01/03/2020;8,3;15,2
+Mandrione;02/03/2020;8,9;14,0
+Mandrione;03/03/2020;6,0;16,2
+Mandrione;04/03/2020;1,7;16,8
+Mandrione;05/03/2020;1,1;16,3
+Mandrione;06/03/2020;4,0;18,2
+Mandrione;07/03/2020;1,9;15,6
+Mandrione;08/03/2020;2,1;16,0
+Mandrione;09/03/2020;-0,6;16,2
+Mandrione;10/03/2020;4,5;18,4
+Mandrione;11/03/2020;0,5;18,4
+Mandrione;12/03/2020;4,5;16,7
+Mandrione;13/03/2020;6,8;16,3
+Mandrione;14/03/2020;6,7;16,1
+Mandrione;15/03/2020;4,4;18,5
+Mandrione;16/03/2020;2,1;19,3
+Mandrione;17/03/2020;3,0;19,9
+Mandrione;18/03/2020;1,7;22,0
+Mandrione;19/03/2020;3,5;22,0
+Mandrione;20/03/2020;1,7;20,0
+Mandrione;21/03/2020;3,2;20,4
+Mandrione;22/03/2020;4,4;21,7
+Mandrione;23/03/2020;1,6;11,3
+Mandrione;24/03/2020;-3,0;10,2
+Mandrione;25/03/2020;1,2;13,7
+Mandrione;26/03/2020;3,2;11,1
+Mandrione;27/03/2020;5,9;16,6
+Mandrione;28/03/2020;5,3;17,5
+Mandrione;29/03/2020;2,7;19,9
+Mandrione;30/03/2020;3,1;19,8
+Mandrione;31/03/2020;3,4;13,9
+Manziana;01/03/2020;8,3;12,5
+Manziana;02/03/2020;8,6;12,0
+Manziana;03/03/2020;6,3;13,4
+Manziana;04/03/2020;3,2;14,7
+Manziana;05/03/2020;4,1;13,8
+Manziana;06/03/2020;5,7;15,4
+Manziana;07/03/2020;4,1;14,0
+Manziana;08/03/2020;4,1;14,2
+Manziana;09/03/2020;3,4;13,8
+Manziana;10/03/2020;5,8;16,8
+Manziana;11/03/2020;5,4;18,9
+Manziana;12/03/2020;6,4;17,0
+Manziana;13/03/2020;8,3;13,8
+Manziana;14/03/2020;9,3;12,3
+Manziana;15/03/2020;6,5;18,5
+Manziana;16/03/2020;5,9;19,2
+Manziana;17/03/2020;7,8;17,3
+Manziana;18/03/2020;8,1;19,7
+Manziana;19/03/2020;8,6;19,5
+Manziana;20/03/2020;7,9;19,3
+Manziana;21/03/2020;7,0;18,5
+Manziana;22/03/2020;8,1;19,3
+Manziana;23/03/2020;1,1;9,0
+Manziana;24/03/2020;-1,2;7,4
+Manziana;25/03/2020;-0,4;11,9
+Manziana;26/03/2020;1,7;10,3
+Manziana;27/03/2020;5,8;15,7
+Manziana;28/03/2020;6,8;15,7
+Manziana;29/03/2020;6,3;16,0
+Manziana;30/03/2020;6,5;17,1
+Manziana;31/03/2020;2,7;15,4
+Marta;01/03/2020;9,1;13,3
+Marta;02/03/2020;10,0;12,6
+Marta;03/03/2020;6,8;11,5
+Marta;04/03/2020;3,6;12,5
+Marta;05/03/2020;6,3;12,0
+Marta;06/03/2020;5,1;14,1
+Marta;07/03/2020;4,3;11,1
+Marta;08/03/2020;7,6;11,5
+Marta;09/03/2020;2,5;11,7
+Marta;10/03/2020;6,2;14,9
+Marta;11/03/2020;4,3;15,7
+Marta;12/03/2020;6,7;13,6
+Marta;13/03/2020;7,9;12,2
+Marta;14/03/2020;8,1;13,7
+Marta;15/03/2020;8,8;12,6
+Marta;16/03/2020;6,1;15,4
+Marta;17/03/2020;5,4;15,4
+Marta;18/03/2020;5,7;14,5
+Marta;19/03/2020;6,2;17,8
+Marta;20/03/2020;5,0;16,7
+Marta;21/03/2020;5,0;15,8
+Marta;22/03/2020;7,4;14,6
+Marta;23/03/2020;3,5;8,4
+Marta;24/03/2020;2,5;6,1
+Marta;25/03/2020;2,2;7,8
+Marta;26/03/2020;3,9;9,0
+Marta;27/03/2020;8,6;11,4
+Marta;28/03/2020;7,3;14,8
+Marta;29/03/2020;4,6;15,6
+Marta;30/03/2020;6,4;13,1
+Marta;31/03/2020;4,7;9,6
+Marta a Tarquinia;01/03/2020;11,4;15,7
+Marta a Tarquinia;02/03/2020;12,1;15,0
+Marta a Tarquinia;03/03/2020;7,8;15,1
+Marta a Tarquinia;04/03/2020;4,7;15,6
+Marta a Tarquinia;05/03/2020;3,3;15,0
+Marta a Tarquinia;06/03/2020;6,9;17,6
+Marta a Tarquinia;07/03/2020;4,2;15,4
+Marta a Tarquinia;08/03/2020;4,2;15,7
+Marta a Tarquinia;09/03/2020;1,9;15,4
+Marta a Tarquinia;10/03/2020;4,3;18,1
+Marta a Tarquinia;11/03/2020;3,2;16,5
+Marta a Tarquinia;12/03/2020;7,0;16,2
+Marta a Tarquinia;13/03/2020;7,4;15,9
+Marta a Tarquinia;14/03/2020;8,6;14,9
+Marta a Tarquinia;15/03/2020;8,2;18,4
+Marta a Tarquinia;16/03/2020;5,2;17,8
+Marta a Tarquinia;17/03/2020;4,7;17,6
+Marta a Tarquinia;18/03/2020;4,0;19,1
+Marta a Tarquinia;19/03/2020;6,7;19,6
+Marta a Tarquinia;20/03/2020;3,6;17,7
+Marta a Tarquinia;21/03/2020;5,6;16,9
+Marta a Tarquinia;22/03/2020;6,0;19,0
+Marta a Tarquinia;23/03/2020;2,6;10,3
+Marta a Tarquinia;24/03/2020;-2,9;9,7
+Marta a Tarquinia;25/03/2020;1,0;13,8
+Marta a Tarquinia;26/03/2020;4,4;12,1
+Marta a Tarquinia;27/03/2020;8,1;17,0
+Marta a Tarquinia;28/03/2020;7,6;15,7
+Marta a Tarquinia;29/03/2020;5,5;16,4
+Marta a Tarquinia;30/03/2020;5,4;16,3
+Marta a Tarquinia;31/03/2020;6,2;14,4
+Massimina;01/03/2020;11,2;15,4
+Massimina;02/03/2020;8,6;14,6
+Massimina;03/03/2020;7,2;13,9
+Massimina;04/03/2020;4,4;16,4
+Massimina;05/03/2020;3,7;15,1
+Massimina;06/03/2020;9,3;16,5
+Massimina;07/03/2020;5,5;16,6
+Massimina;08/03/2020;5,1;17,3
+Massimina;09/03/2020;2,8;15,2
+Massimina;10/03/2020;4,4;17,5
+Massimina;11/03/2020;4,2;18,1
+Massimina;12/03/2020;6,6;17,4
+Massimina;13/03/2020;9,5;15,5
+Massimina;14/03/2020;10,7;14,8
+Massimina;15/03/2020;7,9;18,4
+Massimina;16/03/2020;5,1;18,3
+Massimina;17/03/2020;5,7;17,7
+Massimina;18/03/2020;5,1;19,8
+Massimina;19/03/2020;6,2;20,5
+Massimina;20/03/2020;5,5;18,5
+Massimina;21/03/2020;5,4;18,9
+Massimina;22/03/2020;6,9;20,0
+Massimina;23/03/2020;3,4;14,2
+Massimina;24/03/2020;0,6;10,8
+Massimina;25/03/2020;-0,8;14,2
+Massimina;26/03/2020;4,0;10,7
+Massimina;27/03/2020;6,7;15,6
+Massimina;28/03/2020;7,3;16,4
+Massimina;29/03/2020;7,6;17,7
+Massimina;30/03/2020;6,9;17,6
+Massimina;31/03/2020;4,9;18,2
+Melfa ad Atina;01/03/2020;2,2;14,2
+Melfa ad Atina;02/03/2020;5,3;15,7
+Melfa ad Atina;03/03/2020;4,9;13,0
+Melfa ad Atina;04/03/2020;0,2;14,6
+Melfa ad Atina;05/03/2020;-0,6;14,7
+Melfa ad Atina;06/03/2020;6,3;14,5
+Melfa ad Atina;07/03/2020;3,5;13,7
+Melfa ad Atina;08/03/2020;0,9;14,6
+Melfa ad Atina;09/03/2020;-0,8;13,2
+Melfa ad Atina;10/03/2020;-0,7;16,0
+Melfa ad Atina;11/03/2020;0,0;19,0
+Melfa ad Atina;12/03/2020;1,3;20,3
+Melfa ad Atina;13/03/2020;2,9;17,9
+Melfa ad Atina;14/03/2020;9,6;18,2
+Melfa ad Atina;15/03/2020;4,0;18,1
+Melfa ad Atina;16/03/2020;-0,4;18,9
+Melfa ad Atina;17/03/2020;0,5;18,3
+Melfa ad Atina;18/03/2020;1,7;20,6
+Melfa ad Atina;19/03/2020;0,7;21,1
+Melfa ad Atina;20/03/2020;1,8;20,3
+Melfa ad Atina;21/03/2020;2,0;19,2
+Melfa ad Atina;22/03/2020;2,0;19,0
+Melfa ad Atina;23/03/2020;3,0;13,3
+Melfa ad Atina;24/03/2020;-1,0;8,0
+Melfa ad Atina;25/03/2020;-5,1;10,0
+Melfa ad Atina;26/03/2020;4,7;13,1
+Melfa ad Atina;27/03/2020;7,7;15,5
+Melfa ad Atina;28/03/2020;6,7;14,0
+Melfa ad Atina;29/03/2020;3,8;17,5
+Melfa ad Atina;30/03/2020;5,0;16,9
+Melfa ad Atina;31/03/2020;3,1;15,0
+Micigliano;01/03/2020;5,7;10,5
+Micigliano;02/03/2020;5,5;11,4
+Micigliano;03/03/2020;1,5;5,6
+Micigliano;04/03/2020;0,1;9,9
+Micigliano;05/03/2020;-0,5;12,0
+Micigliano;06/03/2020;2,4;10,7
+Micigliano;07/03/2020;0,8;9,2
+Micigliano;08/03/2020;-0,2;8,0
+Micigliano;09/03/2020;-1,4;11,3
+Micigliano;10/03/2020;2,0;12,5
+Micigliano;11/03/2020;1,9;18,5
+Micigliano;12/03/2020;5,2;18,4
+Micigliano;13/03/2020;5,3;19,5
+Micigliano;14/03/2020;4,8;12,9
+Micigliano;15/03/2020;2,7;12,3
+Micigliano;16/03/2020;-0,2;18,3
+Micigliano;17/03/2020;3,2;16,3
+Micigliano;18/03/2020;4,4;17,4
+Micigliano;19/03/2020;5,8;19,3
+Micigliano;20/03/2020;5,6;18,4
+Micigliano;21/03/2020;5,4;17,9
+Micigliano;22/03/2020;3,9;13,7
+Micigliano;23/03/2020;-4,1;5,2
+Micigliano;24/03/2020;-4,9;2,0
+Micigliano;25/03/2020;-4,5;3,8
+Micigliano;26/03/2020;-0,2;7,7
+Micigliano;27/03/2020;3,3;11,2
+Micigliano;28/03/2020;3,5;10,7
+Micigliano;29/03/2020;2,2;15,9
+Micigliano;30/03/2020;3,8;12,8
+Micigliano;31/03/2020;-2,8;5,9
+Montalto di Castro meteo;01/03/2020;10,9;15,5
+Montalto di Castro meteo;02/03/2020;11,8;14,7
+Montalto di Castro meteo;03/03/2020;6,9;16,0
+Montalto di Castro meteo;04/03/2020;3,0;17,0
+Montalto di Castro meteo;05/03/2020;2,6;14,7
+Montalto di Castro meteo;06/03/2020;5,6;17,6
+Montalto di Castro meteo;07/03/2020;4,1;16,0
+Montalto di Castro meteo;08/03/2020;3,4;16,3
+Montalto di Castro meteo;09/03/2020;1,2;15,0
+Montalto di Castro meteo;10/03/2020;5,0;18,1
+Montalto di Castro meteo;11/03/2020;2,2;17,1
+Montalto di Castro meteo;12/03/2020;6,7;15,5
+Montalto di Castro meteo;13/03/2020;9,3;16,5
+Montalto di Castro meteo;14/03/2020;8,2;15,7
+Montalto di Castro meteo;15/03/2020;6,2;18,1
+Montalto di Castro meteo;16/03/2020;4,9;17,3
+Montalto di Castro meteo;17/03/2020;3,8;18,5
+Montalto di Castro meteo;18/03/2020;4,0;19,3
+Montalto di Castro meteo;19/03/2020;5,1;18,4
+Montalto di Castro meteo;20/03/2020;3,0;18,5
+Montalto di Castro meteo;21/03/2020;5,7;17,8
+Montalto di Castro meteo;22/03/2020;5,7;19,0
+Montalto di Castro meteo;23/03/2020;3,2;11,1
+Montalto di Castro meteo;24/03/2020;-3,0;10,7
+Montalto di Castro meteo;25/03/2020;1,6;13,5
+Montalto di Castro meteo;26/03/2020;3,9;11,1
+Montalto di Castro meteo;27/03/2020;6,6;17,0
+Montalto di Castro meteo;28/03/2020;6,2;17,5
+Montalto di Castro meteo;29/03/2020;5,5;17,3
+Montalto di Castro meteo;30/03/2020;4,8;17,4
+Montalto di Castro meteo;31/03/2020;5,3;14,4
+Montasola;01/03/2020;3,1;13,0
+Montasola;02/03/2020;8,0;13,1
+Montasola;03/03/2020;4,4;10,3
+Montasola;04/03/2020;1,6;12,7
+Montasola;05/03/2020;0,2;12,0
+Montasola;06/03/2020;6,1;12,9
+Montasola;07/03/2020;2,2;11,2
+Montasola;08/03/2020;2,0;13,8
+Montasola;09/03/2020;-0,3;13,3
+Montasola;10/03/2020;0,7;14,5
+Montasola;11/03/2020;2,9;18,8
+Montasola;12/03/2020;2,6;16,7
+Montasola;13/03/2020;4,2;15,5
+Montasola;14/03/2020;6,7;11,4
+Montasola;15/03/2020;4,9;17,3
+Montasola;16/03/2020;1,6;17,4
+Montasola;17/03/2020;3,5;16,9
+Montasola;18/03/2020;3,6;18,2
+Montasola;19/03/2020;5,8;19,8
+Montasola;20/03/2020;3,8;18,7
+Montasola;21/03/2020;3,8;17,4
+Montasola;22/03/2020;5,8;20,0
+Montasola;23/03/2020;-2,5;8,7
+Montasola;24/03/2020;-3,1;6,6
+Montasola;25/03/2020;-3,5;10,0
+Montasola;26/03/2020;2,9;12,8
+Montasola;27/03/2020;4,1;15,0
+Montasola;28/03/2020;5,5;14,6
+Montasola;29/03/2020;3,1;17,7
+Montasola;30/03/2020;4,5;16,4
+Montasola;31/03/2020;1,3;11,3
+Monte Romano;01/03/2020;10,3;14,4
+Monte Romano;02/03/2020;10,4;13,6
+Monte Romano;03/03/2020;6,2;14,5
+Monte Romano;04/03/2020;3,5;15,0
+Monte Romano;05/03/2020;3,1;14,8
+Monte Romano;06/03/2020;6,7;17,3
+Monte Romano;07/03/2020;5,0;14,8
+Monte Romano;08/03/2020;4,7;15,9
+Monte Romano;09/03/2020;3,3;14,2
+Monte Romano;10/03/2020;4,0;18,2
+Monte Romano;11/03/2020;5,5;18,5
+Monte Romano;12/03/2020;7,3;15,3
+Monte Romano;13/03/2020;8,5;15,3
+Monte Romano;14/03/2020;9,7;13,5
+Monte Romano;15/03/2020;6,4;18,0
+Monte Romano;16/03/2020;4,3;18,1
+Monte Romano;17/03/2020;6,4;17,3
+Monte Romano;18/03/2020;6,4;21,5
+Monte Romano;19/03/2020;7,0;20,9
+Monte Romano;20/03/2020;7,0;19,4
+Monte Romano;21/03/2020;6,5;17,5
+Monte Romano;22/03/2020;7,2;20,9
+Monte Romano;23/03/2020;0,6;8,5
+Monte Romano;24/03/2020;-2,3;9,0
+Monte Romano;25/03/2020;-0,7;13,2
+Monte Romano;26/03/2020;2,8;11,5
+Monte Romano;27/03/2020;7,1;16,1
+Monte Romano;28/03/2020;6,2;15,6
+Monte Romano;29/03/2020;5,8;17,8
+Monte Romano;30/03/2020;5,7;17,4
+Monte Romano;31/03/2020;3,7;13,6
+Monte Terminillo;01/03/2020;-1,8;2,2
+Monte Terminillo;02/03/2020;-0,5;2,9
+Monte Terminillo;03/03/2020;-3,5;0,3
+Monte Terminillo;04/03/2020;-5,3;-0,3
+Monte Terminillo;05/03/2020;-3,2;4,2
+Monte Terminillo;06/03/2020;-2,1;1,8
+Monte Terminillo;07/03/2020;-3,5;0,3
+Monte Terminillo;08/03/2020;-4,6;-0,1
+Monte Terminillo;09/03/2020;-5,1;1,7
+Monte Terminillo;10/03/2020;-3,6;5,7
+Monte Terminillo;11/03/2020;0,0;12,2
+Monte Terminillo;12/03/2020;5,0;9,1
+Monte Terminillo;13/03/2020;6,6;13,0
+Monte Terminillo;14/03/2020;0,8;10,6
+Monte Terminillo;15/03/2020;-2,3;5,1
+Monte Terminillo;16/03/2020;-0,7;10,1
+Monte Terminillo;17/03/2020;-0,6;9,4
+Monte Terminillo;18/03/2020;0,4;9,1
+Monte Terminillo;19/03/2020;1,1;10,8
+Monte Terminillo;20/03/2020;1,5;10,3
+Monte Terminillo;21/03/2020;1,0;10,5
+Monte Terminillo;22/03/2020;-2,9;7,7
+Monte Terminillo;23/03/2020;-11,5;-2,1
+Monte Terminillo;24/03/2020;-11,2;-6,6
+Monte Terminillo;25/03/2020;-11,1;-4,0
+Monte Terminillo;26/03/2020;-6,2;-1,4
+Monte Terminillo;27/03/2020;-2,2;2,7
+Monte Terminillo;28/03/2020;-1,1;3,9
+Monte Terminillo;29/03/2020;-2,1;5,3
+Monte Terminillo;30/03/2020;-0,6;4,7
+Monte Terminillo;31/03/2020;-8,9;1,7
+Montefiascone;01/03/2020;7,8;11,9
+Montefiascone;02/03/2020;7,5;11,0
+Montefiascone;03/03/2020;3,9;10,0
+Montefiascone;04/03/2020;3,4;13,4
+Montefiascone;05/03/2020;3,1;13,0
+Montefiascone;06/03/2020;5,9;14,7
+Montefiascone;07/03/2020;4,4;10,9
+Montefiascone;08/03/2020;4,3;12,0
+Montefiascone;09/03/2020;4,6;12,3
+Montefiascone;10/03/2020;4,0;15,4
+Montefiascone;11/03/2020;6,5;17,4
+Montefiascone;12/03/2020;6,1;13,5
+Montefiascone;13/03/2020;7,5;12,2
+Montefiascone;14/03/2020;7,9;12,9
+Montefiascone;15/03/2020;5,7;14,1
+Montefiascone;16/03/2020;5,2;17,8
+Montefiascone;17/03/2020;7,3;16,7
+Montefiascone;18/03/2020;7,1;19,2
+Montefiascone;19/03/2020;9,1;19,7
+Montefiascone;20/03/2020;8,5;18,4
+Montefiascone;21/03/2020;7,5;17,9
+Montefiascone;22/03/2020;5,3;17,2
+Montefiascone;23/03/2020;-0,5;5,3
+Montefiascone;24/03/2020;-1,9;4,9
+Montefiascone;25/03/2020;-2,1;9,3
+Montefiascone;26/03/2020;0,3;7,3
+Montefiascone;27/03/2020;6,0;13,1
+Montefiascone;28/03/2020;5,6;16,4
+Montefiascone;29/03/2020;6,6;17,6
+Montefiascone;30/03/2020;6,5;14,9
+Montefiascone;31/03/2020;1,0;8,1
+Montelibretti;01/03/2020;9,0;15,6
+Montelibretti;02/03/2020;9,1;14,8
+Montelibretti;03/03/2020;6,7;10,8
+Montelibretti;04/03/2020;4,0;14,5
+Montelibretti;05/03/2020;3,1;13,8
+Montelibretti;06/03/2020;8,7;14,6
+Montelibretti;07/03/2020;5,4;14,6
+Montelibretti;08/03/2020;5,5;16,4
+Montelibretti;09/03/2020;3,0;14,4
+Montelibretti;10/03/2020;6,1;16,7
+Montelibretti;11/03/2020;6,8;19,1
+Montelibretti;12/03/2020;7,5;17,7
+Montelibretti;13/03/2020;8,7;15,2
+Montelibretti;14/03/2020;10,6;12,9
+Montelibretti;15/03/2020;7,2;19,9
+Montelibretti;16/03/2020;7,5;18,4
+Montelibretti;17/03/2020;6,7;17,5
+Montelibretti;18/03/2020;7,3;18,9
+Montelibretti;19/03/2020;9,5;19,8
+Montelibretti;20/03/2020;9,7;18,9
+Montelibretti;21/03/2020;7,8;18,4
+Montelibretti;22/03/2020;9,9;19,0
+Montelibretti;23/03/2020;3,4;13,7
+Montelibretti;24/03/2020;0,4;9,6
+Montelibretti;25/03/2020;0,6;12,2
+Montelibretti;26/03/2020;4,0;12,9
+Montelibretti;27/03/2020;8,7;15,5
+Montelibretti;28/03/2020;6,9;14,5
+Montelibretti;29/03/2020;8,0;17,7
+Montelibretti;30/03/2020;8,7;17,5
+Montelibretti;31/03/2020;4,5;15,1
+Monterotondo ETG;01/03/2020;10,1;15,2
+Monterotondo ETG;02/03/2020;10,0;15,4
+Monterotondo ETG;03/03/2020;7,8;11,8
+Monterotondo ETG;04/03/2020;4,5;14,1
+Monterotondo ETG;05/03/2020;3,2;14,9
+Monterotondo ETG;06/03/2020;8,7;14,1
+Monterotondo ETG;07/03/2020;6,0;15,6
+Monterotondo ETG;08/03/2020;5,9;15,7
+Monterotondo ETG;09/03/2020;3,2;14,7
+Monterotondo ETG;10/03/2020;4,3;17,2
+Monterotondo ETG;11/03/2020;5,3;18,7
+Monterotondo ETG;12/03/2020;9,1;18,4
+Monterotondo ETG;13/03/2020;8,4;16,2
+Monterotondo ETG;14/03/2020;11,5;13,4
+Monterotondo ETG;15/03/2020;7,9;19,1
+Monterotondo ETG;16/03/2020;5,0;18,6
+Monterotondo ETG;17/03/2020;6,4;17,4
+Monterotondo ETG;18/03/2020;5,7;19,6
+Monterotondo ETG;19/03/2020;7,5;20,7
+Monterotondo ETG;20/03/2020;7,2;19,8
+Monterotondo ETG;21/03/2020;7,3;18,9
+Monterotondo ETG;22/03/2020;8,9;21,4
+Monterotondo ETG;23/03/2020;3,3;11,8
+Monterotondo ETG;24/03/2020;0,6;9,3
+Monterotondo ETG;25/03/2020;-0,6;13,5
+Monterotondo ETG;26/03/2020;4,7;14,0
+Monterotondo ETG;27/03/2020;8,9;16,2
+Monterotondo ETG;28/03/2020;8,0;16,3
+Monterotondo ETG;29/03/2020;6,9;18,3
+Monterotondo ETG;30/03/2020;9,1;17,8
+Monterotondo ETG;31/03/2020;4,2;15,2
+Moricone;01/03/2020;7,6;15,6
+Moricone;02/03/2020;8,2;14,5
+Moricone;03/03/2020;5,1;9,5
+Moricone;04/03/2020;2,2;13,5
+Moricone;05/03/2020;1,9;13,3
+Moricone;06/03/2020;7,9;13,5
+Moricone;07/03/2020;4,8;13,5
+Moricone;08/03/2020;2,9;13,9
+Moricone;09/03/2020;2,2;13,5
+Moricone;10/03/2020;4,0;15,0
+Moricone;11/03/2020;5,5;18,1
+Moricone;12/03/2020;4,5;17,7
+Moricone;13/03/2020;6,5;14,9
+Moricone;14/03/2020;9,6;11,6
+Moricone;15/03/2020;5,5;18,4
+Moricone;16/03/2020;5,5;17,6
+Moricone;17/03/2020;6,3;15,7
+Moricone;18/03/2020;5,8;18,2
+Moricone;19/03/2020;7,8;19,9
+Moricone;20/03/2020;6,9;18,6
+Moricone;21/03/2020;6,7;17,3
+Moricone;22/03/2020;7,9;17,4
+Moricone;23/03/2020;2,4;11,7
+Moricone;24/03/2020;-1,3;7,2
+Moricone;25/03/2020;0,0;11,0
+Moricone;26/03/2020;2,9;13,1
+Moricone;27/03/2020;7,6;15,3
+Moricone;28/03/2020;6,3;13,0
+Moricone;29/03/2020;5,5;17,0
+Moricone;30/03/2020;6,9;15,8
+Moricone;31/03/2020;3,9;14,2
+Morlupo;01/03/2020;9,0;14,3
+Morlupo;02/03/2020;9,5;14,1
+Morlupo;03/03/2020;7,3;12,2
+Morlupo;04/03/2020;4,7;14,0
+Morlupo;05/03/2020;4,0;14,1
+Morlupo;06/03/2020;7,3;14,0
+Morlupo;07/03/2020;5,7;14,9
+Morlupo;08/03/2020;5,7;14,4
+Morlupo;09/03/2020;4,1;14,3
+Morlupo;10/03/2020;5,3;16,8
+Morlupo;11/03/2020;7,3;20,9
+Morlupo;12/03/2020;8,5;17,6
+Morlupo;13/03/2020;8,6;15,6
+Morlupo;14/03/2020;10,2;13,1
+Morlupo;15/03/2020;7,9;18,6
+Morlupo;16/03/2020;5,6;18,6
+Morlupo;17/03/2020;7,3;17,4
+Morlupo;18/03/2020;7,5;19,3
+Morlupo;19/03/2020;9,1;20,4
+Morlupo;20/03/2020;8,3;19,6
+Morlupo;21/03/2020;8,6;18,4
+Morlupo;22/03/2020;8,3;20,8
+Morlupo;23/03/2020;1,8;9,5
+Morlupo;24/03/2020;0,6;8,0
+Morlupo;25/03/2020;-0,6;12,7
+Morlupo;26/03/2020;3,6;12,2
+Morlupo;27/03/2020;8,6;16,2
+Morlupo;28/03/2020;7,8;14,6
+Morlupo;29/03/2020;7,8;17,3
+Morlupo;30/03/2020;9,0;17,7
+Morlupo;31/03/2020;3,7;12,9
+Nepi;01/03/2020;8,9;14,1
+Nepi;02/03/2020;7,4;14,0
+Nepi;03/03/2020;6,7;14,6
+Nepi;04/03/2020;0,3;14,2
+Nepi;05/03/2020;-1,3;15,2
+Nepi;06/03/2020;4,9;16,4
+Nepi;07/03/2020;1,6;15,0
+Nepi;08/03/2020;4,4;13,8
+Nepi;09/03/2020;-0,9;15,0
+Nepi;10/03/2020;3,4;17,2
+Nepi;11/03/2020;0,0;20,0
+Nepi;12/03/2020;1,3;17,3
+Nepi;13/03/2020;3,1;16,7
+Nepi;14/03/2020;7,2;14,0
+Nepi;15/03/2020;3,3;17,7
+Nepi;16/03/2020;-1,0;20,8
+Nepi;17/03/2020;0,0;18,5
+Nepi;18/03/2020;0,0;21,5
+Nepi;19/03/2020;0,0;21,2
+Nepi;20/03/2020;0,4;20,1
+Nepi;21/03/2020;0,8;18,9
+Nepi;22/03/2020;3,7;20,9
+Nepi;23/03/2020;2,5;8,4
+Nepi;24/03/2020;-0,3;7,2
+Nepi;25/03/2020;-0,2;12,2
+Nepi;26/03/2020;3,3;11,1
+Nepi;27/03/2020;5,7;18,5
+Nepi;28/03/2020;5,2;17,2
+Nepi;29/03/2020;2,6;18,5
+Nepi;30/03/2020;5,3;17,9
+Nepi;31/03/2020;1,5;12,1
+Norma;01/03/2020;9,6;13,6
+Norma;02/03/2020;8,9;14,4
+Norma;03/03/2020;5,1;9,9
+Norma;04/03/2020;3,8;14,0
+Norma;05/03/2020;5,0;12,5
+Norma;06/03/2020;8,1;11,1
+Norma;07/03/2020;6,3;12,0
+Norma;08/03/2020;5,3;14,0
+Norma;09/03/2020;3,5;12,5
+Norma;10/03/2020;4,6;13,9
+Norma;11/03/2020;5,9;16,5
+Norma;12/03/2020;6,5;17,1
+Norma;13/03/2020;6,8;15,2
+Norma;14/03/2020;8,9;12,9
+Norma;15/03/2020;8,9;14,3
+Norma;16/03/2020;7,0;16,0
+Norma;17/03/2020;7,1;14,6
+Norma;18/03/2020;7,9;16,4
+Norma;19/03/2020;8,2;18,0
+Norma;20/03/2020;7,9;16,8
+Norma;21/03/2020;7,5;15,4
+Norma;22/03/2020;7,3;17,1
+Norma;23/03/2020;3,7;14,3
+Norma;24/03/2020;0,7;7,7
+Norma;25/03/2020;0,9;9,4
+Norma;26/03/2020;2,9;11,5
+Norma;27/03/2020;6,8;12,6
+Norma;28/03/2020;7,2;11,4
+Norma;29/03/2020;5,8;15,5
+Norma;30/03/2020;6,6;13,6
+Norma;31/03/2020;6,5;16,0
+Osteria Nuova;01/03/2020;9,2;15,6
+Osteria Nuova;02/03/2020;9,8;14,6
+Osteria Nuova;03/03/2020;5,0;14,5
+Osteria Nuova;04/03/2020;1,5;16,1
+Osteria Nuova;05/03/2020;-0,5;16,0
+Osteria Nuova;06/03/2020;3,8;18,3
+Osteria Nuova;07/03/2020;3,0;16,4
+Osteria Nuova;08/03/2020;4,4;16,9
+Osteria Nuova;09/03/2020;0,6;15,5
+Osteria Nuova;10/03/2020;4,0;17,5
+Osteria Nuova;11/03/2020;1,6;19,0
+Osteria Nuova;12/03/2020;2,9;18,6
+Osteria Nuova;13/03/2020;5,1;17,0
+Osteria Nuova;14/03/2020;8,6;14,7
+Osteria Nuova;15/03/2020;5,4;21,1
+Osteria Nuova;16/03/2020;3,1;20,3
+Osteria Nuova;17/03/2020;3,4;18,2
+Osteria Nuova;18/03/2020;3,6;21,5
+Osteria Nuova;19/03/2020;4,0;21,2
+Osteria Nuova;20/03/2020;1,9;20,1
+Osteria Nuova;21/03/2020;2,2;19,7
+Osteria Nuova;22/03/2020;4,2;21,0
+Osteria Nuova;23/03/2020;1,7;11,6
+Osteria Nuova;24/03/2020;0,8;9,8
+Osteria Nuova;25/03/2020;0,3;15,3
+Osteria Nuova;26/03/2020;4,0;11,3
+Osteria Nuova;27/03/2020;5,9;17,8
+Osteria Nuova;28/03/2020;7,3;16,6
+Osteria Nuova;29/03/2020;3,6;18,7
+Osteria Nuova;30/03/2020;4,7;19,6
+Osteria Nuova;31/03/2020;4,1;17,6
+Osteria di Castro;01/03/2020;7,3;17,1
+Osteria di Castro;02/03/2020;10,1;16,9
+Osteria di Castro;03/03/2020;5,1;11,7
+Osteria di Castro;04/03/2020;3,1;14,9
+Osteria di Castro;05/03/2020;4,4;15,4
+Osteria di Castro;06/03/2020;6,9;15,1
+Osteria di Castro;07/03/2020;6,2;14,4
+Osteria di Castro;08/03/2020;4,5;15,8
+Osteria di Castro;09/03/2020;3,1;14,1
+Osteria di Castro;10/03/2020;4,5;16,8
+Osteria di Castro;11/03/2020;4,9;18,3
+Osteria di Castro;12/03/2020;6,6;19,9
+Osteria di Castro;13/03/2020;8,1;17,6
+Osteria di Castro;14/03/2020;10,7;18,4
+Osteria di Castro;15/03/2020;10,1;19,4
+Osteria di Castro;16/03/2020;5,3;18,6
+Osteria di Castro;17/03/2020;5,7;18,0
+Osteria di Castro;18/03/2020;6,8;20,3
+Osteria di Castro;19/03/2020;7,6;21,8
+Osteria di Castro;20/03/2020;7,6;20,4
+Osteria di Castro;21/03/2020;6,6;19,4
+Osteria di Castro;22/03/2020;7,2;19,9
+Osteria di Castro;23/03/2020;4,3;15,5
+Osteria di Castro;24/03/2020;1,5;11,3
+Osteria di Castro;25/03/2020;-1,8;10,9
+Osteria di Castro;26/03/2020;3,3;12,6
+Osteria di Castro;27/03/2020;7,9;15,8
+Osteria di Castro;28/03/2020;7,1;14,7
+Osteria di Castro;29/03/2020;7,3;18,7
+Osteria di Castro;30/03/2020;7,7;18,2
+Osteria di Castro;31/03/2020;4,6;16,8
+Paglia a Proceno;01/03/2020;7,6;14,6
+Paglia a Proceno;02/03/2020;4,7;13,0
+Paglia a Proceno;03/03/2020;4,9;12,8
+Paglia a Proceno;04/03/2020;0,7;12,9
+Paglia a Proceno;05/03/2020;-1,2;14,1
+Paglia a Proceno;06/03/2020;3,2;15,3
+Paglia a Proceno;07/03/2020;2,2;11,7
+Paglia a Proceno;08/03/2020;0,1;12,6
+Paglia a Proceno;09/03/2020;-1,4;13,3
+Paglia a Proceno;10/03/2020;0,7;15,7
+Paglia a Proceno;11/03/2020;-0,6;18,4
+Paglia a Proceno;12/03/2020;6,5;15,0
+Paglia a Proceno;13/03/2020;6,4;15,1
+Paglia a Proceno;14/03/2020;5,6;15,0
+Paglia a Proceno;15/03/2020;1,9;14,6
+Paglia a Proceno;16/03/2020;-1,6;18,7
+Paglia a Proceno;17/03/2020;-0,2;18,3
+Paglia a Proceno;18/03/2020;-0,2;18,6
+Paglia a Proceno;19/03/2020;-0,3;20,8
+Paglia a Proceno;20/03/2020;0,5;19,1
+Paglia a Proceno;21/03/2020;1,9;18,7
+Paglia a Proceno;22/03/2020;4,1;17,9
+Paglia a Proceno;23/03/2020;1,7;7,0
+Paglia a Proceno;24/03/2020;-3,4;6,4
+Paglia a Proceno;25/03/2020;0,7;7,6
+Paglia a Proceno;26/03/2020;1,8;8,0
+Paglia a Proceno;27/03/2020;6,7;12,5
+Paglia a Proceno;28/03/2020;5,6;16,1
+Paglia a Proceno;29/03/2020;1,6;17,9
+Paglia a Proceno;30/03/2020;3,8;17,0
+Paglia a Proceno;31/03/2020;2,6;8,6
+Pagliara;01/03/2020;2,2;10,7
+Pagliara;02/03/2020;4,5;11,4
+Pagliara;03/03/2020;0,3;5,8
+Pagliara;04/03/2020;-0,2;10,3
+Pagliara;05/03/2020;1,1;12,9
+Pagliara;06/03/2020;2,0;10,3
+Pagliara;07/03/2020;1,1;11,0
+Pagliara;08/03/2020;1,1;8,0
+Pagliara;09/03/2020;-0,1;10,2
+Pagliara;10/03/2020;1,8;10,8
+Pagliara;11/03/2020;3,9;18,6
+Pagliara;12/03/2020;6,3;18,9
+Pagliara;13/03/2020;6,3;15,8
+Pagliara;14/03/2020;4,7;15,4
+Pagliara;15/03/2020;2,7;11,5
+Pagliara;16/03/2020;0,8;15,5
+Pagliara;17/03/2020;4,4;15,5
+Pagliara;18/03/2020;5,0;15,6
+Pagliara;19/03/2020;6,3;17,7
+Pagliara;20/03/2020;6,8;16,6
+Pagliara;21/03/2020;5,5;16,8
+Pagliara;22/03/2020;3,3;12,4
+Pagliara;23/03/2020;-4,9;5,7
+Pagliara;24/03/2020;-5,8;2,3
+Pagliara;25/03/2020;-5,3;3,4
+Pagliara;26/03/2020;-1,4;4,8
+Pagliara;27/03/2020;3,7;10,0
+Pagliara;28/03/2020;3,3;10,2
+Pagliara;29/03/2020;3,4;15,3
+Pagliara;30/03/2020;4,6;13,0
+Pagliara;31/03/2020;-2,2;8,3
+Palestrina;01/03/2020;7,4;12,7
+Palestrina;02/03/2020;8,2;13,5
+Palestrina;03/03/2020;5,0;9,2
+Palestrina;04/03/2020;2,1;13,0
+Palestrina;05/03/2020;2,4;13,2
+Palestrina;06/03/2020;5,8;12,2
+Palestrina;07/03/2020;4,7;12,8
+Palestrina;08/03/2020;3,2;14,3
+Palestrina;09/03/2020;1,9;13,2
+Palestrina;10/03/2020;3,3;14,6
+Palestrina;11/03/2020;5,9;16,8
+Palestrina;12/03/2020;6,2;18,6
+Palestrina;13/03/2020;6,3;17,0
+Palestrina;14/03/2020;9,7;12,6
+Palestrina;15/03/2020;7,7;17,5
+Palestrina;16/03/2020;4,9;17,2
+Palestrina;17/03/2020;6,8;15,1
+Palestrina;18/03/2020;6,5;18,2
+Palestrina;19/03/2020;7,8;20,2
+Palestrina;20/03/2020;7,6;18,4
+Palestrina;21/03/2020;7,5;17,3
+Palestrina;22/03/2020;8,1;17,5
+Palestrina;23/03/2020;2,3;12,7
+Palestrina;24/03/2020;-1,5;7,4
+Palestrina;25/03/2020;-1,9;10,5
+Palestrina;26/03/2020;1,5;8,7
+Palestrina;27/03/2020;6,2;14,2
+Palestrina;28/03/2020;6,4;13,8
+Palestrina;29/03/2020;5,8;15,3
+Palestrina;30/03/2020;7,1;15,1
+Palestrina;31/03/2020;4,2;15,2
+Paliano;01/03/2020;6,2;14,3
+Paliano;02/03/2020;7,7;15,9
+Paliano;03/03/2020;3,2;9,3
+Paliano;04/03/2020;2,9;12,4
+Paliano;05/03/2020;4,0;15,6
+Paliano;06/03/2020;6,2;12,9
+Paliano;07/03/2020;5,2;14,2
+Paliano;08/03/2020;3,9;14,2
+Paliano;09/03/2020;3,3;12,5
+Paliano;10/03/2020;5,6;15,6
+Paliano;11/03/2020;6,5;17,0
+Paliano;12/03/2020;8,3;17,9
+Paliano;13/03/2020;7,0;17,9
+Paliano;14/03/2020;9,7;13,6
+Paliano;15/03/2020;8,3;16,3
+Paliano;16/03/2020;5,3;19,8
+Paliano;17/03/2020;6,9;14,9
+Paliano;18/03/2020;7,2;18,8
+Paliano;19/03/2020;9,1;21,1
+Paliano;20/03/2020;9,4;17,2
+Paliano;21/03/2020;8,2;18,9
+Paliano;22/03/2020;8,5;18,0
+Paliano;23/03/2020;1,8;12,9
+Paliano;24/03/2020;-0,2;9,4
+Paliano;25/03/2020;-1,5;11,2
+Paliano;26/03/2020;1,8;9,3
+Paliano;27/03/2020;7,1;16,2
+Paliano;28/03/2020;6,3;15,1
+Paliano;29/03/2020;6,4;15,7
+Paliano;30/03/2020;7,3;16,2
+Paliano;31/03/2020;4,7;17,3
+Palombara Sabina;01/03/2020;9,9;15,1
+Palombara Sabina;02/03/2020;8,7;13,8
+Palombara Sabina;03/03/2020;6,4;9,9
+Palombara Sabina;04/03/2020;4,9;11,9
+Palombara Sabina;05/03/2020;4,0;12,5
+Palombara Sabina;06/03/2020;8,6;12,5
+Palombara Sabina;07/03/2020;6,8;12,5
+Palombara Sabina;08/03/2020;5,8;13,3
+Palombara Sabina;09/03/2020;4,9;12,6
+Palombara Sabina;10/03/2020;6,0;14,5
+Palombara Sabina;11/03/2020;8,7;17,0
+Palombara Sabina;12/03/2020;7,6;16,9
+Palombara Sabina;13/03/2020;9,1;14,4
+Palombara Sabina;14/03/2020;10,1;11,4
+Palombara Sabina;15/03/2020;7,6;17,2
+Palombara Sabina;16/03/2020;8,2;16,5
+Palombara Sabina;17/03/2020;9,3;15,0
+Palombara Sabina;18/03/2020;9,0;17,6
+Palombara Sabina;19/03/2020;11,0;18,7
+Palombara Sabina;20/03/2020;10,6;17,6
+Palombara Sabina;21/03/2020;9,5;16,6
+Palombara Sabina;22/03/2020;10,0;17,4
+Palombara Sabina;23/03/2020;3,2;11,3
+Palombara Sabina;24/03/2020;0,0;6,5
+Palombara Sabina;25/03/2020;0,2;10,8
+Palombara Sabina;26/03/2020;2,8;13,9
+Palombara Sabina;27/03/2020;7,6;13,7
+Palombara Sabina;28/03/2020;7,6;12,5
+Palombara Sabina;29/03/2020;8,3;14,8
+Palombara Sabina;30/03/2020;9,1;15,4
+Palombara Sabina;31/03/2020;4,2;12,9
+Passo Corese ETG;01/03/2020;6,0;17,2
+Passo Corese ETG;02/03/2020;10,3;16,6
+Passo Corese ETG;03/03/2020;7,6;13,5
+Passo Corese ETG;04/03/2020;2,1;14,7
+Passo Corese ETG;05/03/2020;1,8;16,7
+Passo Corese ETG;06/03/2020;8,3;16,0
+Passo Corese ETG;07/03/2020;4,8;16,1
+Passo Corese ETG;08/03/2020;3,2;16,9
+Passo Corese ETG;09/03/2020;-0,1;15,8
+Passo Corese ETG;10/03/2020;4,7;16,8
+Passo Corese ETG;11/03/2020;2,0;20,5
+Passo Corese ETG;12/03/2020;7,0;19,5
+Passo Corese ETG;13/03/2020;7,9;17,6
+Passo Corese ETG;14/03/2020;10,8;14,7
+Passo Corese ETG;15/03/2020;7,5;19,3
+Passo Corese ETG;16/03/2020;3,1;19,7
+Passo Corese ETG;17/03/2020;2,9;18,8
+Passo Corese ETG;18/03/2020;5,3;20,4
+Passo Corese ETG;19/03/2020;3,1;22,2
+Passo Corese ETG;20/03/2020;3,0;21,4
+Passo Corese ETG;21/03/2020;2,9;20,5
+Passo Corese ETG;22/03/2020;6,1;21,2
+Passo Corese ETG;23/03/2020;4,5;13,1
+Passo Corese ETG;24/03/2020;0,6;9,6
+Passo Corese ETG;25/03/2020;-0,3;14,2
+Passo Corese ETG;26/03/2020;5,8;15,4
+Passo Corese ETG;27/03/2020;9,0;18,7
+Passo Corese ETG;28/03/2020;7,9;16,5
+Passo Corese ETG;29/03/2020;5,1;19,8
+Passo Corese ETG;30/03/2020;6,7;19,2
+Passo Corese ETG;31/03/2020;4,2;14,8
+Pianetto;01/03/2020;8,3;14,6
+Pianetto;02/03/2020;6,5;13,2
+Pianetto;03/03/2020;5,5;14,1
+Pianetto;04/03/2020;0,5;15,8
+Pianetto;05/03/2020;0,6;14,2
+Pianetto;06/03/2020;2,9;16,4
+Pianetto;07/03/2020;2,4;12,9
+Pianetto;08/03/2020;1,7;13,7
+Pianetto;09/03/2020;-1,2;13,9
+Pianetto;10/03/2020;5,5;17,4
+Pianetto;11/03/2020;0,4;17,5
+Pianetto;12/03/2020;5,8;14,5
+Pianetto;13/03/2020;7,9;14,3
+Pianetto;14/03/2020;7,8;15,6
+Pianetto;15/03/2020;6,6;15,7
+Pianetto;16/03/2020;1,4;18,3
+Pianetto;17/03/2020;2,2;17,3
+Pianetto;18/03/2020;2,1;20,6
+Pianetto;19/03/2020;4,6;18,9
+Pianetto;20/03/2020;1,7;18,9
+Pianetto;21/03/2020;2,9;17,8
+Pianetto;22/03/2020;4,4;19,2
+Pianetto;23/03/2020;0,0;8,3
+Pianetto;24/03/2020;-4,2;8,4
+Pianetto;25/03/2020;0,5;10,7
+Pianetto;26/03/2020;2,1;8,6
+Pianetto;27/03/2020;7,8;15,2
+Pianetto;28/03/2020;7,2;17,1
+Pianetto;29/03/2020;2,7;18,3
+Pianetto;30/03/2020;1,8;18,6
+Pianetto;31/03/2020;3,4;10,4
+Piedimonte San Germano;01/03/2020;7,7;16,8
+Piedimonte San Germano;02/03/2020;7,9;18,3
+Piedimonte San Germano;03/03/2020;6,7;15,3
+Piedimonte San Germano;04/03/2020;2,3;17,9
+Piedimonte San Germano;05/03/2020;2,8;17,6
+Piedimonte San Germano;06/03/2020;10,2;17,6
+Piedimonte San Germano;07/03/2020;5,7;18,2
+Piedimonte San Germano;08/03/2020;3,3;17,6
+Piedimonte San Germano;09/03/2020;2,3;16,4
+Piedimonte San Germano;10/03/2020;2,5;19,1
+Piedimonte San Germano;11/03/2020;3,1;21,2
+Piedimonte San Germano;12/03/2020;4,1;21,7
+Piedimonte San Germano;13/03/2020;7,9;20,0
+Piedimonte San Germano;14/03/2020;10,9;20,9
+Piedimonte San Germano;15/03/2020;7,9;20,5
+Piedimonte San Germano;16/03/2020;3,2;20,7
+Piedimonte San Germano;17/03/2020;3,5;20,6
+Piedimonte San Germano;18/03/2020;4,6;22,3
+Piedimonte San Germano;19/03/2020;4,3;23,7
+Piedimonte San Germano;20/03/2020;4,4;22,3
+Piedimonte San Germano;21/03/2020;4,1;21,3
+Piedimonte San Germano;22/03/2020;4,4;22,7
+Piedimonte San Germano;23/03/2020;5,2;15,9
+Piedimonte San Germano;24/03/2020;-0,2;11,9
+Piedimonte San Germano;25/03/2020;-3,1;11,3
+Piedimonte San Germano;26/03/2020;5,4;14,6
+Piedimonte San Germano;27/03/2020;8,9;16,9
+Piedimonte San Germano;28/03/2020;8,4;19,0
+Piedimonte San Germano;29/03/2020;6,4;20,5
+Piedimonte San Germano;30/03/2020;7,2;19,4
+Piedimonte San Germano;31/03/2020;5,3;18,4
+Poggio Mirteto;01/03/2020;8,2;14,9
+Poggio Mirteto;02/03/2020;9,1;15,4
+Poggio Mirteto;03/03/2020;6,6;11,9
+Poggio Mirteto;04/03/2020;2,7;14,6
+Poggio Mirteto;05/03/2020;1,6;15,3
+Poggio Mirteto;06/03/2020;7,7;15,3
+Poggio Mirteto;07/03/2020;5,2;15,2
+Poggio Mirteto;08/03/2020;3,1;15,9
+Poggio Mirteto;09/03/2020;1,5;15,5
+Poggio Mirteto;10/03/2020;3,7;16,7
+Poggio Mirteto;11/03/2020;4,5;20,2
+Poggio Mirteto;12/03/2020;5,9;19,5
+Poggio Mirteto;13/03/2020;7,9;18,2
+Poggio Mirteto;14/03/2020;8,9;12,8
+Poggio Mirteto;15/03/2020;5,6;19,4
+Poggio Mirteto;16/03/2020;4,3;19,3
+Poggio Mirteto;17/03/2020;5,6;17,9
+Poggio Mirteto;18/03/2020;5,4;20,0
+Poggio Mirteto;19/03/2020;7,2;21,8
+Poggio Mirteto;20/03/2020;6,9;21,0
+Poggio Mirteto;21/03/2020;6,2;19,8
+Poggio Mirteto;22/03/2020;7,7;21,0
+Poggio Mirteto;23/03/2020;2,1;12,8
+Poggio Mirteto;24/03/2020;-2,0;9,3
+Poggio Mirteto;25/03/2020;-1,0;12,6
+Poggio Mirteto;26/03/2020;5,3;14,5
+Poggio Mirteto;27/03/2020;8,3;17,5
+Poggio Mirteto;28/03/2020;7,0;15,4
+Poggio Mirteto;29/03/2020;5,4;19,6
+Poggio Mirteto;30/03/2020;7,1;17,4
+Poggio Mirteto;31/03/2020;2,2;15,1
+Poggio Moiano;01/03/2020;7,5;14,5
+Poggio Moiano;02/03/2020;7,8;14,7
+Poggio Moiano;03/03/2020;5,0;9,3
+Poggio Moiano;04/03/2020;1,4;13,4
+Poggio Moiano;05/03/2020;1,5;14,2
+Poggio Moiano;06/03/2020;7,0;14,5
+Poggio Moiano;07/03/2020;5,3;14,3
+Poggio Moiano;08/03/2020;2,3;13,9
+Poggio Moiano;09/03/2020;1,1;13,1
+Poggio Moiano;10/03/2020;4,2;16,2
+Poggio Moiano;11/03/2020;4,9;17,8
+Poggio Moiano;12/03/2020;5,9;18,0
+Poggio Moiano;13/03/2020;5,3;16,5
+Poggio Moiano;14/03/2020;8,2;12,4
+Poggio Moiano;15/03/2020;6,6;17,7
+Poggio Moiano;16/03/2020;3,4;17,0
+Poggio Moiano;17/03/2020;5,0;16,2
+Poggio Moiano;18/03/2020;5,1;18,8
+Poggio Moiano;19/03/2020;7,5;19,0
+Poggio Moiano;20/03/2020;7,0;18,8
+Poggio Moiano;21/03/2020;7,5;17,9
+Poggio Moiano;22/03/2020;7,8;18,9
+Poggio Moiano;23/03/2020;0,8;11,0
+Poggio Moiano;24/03/2020;-2,0;7,2
+Poggio Moiano;25/03/2020;-2,0;10,1
+Poggio Moiano;26/03/2020;3,5;12,7
+Poggio Moiano;27/03/2020;7,0;15,8
+Poggio Moiano;28/03/2020;6,6;13,1
+Poggio Moiano;29/03/2020;4,5;17,3
+Poggio Moiano;30/03/2020;6,3;16,3
+Poggio Moiano;31/03/2020;2,6;14,4
+Poggio Perugino;01/03/2020;5,2;11,5
+Poggio Perugino;02/03/2020;6,0;10,9
+Poggio Perugino;03/03/2020;2,5;6,4
+Poggio Perugino;04/03/2020;1,3;8,7
+Poggio Perugino;05/03/2020;1,3;12,3
+Poggio Perugino;06/03/2020;4,4;11,0
+Poggio Perugino;07/03/2020;3,0;9,7
+Poggio Perugino;08/03/2020;2,6;9,2
+Poggio Perugino;09/03/2020;1,4;11,0
+Poggio Perugino;10/03/2020;2,6;12,1
+Poggio Perugino;11/03/2020;5,7;16,4
+Poggio Perugino;12/03/2020;6,0;17,4
+Poggio Perugino;13/03/2020;6,2;17,0
+Poggio Perugino;14/03/2020;7,0;10,2
+Poggio Perugino;15/03/2020;3,5;14,7
+Poggio Perugino;16/03/2020;2,6;17,1
+Poggio Perugino;17/03/2020;5,9;14,1
+Poggio Perugino;18/03/2020;5,6;18,6
+Poggio Perugino;19/03/2020;7,8;18,2
+Poggio Perugino;20/03/2020;8,2;18,9
+Poggio Perugino;21/03/2020;6,9;18,1
+Poggio Perugino;22/03/2020;5,8;16,6
+Poggio Perugino;23/03/2020;-2,7;5,9
+Poggio Perugino;24/03/2020;-3,7;2,1
+Poggio Perugino;25/03/2020;-3,7;6,5
+Poggio Perugino;26/03/2020;1,9;9,1
+Poggio Perugino;27/03/2020;5,8;15,0
+Poggio Perugino;28/03/2020;4,9;14,2
+Poggio Perugino;29/03/2020;4,5;15,8
+Poggio Perugino;30/03/2020;6,2;14,8
+Poggio Perugino;31/03/2020;-1,1;9,9
+Pomezia;01/03/2020;11,1;15,3
+Pomezia;02/03/2020;9,4;15,8
+Pomezia;03/03/2020;7,7;13,3
+Pomezia;04/03/2020;6,1;16,6
+Pomezia;05/03/2020;6,1;15,7
+Pomezia;06/03/2020;10,4;15,4
+Pomezia;07/03/2020;7,6;16,5
+Pomezia;08/03/2020;6,9;18,2
+Pomezia;09/03/2020;6,0;15,9
+Pomezia;10/03/2020;6,3;16,1
+Pomezia;11/03/2020;7,5;18,0
+Pomezia;12/03/2020;8,4;17,2
+Pomezia;13/03/2020;10,2;15,8
+Pomezia;14/03/2020;11,7;16,3
+Pomezia;15/03/2020;9,4;17,7
+Pomezia;16/03/2020;8,3;17,4
+Pomezia;17/03/2020;8,6;17,6
+Pomezia;18/03/2020;9,0;19,3
+Pomezia;19/03/2020;9,9;19,8
+Pomezia;20/03/2020;8,8;18,3
+Pomezia;21/03/2020;8,0;18,2
+Pomezia;22/03/2020;9,2;19,0
+Pomezia;23/03/2020;5,5;14,0
+Pomezia;24/03/2020;1,9;10,4
+Pomezia;25/03/2020;1,0;12,9
+Pomezia;26/03/2020;4,5;12,2
+Pomezia;27/03/2020;8,6;15,6
+Pomezia;28/03/2020;9,5;16,7
+Pomezia;29/03/2020;8,8;16,8
+Pomezia;30/03/2020;9,3;18,5
+Pomezia;31/03/2020;6,2;18,5
+Ponza;01/03/2020;13,4;15,5
+Ponza;02/03/2020;14,1;16,0
+Ponza;03/03/2020;10,5;14,7
+Ponza;04/03/2020;9,0;13,4
+Ponza;05/03/2020;11,3;14,6
+Ponza;06/03/2020;12,8;15,0
+Ponza;07/03/2020;10,9;14,8
+Ponza;08/03/2020;11,7;15,4
+Ponza;09/03/2020;9,4;15,1
+Ponza;10/03/2020;10,4;14,8
+Ponza;11/03/2020;12,8;14,7
+Ponza;12/03/2020;12,4;16,2
+Ponza;13/03/2020;12,4;16,0
+Ponza;14/03/2020;12,4;16,1
+Ponza;15/03/2020;12,9;17,2
+Ponza;16/03/2020;12,2;16,5
+Ponza;17/03/2020;12,7;16,5
+Ponza;18/03/2020;12,5;16,7
+Ponza;19/03/2020;12,5;17,8
+Ponza;20/03/2020;12,1;16,6
+Ponza;21/03/2020;11,1;16,3
+Ponza;22/03/2020;12,3;15,6
+Ponza;23/03/2020;7,8;14,7
+Ponza;24/03/2020;7,1;10,0
+Ponza;25/03/2020;6,5;9,5
+Ponza;26/03/2020;7,2;13,5
+Ponza;27/03/2020;9,8;13,3
+Ponza;28/03/2020;11,3;14,8
+Ponza;29/03/2020;11,3;15,8
+Ponza;30/03/2020;12,7;14,7
+Ponza;31/03/2020;9,8;15,5
+Posta;01/03/2020;1,6;12,6
+Posta;02/03/2020;4,0;12,5
+Posta;03/03/2020;2,2;6,8
+Posta;04/03/2020;-0,5;11,4
+Posta;05/03/2020;-3,0;12,5
+Posta;06/03/2020;1,6;11,7
+Posta;07/03/2020;1,2;10,6
+Posta;08/03/2020;-3,7;8,6
+Posta;09/03/2020;-5,6;11,5
+Posta;10/03/2020;-3,7;13,0
+Posta;11/03/2020;-2,9;17,1
+Posta;12/03/2020;-2,8;18,5
+Posta;13/03/2020;-1,5;18,7
+Posta;14/03/2020;0,6;14,9
+Posta;15/03/2020;-1,3;12,9
+Posta;16/03/2020;-5,4;18,0
+Posta;17/03/2020;-4,1;18,3
+Posta;18/03/2020;-2,3;18,8
+Posta;19/03/2020;-3,7;20,5
+Posta;20/03/2020;-2,3;19,3
+Posta;21/03/2020;-1,8;19,0
+Posta;22/03/2020;1,2;14,6
+Posta;23/03/2020;-5,0;5,2
+Posta;24/03/2020;-6,5;2,6
+Posta;25/03/2020;-7,6;4,3
+Posta;26/03/2020;0,7;7,0
+Posta;27/03/2020;3,2;11,5
+Posta;28/03/2020;2,0;11,8
+Posta;29/03/2020;0,3;15,6
+Posta;30/03/2020;3,1;14,1
+Posta;31/03/2020;-1,8;5,5
+Posticciola;01/03/2020;5,1;12,6
+Posticciola;02/03/2020;7,5;12,8
+Posticciola;03/03/2020;4,6;8,6
+Posticciola;04/03/2020;0,9;12,7
+Posticciola;05/03/2020;0,2;13,9
+Posticciola;06/03/2020;6,3;12,5
+Posticciola;07/03/2020;3,7;13,0
+Posticciola;08/03/2020;1,6;13,1
+Posticciola;09/03/2020;-0,6;13,2
+Posticciola;10/03/2020;2,5;15,2
+Posticciola;11/03/2020;1,8;18,6
+Posticciola;12/03/2020;2,8;19,2
+Posticciola;13/03/2020;3,8;17,7
+Posticciola;14/03/2020;6,9;11,9
+Posticciola;15/03/2020;4,9;16,9
+Posticciola;16/03/2020;2,2;17,9
+Posticciola;17/03/2020;2,7;16,5
+Posticciola;18/03/2020;2,9;18,9
+Posticciola;19/03/2020;3,3;19,2
+Posticciola;20/03/2020;3,8;18,8
+Posticciola;21/03/2020;4,3;17,7
+Posticciola;22/03/2020;5,9;17,7
+Posticciola;23/03/2020;0,8;11,8
+Posticciola;24/03/2020;-1,4;7,0
+Posticciola;25/03/2020;-2,0;9,2
+Posticciola;26/03/2020;3,8;12,7
+Posticciola;27/03/2020;6,9;14,3
+Posticciola;28/03/2020;5,2;13,5
+Posticciola;29/03/2020;3,8;16,2
+Posticciola;30/03/2020;5,6;14,3
+Posticciola;31/03/2020;2,1;13,7
+Priverno;01/03/2020;9,4;16,7
+Priverno;02/03/2020;9,8;17,8
+Priverno;03/03/2020;7,8;14,2
+Priverno;04/03/2020;5,9;16,9
+Priverno;05/03/2020;5,5;15,8
+Priverno;06/03/2020;9,7;16,0
+Priverno;07/03/2020;9,0;16,4
+Priverno;08/03/2020;5,3;16,7
+Priverno;09/03/2020;4,7;15,6
+Priverno;10/03/2020;6,2;18,5
+Priverno;11/03/2020;5,3;18,9
+Priverno;12/03/2020;5,7;19,7
+Priverno;13/03/2020;6,9;18,4
+Priverno;14/03/2020;11,2;17,9
+Priverno;15/03/2020;9,6;20,2
+Priverno;16/03/2020;9,3;19,4
+Priverno;17/03/2020;7,2;18,6
+Priverno;18/03/2020;8,3;20,0
+Priverno;19/03/2020;8,1;21,8
+Priverno;20/03/2020;6,4;19,8
+Priverno;21/03/2020;7,0;19,7
+Priverno;22/03/2020;7,4;19,8
+Priverno;23/03/2020;6,8;15,6
+Priverno;24/03/2020;2,2;12,3
+Priverno;25/03/2020;2,2;12,2
+Priverno;26/03/2020;4,8;14,3
+Priverno;27/03/2020;9,1;16,1
+Priverno;28/03/2020;9,1;15,8
+Priverno;29/03/2020;6,3;18,5
+Priverno;30/03/2020;8,0;18,7
+Priverno;31/03/2020;6,9;18,4
+Rapido a Cassino;01/03/2020;7,5;16,5
+Rapido a Cassino;02/03/2020;7,4;17,1
+Rapido a Cassino;03/03/2020;7,5;15,3
+Rapido a Cassino;04/03/2020;3,3;17,4
+Rapido a Cassino;05/03/2020;2,2;16,9
+Rapido a Cassino;06/03/2020;8,8;17,5
+Rapido a Cassino;07/03/2020;6,3;16,9
+Rapido a Cassino;08/03/2020;3,1;16,6
+Rapido a Cassino;09/03/2020;2,1;16,1
+Rapido a Cassino;10/03/2020;2,3;18,6
+Rapido a Cassino;11/03/2020;3;20,4
+Rapido a Cassino;12/03/2020;3,9;20,6
+Rapido a Cassino;13/03/2020;8;18,9
+Rapido a Cassino;14/03/2020;10;20,3
+Rapido a Cassino;15/03/2020;8,7;19,9
+Rapido a Cassino;16/03/2020;3,1;21
+Rapido a Cassino;17/03/2020;3,8;20,1
+Rapido a Cassino;18/03/2020;5;22
+Rapido a Cassino;19/03/2020;3,5;23,2
+Rapido a Cassino;20/03/2020;3,9;21
+Rapido a Cassino;21/03/2020;4,2;20,2
+Rapido a Cassino;22/03/2020;4,5;21,2
+Rapido a Cassino;23/03/2020;5,9;14,5
+Rapido a Cassino;24/03/2020;-0,3;11,1
+Rapido a Cassino;25/03/2020;-2;11,2
+Rapido a Cassino;26/03/2020;7,6;14,3
+Rapido a Cassino;27/03/2020;8;17,8
+Rapido a Cassino;28/03/2020;8,5;16,6
+Rapido a Cassino;29/03/2020;6,1;19,8
+Rapido a Cassino;30/03/2020;7,6;19,2
+Rapido a Cassino;31/03/2020;4,6;17,9
+Riano;01/03/2020;9,4;14,7
+Riano;02/03/2020;9,4;14,3
+Riano;03/03/2020;7,3;12,2
+Riano;04/03/2020;5,1;15,1
+Riano;05/03/2020;4,5;14,3
+Riano;06/03/2020;7,9;15,1
+Riano;07/03/2020;6,8;15,8
+Riano;08/03/2020;6,5;15,5
+Riano;09/03/2020;4,5;13,8
+Riano;10/03/2020;5,7;18,4
+Riano;11/03/2020;7,7;18,6
+Riano;12/03/2020;8,7;17,7
+Riano;13/03/2020;9;15,6
+Riano;14/03/2020;10,6;13,4
+Riano;15/03/2020;8,7;20,4
+Riano;16/03/2020;7,2;18,9
+Riano;17/03/2020;8,3;16,9
+Riano;18/03/2020;8,2;19,9
+Riano;19/03/2020;9,3;20,3
+Riano;20/03/2020;9,3;19,1
+Riano;21/03/2020;8,8;17,7
+Riano;22/03/2020;9;22
+Riano;23/03/2020;2,7;10,7
+Riano;24/03/2020;-0,2;8,8
+Riano;25/03/2020;-0,2;13,6
+Riano;26/03/2020;3,6;12,4
+Riano;27/03/2020;8,8;15,9
+Riano;28/03/2020;8,3;15,1
+Riano;29/03/2020;8;17,3
+Riano;30/03/2020;9;17,4
+Riano;31/03/2020;4,1;14,9
+Rignano Flaminio;01/03/2020;8,1;14,2
+Rignano Flaminio;02/03/2020;9,1;13,6
+Rignano Flaminio;03/03/2020;6,1;12,3
+Rignano Flaminio;04/03/2020;3,6;12
+Rignano Flaminio;05/03/2020;2,7;14,9
+Rignano Flaminio;06/03/2020;7,4;14,3
+Rignano Flaminio;07/03/2020;5;13,1
+Rignano Flaminio;08/03/2020;4,8;13
+Rignano Flaminio;09/03/2020;3,3;14,7
+Rignano Flaminio;10/03/2020;4,1;16
+Rignano Flaminio;11/03/2020;6,5;19,2
+Rignano Flaminio;12/03/2020;7,5;17,7
+Rignano Flaminio;13/03/2020;7,6;15,8
+Rignano Flaminio;14/03/2020;9,3;12,7
+Rignano Flaminio;15/03/2020;7;16,3
+Rignano Flaminio;16/03/2020;4,7;18,7
+Rignano Flaminio;17/03/2020;6,6;17,1
+Rignano Flaminio;18/03/2020;6,1;19,6
+Rignano Flaminio;19/03/2020;8,6;20,6
+Rignano Flaminio;20/03/2020;7,8;20,1
+Rignano Flaminio;21/03/2020;8,1;19,6
+Rignano Flaminio;22/03/2020;7,5;19,2
+Rignano Flaminio;23/03/2020;1,6;7,8
+Rignano Flaminio;24/03/2020;-0,4;6,2
+Rignano Flaminio;25/03/2020;-1,3;10,7
+Rignano Flaminio;26/03/2020;2,8;11,4
+Rignano Flaminio;27/03/2020;7,5;17,2
+Rignano Flaminio;28/03/2020;7,1;15,7
+Rignano Flaminio;29/03/2020;7,7;18,6
+Rignano Flaminio;30/03/2020;7,7;18,7
+Rignano Flaminio;31/03/2020;2,8;11,1
+Rio Cassano;01/03/2020;7,9;15,3
+Rio Cassano;02/03/2020;5,9;16,2
+Rio Cassano;03/03/2020;6,5;13,9
+Rio Cassano;04/03/2020;2,1;16,4
+Rio Cassano;05/03/2020;0,8;15
+Rio Cassano;06/03/2020;10,3;16
+Rio Cassano;07/03/2020;5,2;15,5
+Rio Cassano;08/03/2020;2,4;16,4
+Rio Cassano;09/03/2020;1,2;15
+Rio Cassano;10/03/2020;2,2;16,3
+Rio Cassano;11/03/2020;1,9;17,4
+Rio Cassano;12/03/2020;3,2;18,5
+Rio Cassano;13/03/2020;4,7;17
+Rio Cassano;14/03/2020;9,6;16,8
+Rio Cassano;15/03/2020;7,1;18,5
+Rio Cassano;16/03/2020;3,8;18,4
+Rio Cassano;17/03/2020;2,8;17,6
+Rio Cassano;18/03/2020;4,7;17,9
+Rio Cassano;19/03/2020;2,9;20,5
+Rio Cassano;20/03/2020;3,2;17,5
+Rio Cassano;21/03/2020;3,2;18,1
+Rio Cassano;22/03/2020;3,7;18,1
+Rio Cassano;23/03/2020;6,4;14,6
+Rio Cassano;24/03/2020;-0,9;11,4
+Rio Cassano;25/03/2020;-2,3;11,9
+Rio Cassano;26/03/2020;4,4;14,2
+Rio Cassano;27/03/2020;7,8;14,8
+Rio Cassano;28/03/2020;7,5;14,6
+Rio Cassano;29/03/2020;4,2;16,6
+Rio Cassano;30/03/2020;4,6;17,6
+Rio Cassano;31/03/2020;4,5;18,1
+Ripi;01/03/2020;5,5;16,3
+Ripi;02/03/2020;5,7;17,1
+Ripi;03/03/2020;6,3;13,6
+Ripi;04/03/2020;1;16,6
+Ripi;05/03/2020;0,4;16,6
+Ripi;06/03/2020;7;15,3
+Ripi;07/03/2020;5,6;16,5
+Ripi;08/03/2020;1,6;16,6
+Ripi;09/03/2020;0,4;15,2
+Ripi;10/03/2020;0,9;18,3
+Ripi;11/03/2020;1,4;20,2
+Ripi;12/03/2020;2,1;21,3
+Ripi;13/03/2020;5,8;19,3
+Ripi;14/03/2020;9,2;18
+Ripi;15/03/2020;9,6;19,7
+Ripi;16/03/2020;1,6;19,7
+Ripi;17/03/2020;1,8;19,3
+Ripi;18/03/2020;2,5;21,7
+Ripi;19/03/2020;1,8;22,5
+Ripi;20/03/2020;2,7;21,9
+Ripi;21/03/2020;2,7;20,1
+Ripi;22/03/2020;2,5;20,7
+Ripi;23/03/2020;5;15,7
+Ripi;24/03/2020;-2,1;10,7
+Ripi;25/03/2020;-5;11,8
+Ripi;26/03/2020;4,5;10,6
+Ripi;27/03/2020;7,8;16
+Ripi;28/03/2020;8;16,3
+Ripi;29/03/2020;3,7;19,4
+Ripi;30/03/2020;6;18,7
+Ripi;31/03/2020;3;17,5
+Rivodutri;01/03/2020;5,3;11,1
+Rivodutri;02/03/2020;5,7;11,4
+Rivodutri;03/03/2020;2,3;7,6
+Rivodutri;04/03/2020;1,2;10,4
+Rivodutri;05/03/2020;0,7;12,7
+Rivodutri;06/03/2020;3,4;13,9
+Rivodutri;07/03/2020;2,2;10,9
+Rivodutri;08/03/2020;1,2;10,4
+Rivodutri;09/03/2020;0,4;11
+Rivodutri;10/03/2020;1,9;12,7
+Rivodutri;11/03/2020;5;18,3
+Rivodutri;12/03/2020;6,9;19,8
+Rivodutri;13/03/2020;6,4;19,1
+Rivodutri;14/03/2020;6,4;12
+Rivodutri;15/03/2020;3,6;17,3
+Rivodutri;16/03/2020;1,8;18,1
+Rivodutri;17/03/2020;5,5;14,6
+Rivodutri;18/03/2020;4,6;18,1
+Rivodutri;19/03/2020;6,3;19,2
+Rivodutri;20/03/2020;8;19,1
+Rivodutri;21/03/2020;6,8;18,2
+Rivodutri;22/03/2020;5,7;16,2
+Rivodutri;23/03/2020;-2,8;8,3
+Rivodutri;24/03/2020;-4,1;3,5
+Rivodutri;25/03/2020;-5,1;6,3
+Rivodutri;26/03/2020;0,9;8,3
+Rivodutri;27/03/2020;5,3;14,8
+Rivodutri;28/03/2020;4,1;15
+Rivodutri;29/03/2020;3,7;15,1
+Rivodutri;30/03/2020;5,2;16,3
+Rivodutri;31/03/2020;-0,6;8,9
+Rocca Respampani;01/03/2020;10,4;15,3
+Rocca Respampani;02/03/2020;9,9;14,3
+Rocca Respampani;03/03/2020;6,4;14,3
+Rocca Respampani;04/03/2020;2,2;13,7
+Rocca Respampani;05/03/2020;0;14,9
+Rocca Respampani;06/03/2020;5,1;16,4
+Rocca Respampani;07/03/2020;2,2;13,7
+Rocca Respampani;08/03/2020;3,3;14,7
+Rocca Respampani;09/03/2020;-0,3;14,4
+Rocca Respampani;10/03/2020;5,1;17
+Rocca Respampani;11/03/2020;0,6;17,8
+Rocca Respampani;12/03/2020;6,9;16,5
+Rocca Respampani;13/03/2020;7,7;16
+Rocca Respampani;14/03/2020;9,6;15,3
+Rocca Respampani;15/03/2020;7,8;17
+Rocca Respampani;16/03/2020;4,5;17,9
+Rocca Respampani;17/03/2020;1,7;18,5
+Rocca Respampani;18/03/2020;1,2;21,9
+Rocca Respampani;19/03/2020;2;20
+Rocca Respampani;20/03/2020;1,7;18,6
+Rocca Respampani;21/03/2020;2,6;18,6
+Rocca Respampani;22/03/2020;4,5;20,1
+Rocca Respampani;23/03/2020;1,6;8,7
+Rocca Respampani;24/03/2020;-3;8
+Rocca Respampani;25/03/2020;0,3;10,7
+Rocca Respampani;26/03/2020;3,4;11,4
+Rocca Respampani;27/03/2020;7;16,7
+Rocca Respampani;28/03/2020;5,8;17
+Rocca Respampani;29/03/2020;4,1;18
+Rocca Respampani;30/03/2020;3,2;17,7
+Rocca Respampani;31/03/2020;4;12,7
+Rocca Santo Stefano;01/03/2020;6,4;12,1
+Rocca Santo Stefano;02/03/2020;7,2;12,4
+Rocca Santo Stefano;03/03/2020;2,8;8,2
+Rocca Santo Stefano;04/03/2020;0,9;11
+Rocca Santo Stefano;05/03/2020;1;13,7
+Rocca Santo Stefano;06/03/2020;4,6;10,1
+Rocca Santo Stefano;07/03/2020;3,6;11,8
+Rocca Santo Stefano;08/03/2020;3,5;13,6
+Rocca Santo Stefano;09/03/2020;-0,4;12,9
+Rocca Santo Stefano;10/03/2020;2,5;14,7
+Rocca Santo Stefano;11/03/2020;3,1;17,2
+Rocca Santo Stefano;12/03/2020;5,1;18,6
+Rocca Santo Stefano;13/03/2020;4,7;17,5
+Rocca Santo Stefano;14/03/2020;8,3;14,2
+Rocca Santo Stefano;15/03/2020;6,8;17,2
+Rocca Santo Stefano;16/03/2020;3,6;16,8
+Rocca Santo Stefano;17/03/2020;3,9;15,4
+Rocca Santo Stefano;18/03/2020;4,9;18,5
+Rocca Santo Stefano;19/03/2020;6,5;19,8
+Rocca Santo Stefano;20/03/2020;5,2;19
+Rocca Santo Stefano;21/03/2020;4,9;16,5
+Rocca Santo Stefano;22/03/2020;6,5;18,3
+Rocca Santo Stefano;23/03/2020;-0,1;11,8
+Rocca Santo Stefano;24/03/2020;-1,7;5,9
+Rocca Santo Stefano;25/03/2020;-3,2;9,9
+Rocca Santo Stefano;26/03/2020;1,7;12,2
+Rocca Santo Stefano;27/03/2020;6,3;13,8
+Rocca Santo Stefano;28/03/2020;5,8;13,6
+Rocca Santo Stefano;29/03/2020;3,9;15,7
+Rocca Santo Stefano;30/03/2020;6;15,1
+Rocca Santo Stefano;31/03/2020;3,1;15,9
+Rocca di Papa;01/03/2020;6;9,3
+Rocca di Papa;02/03/2020;6;9,5
+Rocca di Papa;03/03/2020;1,8;6
+Rocca di Papa;04/03/2020;1,4;9
+Rocca di Papa;05/03/2020;2,8;9,7
+Rocca di Papa;06/03/2020;4,8;8,6
+Rocca di Papa;07/03/2020;3,1;9,4
+Rocca di Papa;08/03/2020;2,7;10,9
+Rocca di Papa;09/03/2020;3,4;8,5
+Rocca di Papa;10/03/2020;3,3;9,5
+Rocca di Papa;11/03/2020;6,3;14,6
+Rocca di Papa;12/03/2020;6,8;17,3
+Rocca di Papa;13/03/2020;6,1;14,7
+Rocca di Papa;14/03/2020;6,4;8,4
+Rocca di Papa;15/03/2020;6,5;11
+Rocca di Papa;16/03/2020;4,9;11,9
+Rocca di Papa;17/03/2020;6,6;11,7
+Rocca di Papa;18/03/2020;7;12,9
+Rocca di Papa;19/03/2020;8,4;17,9
+Rocca di Papa;20/03/2020;8,1;12,7
+Rocca di Papa;21/03/2020;7,7;12,2
+Rocca di Papa;22/03/2020;6,9;13,2
+Rocca di Papa;23/03/2020;0,6;7,9
+Rocca di Papa;24/03/2020;-2,9;3,9
+Rocca di Papa;25/03/2020;-2,6;10,2
+Rocca di Papa;26/03/2020;-0,6;6,7
+Rocca di Papa;27/03/2020;4,7;9,4
+Rocca di Papa;28/03/2020;4,7;8,7
+Rocca di Papa;29/03/2020;5,3;9,8
+Rocca di Papa;30/03/2020;5,7;11,4
+Rocca di Papa;31/03/2020;1,3;10,9
+Roma EUR;01/03/2020;11,9;15,7
+Roma EUR;02/03/2020;10,9;15,5
+Roma EUR;03/03/2020;7,6;13,2
+Roma EUR;04/03/2020;5,4;17
+Roma EUR;05/03/2020;4,5;16,4
+Roma EUR;06/03/2020;10,1;16,1
+Roma EUR;07/03/2020;6,3;17,6
+Roma EUR;08/03/2020;5,1;18,7
+Roma EUR;09/03/2020;4,6;16,6
+Roma EUR;10/03/2020;5,8;18,4
+Roma EUR;11/03/2020;4,8;20,6
+Roma EUR;12/03/2020;8,5;18
+Roma EUR;13/03/2020;8,2;16,7
+Roma EUR;14/03/2020;11,9;15,2
+Roma EUR;15/03/2020;8,8;21,2
+Roma EUR;16/03/2020;7,3;20,1
+Roma EUR;17/03/2020;6,5;19
+Roma EUR;18/03/2020;7,6;21,4
+Roma EUR;19/03/2020;7,9;20,4
+Roma EUR;20/03/2020;6,4;19,6
+Roma EUR;21/03/2020;5,8;19,4
+Roma EUR;22/03/2020;6,8;21,6
+Roma EUR;23/03/2020;4,4;13,6
+Roma EUR;24/03/2020;2,5;10,8
+Roma EUR;25/03/2020;0,6;15,1
+Roma EUR;26/03/2020;4,7;10,8
+Roma EUR;27/03/2020;7,6;15,7
+Roma EUR;28/03/2020;9,2;17,9
+Roma EUR;29/03/2020;8,3;18,6
+Roma EUR;30/03/2020;7,2;19
+Roma EUR;31/03/2020;6;19,9
+Roma Flaminio;01/03/2020;10,9;16
+Roma Flaminio;02/03/2020;10,5;15,7
+Roma Flaminio;03/03/2020;7,9;14,3
+Roma Flaminio;04/03/2020;4,6;15,7
+Roma Flaminio;05/03/2020;3,7;16,8
+Roma Flaminio;06/03/2020;9,1;17,5
+Roma Flaminio;07/03/2020;5,1;15,9
+Roma Flaminio;08/03/2020;5,7;17,1
+Roma Flaminio;09/03/2020;3,2;16,5
+Roma Flaminio;10/03/2020;4,5;18,4
+Roma Flaminio;11/03/2020;4,2;19,7
+Roma Flaminio;12/03/2020;7,7;18,8
+Roma Flaminio;13/03/2020;7,6;16,6
+Roma Flaminio;14/03/2020;11,9;14,8
+Roma Flaminio;15/03/2020;8,9;21
+Roma Flaminio;16/03/2020;5,6;19,4
+Roma Flaminio;17/03/2020;4,9;18,5
+Roma Flaminio;18/03/2020;5,1;20,4
+Roma Flaminio;19/03/2020;5,6;21,8
+Roma Flaminio;20/03/2020;5,4;20,5
+Roma Flaminio;21/03/2020;5,3;20,3
+Roma Flaminio;22/03/2020;7;21,5
+Roma Flaminio;23/03/2020;4,7;12
+Roma Flaminio;24/03/2020;1,8;9,7
+Roma Flaminio;25/03/2020;0,8;14,4
+Roma Flaminio;26/03/2020;4,8;11,2
+Roma Flaminio;27/03/2020;7;17,7
+Roma Flaminio;28/03/2020;7,9;17,2
+Roma Flaminio;29/03/2020;8,2;18,8
+Roma Flaminio;30/03/2020;7,7;18,5
+Roma Flaminio;31/03/2020;5,8;17,7
+Roma Macao;01/03/2020;11,3;16,7
+Roma Macao;02/03/2020;11,5;16,4
+Roma Macao;03/03/2020;9,3;13,9
+Roma Macao;04/03/2020;6,8;15,8
+Roma Macao;05/03/2020;5,9;17,9
+Roma Macao;06/03/2020;11,2;18,1
+Roma Macao;07/03/2020;7,9;16,4
+Roma Macao;08/03/2020;7,2;17,5
+Roma Macao;09/03/2020;6,1;16,1
+Roma Macao;10/03/2020;6,4;19,3
+Roma Macao;11/03/2020;7,2;21
+Roma Macao;12/03/2020;9,4;19,4
+Roma Macao;13/03/2020;10,2;18,2
+Roma Macao;14/03/2020;13,2;15,1
+Roma Macao;15/03/2020;9,9;21,6
+Roma Macao;16/03/2020;7,5;20,4
+Roma Macao;17/03/2020;7,7;19,2
+Roma Macao;18/03/2020;8,4;22,3
+Roma Macao;19/03/2020;8,2;22,5
+Roma Macao;20/03/2020;7,7;20,7
+Roma Macao;21/03/2020;8;20,4
+Roma Macao;22/03/2020;9,5;21,8
+Roma Macao;23/03/2020;5;12,6
+Roma Macao;24/03/2020;2,6;10
+Roma Macao;25/03/2020;1,7;14,8
+Roma Macao;26/03/2020;5,6;12,2
+Roma Macao;27/03/2020;9,2;17,6
+Roma Macao;28/03/2020;9,7;18,9
+Roma Macao;29/03/2020;9,6;19,3
+Roma Macao;30/03/2020;10,1;19,4
+Roma Macao;31/03/2020;6,3;17,8
+Roma Monte Mario;01/03/2020;10,4;15,5
+Roma Monte Mario;02/03/2020;10;14,7
+Roma Monte Mario;03/03/2020;7,9;12,7
+Roma Monte Mario;04/03/2020;5,2;14,4
+Roma Monte Mario;05/03/2020;4,3;16,2
+Roma Monte Mario;06/03/2020;9,5;16
+Roma Monte Mario;07/03/2020;6,9;14,2
+Roma Monte Mario;08/03/2020;6,8;15,2
+Roma Monte Mario;09/03/2020;4;14,1
+Roma Monte Mario;10/03/2020;6;16,4
+Roma Monte Mario;11/03/2020;5,5;17,8
+Roma Monte Mario;12/03/2020;8,1;17,1
+Roma Monte Mario;13/03/2020;8,7;15,7
+Roma Monte Mario;14/03/2020;11,5;13,6
+Roma Monte Mario;15/03/2020;9,1;18
+Roma Monte Mario;16/03/2020;6;18,2
+Roma Monte Mario;17/03/2020;7,2;16,7
+Roma Monte Mario;18/03/2020;6,4;19,7
+Roma Monte Mario;19/03/2020;7,4;20,3
+Roma Monte Mario;20/03/2020;6,9;18,3
+Roma Monte Mario;21/03/2020;7,1;17,9
+Roma Monte Mario;22/03/2020;8,8;19
+Roma Monte Mario;23/03/2020;3,7;10,7
+Roma Monte Mario;24/03/2020;1;8,3
+Roma Monte Mario;25/03/2020;0,4;13
+Roma Monte Mario;26/03/2020;4;10,8
+Roma Monte Mario;27/03/2020;8,3;16,1
+Roma Monte Mario;28/03/2020;8,3;15,3
+Roma Monte Mario;29/03/2020;7,9;16,6
+Roma Monte Mario;30/03/2020;8,6;16,5
+Roma Monte Mario;31/03/2020;4,9;15,9
+Roma Sud;01/03/2020;10,5;14,7
+Roma Sud;02/03/2020;8,7;14,2
+Roma Sud;03/03/2020;6,3;11,5
+Roma Sud;04/03/2020;3;14,4
+Roma Sud;05/03/2020;1,2;14,7
+Roma Sud;06/03/2020;8;14,9
+Roma Sud;07/03/2020;3,5;13,9
+Roma Sud;08/03/2020;2,3;15,6
+Roma Sud;09/03/2020;1,2;13,9
+Roma Sud;10/03/2020;3,1;16
+Roma Sud;11/03/2020;2;16,6
+Roma Sud;12/03/2020;4,4;16,1
+Roma Sud;13/03/2020;5,5;14,8
+Roma Sud;14/03/2020;10,1;13,9
+Roma Sud;15/03/2020;7,2;17,3
+Roma Sud;16/03/2020;4,4;17,6
+Roma Sud;17/03/2020;3,8;16,6
+Roma Sud;18/03/2020;4;18,5
+Roma Sud;19/03/2020;4,1;19
+Roma Sud;20/03/2020;2,6;17,6
+Roma Sud;21/03/2020;2,5;17,1
+Roma Sud;22/03/2020;3,9;17,5
+Roma Sud;23/03/2020;3,3;12,2
+Roma Sud;24/03/2020;0,7;8,9
+Roma Sud;25/03/2020;-0,6;12,6
+Roma Sud;26/03/2020;3,2;9,4
+Roma Sud;27/03/2020;6;14,6
+Roma Sud;28/03/2020;7;15,4
+Roma Sud;29/03/2020;6,7;16,2
+Roma Sud;30/03/2020;4,5;15,9
+Roma Sud;31/03/2020;4,6;16,6
+Ronciglione rlazio;01/03/2020;8,2;11,8
+Ronciglione rlazio;02/03/2020;7,5;11,6
+Ronciglione rlazio;03/03/2020;6;12
+Ronciglione rlazio;04/03/2020;3,7;13,5
+Ronciglione rlazio;05/03/2020;3,4;13,5
+Ronciglione rlazio;06/03/2020;6,3;14,7
+Ronciglione rlazio;07/03/2020;4,8;12,5
+Ronciglione rlazio;08/03/2020;4,1;13,1
+Ronciglione rlazio;09/03/2020;3,5;14
+Ronciglione rlazio;10/03/2020;6;15,9
+Ronciglione rlazio;11/03/2020;6,4;18,6
+Ronciglione rlazio;12/03/2020;5,2;16,6
+Ronciglione rlazio;13/03/2020;6,9;16,6
+Ronciglione rlazio;14/03/2020;8,9;12
+Ronciglione rlazio;15/03/2020;7,8;17,3
+Ronciglione rlazio;16/03/2020;5,6;19
+Ronciglione rlazio;17/03/2020;6,9;17,9
+Ronciglione rlazio;18/03/2020;7,6;19,6
+Ronciglione rlazio;19/03/2020;8,5;20,9
+Ronciglione rlazio;20/03/2020;7,4;20,1
+Ronciglione rlazio;21/03/2020;7,1;19
+Ronciglione rlazio;22/03/2020;8,3;19,9
+Ronciglione rlazio;23/03/2020;0,7;8
+Ronciglione rlazio;24/03/2020;-0,9;6,4
+Ronciglione rlazio;25/03/2020;-0,4;10,5
+Ronciglione rlazio;26/03/2020;1,8;10,1
+Ronciglione rlazio;27/03/2020;6,7;17,2
+Ronciglione rlazio;28/03/2020;6,8;16,1
+Ronciglione rlazio;29/03/2020;5,9;17
+Ronciglione rlazio;30/03/2020;7,6;16
+Ronciglione rlazio;31/03/2020;2,8;13,8
+S.Apollinare Rlazio;01/03/2020;6,6;18,2
+S.Apollinare Rlazio;02/03/2020;5,4;18
+S.Apollinare Rlazio;03/03/2020;6;15,5
+S.Apollinare Rlazio;04/03/2020;1,3;17,9
+S.Apollinare Rlazio;05/03/2020;0,2;17,1
+S.Apollinare Rlazio;06/03/2020;8,8;17,4
+S.Apollinare Rlazio;07/03/2020;3;16,4
+S.Apollinare Rlazio;08/03/2020;2,6;17
+S.Apollinare Rlazio;09/03/2020;2,5;16,1
+S.Apollinare Rlazio;10/03/2020;1,8;19,2
+S.Apollinare Rlazio;11/03/2020;1,3;19,7
+S.Apollinare Rlazio;12/03/2020;2,3;19,9
+S.Apollinare Rlazio;13/03/2020;6,3;18,9
+S.Apollinare Rlazio;14/03/2020;8,9;19,6
+S.Apollinare Rlazio;15/03/2020;7,3;19
+S.Apollinare Rlazio;16/03/2020;1,3;20,8
+S.Apollinare Rlazio;17/03/2020;1,3;19,6
+S.Apollinare Rlazio;18/03/2020;3,3;22,2
+S.Apollinare Rlazio;19/03/2020;1,2;23,6
+S.Apollinare Rlazio;20/03/2020;1,8;20,4
+S.Apollinare Rlazio;21/03/2020;1,3;20
+S.Apollinare Rlazio;22/03/2020;3,3;20,7
+S.Apollinare Rlazio;23/03/2020;5;13,2
+S.Apollinare Rlazio;24/03/2020;-2,5;11,7
+S.Apollinare Rlazio;25/03/2020;-3,2;10,1
+S.Apollinare Rlazio;26/03/2020;6,5;13
+S.Apollinare Rlazio;27/03/2020;9,4;15,7
+S.Apollinare Rlazio;28/03/2020;7,4;17,4
+S.Apollinare Rlazio;29/03/2020;5,5;19,6
+S.Apollinare Rlazio;30/03/2020;5,9;19,8
+S.Apollinare Rlazio;31/03/2020;3,8;16,8
+S.Cosimato-Mandela - TA - Minime Giornaliere;01/03/2020;2,8;
+S.Cosimato-Mandela - TA - Minime Giornaliere;02/03/2020;8,1;
+S.Cosimato-Mandela - TA - Minime Giornaliere;03/03/2020;4,4;
+S.Cosimato-Mandela - TA - Minime Giornaliere;04/03/2020;0,8;
+S.Cosimato-Mandela - TA - Minime Giornaliere;05/03/2020;0,2;
+S.Cosimato-Mandela - TA - Minime Giornaliere;06/03/2020;7,8;
+S.Cosimato-Mandela - TA - Minime Giornaliere;07/03/2020;3,9;
+S.Cosimato-Mandela - TA - Minime Giornaliere;08/03/2020;1,9;
+S.Cosimato-Mandela - TA - Minime Giornaliere;09/03/2020;-0,6;
+S.Cosimato-Mandela - TA - Minime Giornaliere;10/03/2020;0,3;
+S.Cosimato-Mandela - TA - Minime Giornaliere;11/03/2020;0,9;
+S.Cosimato-Mandela - TA - Minime Giornaliere;12/03/2020;1,5;
+S.Cosimato-Mandela - TA - Minime Giornaliere;13/03/2020;3;
+S.Cosimato-Mandela - TA - Minime Giornaliere;14/03/2020;9,7;
+S.Cosimato-Mandela - TA - Minime Giornaliere;15/03/2020;5,2;
+S.Cosimato-Mandela - TA - Minime Giornaliere;16/03/2020;1,1;
+S.Cosimato-Mandela - TA - Minime Giornaliere;17/03/2020;1,7;
+S.Cosimato-Mandela - TA - Minime Giornaliere;18/03/2020;2,5;
+S.Cosimato-Mandela - TA - Minime Giornaliere;19/03/2020;2,3;
+S.Cosimato-Mandela - TA - Minime Giornaliere;20/03/2020;2,6;
+S.Cosimato-Mandela - TA - Minime Giornaliere;21/03/2020;2,9;
+S.Cosimato-Mandela - TA - Minime Giornaliere;22/03/2020;4,3;
+S.Cosimato-Mandela - TA - Minime Giornaliere;23/03/2020;2,8;
+S.Cosimato-Mandela - TA - Minime Giornaliere;24/03/2020;0,6;
+S.Cosimato-Mandela - TA - Minime Giornaliere;25/03/2020;-2,7;
+S.Cosimato-Mandela - TA - Minime Giornaliere;26/03/2020;4,3;
+S.Cosimato-Mandela - TA - Minime Giornaliere;27/03/2020;7,6;
+S.Cosimato-Mandela - TA - Minime Giornaliere;28/03/2020;6,5;
+S.Cosimato-Mandela - TA - Minime Giornaliere;29/03/2020;4,4;
+S.Cosimato-Mandela - TA - Minime Giornaliere;30/03/2020;5,3;
+S.Cosimato-Mandela - TA - Minime Giornaliere;31/03/2020;2,8;
+S.Vito Romano;01/03/2020;5;9,9
+S.Vito Romano;02/03/2020;6,9;10,8
+S.Vito Romano;03/03/2020;1,6;7
+S.Vito Romano;04/03/2020;1,1;11,1
+S.Vito Romano;05/03/2020;1,5;12,9
+S.Vito Romano;06/03/2020;4,1;9,5
+S.Vito Romano;07/03/2020;3,6;9,2
+S.Vito Romano;08/03/2020;2,3;11,9
+S.Vito Romano;09/03/2020;1,4;12,1
+S.Vito Romano;10/03/2020;2,8;13,9
+S.Vito Romano;11/03/2020;5,7;16,8
+S.Vito Romano;12/03/2020;6,3;18,1
+S.Vito Romano;13/03/2020;5,7;16,6
+S.Vito Romano;14/03/2020;8,2;11,4
+S.Vito Romano;15/03/2020;6,5;15,8
+S.Vito Romano;16/03/2020;2,7;15,7
+S.Vito Romano;17/03/2020;4,8;14,6
+S.Vito Romano;18/03/2020;5;18
+S.Vito Romano;19/03/2020;5,9;18,7
+S.Vito Romano;20/03/2020;6,7;18,3
+S.Vito Romano;21/03/2020;6,6;16,9
+S.Vito Romano;22/03/2020;6,6;17,7
+S.Vito Romano;23/03/2020;-1,4;11,6
+S.Vito Romano;24/03/2020;-2,5;5,6
+S.Vito Romano;25/03/2020;-3,1;10,3
+S.Vito Romano;26/03/2020;1;9,8
+S.Vito Romano;27/03/2020;5,6;13,4
+S.Vito Romano;28/03/2020;4,6;12,7
+S.Vito Romano;29/03/2020;4,9;12,6
+S.Vito Romano;30/03/2020;5,5;14,5
+S.Vito Romano;31/03/2020;3,1;14
+SS.Cosma e Damiano;01/03/2020;8,3;16,7
+SS.Cosma e Damiano;02/03/2020;6,5;17,3
+SS.Cosma e Damiano;03/03/2020;6,8;15,2
+SS.Cosma e Damiano;04/03/2020;4,2;16
+SS.Cosma e Damiano;05/03/2020;2,5;15,1
+SS.Cosma e Damiano;06/03/2020;9,7;16,9
+SS.Cosma e Damiano;07/03/2020;5,4;16,7
+SS.Cosma e Damiano;08/03/2020;5,3;16,7
+SS.Cosma e Damiano;09/03/2020;2;14,7
+SS.Cosma e Damiano;10/03/2020;4,3;17,9
+SS.Cosma e Damiano;11/03/2020;3,4;17,1
+SS.Cosma e Damiano;12/03/2020;4,9;17,3
+SS.Cosma e Damiano;13/03/2020;7;17,1
+SS.Cosma e Damiano;14/03/2020;9,7;17,4
+SS.Cosma e Damiano;15/03/2020;7,6;19,4
+SS.Cosma e Damiano;16/03/2020;5,5;21,4
+SS.Cosma e Damiano;17/03/2020;3,5;18,6
+SS.Cosma e Damiano;18/03/2020;5,7;19,7
+SS.Cosma e Damiano;19/03/2020;3;20,5
+SS.Cosma e Damiano;20/03/2020;4,4;17,9
+SS.Cosma e Damiano;21/03/2020;4,2;18,8
+SS.Cosma e Damiano;22/03/2020;5,6;19,6
+SS.Cosma e Damiano;23/03/2020;5,6;13,6
+SS.Cosma e Damiano;24/03/2020;-0,2;11,9
+SS.Cosma e Damiano;25/03/2020;-0,5;10
+SS.Cosma e Damiano;26/03/2020;7,7;12,7
+SS.Cosma e Damiano;27/03/2020;8,2;16,1
+SS.Cosma e Damiano;28/03/2020;6,8;17,9
+SS.Cosma e Damiano;29/03/2020;5,6;17,2
+SS.Cosma e Damiano;30/03/2020;6,4;18,9
+SS.Cosma e Damiano;31/03/2020;5,1;19,6
+Sabaudia;01/03/2020;12,8;17,1
+Sabaudia;02/03/2020;10;17,8
+Sabaudia;03/03/2020;9,6;14,4
+Sabaudia;04/03/2020;6,3;15,6
+Sabaudia;05/03/2020;5,3;15,7
+Sabaudia;06/03/2020;12,8;16
+Sabaudia;07/03/2020;9,8;17,7
+Sabaudia;08/03/2020;7;17,1
+Sabaudia;09/03/2020;5,7;16,2
+Sabaudia;10/03/2020;6,6;16,2
+Sabaudia;11/03/2020;6,8;17,2
+Sabaudia;12/03/2020;7,8;18,4
+Sabaudia;13/03/2020;9,4;18,1
+Sabaudia;14/03/2020;12,6;18
+Sabaudia;15/03/2020;10,8;19,5
+Sabaudia;16/03/2020;8,4;19,1
+Sabaudia;17/03/2020;8,8;18,7
+Sabaudia;18/03/2020;8,9;18,6
+Sabaudia;19/03/2020;7,8;20,4
+Sabaudia;20/03/2020;7,5;18,4
+Sabaudia;21/03/2020;7,7;19,6
+Sabaudia;22/03/2020;8,6;18,9
+Sabaudia;23/03/2020;7,7;16,1
+Sabaudia;24/03/2020;3,6;12,7
+Sabaudia;25/03/2020;2,2;13,2
+Sabaudia;26/03/2020;5,2;15,5
+Sabaudia;27/03/2020;9,5;15,6
+Sabaudia;28/03/2020;9,8;16,9
+Sabaudia;29/03/2020;8;17,4
+Sabaudia;30/03/2020;9;16,8
+Sabaudia;31/03/2020;8,5;17,9
+Sacco a Colleferro;01/03/2020;3,5;15,1
+Sacco a Colleferro;02/03/2020;7,3;16,9
+Sacco a Colleferro;03/03/2020;3,7;11,5
+Sacco a Colleferro;04/03/2020;-0,1;14,6
+Sacco a Colleferro;05/03/2020;-1;15,8
+Sacco a Colleferro;06/03/2020;7,4;13,6
+Sacco a Colleferro;07/03/2020;5,2;15,2
+Sacco a Colleferro;08/03/2020;0,1;16,2
+Sacco a Colleferro;09/03/2020;-1,5;15
+Sacco a Colleferro;10/03/2020;-0,3;17,2
+Sacco a Colleferro;11/03/2020;-0,6;19,3
+Sacco a Colleferro;12/03/2020;1,1;20,3
+Sacco a Colleferro;13/03/2020;2,8;17,9
+Sacco a Colleferro;14/03/2020;9,4;15,8
+Sacco a Colleferro;15/03/2020;6,4;18,5
+Sacco a Colleferro;16/03/2020;0,4;19,5
+Sacco a Colleferro;17/03/2020;-0,4;17,4
+Sacco a Colleferro;18/03/2020;0,3;19,7
+Sacco a Colleferro;19/03/2020;0,4;20,8
+Sacco a Colleferro;20/03/2020;0,4;19,7
+Sacco a Colleferro;21/03/2020;0,1;18,5
+Sacco a Colleferro;22/03/2020;1,4;20,3
+Sacco a Colleferro;23/03/2020;3,6;15,1
+Sacco a Colleferro;24/03/2020;-4,1;10,1
+Sacco a Colleferro;25/03/2020;-6,7;11,8
+Sacco a Colleferro;26/03/2020;3,5;10,7
+Sacco a Colleferro;27/03/2020;6,8;16,6
+Sacco a Colleferro;28/03/2020;6,8;16
+Sacco a Colleferro;29/03/2020;4,5;18,4
+Sacco a Colleferro;30/03/2020;4,4;17,6
+Sacco a Colleferro;31/03/2020;1,5;17
+Salisano;01/03/2020;7,2;13,9
+Salisano;02/03/2020;8,2;14
+Salisano;03/03/2020;5,1;9,1
+Salisano;04/03/2020;3,7;14,1
+Salisano;05/03/2020;3,2;12,2
+Salisano;06/03/2020;8;13,8
+Salisano;07/03/2020;6,1;13,5
+Salisano;08/03/2020;4,6;15,9
+Salisano;09/03/2020;2,6;13,4
+Salisano;10/03/2020;5,3;15,2
+Salisano;11/03/2020;6,9;17,7
+Salisano;12/03/2020;5,9;17,3
+Salisano;13/03/2020;7,4;15,4
+Salisano;14/03/2020;9,5;11,6
+Salisano;15/03/2020;8,4;19,3
+Salisano;16/03/2020;5,8;16,8
+Salisano;17/03/2020;7,6;16
+Salisano;18/03/2020;7,3;17,8
+Salisano;19/03/2020;10,2;19,2
+Salisano;20/03/2020;8,4;18,3
+Salisano;21/03/2020;8,7;17
+Salisano;22/03/2020;9,1;21,1
+Salisano;23/03/2020;1,2;11,9
+Salisano;24/03/2020;-1,7;8,2
+Salisano;25/03/2020;0,1;11,5
+Salisano;26/03/2020;5,2;12,2
+Salisano;27/03/2020;8,1;16
+Salisano;28/03/2020;7,7;13,2
+Salisano;29/03/2020;6,6;17,4
+Salisano;30/03/2020;7,5;16,3
+Salisano;31/03/2020;3,7;14
+Salone;01/03/2020;10,3;17
+Salone;02/03/2020;9;16,4
+Salone;03/03/2020;8;12,7
+Salone;04/03/2020;-0,4;15,5
+Salone;05/03/2020;-2,9;16,3
+Salone;06/03/2020;5;16,5
+Salone;07/03/2020;3,3;15,9
+Salone;08/03/2020;-1,9;17,2
+Salone;09/03/2020;-3,5;16,9
+Salone;10/03/2020;-2,2;17,7
+Salone;11/03/2020;-1,6;20,2
+Salone;12/03/2020;3,2;19,6
+Salone;13/03/2020;1,2;17,1
+Salone;14/03/2020;10,6;15,2
+Salone;15/03/2020;1,7;21,5
+Salone;16/03/2020;-0,4;19,7
+Salone;17/03/2020;-1,3;18,6
+Salone;18/03/2020;-0,9;20,8
+Salone;19/03/2020;-1,1;21,7
+Salone;20/03/2020;-1;20,6
+Salone;21/03/2020;-0,7;19,6
+Salone;22/03/2020;0,7;22
+Salone;23/03/2020;0,1;14,1
+Salone;24/03/2020;-1,6;10,7
+Salone;25/03/2020;-7,8;13,7
+Salone;26/03/2020;4,4;11,2
+Salone;27/03/2020;4,5;16,9
+Salone;28/03/2020;5,2;17,2
+Salone;29/03/2020;2,3;19,5
+Salone;30/03/2020;2,8;19,2
+Salone;31/03/2020;0,7;17,5
+Sambuci;01/03/2020;5,7;11,8
+Sambuci;02/03/2020;7,5;12,5
+Sambuci;03/03/2020;3,4;7,9
+Sambuci;04/03/2020;1,7;11,8
+Sambuci;05/03/2020;2,5;12,5
+Sambuci;06/03/2020;5,7;10,5
+Sambuci;07/03/2020;4;11,3
+Sambuci;08/03/2020;3,9;12,5
+Sambuci;09/03/2020;2,3;11
+Sambuci;10/03/2020;3,4;13,2
+Sambuci;11/03/2020;5,8;15,5
+Sambuci;12/03/2020;7,3;16,4
+Sambuci;13/03/2020;6,9;14,7
+Sambuci;14/03/2020;8,7;11,5
+Sambuci;15/03/2020;5,6;16,6
+Sambuci;16/03/2020;3,6;15,5
+Sambuci;17/03/2020;6;13,7
+Sambuci;18/03/2020;6,6;16,4
+Sambuci;19/03/2020;7,4;17,7
+Sambuci;20/03/2020;8,2;16,4
+Sambuci;21/03/2020;7,6;15,9
+Sambuci;22/03/2020;7,8;17
+Sambuci;23/03/2020;0;11,5
+Sambuci;24/03/2020;-1,7;6,6
+Sambuci;25/03/2020;-2,8;8,3
+Sambuci;26/03/2020;2,2;12,2
+Sambuci;27/03/2020;6,5;12,6
+Sambuci;28/03/2020;6,1;12,2
+Sambuci;29/03/2020;5,5;14,8
+Sambuci;30/03/2020;6,7;13,9
+Sambuci;31/03/2020;2,2;14
+San Biagio Saracinisco;01/03/2020;2,5;7,2
+San Biagio Saracinisco;02/03/2020;4,2;7,8
+San Biagio Saracinisco;03/03/2020;0,1;7,9
+San Biagio Saracinisco;04/03/2020;-0,7;7,9
+San Biagio Saracinisco;05/03/2020;-0,4;9,3
+San Biagio Saracinisco;06/03/2020;2,5;7,8
+San Biagio Saracinisco;07/03/2020;1,1;8,8
+San Biagio Saracinisco;08/03/2020;-0,3;8,2
+San Biagio Saracinisco;09/03/2020;-0,9;7
+San Biagio Saracinisco;10/03/2020;-1,1;9,7
+San Biagio Saracinisco;11/03/2020;2,6;13,5
+San Biagio Saracinisco;12/03/2020;5,9;15,1
+San Biagio Saracinisco;13/03/2020;5,7;13,4
+San Biagio Saracinisco;14/03/2020;5,1;14,5
+San Biagio Saracinisco;15/03/2020;0,6;12,2
+San Biagio Saracinisco;16/03/2020;0,6;12,8
+San Biagio Saracinisco;17/03/2020;2,9;13,5
+San Biagio Saracinisco;18/03/2020;2,9;15,6
+San Biagio Saracinisco;19/03/2020;4,9;16,5
+San Biagio Saracinisco;20/03/2020;5,2;15,6
+San Biagio Saracinisco;21/03/2020;4,5;14,9
+San Biagio Saracinisco;22/03/2020;2,4;13,4
+San Biagio Saracinisco;23/03/2020;-3,2;6,1
+San Biagio Saracinisco;24/03/2020;-5,8;1,3
+San Biagio Saracinisco;25/03/2020;-6,9;2,8
+San Biagio Saracinisco;26/03/2020;0,6;5,5
+San Biagio Saracinisco;27/03/2020;2,6;9,6
+San Biagio Saracinisco;28/03/2020;1,9;9,5
+San Biagio Saracinisco;29/03/2020;1,5;10,2
+San Biagio Saracinisco;30/03/2020;3;12,5
+San Biagio Saracinisco;31/03/2020;-2,9;7,9
+San Marino;01/03/2020;6,1;16,8
+San Marino;02/03/2020;7,5;17,3
+San Marino;03/03/2020;3,6;10,9
+San Marino;04/03/2020;1,8;14
+San Marino;05/03/2020;1,9;14,9
+San Marino;06/03/2020;6,9;13,2
+San Marino;07/03/2020;5,1;13,2
+San Marino;08/03/2020;3,5;15,7
+San Marino;09/03/2020;0,7;14,7
+San Marino;10/03/2020;3,6;16,7
+San Marino;11/03/2020;3,1;19,3
+San Marino;12/03/2020;4,2;20
+San Marino;13/03/2020;5,2;17,9
+San Marino;14/03/2020;8,9;15,1
+San Marino;15/03/2020;8;18,6
+San Marino;16/03/2020;3,7;18,6
+San Marino;17/03/2020;4;17,6
+San Marino;18/03/2020;4,6;19,3
+San Marino;19/03/2020;5,2;21,1
+San Marino;20/03/2020;5,4;20,3
+San Marino;21/03/2020;4,2;18,7
+San Marino;22/03/2020;5,7;20,2
+San Marino;23/03/2020;3,1;15,1
+San Marino;24/03/2020;-1;10,5
+San Marino;25/03/2020;-3,1;10,8
+San Marino;26/03/2020;2,2;10,1
+San Marino;27/03/2020;6,2;17,3
+San Marino;28/03/2020;6,7;14,6
+San Marino;29/03/2020;4,8;18,1
+San Marino;30/03/2020;6,6;16
+San Marino;31/03/2020;5,9;16,3
+Santa Severa;01/03/2020;11,8;15,8
+Santa Severa;02/03/2020;12;14,9
+Santa Severa;03/03/2020;8,7;15,1
+Santa Severa;04/03/2020;5,9;17,3
+Santa Severa;05/03/2020;4,9;13,7
+Santa Severa;06/03/2020;7,7;16,2
+Santa Severa;07/03/2020;5,7;16,1
+Santa Severa;08/03/2020;7,2;17,5
+Santa Severa;09/03/2020;4;14,2
+Santa Severa;10/03/2020;6,5;16,6
+Santa Severa;11/03/2020;5;16,6
+Santa Severa;12/03/2020;6,6;15,8
+Santa Severa;13/03/2020;9,4;16
+Santa Severa;14/03/2020;9,9;14,9
+Santa Severa;15/03/2020;8,5;19,3
+Santa Severa;16/03/2020;7,1;16,6
+Santa Severa;17/03/2020;6;16,6
+Santa Severa;18/03/2020;5,6;16,9
+Santa Severa;19/03/2020;7,1;17,7
+Santa Severa;20/03/2020;5,8;16,6
+Santa Severa;21/03/2020;6,9;16,5
+Santa Severa;22/03/2020;7,8;17,4
+Santa Severa;23/03/2020;4,8;12,9
+Santa Severa;24/03/2020;1,5;11,2
+Santa Severa;25/03/2020;3,8;12,8
+Santa Severa;26/03/2020;4,6;13
+Santa Severa;27/03/2020;9,4;15,7
+Santa Severa;28/03/2020;8,9;15,9
+Santa Severa;29/03/2020;7,5;16,1
+Santa Severa;30/03/2020;6,9;16,3
+Santa Severa;31/03/2020;5,7;17,6
+Sasso Furbara;01/03/2020;10;12,6
+Sasso Furbara;02/03/2020;9;12,2
+Sasso Furbara;03/03/2020;6,2;13,9
+Sasso Furbara;04/03/2020;5,6;13,7
+Sasso Furbara;05/03/2020;5;12,8
+Sasso Furbara;06/03/2020;7;14,7
+Sasso Furbara;07/03/2020;6,3;13,8
+Sasso Furbara;08/03/2020;6,3;14,4
+Sasso Furbara;09/03/2020;5,3;12,5
+Sasso Furbara;10/03/2020;5,5;16,3
+Sasso Furbara;11/03/2020;6,7;16,9
+Sasso Furbara;12/03/2020;6,2;15,2
+Sasso Furbara;13/03/2020;9,3;13,9
+Sasso Furbara;14/03/2020;9,5;13
+Sasso Furbara;15/03/2020;7,9;17,5
+Sasso Furbara;16/03/2020;7,5;16
+Sasso Furbara;17/03/2020;8,2;15,9
+Sasso Furbara;18/03/2020;8,6;18,2
+Sasso Furbara;19/03/2020;8,9;18,6
+Sasso Furbara;20/03/2020;7,7;18,3
+Sasso Furbara;21/03/2020;7,3;17,4
+Sasso Furbara;22/03/2020;8,8;17,6
+Sasso Furbara;23/03/2020;2;9,6
+Sasso Furbara;24/03/2020;-0,6;7,6
+Sasso Furbara;25/03/2020;-0,1;12,3
+Sasso Furbara;26/03/2020;1,9;9,9
+Sasso Furbara;27/03/2020;7,7;14,4
+Sasso Furbara;28/03/2020;7,7;15,4
+Sasso Furbara;29/03/2020;7;16,4
+Sasso Furbara;30/03/2020;7,2;17,7
+Sasso Furbara;31/03/2020;2,7;13,8
+Settefrati;01/03/2020;3,7;11,1
+Settefrati;02/03/2020;4,9;11,5
+Settefrati;03/03/2020;2,5;9,4
+Settefrati;04/03/2020;0,6;12,4
+Settefrati;05/03/2020;1,2;12,8
+Settefrati;06/03/2020;4,9;13,3
+Settefrati;07/03/2020;2,8;11,8
+Settefrati;08/03/2020;1,7;12,2
+Settefrati;09/03/2020;0,8;11
+Settefrati;10/03/2020;1;13,5
+Settefrati;11/03/2020;3,6;16,8
+Settefrati;12/03/2020;5,6;18
+Settefrati;13/03/2020;5,2;15,7
+Settefrati;14/03/2020;7,3;16,3
+Settefrati;15/03/2020;3,6;16,2
+Settefrati;16/03/2020;1,9;16,8
+Settefrati;17/03/2020;4,3;16,4
+Settefrati;18/03/2020;5;18,2
+Settefrati;19/03/2020;5,4;19,7
+Settefrati;20/03/2020;6,3;19,5
+Settefrati;21/03/2020;5,6;17,5
+Settefrati;22/03/2020;5;17,4
+Settefrati;23/03/2020;-1,1;11
+Settefrati;24/03/2020;-2,9;5,8
+Settefrati;25/03/2020;-4,5;7,4
+Settefrati;26/03/2020;2,4;9,4
+Settefrati;27/03/2020;5,2;14,3
+Settefrati;28/03/2020;4,6;11,4
+Settefrati;29/03/2020;4,1;14,8
+Settefrati;30/03/2020;4,4;14,3
+Settefrati;31/03/2020;1;13,9
+Sgurgola;01/03/2020;3,8;15,4
+Sgurgola;02/03/2020;5,6;17,2
+Sgurgola;03/03/2020;4,2;12,7
+Sgurgola;04/03/2020;-0,6;15,2
+Sgurgola;05/03/2020;-0,9;16,4
+Sgurgola;06/03/2020;7,5;14,6
+Sgurgola;07/03/2020;5,4;15
+Sgurgola;08/03/2020;-0,1;16,8
+Sgurgola;09/03/2020;-1,6;16
+Sgurgola;10/03/2020;-0,3;17,7
+Sgurgola;11/03/2020;-0,7;19,9
+Sgurgola;12/03/2020;1,5;20,8
+Sgurgola;13/03/2020;3,4;19,3
+Sgurgola;14/03/2020;8,5;16,3
+Sgurgola;15/03/2020;7;20,1
+Sgurgola;16/03/2020;0,7;18,9
+Sgurgola;17/03/2020;-0,2;18,1
+Sgurgola;18/03/2020;1,4;21
+Sgurgola;19/03/2020;1;22,4
+Sgurgola;20/03/2020;0,7;21,4
+Sgurgola;21/03/2020;0,7;20,1
+Sgurgola;22/03/2020;1,4;21
+Sgurgola;23/03/2020;4,8;15,8
+Sgurgola;24/03/2020;-3,4;10,2
+Sgurgola;25/03/2020;-5,3;10,6
+Sgurgola;26/03/2020;3,4;10,4
+Sgurgola;27/03/2020;6,6;16,1
+Sgurgola;28/03/2020;6,6;17,1
+Sgurgola;29/03/2020;4,1;19,3
+Sgurgola;30/03/2020;5,1;18,3
+Sgurgola;31/03/2020;1,5;17,7
+Sora;01/03/2020;4,6;14,1
+Sora;02/03/2020;7;16,1
+Sora;03/03/2020;6;12,5
+Sora;04/03/2020;2,1;15,3
+Sora;05/03/2020;1,6;15,7
+Sora;06/03/2020;7;16,1
+Sora;07/03/2020;6,4;15,9
+Sora;08/03/2020;3,6;13,5
+Sora;09/03/2020;1,4;14,6
+Sora;10/03/2020;3,5;17
+Sora;11/03/2020;3,3;19,7
+Sora;12/03/2020;3,9;20,9
+Sora;13/03/2020;5,6;18,1
+Sora;14/03/2020;10;18
+Sora;15/03/2020;7,8;17,4
+Sora;16/03/2020;3,9;19
+Sora;17/03/2020;3,7;18,7
+Sora;18/03/2020;4,2;20,9
+Sora;19/03/2020;4,2;21,6
+Sora;20/03/2020;5,6;21,1
+Sora;21/03/2020;5,9;19,4
+Sora;22/03/2020;4,9;19,1
+Sora;23/03/2020;3,8;12,1
+Sora;24/03/2020;3,2;7,8
+Sora;25/03/2020;-0,5;11,2
+Sora;26/03/2020;3,9;11,8
+Sora;27/03/2020;7,7;17,3
+Sora;28/03/2020;7,1;14,1
+Sora;29/03/2020;4,4;18,3
+Sora;30/03/2020;6,8;17,2
+Sora;31/03/2020;4,3;15,9
+Sorano Meteo;01/03/2020;5,6;8,8
+Sorano Meteo;02/03/2020;6,2;9,1
+Sorano Meteo;03/03/2020;1,8;7,7
+Sorano Meteo;04/03/2020;2,2;9,5
+Sorano Meteo;05/03/2020;3,4;8,8
+Sorano Meteo;06/03/2020;4;10,4
+Sorano Meteo;07/03/2020;2,7;7
+Sorano Meteo;08/03/2020;2,9;8,3
+Sorano Meteo;09/03/2020;2,8;8,7
+Sorano Meteo;10/03/2020;3,5;11,1
+Sorano Meteo;11/03/2020;6,2;13,2
+Sorano Meteo;12/03/2020;6,6;9,3
+Sorano Meteo;13/03/2020;6;9,7
+Sorano Meteo;14/03/2020;6,8;11,7
+Sorano Meteo;15/03/2020;4,5;10
+Sorano Meteo;16/03/2020;4,9;14,3
+Sorano Meteo;17/03/2020;6,6;13,3
+Sorano Meteo;18/03/2020;8,7;13,8
+Sorano Meteo;19/03/2020;9,1;15,5
+Sorano Meteo;20/03/2020;7,8;14,4
+Sorano Meteo;21/03/2020;6,4;13,5
+Sorano Meteo;22/03/2020;3,2;13,6
+Sorano Meteo;23/03/2020;-2,4;3,2
+Sorano Meteo;24/03/2020;-2,7;1,6
+Sorano Meteo;25/03/2020;-3,1;2,8
+Sorano Meteo;26/03/2020;-1,2;3,6
+Sorano Meteo;27/03/2020;3,2;7,9
+Sorano Meteo;28/03/2020;4,8;11,9
+Sorano Meteo;29/03/2020;6,2;13,4
+Sorano Meteo;30/03/2020;6,3;12,6
+Sorano Meteo;31/03/2020;-0,6;7,4
+Sorgenti Capore;01/03/2020;2,2;17
+Sorgenti Capore;02/03/2020;8,8;16,5
+Sorgenti Capore;03/03/2020;5,4;11,7
+Sorgenti Capore;04/03/2020;1,4;14,5
+Sorgenti Capore;05/03/2020;0,2;14,5
+Sorgenti Capore;06/03/2020;6,7;16,3
+Sorgenti Capore;07/03/2020;3,4;13,7
+Sorgenti Capore;08/03/2020;1,1;15
+Sorgenti Capore;09/03/2020;-1;14,3
+Sorgenti Capore;10/03/2020;-0,1;17,5
+Sorgenti Capore;11/03/2020;1,3;18,8
+Sorgenti Capore;12/03/2020;1,7;18,7
+Sorgenti Capore;13/03/2020;3,6;16,8
+Sorgenti Capore;14/03/2020;7,4;13,9
+Sorgenti Capore;15/03/2020;4,6;19,7
+Sorgenti Capore;16/03/2020;1,6;18,3
+Sorgenti Capore;17/03/2020;3,3;17,7
+Sorgenti Capore;18/03/2020;2,7;19,1
+Sorgenti Capore;19/03/2020;3,2;20,9
+Sorgenti Capore;20/03/2020;3,1;19,8
+Sorgenti Capore;21/03/2020;3,2;18,2
+Sorgenti Capore;22/03/2020;5,1;20,8
+Sorgenti Capore;23/03/2020;0,9;13,1
+Sorgenti Capore;24/03/2020;-2,1;9,3
+Sorgenti Capore;25/03/2020;-2,9;12,7
+Sorgenti Capore;26/03/2020;5,8;16,3
+Sorgenti Capore;27/03/2020;7,1;17,6
+Sorgenti Capore;28/03/2020;6,5;14,9
+Sorgenti Capore;29/03/2020;3;18,3
+Sorgenti Capore;30/03/2020;6,1;17,6
+Sorgenti Capore;31/03/2020;3,5;15,2
+Sorgenti Peschiera;01/03/2020;1,1;15
+Sorgenti Peschiera;02/03/2020;6,9;14,7
+Sorgenti Peschiera;03/03/2020;3,6;9,4
+Sorgenti Peschiera;04/03/2020;-0,5;12,3
+Sorgenti Peschiera;05/03/2020;-2,1;14,2
+Sorgenti Peschiera;06/03/2020;5,6;13,9
+Sorgenti Peschiera;07/03/2020;2,8;12,1
+Sorgenti Peschiera;08/03/2020;3,7;12,4
+Sorgenti Peschiera;09/03/2020;-1,9;13
+Sorgenti Peschiera;10/03/2020;0,9;14,7
+Sorgenti Peschiera;11/03/2020;-0,1;18,6
+Sorgenti Peschiera;12/03/2020;1,2;20,1
+Sorgenti Peschiera;13/03/2020;2,2;19
+Sorgenti Peschiera;14/03/2020;4,4;12,9
+Sorgenti Peschiera;15/03/2020;5,7;16,1
+Sorgenti Peschiera;16/03/2020;2,8;19,1
+Sorgenti Peschiera;17/03/2020;1,3;17,1
+Sorgenti Peschiera;18/03/2020;0,2;19,5
+Sorgenti Peschiera;19/03/2020;3,2;20,5
+Sorgenti Peschiera;20/03/2020;2,5;19,4
+Sorgenti Peschiera;21/03/2020;2,3;18,5
+Sorgenti Peschiera;22/03/2020;4,3;16,9
+Sorgenti Peschiera;23/03/2020;1,4;9,1
+Sorgenti Peschiera;24/03/2020;-0,9;6
+Sorgenti Peschiera;25/03/2020;-1,2;7,2
+Sorgenti Peschiera;26/03/2020;4,3;10,6
+Sorgenti Peschiera;27/03/2020;7,5;15,6
+Sorgenti Peschiera;28/03/2020;6,2;14,3
+Sorgenti Peschiera;29/03/2020;1,4;15,5
+Sorgenti Peschiera;30/03/2020;4;15,1
+Sorgenti Peschiera;31/03/2020;2,1;11,1
+Soriano nel Cimino;01/03/2020;7,9;12,2
+Soriano nel Cimino;02/03/2020;6,3;11,7
+Soriano nel Cimino;03/03/2020;5;11,5
+Soriano nel Cimino;04/03/2020;3,2;12,2
+Soriano nel Cimino;05/03/2020;3,2;13,6
+Soriano nel Cimino;06/03/2020;5,4;14,4
+Soriano nel Cimino;07/03/2020;3,9;11,6
+Soriano nel Cimino;08/03/2020;4;11,7
+Soriano nel Cimino;09/03/2020;2,7;12,1
+Soriano nel Cimino;10/03/2020;4,3;14,3
+Soriano nel Cimino;11/03/2020;5,7;16,9
+Soriano nel Cimino;12/03/2020;3,9;16,9
+Soriano nel Cimino;13/03/2020;6;13,8
+Soriano nel Cimino;14/03/2020;8,6;12
+Soriano nel Cimino;15/03/2020;5,2;15,6
+Soriano nel Cimino;16/03/2020;3,8;17,5
+Soriano nel Cimino;17/03/2020;6,2;16,4
+Soriano nel Cimino;18/03/2020;7,2;18,5
+Soriano nel Cimino;19/03/2020;7,5;19,1
+Soriano nel Cimino;20/03/2020;7,6;18
+Soriano nel Cimino;21/03/2020;7,4;18,2
+Soriano nel Cimino;22/03/2020;5,8;18,4
+Soriano nel Cimino;23/03/2020;-0,8;6,4
+Soriano nel Cimino;24/03/2020;-1,4;5
+Soriano nel Cimino;25/03/2020;-1,9;9,8
+Soriano nel Cimino;26/03/2020;1;9,7
+Soriano nel Cimino;27/03/2020;6,1;14
+Soriano nel Cimino;28/03/2020;6,3;15,4
+Soriano nel Cimino;29/03/2020;5;17,4
+Soriano nel Cimino;30/03/2020;6;16,3
+Soriano nel Cimino;31/03/2020;1,2;9,3
+Spigno Saturnia;01/03/2020;8,7;16,7
+Spigno Saturnia;02/03/2020;6,2;17
+Spigno Saturnia;03/03/2020;6,9;15,1
+Spigno Saturnia;04/03/2020;4;16
+Spigno Saturnia;05/03/2020;1,9;15,6
+Spigno Saturnia;06/03/2020;7,4;17,2
+Spigno Saturnia;07/03/2020;4,6;16,1
+Spigno Saturnia;08/03/2020;5,4;16,6
+Spigno Saturnia;09/03/2020;1,8;14,7
+Spigno Saturnia;10/03/2020;3,4;18
+Spigno Saturnia;11/03/2020;2,9;17,8
+Spigno Saturnia;12/03/2020;4;17,9
+Spigno Saturnia;13/03/2020;5,9;16,1
+Spigno Saturnia;14/03/2020;9,5;17,9
+Spigno Saturnia;15/03/2020;7,9;19,5
+Spigno Saturnia;16/03/2020;5,2;21,1
+Spigno Saturnia;17/03/2020;3,5;18,7
+Spigno Saturnia;18/03/2020;5,4;19,8
+Spigno Saturnia;19/03/2020;3,4;21,1
+Spigno Saturnia;20/03/2020;4,1;18,6
+Spigno Saturnia;21/03/2020;3,7;18,5
+Spigno Saturnia;22/03/2020;4,3;20,6
+Spigno Saturnia;23/03/2020;5,5;13,3
+Spigno Saturnia;24/03/2020;-0,2;11,5
+Spigno Saturnia;25/03/2020;0,3;10,5
+Spigno Saturnia;26/03/2020;6,5;11,9
+Spigno Saturnia;27/03/2020;8,9;14,4
+Spigno Saturnia;28/03/2020;5,9;17,4
+Spigno Saturnia;29/03/2020;4,5;17,9
+Spigno Saturnia;30/03/2020;5,5;18,8
+Spigno Saturnia;31/03/2020;4,7;18,7
+Subiaco-Scolastica;01/03/2020;4,1;13,3
+Subiaco-Scolastica;02/03/2020;6,8;14
+Subiaco-Scolastica;03/03/2020;3,4;8,9
+Subiaco-Scolastica;04/03/2020;0,8;13,1
+Subiaco-Scolastica;05/03/2020;0,6;14,3
+Subiaco-Scolastica;06/03/2020;5,7;12,3
+Subiaco-Scolastica;07/03/2020;4,3;13,5
+Subiaco-Scolastica;08/03/2020;2,4;14,8
+Subiaco-Scolastica;09/03/2020;0,2;13,6
+Subiaco-Scolastica;10/03/2020;1,5;15,3
+Subiaco-Scolastica;11/03/2020;2,1;18,4
+Subiaco-Scolastica;12/03/2020;4,9;20,2
+Subiaco-Scolastica;13/03/2020;5;18,1
+Subiaco-Scolastica;14/03/2020;8,2;14,5
+Subiaco-Scolastica;15/03/2020;6,6;17,5
+Subiaco-Scolastica;16/03/2020;1,7;17,7
+Subiaco-Scolastica;17/03/2020;3,2;16,7
+Subiaco-Scolastica;18/03/2020;3,5;19,2
+Subiaco-Scolastica;19/03/2020;3,6;19,9
+Subiaco-Scolastica;20/03/2020;4,7;19
+Subiaco-Scolastica;21/03/2020;4,8;17,7
+Subiaco-Scolastica;22/03/2020;5,9;19,4
+Subiaco-Scolastica;23/03/2020;1,8;12,9
+Subiaco-Scolastica;24/03/2020;-2,6;7,5
+Subiaco-Scolastica;25/03/2020;-3,2;10,7
+Subiaco-Scolastica;26/03/2020;2,1;13,9
+Subiaco-Scolastica;27/03/2020;7;15,6
+Subiaco-Scolastica;28/03/2020;6,1;14,3
+Subiaco-Scolastica;29/03/2020;3,3;16,7
+Subiaco-Scolastica;30/03/2020;6,1;14,6
+Subiaco-Scolastica;31/03/2020;3,4;15,4
+Supino;01/03/2020;4,4;8
+Supino;02/03/2020;4,1;8,1
+Supino;03/03/2020;-0,1;5,3
+Supino;04/03/2020;-1,7;7,1
+Supino;05/03/2020;0,3;8,9
+Supino;06/03/2020;2,6;7,4
+Supino;07/03/2020;1;6,4
+Supino;08/03/2020;-0,2;7,9
+Supino;09/03/2020;-0,4;7
+Supino;10/03/2020;-0,4;8,6
+Supino;11/03/2020;4,8;12
+Supino;12/03/2020;5,8;14
+Supino;13/03/2020;5,7;13,3
+Supino;14/03/2020;4,4;11,2
+Supino;15/03/2020;4,7;10,7
+Supino;16/03/2020;0,9;10,8
+Supino;17/03/2020;2,7;10,6
+Supino;18/03/2020;3,8;12,3
+Supino;19/03/2020;3,7;14,2
+Supino;20/03/2020;4,4;13,6
+Supino;21/03/2020;3,6;12
+Supino;22/03/2020;3,2;12,6
+Supino;23/03/2020;-3,1;7,4
+Supino;24/03/2020;-6,2;1,6
+Supino;25/03/2020;-6;2
+Supino;26/03/2020;-1;5,4
+Supino;27/03/2020;2,5;7,6
+Supino;28/03/2020;2,8;8,5
+Supino;29/03/2020;3;10,5
+Supino;30/03/2020;2,3;9,7
+Supino;31/03/2020;0,7;10
+Sutri;01/03/2020;9,4;13,3
+Sutri;02/03/2020;6,1;13
+Sutri;03/03/2020;7,3;13,6
+Sutri;04/03/2020;2,8;15,9
+Sutri;05/03/2020;0,6;13,5
+Sutri;06/03/2020;4,3;14,9
+Sutri;07/03/2020;1,4;14,7
+Sutri;08/03/2020;4,5;16
+Sutri;09/03/2020;0,8;13,9
+Sutri;10/03/2020;5,7;19,7
+Sutri;11/03/2020;3;19,2
+Sutri;12/03/2020;2,8;16,2
+Sutri;13/03/2020;5,4;16,1
+Sutri;14/03/2020;8,9;13,1
+Sutri;15/03/2020;4,8;20,6
+Sutri;16/03/2020;2;20,9
+Sutri;17/03/2020;3,8;19,3
+Sutri;18/03/2020;3,6;21
+Sutri;19/03/2020;3,6;20,7
+Sutri;20/03/2020;3,2;20
+Sutri;21/03/2020;3,3;18,5
+Sutri;22/03/2020;6,2;22,6
+Sutri;23/03/2020;2,2;10,7
+Sutri;24/03/2020;0,5;9,1
+Sutri;25/03/2020;1;13,3
+Sutri;26/03/2020;3,3;11,6
+Sutri;27/03/2020;6,6;17,3
+Sutri;28/03/2020;5,5;17,4
+Sutri;29/03/2020;3,9;16,7
+Sutri;30/03/2020;5,7;16,2
+Sutri;31/03/2020;3;16
+Terracina;01/03/2020;13,2;16,2
+Terracina;02/03/2020;11,1;17,6
+Terracina;03/03/2020;10,1;15,4
+Terracina;04/03/2020;7,6;17,7
+Terracina;05/03/2020;6,9;17,2
+Terracina;06/03/2020;11,7;16,6
+Terracina;07/03/2020;10,4;17,8
+Terracina;08/03/2020;8,6;18,2
+Terracina;09/03/2020;6,6;16,9
+Terracina;10/03/2020;7,2;18,5
+Terracina;11/03/2020;8,5;19,4
+Terracina;12/03/2020;9,7;19,1
+Terracina;13/03/2020;10,2;19,6
+Terracina;14/03/2020;13,3;18,3
+Terracina;15/03/2020;11,8;20,4
+Terracina;16/03/2020;10,0;19,8
+Terracina;17/03/2020;9,5;18,3
+Terracina;18/03/2020;10,1;18,7
+Terracina;19/03/2020;9,4;20,7
+Terracina;20/03/2020;9,1;19,6
+Terracina;21/03/2020;9,4;19,2
+Terracina;22/03/2020;9,8;20,2
+Terracina;23/03/2020;7,9;16,9
+Terracina;24/03/2020;5,4;13,8
+Terracina;25/03/2020;4,9;12,7
+Terracina;26/03/2020;6,4;14,1
+Terracina;27/03/2020;9,7;13,8
+Terracina;28/03/2020;9,9;18,2
+Terracina;29/03/2020;9,1;19,4
+Terracina;30/03/2020;10,0;18,7
+Terracina;31/03/2020;9,7;19,8
+Tevere a Castelgiubileo;01/03/2020;9,7;16,7
+Tevere a Castelgiubileo;02/03/2020;11,4;16,2
+Tevere a Castelgiubileo;03/03/2020;8,9;14,1
+Tevere a Castelgiubileo;04/03/2020;4,1;16,6
+Tevere a Castelgiubileo;05/03/2020;3,2;16,6
+Tevere a Castelgiubileo;06/03/2020;8,1;17,1
+Tevere a Castelgiubileo;07/03/2020;4,2;15,9
+Tevere a Castelgiubileo;08/03/2020;5,8;17,6
+Tevere a Castelgiubileo;09/03/2020;2,6;15,6
+Tevere a Castelgiubileo;10/03/2020;4,0;18,1
+Tevere a Castelgiubileo;11/03/2020;3,4;19,0
+Tevere a Castelgiubileo;12/03/2020;6,4;18,8
+Tevere a Castelgiubileo;13/03/2020;7,0;17,2
+Tevere a Castelgiubileo;14/03/2020;11,8;15,0
+Tevere a Castelgiubileo;15/03/2020;8,6;20,8
+Tevere a Castelgiubileo;16/03/2020;4,2;19,6
+Tevere a Castelgiubileo;17/03/2020;3,8;18,3
+Tevere a Castelgiubileo;18/03/2020;4,4;20,6
+Tevere a Castelgiubileo;19/03/2020;4,6;21,4
+Tevere a Castelgiubileo;20/03/2020;3,9;20,3
+Tevere a Castelgiubileo;21/03/2020;4,3;19,9
+Tevere a Castelgiubileo;22/03/2020;6,5;21,5
+Tevere a Castelgiubileo;23/03/2020;5,0;13,0
+Tevere a Castelgiubileo;24/03/2020;2,0;10,8
+Tevere a Castelgiubileo;25/03/2020;1,1;15,2
+Tevere a Castelgiubileo;26/03/2020;5,7;13,2
+Tevere a Castelgiubileo;27/03/2020;8,5;17,5
+Tevere a Castelgiubileo;28/03/2020;7,6;17,7
+Tevere a Castelgiubileo;29/03/2020;7,1;18,3
+Tevere a Castelgiubileo;30/03/2020;7,3;18,5
+Tevere a Castelgiubileo;31/03/2020;5,5;17,5
+Tevere a Stimigliano;01/03/2020;5,8;16,9
+Tevere a Stimigliano;02/03/2020;10,5;16,6
+Tevere a Stimigliano;03/03/2020;7,7;14,7
+Tevere a Stimigliano;04/03/2020;2,8;14,5
+Tevere a Stimigliano;05/03/2020;2,2;15,8
+Tevere a Stimigliano;06/03/2020;7,9;15,8
+Tevere a Stimigliano;07/03/2020;4,5;15,8
+Tevere a Stimigliano;08/03/2020;3,5;15,3
+Tevere a Stimigliano;09/03/2020;0,5;16,7
+Tevere a Stimigliano;10/03/2020;2,3;17,1
+Tevere a Stimigliano;11/03/2020;1,7;20,8
+Tevere a Stimigliano;12/03/2020;5,7;19,2
+Tevere a Stimigliano;13/03/2020;7,1;18,7
+Tevere a Stimigliano;14/03/2020;10,0;15,0
+Tevere a Stimigliano;15/03/2020;6,2;18,7
+Tevere a Stimigliano;16/03/2020;1,3;19,7
+Tevere a Stimigliano;17/03/2020;2,4;19,1
+Tevere a Stimigliano;18/03/2020;2,2;20,8
+Tevere a Stimigliano;19/03/2020;2,4;21,8
+Tevere a Stimigliano;20/03/2020;2,7;21,5
+Tevere a Stimigliano;21/03/2020;2,7;20,4
+Tevere a Stimigliano;22/03/2020;6,6;21,4
+Tevere a Stimigliano;23/03/2020;3,9;10,8
+Tevere a Stimigliano;24/03/2020;-1,0;8,4
+Tevere a Stimigliano;25/03/2020;-0,3;13,9
+Tevere a Stimigliano;26/03/2020;6,5;15,8
+Tevere a Stimigliano;27/03/2020;8,7;19,2
+Tevere a Stimigliano;28/03/2020;7,4;17,6
+Tevere a Stimigliano;29/03/2020;6,5;19,3
+Tevere a Stimigliano;30/03/2020;7,2;18,9
+Tevere a Stimigliano;31/03/2020;4,3;13,6
+Tor Vergata;01/03/2020;7,8;17,5
+Tor Vergata;02/03/2020;9,3;17,5
+Tor Vergata;03/03/2020;6,5;13,9
+Tor Vergata;04/03/2020;1,7;15,8
+Tor Vergata;05/03/2020;2,2;18,6
+Tor Vergata;06/03/2020;6,9;18,7
+Tor Vergata;07/03/2020;4,1;17,3
+Tor Vergata;08/03/2020;1,6;18,1
+Tor Vergata;09/03/2020;-0,2;17,7
+Tor Vergata;10/03/2020;0,9;18,5
+Tor Vergata;11/03/2020;1,5;20,0
+Tor Vergata;12/03/2020;6,4;21,7
+Tor Vergata;13/03/2020;5,0;19,0
+Tor Vergata;14/03/2020;11,2;16,5
+Tor Vergata;15/03/2020;6,5;20,6
+Tor Vergata;16/03/2020;2,6;19,8
+Tor Vergata;17/03/2020;2,0;19,8
+Tor Vergata;18/03/2020;2,9;22,3
+Tor Vergata;19/03/2020;2,6;22,7
+Tor Vergata;20/03/2020;2,8;21,9
+Tor Vergata;21/03/2020;2,2;21,3
+Tor Vergata;22/03/2020;3,8;22,2
+Tor Vergata;23/03/2020;3,6;15,5
+Tor Vergata;24/03/2020;-0,3;11,3
+Tor Vergata;25/03/2020;-3,4;14,9
+Tor Vergata;26/03/2020;4,6;11,2
+Tor Vergata;27/03/2020;6,3;19,7
+Tor Vergata;28/03/2020;7,5;17,2
+Tor Vergata;29/03/2020;5,8;21,0
+Tor Vergata;30/03/2020;6,7;21,3
+Tor Vergata;31/03/2020;4,4;19,5
+Torrente Tafone;01/03/2020;8,7;15,5
+Torrente Tafone;02/03/2020;9,0;14,6
+Torrente Tafone;03/03/2020;7,3;16,0
+Torrente Tafone;04/03/2020;2,8;16,9
+Torrente Tafone;05/03/2020;2,3;15,1
+Torrente Tafone;06/03/2020;5,4;17,2
+Torrente Tafone;07/03/2020;3,6;14,9
+Torrente Tafone;08/03/2020;3,7;16,0
+Torrente Tafone;09/03/2020;1,3;14,8
+Torrente Tafone;10/03/2020;5,6;17,9
+Torrente Tafone;11/03/2020;3,0;17,4
+Torrente Tafone;12/03/2020;7,6;15,6
+Torrente Tafone;13/03/2020;9,9;16,7
+Torrente Tafone;14/03/2020;8,3;15,6
+Torrente Tafone;15/03/2020;6,2;18,0
+Torrente Tafone;16/03/2020;4,9;17,8
+Torrente Tafone;17/03/2020;4,3;18,4
+Torrente Tafone;18/03/2020;3,1;19,3
+Torrente Tafone;19/03/2020;5,1;19,0
+Torrente Tafone;20/03/2020;3,4;19,0
+Torrente Tafone;21/03/2020;6,1;18,4
+Torrente Tafone;22/03/2020;5,4;18,9
+Torrente Tafone;23/03/2020;3,6;10,6
+Torrente Tafone;24/03/2020;-2,6;10,4
+Torrente Tafone;25/03/2020;1,2;12,6
+Torrente Tafone;26/03/2020;4,1;10,9
+Torrente Tafone;27/03/2020;6,1;17,4
+Torrente Tafone;28/03/2020;5,1;16,0
+Torrente Tafone;29/03/2020;5,3;17,3
+Torrente Tafone;30/03/2020;5,1;17,4
+Torrente Tafone;31/03/2020;5,4;13,8
+Torrita Tiberina;01/03/2020;4,8;17,4
+Torrita Tiberina;02/03/2020;9,1;16,9
+Torrita Tiberina;03/03/2020;7,2;14,7
+Torrita Tiberina;04/03/2020;2,8;15,1
+Torrita Tiberina;05/03/2020;1,7;16,0
+Torrita Tiberina;06/03/2020;6,4;16,4
+Torrita Tiberina;07/03/2020;5,4;15,5
+Torrita Tiberina;08/03/2020;3,5;16,2
+Torrita Tiberina;09/03/2020;0,6;16,3
+Torrita Tiberina;10/03/2020;2,5;17,4
+Torrita Tiberina;11/03/2020;2,4;21,0
+Torrita Tiberina;12/03/2020;6,1;20,1
+Torrita Tiberina;13/03/2020;7,8;18,7
+Torrita Tiberina;14/03/2020;9,7;14,8
+Torrita Tiberina;15/03/2020;6,1;19,8
+Torrita Tiberina;16/03/2020;2,1;20,2
+Torrita Tiberina;17/03/2020;3,3;19,9
+Torrita Tiberina;18/03/2020;2,9;21,1
+Torrita Tiberina;19/03/2020;2,9;22,1
+Torrita Tiberina;20/03/2020;3,4;21,2
+Torrita Tiberina;21/03/2020;3,5;20,3
+Torrita Tiberina;22/03/2020;6,9;22,3
+Torrita Tiberina;23/03/2020;3,7;12,6
+Torrita Tiberina;24/03/2020;-2,0;10,0
+Torrita Tiberina;25/03/2020;-0,7;13,2
+Torrita Tiberina;26/03/2020;6,5;16,3
+Torrita Tiberina;27/03/2020;9,1;19,4
+Torrita Tiberina;28/03/2020;8,0;17,0
+Torrita Tiberina;29/03/2020;6,6;20,4
+Torrita Tiberina;30/03/2020;7,6;17,8
+Torrita Tiberina;31/03/2020;3,7;15,0
+Tragliatella rlazio;01/03/2020;10,3;14,8
+Tragliatella rlazio;02/03/2020;8,8;13,7
+Tragliatella rlazio;03/03/2020;6,8;14,6
+Tragliatella rlazio;04/03/2020;2,8;14,8
+Tragliatella rlazio;05/03/2020;0,7;15,1
+Tragliatella rlazio;06/03/2020;5,7;17,5
+Tragliatella rlazio;07/03/2020;5,8;15,1
+Tragliatella rlazio;08/03/2020;5,4;14,4
+Tragliatella rlazio;09/03/2020;1,6;15,3
+Tragliatella rlazio;10/03/2020;6,5;16,8
+Tragliatella rlazio;11/03/2020;3,2;18,3
+Tragliatella rlazio;12/03/2020;5,8;17,8
+Tragliatella rlazio;13/03/2020;7,3;15,6
+Tragliatella rlazio;14/03/2020;8,4;14,6
+Tragliatella rlazio;15/03/2020;7,3;18,2
+Tragliatella rlazio;16/03/2020;6,1;18,6
+Tragliatella rlazio;17/03/2020;7,0;17,8
+Tragliatella rlazio;18/03/2020;3,2;19,6
+Tragliatella rlazio;19/03/2020;4,9;20,1
+Tragliatella rlazio;20/03/2020;4,0;19,6
+Tragliatella rlazio;21/03/2020;4,3;19,4
+Tragliatella rlazio;22/03/2020;6,6;20,1
+Tragliatella rlazio;23/03/2020;2,7;9,7
+Tragliatella rlazio;24/03/2020;1,6;7,7
+Tragliatella rlazio;25/03/2020;1,4;12,4
+Tragliatella rlazio;26/03/2020;3,6;10,9
+Tragliatella rlazio;27/03/2020;6,8;16,7
+Tragliatella rlazio;28/03/2020;6,2;17,3
+Tragliatella rlazio;29/03/2020;5,0;18,3
+Tragliatella rlazio;30/03/2020;5,0;18,6
+Tragliatella rlazio;31/03/2020;5,0;14,4
+Treia a Civita Castellana;01/03/2020;6,1;16,5
+Treia a Civita Castellana;02/03/2020;5,1;16,2
+Treia a Civita Castellana;03/03/2020;7,4;15,0
+Treia a Civita Castellana;04/03/2020;1,5;14,7
+Treia a Civita Castellana;05/03/2020;0,2;15,5
+Treia a Civita Castellana;06/03/2020;4,9;16,5
+Treia a Civita Castellana;07/03/2020;2,7;15,9
+Treia a Civita Castellana;08/03/2020;1,1;15,8
+Treia a Civita Castellana;09/03/2020;-0,6;15,9
+Treia a Civita Castellana;10/03/2020;-0,3;17,7
+Treia a Civita Castellana;11/03/2020;-0,1;21,0
+Treia a Civita Castellana;12/03/2020;3,1;18,1
+Treia a Civita Castellana;13/03/2020;5,4;17,2
+Treia a Civita Castellana;14/03/2020;7,4;14,8
+Treia a Civita Castellana;15/03/2020;3,8;18,6
+Treia a Civita Castellana;16/03/2020;0,2;20,1
+Treia a Civita Castellana;17/03/2020;1,1;19,5
+Treia a Civita Castellana;18/03/2020;0,9;21,4
+Treia a Civita Castellana;19/03/2020;0,9;22,1
+Treia a Civita Castellana;20/03/2020;0,9;21,2
+Treia a Civita Castellana;21/03/2020;1,1;20,2
+Treia a Civita Castellana;22/03/2020;5,1;21,5
+Treia a Civita Castellana;23/03/2020;4,3;10,7
+Treia a Civita Castellana;24/03/2020;-0,2;8,9
+Treia a Civita Castellana;25/03/2020;-1,6;13,1
+Treia a Civita Castellana;26/03/2020;5,3;14,0
+Treia a Civita Castellana;27/03/2020;7,3;19,5
+Treia a Civita Castellana;28/03/2020;6,0;18,3
+Treia a Civita Castellana;29/03/2020;6,9;19,5
+Treia a Civita Castellana;30/03/2020;6,6;19,2
+Treia a Civita Castellana;31/03/2020;3,0;14,3
+Trevi nel Lazio;01/03/2020;1,1;10,2
+Trevi nel Lazio;02/03/2020;4,3;10,6
+Trevi nel Lazio;03/03/2020;0,5;7,1
+Trevi nel Lazio;04/03/2020;-1,4;11,5
+Trevi nel Lazio;05/03/2020;-1,2;11,5
+Trevi nel Lazio;06/03/2020;2,8;10,0
+Trevi nel Lazio;07/03/2020;2,3;10,0
+Trevi nel Lazio;08/03/2020;0,6;10,4
+Trevi nel Lazio;09/03/2020;-2,2;10,8
+Trevi nel Lazio;10/03/2020;2,7;12,8
+Trevi nel Lazio;11/03/2020;0,4;16,5
+Trevi nel Lazio;12/03/2020;3,2;18,0
+Trevi nel Lazio;13/03/2020;3,3;17,1
+Trevi nel Lazio;14/03/2020;4,5;16,0
+Trevi nel Lazio;15/03/2020;4,6;15,5
+Trevi nel Lazio;16/03/2020;0,0;15,4
+Trevi nel Lazio;17/03/2020;1,9;14,3
+Trevi nel Lazio;18/03/2020;2,0;16,2
+Trevi nel Lazio;19/03/2020;2,3;17,8
+Trevi nel Lazio;20/03/2020;3,8;17,0
+Trevi nel Lazio;21/03/2020;3,5;15,0
+Trevi nel Lazio;22/03/2020;3,7;14,8
+Trevi nel Lazio;23/03/2020;-1,7;9,9
+Trevi nel Lazio;24/03/2020;-3,1;4,1
+Trevi nel Lazio;25/03/2020;-3,5;5,8
+Trevi nel Lazio;26/03/2020;1,9;8,6
+Trevi nel Lazio;27/03/2020;4,7;11,0
+Trevi nel Lazio;28/03/2020;4,3;11,4
+Trevi nel Lazio;29/03/2020;0,9;13,3
+Trevi nel Lazio;30/03/2020;3,4;12,5
+Trevi nel Lazio;31/03/2020;1,8;11,9
+Trevignano Romano;01/03/2020;10,4;13,9
+Trevignano Romano;02/03/2020;10,5;13,4
+Trevignano Romano;03/03/2020;8,1;12,7
+Trevignano Romano;04/03/2020;6,8;16,3
+Trevignano Romano;05/03/2020;5,9;13,8
+Trevignano Romano;06/03/2020;9,1;14,8
+Trevignano Romano;07/03/2020;7,0;14,8
+Trevignano Romano;08/03/2020;7,6;16,0
+Trevignano Romano;09/03/2020;5,8;13,5
+Trevignano Romano;10/03/2020;7,5;17,6
+Trevignano Romano;11/03/2020;7,2;17,2
+Trevignano Romano;12/03/2020;6,7;16,7
+Trevignano Romano;13/03/2020;9,7;14,3
+Trevignano Romano;14/03/2020;11,0;13,1
+Trevignano Romano;15/03/2020;9,8;20,3
+Trevignano Romano;16/03/2020;7,2;17,8
+Trevignano Romano;17/03/2020;7,5;16,8
+Trevignano Romano;18/03/2020;8,0;19,2
+Trevignano Romano;19/03/2020;8,8;19,9
+Trevignano Romano;20/03/2020;7,6;18,0
+Trevignano Romano;21/03/2020;8,1;18,7
+Trevignano Romano;22/03/2020;9,1;19,6
+Trevignano Romano;23/03/2020;2,9;10,5
+Trevignano Romano;24/03/2020;1,2;9,5
+Trevignano Romano;25/03/2020;1,2;12,9
+Trevignano Romano;26/03/2020;3,4;11,5
+Trevignano Romano;27/03/2020;9,2;15,7
+Trevignano Romano;28/03/2020;8,8;15,1
+Trevignano Romano;29/03/2020;8,0;16,7
+Trevignano Romano;30/03/2020;8,6;16,9
+Trevignano Romano;31/03/2020;4,6;15,4
+Tuscania;01/03/2020;10,2;15,3
+Tuscania;02/03/2020;8,7;14,1
+Tuscania;03/03/2020;6,3;14,9
+Tuscania;04/03/2020;3,5;13,8
+Tuscania;05/03/2020;2,0;14,8
+Tuscania;06/03/2020;5,7;17,4
+Tuscania;07/03/2020;3,5;13,9
+Tuscania;08/03/2020;5,3;14,5
+Tuscania;09/03/2020;1,6;14,4
+Tuscania;10/03/2020;5,6;17,0
+Tuscania;11/03/2020;2,9;17,9
+Tuscania;12/03/2020;7,4;16,0
+Tuscania;13/03/2020;8,3;15,7
+Tuscania;14/03/2020;8,9;14,8
+Tuscania;15/03/2020;7,4;16,9
+Tuscania;16/03/2020;4,8;18,5
+Tuscania;17/03/2020;5,2;18,6
+Tuscania;18/03/2020;4,4;20,7
+Tuscania;19/03/2020;5,6;20,4
+Tuscania;20/03/2020;3,9;19,2
+Tuscania;21/03/2020;4,1;18,6
+Tuscania;22/03/2020;6,4;20,2
+Tuscania;23/03/2020;2,5;8,6
+Tuscania;24/03/2020;1,0;8,2
+Tuscania;25/03/2020;1,8;11,7
+Tuscania;26/03/2020;3,3;11,0
+Tuscania;27/03/2020;8,1;15,9
+Tuscania;28/03/2020;7,6;17,2
+Tuscania;29/03/2020;5,4;18,2
+Tuscania;30/03/2020;5,5;18,6
+Tuscania;31/03/2020;4,9;12,1
+Valentano;01/03/2020;7,5;11,2
+Valentano;02/03/2020;8,0;10,7
+Valentano;03/03/2020;4,0;10,3
+Valentano;04/03/2020;2,4;11,9
+Valentano;05/03/2020;2,3;11,4
+Valentano;06/03/2020;5,3;13,3
+Valentano;07/03/2020;4,1;10,9
+Valentano;08/03/2020;3,4;11,3
+Valentano;09/03/2020;2,8;10,7
+Valentano;10/03/2020;4,7;14,1
+Valentano;11/03/2020;5,9;15,7
+Valentano;12/03/2020;5,2;11,8
+Valentano;13/03/2020;6,6;11,3
+Valentano;14/03/2020;8,0;12,9
+Valentano;15/03/2020;5,5;13,3
+Valentano;16/03/2020;3,8;17,2
+Valentano;17/03/2020;5,5;15,6
+Valentano;18/03/2020;6,5;16,7
+Valentano;19/03/2020;7,1;18,1
+Valentano;20/03/2020;7,4;16,9
+Valentano;21/03/2020;6,1;16,3
+Valentano;22/03/2020;5,2;16,9
+Valentano;23/03/2020;0,0;5,4
+Valentano;24/03/2020;-1,3;4,6
+Valentano;25/03/2020;-1,9;7,4
+Valentano;26/03/2020;0,0;6,9
+Valentano;27/03/2020;5,7;12,3
+Valentano;28/03/2020;6,2;15,1
+Valentano;29/03/2020;4,8;15,8
+Valentano;30/03/2020;4,6;14,7
+Valentano;31/03/2020;1,2;7,6
+Valle del Rio;01/03/2020;1,4;9,2
+Valle del Rio;02/03/2020;3,4;9,4
+Valle del Rio;03/03/2020;0,5;8,6
+Valle del Rio;04/03/2020;-1,1;12,5
+Valle del Rio;05/03/2020;0,0;13,5
+Valle del Rio;06/03/2020;2,7;10,0
+Valle del Rio;07/03/2020;1,7;10,2
+Valle del Rio;08/03/2020;0,1;10,7
+Valle del Rio;09/03/2020;-1,3;12,1
+Valle del Rio;10/03/2020;3,0;13,2
+Valle del Rio;11/03/2020;3,0;16,3
+Valle del Rio;12/03/2020;4,8;18,3
+Valle del Rio;13/03/2020;5,1;17,6
+Valle del Rio;14/03/2020;4,1;16,7
+Valle del Rio;15/03/2020;4,9;16,4
+Valle del Rio;16/03/2020;0,8;16,9
+Valle del Rio;17/03/2020;3,7;15,7
+Valle del Rio;18/03/2020;2,9;18,4
+Valle del Rio;19/03/2020;4,8;19,5
+Valle del Rio;20/03/2020;5,7;19,1
+Valle del Rio;21/03/2020;5,0;16,5
+Valle del Rio;22/03/2020;4,3;17,1
+Valle del Rio;23/03/2020;-2,9;6,9
+Valle del Rio;24/03/2020;-3,4;5,2
+Valle del Rio;25/03/2020;-2,9;5,6
+Valle del Rio;26/03/2020;1,2;5,9
+Valle del Rio;27/03/2020;3,4;11,8
+Valle del Rio;28/03/2020;2,9;10,0
+Valle del Rio;29/03/2020;2,3;13,4
+Valle del Rio;30/03/2020;3,8;15,5
+Valle del Rio;31/03/2020;0,0;11,5
+Vallecorsa;01/03/2020;9,0;12,4
+Vallecorsa;02/03/2020;9,3;13,0
+Vallecorsa;03/03/2020;4,4;11,2
+Vallecorsa;04/03/2020;3,2;13,4
+Vallecorsa;05/03/2020;4,3;13,4
+Vallecorsa;06/03/2020;8,0;12,5
+Vallecorsa;07/03/2020;5,6;13,5
+Vallecorsa;08/03/2020;4,4;13,8
+Vallecorsa;09/03/2020;4,2;11,4
+Vallecorsa;10/03/2020;4,6;16,1
+Vallecorsa;11/03/2020;7,4;17,7
+Vallecorsa;12/03/2020;9,0;18,9
+Vallecorsa;13/03/2020;7,7;15,5
+Vallecorsa;14/03/2020;9,8;15,7
+Vallecorsa;15/03/2020;9,1;16,5
+Vallecorsa;16/03/2020;5,4;17,9
+Vallecorsa;17/03/2020;8,2;15,8
+Vallecorsa;18/03/2020;8,4;18,5
+Vallecorsa;19/03/2020;8,3;18,9
+Vallecorsa;20/03/2020;9,5;17,7
+Vallecorsa;21/03/2020;8,7;17,4
+Vallecorsa;22/03/2020;8,6;17,2
+Vallecorsa;23/03/2020;3,0;11,2
+Vallecorsa;24/03/2020;0,1;8,9
+Vallecorsa;25/03/2020;-0,9;8,1
+Vallecorsa;26/03/2020;4,2;11,0
+Vallecorsa;27/03/2020;7,6;12,7
+Vallecorsa;28/03/2020;6,6;12,7
+Vallecorsa;29/03/2020;7,2;15,5
+Vallecorsa;30/03/2020;7,5;15,9
+Vallecorsa;31/03/2020;4,6;14,3
+Vallepietra;01/03/2020;2,0;9,6
+Vallepietra;02/03/2020;4,2;9,8
+Vallepietra;03/03/2020;0,6;6,7
+Vallepietra;04/03/2020;-0,9;11,5
+Vallepietra;05/03/2020;-0,4;11,8
+Vallepietra;06/03/2020;2,9;8,8
+Vallepietra;07/03/2020;1,9;10,2
+Vallepietra;08/03/2020;0,4;9,0
+Vallepietra;09/03/2020;-1,7;10,9
+Vallepietra;10/03/2020;2,7;13,3
+Vallepietra;11/03/2020;2,2;17,1
+Vallepietra;12/03/2020;5,6;18,2
+Vallepietra;13/03/2020;5,1;18,0
+Vallepietra;14/03/2020;2,9;15,9
+Vallepietra;15/03/2020;5,1;14,6
+Vallepietra;16/03/2020;0,5;15,2
+Vallepietra;17/03/2020;3,8;14,7
+Vallepietra;18/03/2020;3,5;16,4
+Vallepietra;19/03/2020;4,6;17,2
+Vallepietra;20/03/2020;5,7;16,8
+Vallepietra;21/03/2020;5,3;15,7
+Vallepietra;22/03/2020;5,8;14,0
+Vallepietra;23/03/2020;-2,0;9,6
+Vallepietra;24/03/2020;-3,1;4,5
+Vallepietra;25/03/2020;-3,2;4,7
+Vallepietra;26/03/2020;1,8;8,1
+Vallepietra;27/03/2020;4,7;11,1
+Vallepietra;28/03/2020;4,5;10,7
+Vallepietra;29/03/2020;2,1;13,4
+Vallepietra;30/03/2020;4,2;11,7
+Vallepietra;31/03/2020;2,4;12,3
+Velino a Rieti;01/03/2020;2,9;15,3
+Velino a Rieti;02/03/2020;7,3;15,7
+Velino a Rieti;03/03/2020;5,2;9,3
+Velino a Rieti;04/03/2020;1,2;12,2
+Velino a Rieti;05/03/2020;-0,2;14,8
+Velino a Rieti;06/03/2020;5,5;15,3
+Velino a Rieti;07/03/2020;2,3;13,9
+Velino a Rieti;08/03/2020;-0,5;14,2
+Velino a Rieti;09/03/2020;-1,3;14,3
+Velino a Rieti;10/03/2020;-0,6;14,9
+Velino a Rieti;11/03/2020;0,8;19,6
+Velino a Rieti;12/03/2020;2,0;20,1
+Velino a Rieti;13/03/2020;3,3;19,7
+Velino a Rieti;14/03/2020;6,1;13,7
+Velino a Rieti;15/03/2020;2,9;17,9
+Velino a Rieti;16/03/2020;1,6;19,2
+Velino a Rieti;17/03/2020;1,7;17,5
+Velino a Rieti;18/03/2020;1,5;20,8
+Velino a Rieti;19/03/2020;1,6;21,0
+Velino a Rieti;20/03/2020;2,3;20,9
+Velino a Rieti;21/03/2020;2,9;19,5
+Velino a Rieti;22/03/2020;4,8;19,4
+Velino a Rieti;23/03/2020;1,5;10,8
+Velino a Rieti;24/03/2020;-2,4;6,9
+Velino a Rieti;25/03/2020;-4,5;10,5
+Velino a Rieti;26/03/2020;5,7;12,9
+Velino a Rieti;27/03/2020;9,4;16,9
+Velino a Rieti;28/03/2020;5,7;15,5
+Velino a Rieti;29/03/2020;2,9;17,5
+Velino a Rieti;30/03/2020;4,8;16,1
+Velino a Rieti;31/03/2020;1,8;11,3
+Velletri;01/03/2020;10,1;13,6
+Velletri;02/03/2020;9,7;14,9
+Velletri;03/03/2020;6,6;11,1
+Velletri;04/03/2020;6,2;17,0
+Velletri;05/03/2020;6,3;16,5
+Velletri;06/03/2020;8,3;12,6
+Velletri;07/03/2020;7,5;16,0
+Velletri;08/03/2020;6,5;16,7
+Velletri;09/03/2020;5,0;15,0
+Velletri;10/03/2020;8,1;16,9
+Velletri;11/03/2020;8,7;21,2
+Velletri;12/03/2020;8,6;20,0
+Velletri;13/03/2020;8,6;15,9
+Velletri;14/03/2020;10,7;14,2
+Velletri;15/03/2020;10,1;17,6
+Velletri;16/03/2020;8,8;19,8
+Velletri;17/03/2020;10,7;17,4
+Velletri;18/03/2020;9,6;20,1
+Velletri;19/03/2020;11,8;21,8
+Velletri;20/03/2020;10,8;20,3
+Velletri;21/03/2020;10,2;18,5
+Velletri;22/03/2020;10,6;19,8
+Velletri;23/03/2020;4,5;15,4
+Velletri;24/03/2020;1,4;10,1
+Velletri;25/03/2020;2,1;14,0
+Velletri;26/03/2020;3,5;11,9
+Velletri;27/03/2020;8,4;14,5
+Velletri;28/03/2020;8,4;15,5
+Velletri;29/03/2020;8,2;16,9
+Velletri;30/03/2020;9,2;19,8
+Velletri;31/03/2020;6,9;18,5
+Veroli;01/03/2020;6,3;14,1
+Veroli;02/03/2020;6,6;15,8
+Veroli;03/03/2020;4,3;10,9
+Veroli;04/03/2020;1,1;14,4
+Veroli;05/03/2020;2,1;15,1
+Veroli;06/03/2020;5,9;14,3
+Veroli;07/03/2020;4,9;13,9
+Veroli;08/03/2020;2,7;14,6
+Veroli;09/03/2020;1,0;13,6
+Veroli;10/03/2020;2,4;15,9
+Veroli;11/03/2020;3,0;18,1
+Veroli;12/03/2020;4,9;19,6
+Veroli;13/03/2020;6,5;18,0
+Veroli;14/03/2020;9,7;16,5
+Veroli;15/03/2020;7,0;18,2
+Veroli;16/03/2020;2,7;18,5
+Veroli;17/03/2020;4,4;17,0
+Veroli;18/03/2020;4,4;19,6
+Veroli;19/03/2020;5,2;21,1
+Veroli;20/03/2020;5,8;20,0
+Veroli;21/03/2020;5,4;18,7
+Veroli;22/03/2020;5,0;18,8
+Veroli;23/03/2020;2,3;14,5
+Veroli;24/03/2020;-1,0;8,9
+Veroli;25/03/2020;-3,4;10,2
+Veroli;26/03/2020;2,3;8,6
+Veroli;27/03/2020;6,7;14,9
+Veroli;28/03/2020;6,3;14,2
+Veroli;29/03/2020;4,5;17,1
+Veroli;30/03/2020;5,7;17,1
+Veroli;31/03/2020;3,4;15,7
+Vetralla Rlazio;01/03/2020;9,0;13,6
+Vetralla Rlazio;02/03/2020;7,0;12,6
+Vetralla Rlazio;03/03/2020;5,4;13,5
+Vetralla Rlazio;04/03/2020;1,3;12,8
+Vetralla Rlazio;05/03/2020;0,9;14,6
+Vetralla Rlazio;06/03/2020;4,1;16,6
+Vetralla Rlazio;07/03/2020;2,0;12,7
+Vetralla Rlazio;08/03/2020;2,8;13,1
+Vetralla Rlazio;09/03/2020;1,6;14,1
+Vetralla Rlazio;10/03/2020;3,9;15,0
+Vetralla Rlazio;11/03/2020;2,6;17,5
+Vetralla Rlazio;12/03/2020;3,9;16,2
+Vetralla Rlazio;13/03/2020;4,7;17,1
+Vetralla Rlazio;14/03/2020;8,2;13,0
+Vetralla Rlazio;15/03/2020;3,5;15,7
+Vetralla Rlazio;16/03/2020;2,5;17,7
+Vetralla Rlazio;17/03/2020;3,4;16,9
+Vetralla Rlazio;18/03/2020;3,6;20,2
+Vetralla Rlazio;19/03/2020;4,5;21,4
+Vetralla Rlazio;20/03/2020;4,6;19,2
+Vetralla Rlazio;21/03/2020;4,2;18,7
+Vetralla Rlazio;22/03/2020;5,8;18,1
+Vetralla Rlazio;23/03/2020;0,9;7,0
+Vetralla Rlazio;24/03/2020;-4,6;6,4
+Vetralla Rlazio;25/03/2020;-0,5;11,2
+Vetralla Rlazio;26/03/2020;1,3;9,7
+Vetralla Rlazio;27/03/2020;5,1;14,7
+Vetralla Rlazio;28/03/2020;4,3;17,8
+Vetralla Rlazio;29/03/2020;3,8;17,9
+Vetralla Rlazio;30/03/2020;4,5;16,7
+Vetralla Rlazio;31/03/2020;2,3;11,7
+Vico nel Lazio;01/03/2020;6,9;11,8
+Vico nel Lazio;02/03/2020;7,0;13,0
+Vico nel Lazio;03/03/2020;3,5;9,2
+Vico nel Lazio;04/03/2020;2,5;12,4
+Vico nel Lazio;05/03/2020;3,4;13,9
+Vico nel Lazio;06/03/2020;5,6;12,2
+Vico nel Lazio;07/03/2020;4,5;12,5
+Vico nel Lazio;08/03/2020;4,0;11,6
+Vico nel Lazio;09/03/2020;2,6;11,7
+Vico nel Lazio;10/03/2020;4,5;14,3
+Vico nel Lazio;11/03/2020;5,8;17,4
+Vico nel Lazio;12/03/2020;8,1;19,2
+Vico nel Lazio;13/03/2020;5,5;17,0
+Vico nel Lazio;14/03/2020;9,1;14,4
+Vico nel Lazio;15/03/2020;7,0;16,9
+Vico nel Lazio;16/03/2020;4,7;17,0
+Vico nel Lazio;17/03/2020;7,1;16,1
+Vico nel Lazio;18/03/2020;7,3;18,6
+Vico nel Lazio;19/03/2020;8,7;19,5
+Vico nel Lazio;20/03/2020;8,9;19,5
+Vico nel Lazio;21/03/2020;8,3;17,3
+Vico nel Lazio;22/03/2020;8,0;18,1
+Vico nel Lazio;23/03/2020;0,0;12,7
+Vico nel Lazio;24/03/2020;-1,3;6,7
+Vico nel Lazio;25/03/2020;-1,9;8,6
+Vico nel Lazio;26/03/2020;1,0;10,2
+Vico nel Lazio;27/03/2020;5,9;13,8
+Vico nel Lazio;28/03/2020;5,5;14,1
+Vico nel Lazio;29/03/2020;5,6;15,9
+Vico nel Lazio;30/03/2020;6,6;15,4
+Vico nel Lazio;31/03/2020;3,5;13,6
+Viterbo;01/03/2020;9,9;14,5
+Viterbo;02/03/2020;9,7;13,4
+Viterbo;03/03/2020;6,6;14,3
+Viterbo;04/03/2020;4,7;14,2
+Viterbo;05/03/2020;4,0;15,4
+Viterbo;06/03/2020;7,3;16,7
+Viterbo;07/03/2020;4,7;13,2
+Viterbo;08/03/2020;5,4;13,5
+Viterbo;09/03/2020;3,7;13,9
+Viterbo;10/03/2020;5,4;16,5
+Viterbo;11/03/2020;4,5;19,0
+Viterbo;12/03/2020;6,1;17,5
+Viterbo;13/03/2020;6,8;15,7
+Viterbo;14/03/2020;10,2;14,7
+Viterbo;15/03/2020;7,6;16,2
+Viterbo;16/03/2020;5,8;20,3
+Viterbo;17/03/2020;6,6;19,1
+Viterbo;18/03/2020;6,8;22,0
+Viterbo;19/03/2020;8,4;21,2
+Viterbo;20/03/2020;6,7;19,7
+Viterbo;21/03/2020;6,1;19,5
+Viterbo;22/03/2020;7,2;19,4
+Viterbo;23/03/2020;1,1;7,2
+Viterbo;24/03/2020;-0,8;6,9
+Viterbo;25/03/2020;-0,6;9,3
+Viterbo;26/03/2020;2,1;10,2
+Viterbo;27/03/2020;7,6;14,6
+Viterbo;28/03/2020;7,3;19,0
+Viterbo;29/03/2020;5,8;20,6
+Viterbo;30/03/2020;7,0;19,1
+Viterbo;31/03/2020;3,0;10,9
+Vivaro Romano;01/03/2020;4,1;10,9
+Vivaro Romano;02/03/2020;6,4;10,7
+Vivaro Romano;03/03/2020;2,1;6,6
+Vivaro Romano;04/03/2020;1,3;11,3
+Vivaro Romano;05/03/2020;1,4;11,8
+Vivaro Romano;06/03/2020;3,5;9,4
+Vivaro Romano;07/03/2020;2,5;11,5
+Vivaro Romano;08/03/2020;3,5;12,5
+Vivaro Romano;09/03/2020;0,0;11,0
+Vivaro Romano;10/03/2020;2,7;13,7
+Vivaro Romano;11/03/2020;3,8;17,8
+Vivaro Romano;12/03/2020;6,3;18,3
+Vivaro Romano;13/03/2020;5,8;18,0
+Vivaro Romano;14/03/2020;6,8;10,9
+Vivaro Romano;15/03/2020;4,7;16,1
+Vivaro Romano;16/03/2020;3,1;16,8
+Vivaro Romano;17/03/2020;4,2;14,7
+Vivaro Romano;18/03/2020;6,2;18,2
+Vivaro Romano;19/03/2020;7,9;18,3
+Vivaro Romano;20/03/2020;6,6;17,8
+Vivaro Romano;21/03/2020;6,0;16,5
+Vivaro Romano;22/03/2020;6,0;17,0
+Vivaro Romano;23/03/2020;-2,7;11,2
+Vivaro Romano;24/03/2020;-4,1;6,2
+Vivaro Romano;25/03/2020;-3,2;8,9
+Vivaro Romano;26/03/2020;1,7;8,0
+Vivaro Romano;27/03/2020;5,9;15,0
+Vivaro Romano;28/03/2020;5,1;12,4
+Vivaro Romano;29/03/2020;4,1;13,6
+Vivaro Romano;30/03/2020;5,1;14,4
+Vivaro Romano;31/03/2020;0,1;11,3
