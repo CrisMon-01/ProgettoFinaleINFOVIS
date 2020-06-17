@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 900 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select('body')
@@ -36,7 +36,7 @@ d3.csv('./dataset_sleep.csv').then( data => {
     // data.date = data => {d3.timeParse("%Y-%m-%d")(d.date)}
     for(var i = 0; i<(data.map(item => item.date)).length; i++){
         var tempo = d3.timeParse("%d/%m/%Y");
-        console.log(tempo(data.map(item => item.date)[i]));
+        console.log(tempo(data.map(item => item.date)[i])); //OK
     }
 
     var x = d3.scaleTime()
