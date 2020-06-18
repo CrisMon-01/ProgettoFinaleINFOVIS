@@ -1,95 +1,130 @@
-// set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 900 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+const width = 960;
+const height = 500;
+const margin = 5;
+const padding = 5;
+const adj = 30;
 
-// append the svg object to the body of the page
-var svg = d3.select('body')
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+const svg = d3.select("div#container").append("svg")
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "-"
+          + adj + " -"
+          + adj + " "
+          + (width + adj *3) + " "
+          + (height + adj*3))
+    .style("padding", padding)
+    .style("margin", margin)
+    .classed("svg-content", true);
 
+const timeConv = d3.timeParse("%d/%m/%Y");
+const timeH = d3.timeParse("%H:%M:%S");
 
-d3.csv('./dataset_sleep.csv').then( data => {
-    // console.log(data[0]);    //prima linea csv
-    // console.log(data[0].sleep_log_entry_id); //campo del csv
-    // console.log(data);
-    var tempo = d3.timeParse("%d/%m/%Y");
+const dataset = d3.csv('./dataset_sleep.csv');
 
-    // console.log(tempo(data[0].date))
+dataset.then(function(data) {
+    const slices = data.columns.slice(1).map(function() {   //function(id)
+        return {
+            // id: id,
+            values: data.map(function(d){
+                return {
+                    date: timeConv(d.data),
+                    // measurement: d[id],
+                    ora: timeH(d.ora),
+                    overall_score: d.overall_score,
+                    composition_score: d.composition_score,
+                    revitalization_score: d.revitalization_score,
+                    duration_score: d.duration_score,
+                    deep_sleep_in_minutes: d.deep_sleep_in_minutes,
+                    resting_heart_rate: d.resting_heart_rate,
+                    restlessness: d.restlessness,
+                    giorno: d.giorno,
+                    alba: timeH(d.alba),
+                    tramonto: timeH(d.tramonto),
+                    lunghezzadelgiorno: timeH(d.lunghezzadelgiorno),
+                };
+            })
+        };
+    });
 
-    const punti = svg.append('g')
-        .attr('class','punti');
+    console.log("Column headers", data.columns);
+    //["data", "ora", "overall_score", "composition_score", "revitalization_score", "duration_score", "deep_sleep_in_minutes", "resting_heart_rate", "restlessness", "giorno", "alba", "tramonto", "lunghezzadelgiorno"]
+    
+    // returns the sliced dataset
+    console.log("Slices",slices);  
+    // ritorna il dataset
+    
+    // returns the first slice
+    console.log("First slice",slices[0]);
+    // colonna [0] oltre data
+    
+    // returns the array in the first slice
+    console.log("A array",slices[0].values); 
+    // array valori prima colonna  OK con cambio date a data
+    
+    // returns the date of the first row in the first slice
+    console.log("Date element",slices[0].values[0].date);   //ok
+    console.log("Date h",slices[0].values[0].ora);   //ok
+    console.log("Date overall",slices[0].values[0].overall_score);     //ok
+    // ok Sun Oct 20 0019 00:00:00 GMT+0049 (Central European Summer Time
+    
+    // returns the array's length
+    console.log("Array length",(slices[0].values).length);
+    //176 # righe dati
 
-    const punto = punti.selectAll('.punti')
-        .data(data);
+    const xScale = d3.scaleTime().range([0,width]);
+    const yScale = d3.scaleLinear().rangeRound([height, 0]);
+    xScale.domain(d3.extent(data, function(d){
+        return timeConv(d.data)})); //data!!
+    yScale.domain([(0), d3.max(slices, function(c) {
+        return d3.max(c.values, function(d) {
+            return d.overall_score; });
+            })
+        ]);
+    
+    const yaxis = d3.axisLeft().scale(yScale); 
+    const xaxis = d3.axisBottom().scale(xScale);    
 
-    const group = punto.enter().append('g')
+    svg.append("g")
+    .attr("class", "axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xaxis);
 
-    // console.log(data.map(item => item.date))
-    // console.log(data.map(item => item.date)[0])
+    svg.append("g")
+        .attr("class", "axis")
+        .call(yaxis);
 
-    // When reading the csv, I must format variables:
-    // data.date = data => {d3.timeParse("%Y-%m-%d")(d.date)}
-    for(var i = 0; i<(data.map(item => item.date)).length; i++){
-        var tempo = d3.timeParse("%d/%m/%Y");
-        console.log(tempo(data.map(item => item.date)[i])); //OK
-    }
+    const lineoverall = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return yScale(d.overall_score); });
 
-    var x = d3.scaleTime()
-       .domain(d3.extent(data, function(d) { return tempo(d); }))
-       .range([ 0, width ]);
+    const linecomp = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return yScale(d.composition_score); });
 
-    const y = d3.scaleLinear()
-        .domain([0, d3.max(data, d => d.overall_score )])
-        .range([ height, 0 ]);
+    const linerev = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale(d.revitalization_score));});
 
-    // const punti = svg.append('g')
-    //     .attr('class','punti');
+    const lineduration = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale(d.duration_score));});
 
-    // const punto = punti.selectAll('.punti')
-    //     .data(data);
+    const lines = svg.selectAll("lines").data(slices).enter()
+        .append("g");
 
-    // // const group = punto.enter().append('circle')
-    // //     attr('cx', x())
+    lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
+        .attr('fill','none')
+        .attr('stroke','red');
 
-    // svg.append("path")
-    // .datum(data)
-    // .attr("fill", "none")
-    // .attr("stroke", "steelblue")
-    // .attr("stroke-width", 1.5)
-    // .attr("d", d3.line()
-    //   .x(function(d) { return x(tempo) })
-    //   .y(function(d) { return y(d.overall_score) })
-    //   );
+    lines.append("path").attr("d", function(d) { return linecomp(d.values); })
+        .attr('fill','none')
+        .attr('stroke','blue');
 
-    // // Add X axis --> it is a date format
-    // var x = d3.scaleTime()
-    //    .domain(d3.extent(data, function(d) { return d.date; }))
-    //    .range([ 0, width ]);
-    //  svg.append("g")
-    //    .attr("transform", "translate(0," + height + ")")
-    //    .call(d3.axisBottom(x));
+    lines.append("path").attr("d", function(d) { return linerev(d.values); })
+        .attr('fill','none')
+        .attr('stroke','green');
 
-    // // Add Y axis
-    // var y = d3.scaleLinear()
-    //    .domain([0, d3.max(data, function(d) { return +d.overall_score; })])
-    //    .range([ height, 0 ]);
-    //  svg.append("g")
-    //    .call(d3.axisLeft(y));
+    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+        .attr('fill','none')
+        .attr('stroke','yellow');
 
-    //       // Add the line
-    // svg.append("path")
-    // .datum(data)
-    // .attr("fill", "none")
-    // .attr("stroke", "steelblue")
-    // .attr("stroke-width", 1.5)
-    // .attr("d", d3.line()
-    //   .x(function(d) { return x(d.date) })
-    //   .y(function(d) { return y(d.overall_score) })
-    //   );
-
-  });  
+})
