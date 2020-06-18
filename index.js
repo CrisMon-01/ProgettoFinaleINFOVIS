@@ -15,7 +15,6 @@ const svg = d3.select("div#container").append("svg")
     .style("margin", margin)
     .classed("svg-content", true);
 
-const timeConv = d3.timeParse("%d/%m/%Y");
 const timeH = d3.timeParse("%H:%M:%S");
 
 const dataset = d3.csv('./dataset_sleep.csv');
@@ -26,7 +25,7 @@ dataset.then(function(data) {
             // id: id,
             values: data.map(function(d){
                 return {
-                    date: timeConv(d.data),
+                    date:  d3.timeParse("%d/%m/%Y")(d.data),
                     // measurement: d[id],
                     ora: timeH(d.ora),
                     overall_score: d.overall_score,
@@ -71,60 +70,113 @@ dataset.then(function(data) {
     //176 # righe dati
 
     const xScale = d3.scaleTime().range([0,width]);
-    const yScale = d3.scaleLinear().rangeRound([height, 0]);
+    const yScale1 = d3.scaleLinear().rangeRound([height, 0]);
+    const yScale2 = d3.scaleTime().range([height,0]);
     xScale.domain(d3.extent(data, function(d){
-        return timeConv(d.data)})); //data!!
-    yScale.domain([(0), d3.max(slices, function(c) {
+        return  d3.timeParse("%d/%m/%Y")(d.data)})); //data!!
+    yScale1.domain([(0), d3.max(slices, function(c) {
         return d3.max(c.values, function(d) {
             return d.overall_score; });
             })
         ]);
+    yScale2.domain(d3.extent(data, function(d){
+        return timeH(d.tramonto)}));
     
-    const yaxis = d3.axisLeft().scale(yScale); 
-    const xaxis = d3.axisBottom().scale(xScale);    
-
-    svg.append("g")
-    .attr("class", "axis")
-    .attr("transform", "translate(0," + height + ")")
-    .call(xaxis);
+    const yaxis1 = d3.axisLeft().scale(yScale1); 
+    const yaxis2 = d3.axisLeft().scale(yScale2);
+    const xaxis = d3.axisBottom().scale(xScale).ticks(174/7);    
 
     svg.append("g")
         .attr("class", "axis")
-        .call(yaxis);
+        .attr("transform", "translate(0," + height + ")")
+        .call(xaxis)
+        .selectAll('text').attr("transform", "rotate(-45)").attr("text-anchor", "end");
+
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'blue')
+        .call(yaxis1);
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'red')
+        .attr("transform", "translate("+width+",0)")
+        .call(yaxis2)
+        .selectAll('text').attr("transform", "translate("+40+",0)").attr("text-anchor", "end");
+
+    rect =  svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("11/12/19")))
+        .attr("y", 0)
+        .attr('class','sii')
+        .attr("width", 1)
+        .attr("height", height)
+        .attr('fill','black');
+
+    rect =  svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("16/12/19")))
+        .attr("y", 0)
+        .attr('class','ml')
+        .attr("width", 1)
+        .attr("height", height)
+        .attr('fill','black');
+
+    rect =  svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("27/01/20")))
+        .attr("y", 0)
+        .attr('class','cyber')
+        .attr("width", 1)
+        .attr("height", height)
+        .attr('fill','black');
 
     const lineoverall = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return yScale(d.overall_score); });
+        .y(function(d) { return yScale1(d.overall_score); });
 
     const linecomp = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return yScale(d.composition_score); });
+        .y(function(d) { return yScale1(d.composition_score); });
 
     const linerev = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale(d.revitalization_score));});
+        .y(function(d) { return (yScale1(d.revitalization_score));});
 
     const lineduration = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale(d.duration_score));});
+        .y(function(d) { return (yScale1(d.duration_score));});
+
+    const lineheartrate = d3.line()
+    .x(function(d) { return xScale(d.date); })
+    .y(function(d) { return (yScale1(d.resting_heart_rate));});
+
+    const linetramonto = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale2(d.tramonto));});
 
     const lines = svg.selectAll("lines").data(slices).enter()
         .append("g");
+        //     d3.line().x(xScale(d3.timeParse("%d/%m/%Y")("06/12/2019")))
 
     lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
         .attr('fill','none')
-        .attr('stroke','red');
+        .attr('stroke','blue');
 
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
-        .attr('stroke','blue');
+        .attr('stroke','#0058F0');
 
     lines.append("path").attr("d", function(d) { return linerev(d.values); })
         .attr('fill','none')
-        .attr('stroke','green');
+        .attr('stroke','#1758BC');
 
     lines.append("path").attr("d", function(d) { return lineduration(d.values); })
         .attr('fill','none')
-        .attr('stroke','yellow');
+        .attr('stroke','#00A0E6');
+
+    lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
+        .attr('fill','none')
+        .attr('stroke','black');
+
+    lines.append("path").attr("d", function(d) { return linetramonto(d.values); })
+        .attr('fill','none')
+        .attr('stroke','red');
 
 })
