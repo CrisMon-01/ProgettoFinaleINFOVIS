@@ -1,5 +1,5 @@
 const width = 960;
-const height = 500;
+const height = 2000;
 const margin = 5;
 const padding = 5;
 const adj = 30;
@@ -74,42 +74,33 @@ dataset.then(function(data) {
 
     //define scale
     const xScale = d3.scaleTime().range([15,width-15]);
-    const yScale1 = d3.scaleLinear().rangeRound([height, 0]);
-    const yScale2 = d3.scaleTime().range([height,0]);
-    const yScale3 = d3.scaleLinear().rangeRound([height,0]);
-    const yScale4 = d3.scaleLinear().range([height,0]);
+    //yrange
+    const yScale1 = d3.scaleLinear().rangeRound([(height/3-150), 0]);    //fitbit
+    const yScale2 = d3.scaleTime().range([(height/3-150), 0]);    //tramonto
+    const yScale3 = d3.scaleLinear().rangeRound([(2*(height/3)-150), (height/3)]);    //tmp 
+    const yScale4 = d3.scaleLinear().range([height-150,2*height/3]); //pioggia
 
     //update scale
     xScale.domain(d3.extent(data, function(d){
         return  d3.timeParse("%d/%m/%Y")(d.data)})); //data!!
-    yScale1.domain([(0), d3.max(slices, function(c) {
-        return d3.max(c.values, function(d) {
-            return d.overall_score; });
-            })
-        ]);
+    yScale1.domain([(0),d3.max(data,d => d.overall_score)]);
     yScale2.domain(d3.extent(data, function(d){
         return timeH(d.tramonto)}));
-    yScale3.domain([0,35]);
-    yScale4.domain([0,1]);
-    // yScale3.domain([d3.min(slices, function(c) {
-    //         return d3.min(c.values, function(d) {
-    //             return d.tmin; });
-    //             }), d3.max(slices, function(c) {
-    //         return d3.max(c.values, function(d) {
-    //             return d.tmax; });
-    //             })
-    //         ]);
-    
+    yScale3.domain([0,d3.max(data,d => Math.round(d.tmax))]);   //valori non interi! 
+    yScale4.domain([0,d3.max(data,d => Math.round(d.pioggia))]);
+
     //define axis
     const yaxis1 = d3.axisLeft().scale(yScale1); 
     const yaxis2 = d3.axisLeft().scale(yScale2);
     const yaxis3 = d3.axisLeft().scale(yScale3);
+    const yaxis4 = d3.axisLeft().scale(yScale4);
     const xaxis = d3.axisBottom().scale(xScale).ticks(((slices[0].values).length-2)/7);    // 174/7 abbiamo slices.values.length - intestazio - ultima riga vuota  
 
     //draw axis 
+    //fitbit 2 tramonto
     svg.append("g")
         .attr("class", "axis")
-        .attr("transform", "translate(0," + height + ")")
+        .attr("transform", "translate(0," + ((height/3)-150) + ")")
         .call(xaxis)
         .selectAll('text').attr("transform", "rotate(-45)").attr("text-anchor", "end");
 
@@ -121,23 +112,58 @@ dataset.then(function(data) {
 
     svg.append("g")
         .attr("class", "axis")
-        .attr('stroke', 'red')
-        .attr("transform", "translate(-10,0)")  //sposto per mettere diversi assi 
-        .call(yaxis3);
-
-    svg.append("g")
-        .attr("class", "axis")
         .attr('stroke', 'orange')
         .attr("transform", "translate("+(width-10)+",0)") //sposto per mettere diversi assi 
         .call(yaxis2)
         .selectAll('text').attr("transform", "translate("+40+",0)").attr("text-anchor", "end");
 
+    // fitbit 2 temperatura    
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'green')
+        .attr("transform", "translate(15,"+(height/3)+")")   //sposto per mettere diversi assi
+        .call(yaxis1);
+
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'red')
+        .attr("transform", "translate("+(width-10)+",0)") //sposto per mettere diversi assi 
+        .call(yaxis3)
+        .selectAll('text').attr("transform", "translate("+40+",0)").attr("text-anchor", "end");
+
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + (2*height/3-150) + ")")
+        .call(xaxis)
+        .selectAll('text').attr("transform", "rotate(-45)").attr("text-anchor", "end");
+
+    //fitbit 2 pioggia
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'green')
+        .attr("transform", "translate(15,"+(2*height/3)+")")   //sposto per mettere diversi assi
+        .call(yaxis1);
+
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + (height-150) + ")")
+        .call(xaxis)
+        .selectAll('text').attr("transform", "rotate(-45)").attr("text-anchor", "end");
+
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'CornflowerBlue')
+        .attr("transform", "translate("+(width-10)+",0)") //sposto per mettere diversi assi 
+        .call(yaxis4)
+        .selectAll('text').attr("transform", "translate("+40+",0)").attr("text-anchor", "end");
+
+    //esami
     rectsii = svg.append("rect")
         .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("11/12/19")))
         .attr("y", 0)
         .attr('class','sii')
         .attr("width", 1)
-        .attr("height", height)
+        .attr("height",  height/3-150)
         .attr('fill','black');
 
     rectml =  svg.append("rect")
@@ -145,7 +171,7 @@ dataset.then(function(data) {
         .attr("y", 0)
         .attr('class','ml')
         .attr("width", 1)
-        .attr("height", height)
+        .attr("height",  height/3-150)
         .attr('fill','black');
 
     rectcyber =  svg.append("rect")
@@ -153,17 +179,8 @@ dataset.then(function(data) {
         .attr("y", 0)
         .attr('class','cyber')
         .attr("width", 1)
-        .attr("height", height)
+        .attr("height", height/3-150)
         .attr('fill','black');
-
-    const rectsrain = svg.selectAll('rect').data(slices).enter()
-        .append('g')
-    rectsrain.append("rect")
-        .attr("x", function(d) { return xScale(d.date); })
-        .attr("y", 0)
-        .attr("width", 1)
-        .attr("height", 20)
-        .attr('fill','blue');
 
     const lineoverall = d3.line()
         .x(function(d) { return xScale(d.date); })
@@ -197,6 +214,10 @@ dataset.then(function(data) {
         .x(function(d) { return xScale(d.date); })
         .y(function(d) { return (yScale3(d.tmax));});
 
+    const linespioggia = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale4(d.pioggia));});
+
     const lines = svg.selectAll("lines").data(slices).enter()
         .append("g");
 
@@ -205,9 +226,31 @@ dataset.then(function(data) {
         .attr('stroke','green')
         .attr('stroke-width','2');
 
+    lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
+        .attr('fill','none')
+        .attr('stroke','green')
+        .attr('stroke-width','2')
+        .attr("transform", "translate(0,"+(height/3)+")");
+
+    lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
+        .attr('fill','none')
+        .attr('stroke','green')
+        .attr('stroke-width','2')
+        .attr("transform", "translate(0,"+(2*height/3)+")");
+
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
         .attr('stroke','Chartreuse');
+
+    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+        .attr('fill','none')
+        .attr('stroke','Chartreuse')
+        .attr("transform", "translate(0,"+(height/3)+")");
+
+    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+        .attr('fill','none')
+        .attr('stroke','Chartreuse')
+        .attr("transform", "translate(0,"+(2*height/3)+")");
 
     lines.append("path").attr("d", function(d) { return linerev(d.values); })
         .attr('fill','none')
@@ -222,6 +265,18 @@ dataset.then(function(data) {
         .attr('stroke','DarkRed')
         .attr('stroke-width','2');
 
+    lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
+        .attr('fill','none')
+        .attr('stroke','DarkRed')
+        .attr('stroke-width','2')
+        .attr("transform", "translate(0,"+(height/3)+")");
+
+    lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
+        .attr('fill','none')
+        .attr('stroke','DarkRed')
+        .attr('stroke-width','2')
+        .attr("transform", "translate(0,"+(2*height/3)+")");
+
     lines.append("path").attr("d", function(d) { return linetramonto(d.values); })
         .attr('fill','none')
         .attr('stroke','orange');
@@ -234,4 +289,210 @@ dataset.then(function(data) {
         .attr('fill','none')
         .attr('stroke','Tomato');
 
+    lines.append("path").attr("d", function(d) { return linespioggia(d.values); })
+        .attr('fill','none')
+        .attr('stroke','CornflowerBlue');
+
+    //leggend
+    // primo grafico
+    svg.append('circle')
+        .attr('cx',50)
+        .attr('cy',height/3-65)
+        .attr('r',6)
+        .style('fill','green')
+    svg.append('text')
+        .attr('x',60)
+        .attr('y',height/3-65)
+        .text('overall score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',50)
+        .attr('cy',height/3-35)
+        .attr('r',6)
+        .style('fill','PaleGreen')
+    svg.append('text')
+        .attr('x',60)
+        .attr('y',height/3-35)
+        .text('duration score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+    
+    svg.append('circle')
+        .attr('cx',160)
+        .attr('cy',height/3-65)
+        .attr('r',6)
+        .style('fill','Chartreuse')
+    svg.append('text')
+        .attr('x',170)
+        .attr('y',height/3-65)
+        .text('composition score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',160)
+        .attr('cy',height/3-35)
+        .attr('r',6)
+        .style('fill','MediumAquaMarine')
+    svg.append('text')
+        .attr('x',170)
+        .attr('y',height/3-35)
+        .text('revitalization score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',400)
+        .attr('cy',height/3-65)
+        .attr('r',6)
+        .style('fill','DarkRed')
+    svg.append('text')
+        .attr('x',410)
+        .attr('y',height/3-65)
+        .text('heart rate')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',300)
+        .attr('cy',height/3-65)
+        .attr('r',6)
+        .style('fill','orange')
+    svg.append('text')
+        .attr('x',310)
+        .attr('y',height/3-65)
+        .text('tramonto')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    // secondo grafico
+    svg.append('circle')
+        .attr('cx',50)
+        .attr('cy',(2*height)/3-65)
+        .attr('r',6)
+        .style('fill','green')
+    svg.append('text')
+        .attr('x',60)
+        .attr('y',(2*height)/3-65)
+        .text('overall score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+        
+    svg.append('circle')
+        .attr('cx',50)
+        .attr('cy',(2*height)/3-35)
+        .attr('r',6)
+        .style('fill','PaleGreen')
+    svg.append('text')
+        .attr('x',60)
+        .attr('y',(2*height)/3-35)
+        .text('duration score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',310)
+        .attr('cy',(2*height)/3-65)
+        .attr('r',6)
+        .style('fill','DarkRed')
+    svg.append('text')
+        .attr('x',320)
+        .attr('y',(2*height)/3-65)
+        .text('heart rate')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',160)
+        .attr('cy',(2*height)/3-65)
+        .attr('r',6)
+        .style('fill','blue')
+    svg.append('text')
+        .attr('x',170)
+        .attr('y',(2*height)/3-65)
+        .text('temperatura minima')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',160)
+        .attr('cy',(2*height)/3-35)
+        .attr('r',6)
+        .style('fill','Red')
+    svg.append('text')
+        .attr('x',170)
+        .attr('y',(2*height)/3-35)
+        .text('temperatura massima')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    // terzo grafico
+    svg.append('circle')
+        .attr('cx',50)
+        .attr('cy',height-65)
+        .attr('r',6)
+        .style('fill','green')
+    svg.append('text')
+        .attr('x',60)
+        .attr('y',height-65)
+        .text('overall score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+        
+    svg.append('circle')
+        .attr('cx',50)
+        .attr('cy',height-35)
+        .attr('r',6)
+        .style('fill','PaleGreen')
+    svg.append('text')
+        .attr('x',60)
+        .attr('y',height-35)
+        .text('duration score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',160)
+        .attr('cy',height-65)
+        .attr('r',6)
+        .style('fill','DarkRed')
+    svg.append('text')
+        .attr('x',170)
+        .attr('y',height-65)
+        .text('heart rate')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',160)
+        .attr('cy',height-35)
+        .attr('r',6)
+        .style('fill','CornflowerBlue')
+    svg.append('text')
+        .attr('x',170)
+        .attr('y',height-35)
+        .text('precipitazioni')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+
+    // //add event
+    // svg.selectAll('path')
+    //     .on('mouseover', handleMouseOver)
+
 })
+
+// // event handler
+// const handleMouseOver = (d,i,n) => {
+//     console.log(n[i]);   //OK
+//     d3.select(n[i]) 
+//         // .attr('fill','black')
+//         // .append('div')
+//     svg.append('text')
+//         .attr('text-anchor', 'middle')
+//         .attr('x', 200)
+//         .attr('y',200)
+//         .text('prova')
+// }
