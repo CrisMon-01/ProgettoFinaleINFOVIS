@@ -1,5 +1,5 @@
 const width = 960;
-const height = 2000;
+const height = 1700;
 const margin = 5;
 const padding = 5;
 const adj = 30;
