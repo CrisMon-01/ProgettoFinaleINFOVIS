@@ -39,6 +39,9 @@ dataset.then(function(data) {
                     alba: timeH(d.alba),
                     tramonto: timeH(d.tramonto),
                     lunghezzadelgiorno: timeH(d.lunghezzadelgiorno),
+                    tmin: d.tmin,
+                    tmax: d.tmax,
+                    pioggia: d.pioggia
                 };
             })
         };
@@ -69,9 +72,14 @@ dataset.then(function(data) {
     console.log("Array length",(slices[0].values).length);
     //176 # righe dati
 
-    const xScale = d3.scaleTime().range([0,width]);
+    //define scale
+    const xScale = d3.scaleTime().range([15,width-15]);
     const yScale1 = d3.scaleLinear().rangeRound([height, 0]);
     const yScale2 = d3.scaleTime().range([height,0]);
+    const yScale3 = d3.scaleLinear().rangeRound([height,0]);
+    const yScale4 = d3.scaleLinear().range([height,0]);
+
+    //update scale
     xScale.domain(d3.extent(data, function(d){
         return  d3.timeParse("%d/%m/%Y")(d.data)})); //data!!
     yScale1.domain([(0), d3.max(slices, function(c) {
@@ -81,11 +89,24 @@ dataset.then(function(data) {
         ]);
     yScale2.domain(d3.extent(data, function(d){
         return timeH(d.tramonto)}));
+    yScale3.domain([0,35]);
+    yScale4.domain([0,1]);
+    // yScale3.domain([d3.min(slices, function(c) {
+    //         return d3.min(c.values, function(d) {
+    //             return d.tmin; });
+    //             }), d3.max(slices, function(c) {
+    //         return d3.max(c.values, function(d) {
+    //             return d.tmax; });
+    //             })
+    //         ]);
     
+    //define axis
     const yaxis1 = d3.axisLeft().scale(yScale1); 
     const yaxis2 = d3.axisLeft().scale(yScale2);
-    const xaxis = d3.axisBottom().scale(xScale).ticks(174/7);    
+    const yaxis3 = d3.axisLeft().scale(yScale3);
+    const xaxis = d3.axisBottom().scale(xScale).ticks(((slices[0].values).length-2)/7);    // 174/7 abbiamo slices.values.length - intestazio - ultima riga vuota  
 
+    //draw axis 
     svg.append("g")
         .attr("class", "axis")
         .attr("transform", "translate(0," + height + ")")
@@ -94,16 +115,24 @@ dataset.then(function(data) {
 
     svg.append("g")
         .attr("class", "axis")
-        .attr('stroke', 'blue')
+        .attr('stroke', 'green')
+        .attr("transform", "translate(15,0)")   //sposto per mettere diversi assi
         .call(yaxis1);
+
     svg.append("g")
         .attr("class", "axis")
         .attr('stroke', 'red')
-        .attr("transform", "translate("+width+",0)")
+        .attr("transform", "translate(-10,0)")  //sposto per mettere diversi assi 
+        .call(yaxis3);
+
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'orange')
+        .attr("transform", "translate("+(width-10)+",0)") //sposto per mettere diversi assi 
         .call(yaxis2)
         .selectAll('text').attr("transform", "translate("+40+",0)").attr("text-anchor", "end");
 
-    rect =  svg.append("rect")
+    rectsii = svg.append("rect")
         .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("11/12/19")))
         .attr("y", 0)
         .attr('class','sii')
@@ -111,7 +140,7 @@ dataset.then(function(data) {
         .attr("height", height)
         .attr('fill','black');
 
-    rect =  svg.append("rect")
+    rectml =  svg.append("rect")
         .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("16/12/19")))
         .attr("y", 0)
         .attr('class','ml')
@@ -119,13 +148,22 @@ dataset.then(function(data) {
         .attr("height", height)
         .attr('fill','black');
 
-    rect =  svg.append("rect")
+    rectcyber =  svg.append("rect")
         .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("27/01/20")))
         .attr("y", 0)
         .attr('class','cyber')
         .attr("width", 1)
         .attr("height", height)
         .attr('fill','black');
+
+    const rectsrain = svg.selectAll('rect').data(slices).enter()
+        .append('g')
+    rectsrain.append("rect")
+        .attr("x", function(d) { return xScale(d.date); })
+        .attr("y", 0)
+        .attr("width", 1)
+        .attr("height", 20)
+        .attr('fill','blue');
 
     const lineoverall = d3.line()
         .x(function(d) { return xScale(d.date); })
@@ -144,39 +182,56 @@ dataset.then(function(data) {
         .y(function(d) { return (yScale1(d.duration_score));});
 
     const lineheartrate = d3.line()
-    .x(function(d) { return xScale(d.date); })
-    .y(function(d) { return (yScale1(d.resting_heart_rate));});
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale1(d.resting_heart_rate));});
 
     const linetramonto = d3.line()
         .x(function(d) { return xScale(d.date); })
         .y(function(d) { return (yScale2(d.tramonto));});
 
+    const linestmin = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale3(d.tmin));});
+
+    const linestmax = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale3(d.tmax));});
+
     const lines = svg.selectAll("lines").data(slices).enter()
         .append("g");
-        //     d3.line().x(xScale(d3.timeParse("%d/%m/%Y")("06/12/2019")))
 
     lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
         .attr('fill','none')
-        .attr('stroke','blue');
+        .attr('stroke','green')
+        .attr('stroke-width','2');
 
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
-        .attr('stroke','#0058F0');
+        .attr('stroke','Chartreuse');
 
     lines.append("path").attr("d", function(d) { return linerev(d.values); })
         .attr('fill','none')
-        .attr('stroke','#1758BC');
+        .attr('stroke','MediumAquaMarine');
 
     lines.append("path").attr("d", function(d) { return lineduration(d.values); })
         .attr('fill','none')
-        .attr('stroke','#00A0E6');
+        .attr('stroke','PaleGreen');
 
     lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
         .attr('fill','none')
-        .attr('stroke','black');
+        .attr('stroke','DarkRed')
+        .attr('stroke-width','2');
 
     lines.append("path").attr("d", function(d) { return linetramonto(d.values); })
         .attr('fill','none')
-        .attr('stroke','red');
+        .attr('stroke','orange');
+
+    lines.append("path").attr("d", function(d) { return linestmin(d.values); })
+        .attr('fill','none')
+        .attr('stroke','DodgerBlue');
+
+    lines.append("path").attr("d", function(d) { return linestmax(d.values); })
+        .attr('fill','none')
+        .attr('stroke','Tomato');
 
 })
