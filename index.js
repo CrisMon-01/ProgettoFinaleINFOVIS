@@ -162,7 +162,7 @@ dataset.then(function(data) {
         .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("11/12/19")))
         .attr("y", 0)
         .attr('class','sii')
-        .attr("width", 1)
+        .attr("width", 2)
         .attr("height",  height/3-150)
         .attr('fill','black');
 
@@ -170,7 +170,7 @@ dataset.then(function(data) {
         .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("16/12/19")))
         .attr("y", 0)
         .attr('class','ml')
-        .attr("width", 1)
+        .attr("width", 2)
         .attr("height",  height/3-150)
         .attr('fill','black');
 
@@ -178,9 +178,34 @@ dataset.then(function(data) {
         .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("27/01/20")))
         .attr("y", 0)
         .attr('class','cyber')
-        .attr("width", 1)
+        .attr("width", 2)
         .attr("height", height/3-150)
         .attr('fill','black');
+
+    // feste
+    natale =  svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("25/12/19")))
+        .attr("y", 0)
+        .attr('class','natale')
+        .attr("width", 1)
+        .attr("height", height/3-150)
+        .attr('fill','grey');
+
+    capodanno =  svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("01/01/20")))
+        .attr("y", 0)
+        .attr('class','capodanno')
+        .attr("width", 1)
+        .attr("height", height/3-150)
+        .attr('fill','grey');
+
+    venticinqueaprile =  svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("25/04/20")))
+        .attr("y", 0)
+        .attr('class','venticinqueaprile')
+        .attr("width", 1)
+        .attr("height", height/3-150)
+        .attr('fill','grey');
 
     const lineoverall = d3.line()
         .x(function(d) { return xScale(d.date); })
