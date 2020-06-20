@@ -192,11 +192,11 @@ dataset.then(function(data) {
 
     const linerev = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale1(d.revitalization_score));});
-
+        .y(function(d) { return (yScale1(Math.round(d.revitalization_score)+Math.round(d.composition_score)));});
+        
     const lineduration = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale1(d.duration_score));});
+        .y(function(d) { return (yScale1(Math.round(d.duration_score)+Math.round(d.revitalization_score)+Math.round(d.composition_score)));});
 
     const lineheartrate = d3.line()
         .x(function(d) { return xScale(d.date); })
@@ -221,56 +221,90 @@ dataset.then(function(data) {
     const lines = svg.selectAll("lines").data(slices).enter()
         .append("g");
 
+    //con lo stacked graph sono informazioni ridondanti
+    //primo overall
     lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
         .attr('fill','none')
         .attr('stroke','green')
-        .attr('stroke-width','2');
+        .attr('stroke-width','3');
 
-    lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
-        .attr('fill','none')
-        .attr('stroke','green')
-        .attr('stroke-width','2')
-        .attr("transform", "translate(0,"+(height/3)+")");
+    // lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
+    //     .attr('fill','none')
+    //     .attr('stroke','green')
+    //     .attr('stroke-width','3')
+    //     .attr("transform", "translate(0,"+(height/3)+")");
 
-    lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
-        .attr('fill','none')
-        .attr('stroke','green')
-        .attr('stroke-width','2')
-        .attr("transform", "translate(0,"+(2*height/3)+")");
+    // lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
+    //     .attr('fill','none')
+    //     .attr('stroke','green')
+    //     .attr('stroke-width','3')
+    //     .attr("transform", "translate(0,"+(2*height/3)+")");
 
+    //prima comp
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
         .attr('stroke','Chartreuse');
-
-    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+    
+    //seconda
+    lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
         .attr('stroke','Chartreuse')
         .attr("transform", "translate(0,"+(height/3)+")");
 
-    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+    //terza
+    lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
         .attr('stroke','Chartreuse')
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
-    lines.append("path").attr("d", function(d) { return linerev(d.values); })
-        .attr('fill','none')
-        .attr('stroke','MediumAquaMarine');
-
+    //primo grafo duration
     lines.append("path").attr("d", function(d) { return lineduration(d.values); })
         .attr('fill','none')
         .attr('stroke','PaleGreen');
 
+    //secondo 
+    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+        .attr('fill','none')
+        .attr('stroke','Chartreuse')
+        .attr("transform", "translate(0,"+(height/3)+")");
+
+    //terzo
+    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+        .attr('fill','none')
+        .attr('stroke','Chartreuse')
+        .attr("transform", "translate(0,"+(2*height/3)+")");
+
+    //primo revital
+    lines.append("path").attr("d", function(d) { return linerev(d.values); })
+        .attr('fill','none')
+        .attr('stroke','MediumAquaMarine');
+
+    //secondo
+    lines.append("path").attr("d", function(d) { return linerev(d.values); })
+        .attr('fill','none')
+        .attr('stroke','MediumAquaMarine')
+        .attr("transform", "translate(0,"+(height/3)+")");
+
+    //terzo
+    lines.append("path").attr("d", function(d) { return linerev(d.values); })
+        .attr('fill','none')
+        .attr('stroke','MediumAquaMarine')
+        .attr("transform", "translate(0,"+(2*height/3)+")");
+
+    //primo cuore
     lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
         .attr('fill','none')
         .attr('stroke','DarkRed')
         .attr('stroke-width','2');
-
+        
+    //secondo
     lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
         .attr('fill','none')
         .attr('stroke','DarkRed')
         .attr('stroke-width','2')
         .attr("transform", "translate(0,"+(height/3)+")");
 
+    //terzo
     lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
         .attr('fill','none')
         .attr('stroke','DarkRed')
@@ -368,15 +402,51 @@ dataset.then(function(data) {
         .attr('alignment-baseline', 'middle')
 
     // secondo grafico
+    // svg.append('circle')
+    //     .attr('cx',50)
+    //     .attr('cy',(2*height)/3-65)
+    //     .attr('r',6)
+    //     .style('fill','green')
+    // svg.append('text')
+    //     .attr('x',60)
+    //     .attr('y',(2*height)/3-65)
+    //     .text('overall score')
+    //     .style('font-size','15px')
+    //     .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',50)
+        .attr('cy',(2*height)/3-35)
+        .attr('r',6)
+        .style('fill','PaleGreen')
+    svg.append('text')
+        .attr('x',60)
+        .attr('y',(2*height)/3-35)
+        .text('duration score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
     svg.append('circle')
         .attr('cx',50)
         .attr('cy',(2*height)/3-65)
         .attr('r',6)
-        .style('fill','green')
+        .style('fill','Chartreuse')
     svg.append('text')
         .attr('x',60)
         .attr('y',(2*height)/3-65)
-        .text('overall score')
+        .text('composition score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',350)
+        .attr('cy',(2*height)/3-35)
+        .attr('r',6)
+        .style('fill','MediumAquaMarine')
+    svg.append('text')
+        .attr('x',360)
+        .attr('y',(2*height)/3-35)
+        .text('revitalization score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
         
@@ -393,51 +463,63 @@ dataset.then(function(data) {
         .attr('alignment-baseline', 'middle')
 
     svg.append('circle')
-        .attr('cx',310)
+        .attr('cx',350)
         .attr('cy',(2*height)/3-65)
         .attr('r',6)
         .style('fill','DarkRed')
     svg.append('text')
-        .attr('x',320)
+        .attr('x',360)
         .attr('y',(2*height)/3-65)
         .text('heart rate')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
     svg.append('circle')
-        .attr('cx',160)
+        .attr('cx',200)
         .attr('cy',(2*height)/3-65)
         .attr('r',6)
         .style('fill','blue')
     svg.append('text')
-        .attr('x',170)
+        .attr('x',210)
         .attr('y',(2*height)/3-65)
         .text('temperatura minima')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
     svg.append('circle')
-        .attr('cx',160)
+        .attr('cx',200)
         .attr('cy',(2*height)/3-35)
         .attr('r',6)
         .style('fill','Red')
     svg.append('text')
-        .attr('x',170)
+        .attr('x',210)
         .attr('y',(2*height)/3-35)
         .text('temperatura massima')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
     // terzo grafico
+    // svg.append('circle')
+    //     .attr('cx',50)
+    //     .attr('cy',height-65)
+    //     .attr('r',6)
+    //     .style('fill','green')
+    // svg.append('text')
+    //     .attr('x',60)
+    //     .attr('y',height-65)
+    //     .text('overall score')
+    //     .style('font-size','15px')
+    //     .attr('alignment-baseline', 'middle')
+
     svg.append('circle')
         .attr('cx',50)
         .attr('cy',height-65)
         .attr('r',6)
-        .style('fill','green')
+        .style('fill','Chartreuse')
     svg.append('text')
         .attr('x',60)
         .attr('y',height-65)
-        .text('overall score')
+        .text('composition score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
         
@@ -454,29 +536,52 @@ dataset.then(function(data) {
         .attr('alignment-baseline', 'middle')
 
     svg.append('circle')
-        .attr('cx',160)
+        .attr('cx',350)
         .attr('cy',height-65)
         .attr('r',6)
         .style('fill','DarkRed')
     svg.append('text')
-        .attr('x',170)
+        .attr('x',360)
         .attr('y',height-65)
         .text('heart rate')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
     svg.append('circle')
-        .attr('cx',160)
+        .attr('cx',350)
         .attr('cy',height-35)
         .attr('r',6)
         .style('fill','CornflowerBlue')
     svg.append('text')
-        .attr('x',170)
+        .attr('x',360)
         .attr('y',height-35)
         .text('precipitazioni')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
+    svg.append('circle')
+        .attr('cx',200)
+        .attr('cy',height-65)
+        .attr('r',6)
+        .style('fill','Chartreuse')
+    svg.append('text')
+        .attr('x',210)
+        .attr('y',height-65)
+        .text('composition score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',200)
+        .attr('cy',height-35)
+        .attr('r',6)
+        .style('fill','MediumAquaMarine')
+    svg.append('text')
+        .attr('x',210)
+        .attr('y',height-35)
+        .text('revitalization score')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
 
     // //add event
     // svg.selectAll('path')
