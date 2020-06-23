@@ -3,8 +3,9 @@
 Progetto
 
 ## Attuali TO-DO 
-- stacked line graph quantità score fitbit <br/>
-- misure carattere biometrico atmosferico muovendo la finestra <br/>
-- festa nazionale <br/>
-- vedere periodicità e rimuovere weekend <br/> 
-- sprirale basata su settimana <br/>
+- stacked line graph quantità score fitbit V <br/>
+- misure carattere biometrico atmosferico muovendo la finestra ? <br/>
+- indicazioni feste nazionale V <br/>
+- vedere periodicità e rimuovere weekend V(?) <br/> 
+- sprirale basata su settimana V <br/>
+- Filtering fine settimana V <br/>
