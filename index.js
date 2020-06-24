@@ -23,7 +23,8 @@ dataset.then(function(data) {
     const slices = data.columns.slice(1).map(function() {   //function(id)
         return {
             // id: id,
-            values: data.map(function(d){
+            // values: data.map(function(d){
+            values: data.filter(function(d) { if(d.giorno!='sabato' && d.giorno!='domenica') return d }).map(function(d){
                 return {
                     date:  d3.timeParse("%d/%m/%Y")(d.data),
                     // measurement: d[id],
