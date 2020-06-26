@@ -38,6 +38,14 @@ Le correlazioni trovate in questa visualizzazione sono
 - Parentela diretta o inversa <br/>
 - Distanza tra curve <br/>
 
+# Run
+Run with Docker: <br/>
+ `````
+  docker build -t demoinfovisfinaleimg .
+  docker run -dit --name demoinfovisfinalecontainer -p 8080:80 demoinfovisfinaleimg
+ `````
+All'indirizzo della macchina che ha lanciato i comandi docker, esposto sulla porta 80, al path / troverete i grafici sugli score. <br/>
+Al path /index-spirale.html troverete il grafico a sprile per analizzare al meglio le periodicità settimanali. 
 
 Utilizzo del logo da parte della comunità universitaria.
 Il logo dell’Università degli Studi Roma Tre è un marchio registrato di proprietà esclusiva dell’Università e può essere utilizzato dalla comunità universitaria nell’ambito delle attività scientifiche, didattiche e comunicative.
