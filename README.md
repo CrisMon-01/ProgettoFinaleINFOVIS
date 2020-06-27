@@ -17,7 +17,7 @@ I dati Fitbit sono così organizzati:
 dato | descrizione | tipo
 -----|-------------|-----
 overall_score | dato sintetico complessivo, somma aritmetica di composition <br/> revitalization e duration | Integer
-composition_score | punteggio influenzato da <br/> frequenza cardiaca, tempo in REM <br/> tempo sveglio durante la notte e sulle fasi di questo | Integer
+composition_score | punteggio influenzato da frequenza cardiaca, tempo in REM <br/> tempo sveglio durante la notte e sulle fasi di questo | Integer
 revitalization_score | stima su quanto il sonno è stato riposante <br/> e se durante il sonno ci sono stati movimenti o agitazioni | Integer
 duration_score | punteggio ottenuto dalla durata del sonno | Integer
 deep_sleep_in_minutes | quanti minuti si è stati nella fase profonda del sonno | Integer

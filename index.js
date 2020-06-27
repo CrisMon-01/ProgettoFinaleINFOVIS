@@ -77,7 +77,7 @@ dataset.then(function(data) {
     const xScale = d3.scaleTime().range([15,width-15]);
     //yrange
     const yScale1 = d3.scaleLinear().rangeRound([(height/3-150), 0]);    //fitbit
-    const yScale2 = d3.scaleTime().range([(height/3-150), 0]);    //tramonto
+    const yScale2 = d3.scaleLinear().range([(height/3-150), 0]);    //tramonto
     const yScale3 = d3.scaleLinear().rangeRound([(2*(height/3)-150), (height/3)]);    //tmp 
     const yScale4 = d3.scaleLinear().range([height-150,2*height/3]); //pioggia
 
@@ -85,8 +85,9 @@ dataset.then(function(data) {
     xScale.domain(d3.extent(data, function(d){
         return  d3.timeParse("%d/%m/%Y")(d.data)})); //data!!
     yScale1.domain([(0),d3.max(data,d => d.overall_score)]);
-    yScale2.domain(d3.extent(data, function(d){
-        return timeH(d.tramonto)}));
+    // yScale2.domain(d3.extent(data, function(d){
+    //     return timeH(d.tramonto)}));     //FUORI TRAMONTO DENTRO RESTLESSNESS
+    yScale2.domain([0,d3.max(data,d => d.restlessness)])
     yScale3.domain([0,d3.max(data,d => Math.round(d.tmax))]);   //valori non interi! 
     yScale4.domain([0,d3.max(data,d => Math.round(d.pioggia))]);
 
@@ -218,7 +219,7 @@ dataset.then(function(data) {
 
     const linerev = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale1(Math.round(d.revitalization_score)+Math.round(d.composition_score)));});
+        .y(function(d) { return (yScale1(Math.round(d.revitalization_score)+10/*+Math.round(d.composition_score)*/));});
         
     const lineduration = d3.line()
         .x(function(d) { return xScale(d.date); })
@@ -230,7 +231,8 @@ dataset.then(function(data) {
 
     const linetramonto = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale2(d.tramonto));});
+        .y(function(d) { return (yScale2(d.restlessness));});
+        // .y(function(d) { return (yScale2(d.tramonto));});
 
     const linestmin = d3.line()
         .x(function(d) { return xScale(d.date); })
@@ -339,6 +341,7 @@ dataset.then(function(data) {
 
     lines.append("path").attr("d", function(d) { return linetramonto(d.values); })
         .attr('fill','none')
+        .attr('stroke-width','2')
         .attr('stroke','orange');
 
     lines.append("path").attr("d", function(d) { return linestmin(d.values); })
@@ -423,7 +426,7 @@ dataset.then(function(data) {
     svg.append('text')
         .attr('x',310)
         .attr('y',height/3-65)
-        .text('tramonto')
+        .text('restlessness')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
