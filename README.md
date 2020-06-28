@@ -92,7 +92,7 @@ deep_sleep_in_minutes 2 tmin -0.006592478390925329
 deep_sleep_in_minutes 2 tmax 0.0230687547640661
 deep_sleep_in_minutes 2 pioggia 0.031218817250696446
 resting_heart_rate 2 overall_score 0.17515964856149938
-resting_heart_rate 2 revitalization_score 0.13741217591113322
+resting_heart_rate 2 composition_score 0.13741217591113322
 resting_heart_rate 2 revitalization_score 0.2520269409534666
 resting_heart_rate 2 duration_score 0.06960177020516307
 resting_heart_rate 2 deep_sleep_in_minutes 0.014880816958071025
@@ -101,7 +101,7 @@ resting_heart_rate 2 tmin -0.609061696212945
 resting_heart_rate 2 tmax -0.6453034199889537
 resting_heart_rate 2 pioggia -0.1554821607167556
 restlessness 2 overall_score -0.011600012004912208
-restlessness 2 revitalization_score 0.06803755959444997
+restlessness 2 composition_score 0.06803755959444997
 restlessness 2 revitalization_score -0.48460333850202214
 restlessness 2 duration_score 0.11718687571562135
 restlessness 2 deep_sleep_in_minutes 0.22047784985071386
@@ -110,13 +110,13 @@ restlessness 2 tmin 0.23460738556479854
 restlessness 2 tmax 0.18721836584236207
 restlessness 2 pioggia 0.16333580442638157
 tmin 2 overall_score -0.15648541237356023
-tmin 2 revitalization_score -0.14013901422616626
+tmin 2 composition_score -0.14013901422616626
 tmin 2 revitalization_score -0.17688898837343658
 tmin 2 duration_score -0.06974350648091711
 tmin 2 deep_sleep_in_minutes -0.006592478390925328
 tmin 2 resting_heart_rate -0.609061696212945
 tmax 2 overall_score -0.11003529856897837
-tmax 2 revitalization_score -0.12560666924160255
+tmax 2 composition_score -0.12560666924160255
 tmax 2 revitalization_score -0.15807759805913113
 tmax 2 duration_score -0.022947933031111683
 tmax 2 deep_sleep_in_minutes 0.023068754764066102
