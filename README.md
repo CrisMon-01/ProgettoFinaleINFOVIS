@@ -127,7 +127,7 @@ Le correlazioni dirette possono essere considerate:
 * notevoli per calori tra 0,3 e 0,7
 * forti per valori tra 0,7 e 1
 Stessa scala può essere utilizzata per correlazioni inverse con il segno negativo. <br/>
-Oltre le correlazioni sono state calcolate anche le distanze tra le curve, mediante la metrica: distanza di Fréchet per calcolare le curve più simili. La distanza Fréchet è una misura di similarità fra le curve che tenie conto della posizione e dell'ordinamento dei punti lungo le curve.
+Oltre le correlazioni sono state calcolate anche le distanze tra le curve, mediante la metrica: distanza di Fréchet per calcolare le curve più simili. La distanza Fréchet è una misura di similarità fra le curve che tiene conto della posizione e dell'ordinamento dei punti lungo le curve.
   `````
     distance hr 2 hr: test 0.0
     distance hr 2 rev 50.0
