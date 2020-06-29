@@ -1,0 +1,42 @@
+FINO AL 24/11 (Fino a periodi di piogge intense)
+tmin 2 resting_heart_rate -0.45272520657176263
+tmax 2 resting_heart_rate -0.6705981332160581
+resting_heart_rate 2 pioggia 0.35583880809233215
+restlessness 2 pioggia 0.2677369253466109
+restlessness 2 tmin 0.2767224208056695
+restlessness 2 tmax 0.17905151165024438
+TRA 20/11 A 14/03
+tmin/tmax tutte negative
+tmin 2 resting_heart_rate -0.4182455680191709
+tmax 2 revitalization_score -0.10766225512876303
+tmax 2 duration_score -0.029365170540286194
+tmax 2 resting_heart_rate -0.40057061562011376
+restlessness 2 tmax 0.09225280185154303 (poco)
+TRA 24/11 e 26/01
+overall 2 revitalization_score 0.07923117394032907
+overall 2 duration_score 0.9126589392960093
+overall 2 composition_score 0.80
+deep_sleep_in_minutes 2 duration_score 0.7710822015442995
+deep_sleep_in_minutes 2 overall_score 0.7233712428701751
+deep_sleep_in_minutes 2 composition_score 0.6174774706470378
+restlessness 2 revitalization_score -0.5067043969343907
+overall 2 composition_score 0.8031588563354164
+overall 2 revitalization_score 0.07923117394032907
+overall 2 duration_score 0.9126589392960093
+overall 2 deep_sleep_in_minutes 0.7233712428701752
+tmin 2 resting_heart_rate -0.5784309125172407
+tmax 2 resting_heart_rate -0.536349477892545
+tmin 2 revitalization_score -0.33041088718741
+TRA 26/01 E 14/03
+overall 2 composition_score 0.7143111030526809
+overall 2 revitalization_score -0.06581378095397003
+overall 2 duration_score 0.9197802117752583
+revitalization_score 2 restlessness -0.48416534316037024
+tmin 2 resting_heart_rate -0.04120543576779158
+tmax 2 resting_heart_rate -0.3138589843449648
+dal 14/03 A FINE
+tmax 2 resting_heart_rate -0.13231528145321703
+tmin 2 resting_heart_rate -0.3010873431154804
+restlessness 2 tmin 0.37430331664054994
+overall 2 duration_score 0.9578834888941309 !!!!!
+overall 2 deep_sleep_in_minutes 0.7831718218097172
