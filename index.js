@@ -219,7 +219,7 @@ dataset.then(function(data) {
 
     const linerev = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale1(Math.round(d.revitalization_score)+10/*+Math.round(d.composition_score)*/));});
+        .y(function(d) { return (yScale1(Math.round(d.revitalization_score)+Math.round(d.composition_score)));});
         
     const lineduration = d3.line()
         .x(function(d) { return xScale(d.date); })

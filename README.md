@@ -17,13 +17,13 @@ I dati Fitbit sono così organizzati:
 dato | descrizione | tipo
 -----|-------------|-----
 overall_score | dato sintetico complessivo, somma aritmetica di composition <br/> revitalization e duration | Integer
-composition_score | punteggio influenzato da frequenza cardiaca, tempo in REM <br/> tempo sveglio durante la notte e sulle fasi di questo | Integer
-revitalization_score | stima su quanto il sonno è stato riposante <br/> e se durante il sonno ci sono stati movimenti o agitazioni | Integer
+composition_score | punteggio influenzato dal tempo in fase REM <br/> tempo sveglio durante la notte e sulle fasi di questo | Integer
+revitalization_score | stima su quanto il sonno è stato riposante <br/> in base a frequenza cardiaca e agitazione durante il sonno | Integer
 duration_score | punteggio ottenuto dalla durata del sonno | Integer
 deep_sleep_in_minutes | quanti minuti si è stati nella fase profonda del sonno | Integer
 restlessness | quanto il sonno è stato irrequieto, influenzato da <br/> cambi di posizione, movimenti etc | Double
 
-L'overall score nel grafico è stato rappresentato come stacked graph di composition, duration e revitalizzation, in quanto somma aritmetica di questi. <br/>
+L'overall score nei grafici seguenti al primo è stato sostituito dallo stacked graph di composition, duration e revitalizzation, in quanto somma aritmetica di questi. <br/>
 I dati sono stati rappresentati tramite un insieme di grafici in modo da evidenziare correlazioni. <br/>
 * Vi è una correlazione tra le precipitazioni e il sonno. <br/>
 Nei grafici è stato poi filtrato il week end in quanto mostrava dei dati facilmente prevedibili. <br/>
@@ -74,7 +74,7 @@ revitalization_score 2 tmin -0.1768889883734366
 revitalization_score 2 tmax -0.15807759805913116
 revitalization_score 2 pioggia -0.1039738065092124
 duration_score 2 overall_score 0.9155343467340677
-duration_score 2 revitalization_score 0.49477176473106477
+duration_score 2 composition_score 0.49477176473106477
 duration_score 2 revitalization_score -0.17054227618671944
 duration_score 2 deep_sleep_in_minutes 0.6948502503887958
 duration_score 2 resting_heart_rate 0.06960177020516307
@@ -83,7 +83,7 @@ duration_score 2 tmin -0.06974350648091712
 duration_score 2 tmax -0.022947933031111683
 duration_score 2 pioggia -0.0732883237146473
 deep_sleep_in_minutes 2 overall_score 0.7180993978620008
-deep_sleep_in_minutes 2 revitalization_score 0.6035651004808297
+deep_sleep_in_minutes 2 composition_score 0.6035651004808297
 deep_sleep_in_minutes 2 revitalization_score -0.2054456785087636
 deep_sleep_in_minutes 2 duration_score 0.6948502503887958
 deep_sleep_in_minutes 2 resting_heart_rate 0.014880816958071023
@@ -134,6 +134,13 @@ Oltre le correlazioni sono state calcolate anche le distanze tra le curve, media
     distance hr 2 duration 36.0
     distance hr 2 composition 52.0
   `````
+
+## Correlazioni riscontrate dai grafici
+* overall_score come somma algebrica di composition duration e revitalization score
+* correlazione inversa tra resting_hearth_rate e temperature (minime e massime)
+* correlazione inversa tra resting_hearth_rate e orario del tramonto
+* forte correlazione tra pioggia e minor valore degli score del sonno
+* variazione dei punteggi di sonno per gli esami (poco prima calo e poi aumento e dopo l'esame un'alterazione positiva e negativa) 
 
 # Run
 Run with Docker: <br/>
