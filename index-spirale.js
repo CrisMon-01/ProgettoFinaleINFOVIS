@@ -19,20 +19,56 @@ var coils; //number of coils, based on data.length / segmentsPerCoil
 var coilWidth; //remaining chartRadius (after holeRadius removed), divided by coils + 1. I add 1 as the end of the coil moves out by 1 each time
 
 //SCALES
-var colour = d3.scaleSequential(d3.interpolatePuBu);
+var colour1 = d3.scaleSequential(d3.interpolatePuBu);
+var colour2 = d3.scaleSequential(d3.interpolatePuBu);
+var colour3 = d3.scaleSequential(d3.interpolatePuBu);
+var colour4 = d3.scaleSequential(d3.interpolatePuBu);
 
 
-//CREATE SVG AND A G PLACED IN THE CENTRE OF THE SVG
-const svg = d3.select("div#chart")
-.append("svg")
-.attr("width", chartWidth + margin.left + margin.right)
-.attr("height", chartHeight + margin.top + margin.bottom);
+//CREATE svg1 AND A G PLACED IN THE CENTRE OF THE svg1
+const svg1 = d3.select("div#chart")
+    .append("svg")
+    .attr("width", chartWidth + margin.left + margin.right)
+    .attr("height", chartHeight + margin.top + margin.bottom);
 
-const g = svg.append("g")
+const svg2 = d3.select("div#chart")
+    .append("svg")
+    .attr("width", chartWidth + margin.left + margin.right)
+    .attr("height", chartHeight + margin.top + margin.bottom);
+
+const svg3 = d3.select("div#chart")
+    .append("svg")
+    .attr("width", chartWidth + margin.left + margin.right)
+    .attr("height", chartHeight + margin.top + margin.bottom);
+
+const svg4 = d3.select("div#chart")
+    .append("svg")
+    .attr("width", chartWidth + margin.left + margin.right)
+    .attr("height", chartHeight + margin.top + margin.bottom);
+
+const g1 = svg1.append("g")
     .attr("transform", "translate("
     + (margin.left + chartRadius)
     + ","
     + (margin.top + chartRadius) + ")");
+
+const g2 = svg2.append("g")
+    .attr("transform", "translate("
+    + (margin.left + chartRadius)
+    + ","
+    + 300 +")");
+
+const g3 = svg3.append("g")
+    .attr("transform", "translate("
+    + 300
+    + ","
+    + (margin.top + chartRadius) + ")");
+
+const g4 = svg4.append("g")
+    .attr("transform", "translate("
+    + 300
+    + ","
+    + 300 + ")");
 
 //LOAD THE DATA
 const dataset = d3.csv('./dataset_sleep_sprial.csv');
@@ -45,17 +81,92 @@ dataset.then(function(data) {
     console.log(coils);
     coilWidth = (chartRadius * (1 - holeRadiusProportion)) / (coils + 1);
     //console.log("coilWidth: " + coilWidth);
-    var dataExtent = d3.extent(data, function (d) { return d.overall_score; });
-    colour.domain(dataExtent);
+    var dataExtent1 = d3.extent(data, function (d) { return d.overall_score; });
+    colour1.domain(dataExtent1);
+    var dataExtent2 = d3.extent(data, function (d) { return d.revitalization_score; });
+    colour2.domain(dataExtent2);
+    var dataExtent3 = d3.extent(data, function (d) { return d.duration_score; });
+    colour3.domain(dataExtent3);
+    var dataExtent4 = d3.extent(data, function (d) { return d.composition_score; });
+    colour4.domain(dataExtent4);
 
-    var daysLabels = g.selectAll(".days-label")
+    var daysLabels1 = g1.selectAll(".days-label")
     .data(days)
     .enter()
     .append("g")
     .attr("class", "days-label");
 
+    var daysLabels2 = g2.selectAll(".days-label")
+    .data(days)
+    .enter()
+    .append("g")
+    .attr("class", "days-label");
+
+    var daysLabels3 = g3.selectAll(".days-label")
+    .data(days)
+    .enter()
+    .append("g")
+    .attr("class", "days-label");
+
+    var daysLabels4 = g4.selectAll(".days-label")
+    .data(days)
+    .enter()
+    .append("g")
+    .attr("class", "days-label");    
+
+    daysLabels1.append("text")
+        .text(function (d) { return d; })
+        .attr("x", function (d, i) {
+            let labelAngle = (i * segmentAngle) + (segmentAngle / 2);
+            return x(labelAngle, labelRadius);
+        })
+        .attr("y", function (d, i) {
+            let labelAngle = (i * segmentAngle) + (segmentAngle / 2);
+            return y(labelAngle, labelRadius);
+        })
+        .style("text-anchor", function (d, i) {
+            return i < (days.length / 2) ? "start" : "end";
+        });
+
+    daysLabels1.append("line")
+        .attr("x2", function (d, i) {
+            let lineAngle = (i * segmentAngle);
+            let lineRadius = chartRadius + 10;
+            return x(lineAngle, lineRadius);
+        })
+        .attr("y2", function (d, i) {
+            let lineAngle = (i * segmentAngle);
+            let lineRadius = chartRadius + 10;
+            return y(lineAngle, lineRadius);
+        });
+
+    daysLabels2.append("text")
+        .text(function (d) { return d; })
+        .attr("x", function (d, i) {
+            let labelAngle = (i * segmentAngle) + (segmentAngle / 2);
+            return x(labelAngle, labelRadius);
+        })
+        .attr("y", function (d, i) {
+            let labelAngle = (i * segmentAngle) + (segmentAngle / 2);
+            return y(labelAngle, labelRadius);
+        })
+        .style("text-anchor", function (d, i) {
+            return i < (days.length / 2) ? "start" : "end";
+    });
     
-    daysLabels.append("text")
+    daysLabels2.append("line")
+            .attr("x2", function (d, i) {
+                let lineAngle = (i * segmentAngle);
+                let lineRadius = chartRadius + 10;
+                return x(lineAngle, lineRadius);
+            })
+            .attr("y2", function (d, i) {
+                let lineAngle = (i * segmentAngle);
+                let lineRadius = chartRadius + 10;
+                return y(lineAngle, lineRadius);
+    });    
+
+    daysLabels3.append("text")
     .text(function (d) { return d; })
     .attr("x", function (d, i) {
         let labelAngle = (i * segmentAngle) + (segmentAngle / 2);
@@ -69,19 +180,45 @@ dataset.then(function(data) {
         return i < (days.length / 2) ? "start" : "end";
     });
 
-    daysLabels.append("line")
-        .attr("x2", function (d, i) {
-            let lineAngle = (i * segmentAngle);
-            let lineRadius = chartRadius + 10;
-            return x(lineAngle, lineRadius);
+    daysLabels3.append("line")
+            .attr("x2", function (d, i) {
+                let lineAngle = (i * segmentAngle);
+                let lineRadius = chartRadius + 10;
+                return x(lineAngle, lineRadius);
+            })
+            .attr("y2", function (d, i) {
+                let lineAngle = (i * segmentAngle);
+                let lineRadius = chartRadius + 10;
+                return y(lineAngle, lineRadius);
+    });   
+
+    daysLabels4.append("text")
+        .text(function (d) { return d; })
+        .attr("x", function (d, i) {
+            let labelAngle = (i * segmentAngle) + (segmentAngle / 2);
+            return x(labelAngle, labelRadius);
         })
-        .attr("y2", function (d, i) {
-            let lineAngle = (i * segmentAngle);
-            let lineRadius = chartRadius + 10;
-            return y(lineAngle, lineRadius);
+        .attr("y", function (d, i) {
+            let labelAngle = (i * segmentAngle) + (segmentAngle / 2);
+            return y(labelAngle, labelRadius);
+        })
+        .style("text-anchor", function (d, i) {
+            return i < (days.length / 2) ? "start" : "end";
         });
 
-    //ASSUMING DATA IS SORTED, CALCULATE EACH DATA POINT'S SEGMENT VERTICES
+    daysLabels4.append("line")
+            .attr("x2", function (d, i) {
+                let lineAngle = (i * segmentAngle);
+                let lineRadius = chartRadius + 10;
+                return x(lineAngle, lineRadius);
+            })
+            .attr("y2", function (d, i) {
+                let lineAngle = (i * segmentAngle);
+                let lineRadius = chartRadius + 10;
+                return y(lineAngle, lineRadius);
+    });       
+
+    //ASSUMINDATA IS SORTED, CALCULATE EACH DATA POINT'S SEGMENT VERTICES
     data.forEach(function (d, i) {
 
         let coil = Math.floor(i / segmentsPerCoil);
@@ -139,14 +276,32 @@ dataset.then(function(data) {
 
     });
 
-    var arcs = g.selectAll(".arc")
+    var arcs1 = g1.selectAll(".arc")
+        .data(data)
+        .enter()
+        .append("g")
+        .attr("class", "arc");
+
+    var arcs2 = g2.selectAll(".arc")
+        .data(data)
+        .enter()
+        .append("g")
+        .attr("class", "arc");
+
+    var arcs3 = g3.selectAll(".arc")
+        .data(data)
+        .enter()
+        .append("g")
+        .attr("class", "arc");
+
+    var arcs4 = g4.selectAll(".arc")
         .data(data)
         .enter()
         .append("g")
         .attr("class", "arc");
 
     //CURVED EDGES
-    arcs.append("path")
+    arcs1.append("path")
         .attr("d", function (d) {
             //start at vertice 1
             let start = "M " + d.x1 + " " + d.y1;
@@ -159,7 +314,55 @@ dataset.then(function(data) {
             //combine into string, with closure (Z) to vertice 1
             return start + " " + side1 + " " + side2 + " " + side3 + " Z"
         })
-        .style("fill", function (d) { return colour(d.overall_score); })
+        .style("fill", function (d) { return colour1(d.overall_score); })
+        .style("stroke", "white")
+
+    arcs2.append("path")
+        .attr("d", function (d) {
+            //start at vertice 1
+            let start = "M " + d.x1 + " " + d.y1;
+            //inner curve to vertice 2
+            let side1 = " Q " + d.controlPoint1x + " " + d.controlPoint1y + " " + d.x2 + " " + d.y2;
+            //straight line to vertice 3
+            let side2 = "L " + d.x3 + " " + d.y3;
+            //outer curve vertice 4
+            let side3 = " Q " + d.controlPoint2x + " " + d.controlPoint2y + " " + d.x4 + " " + d.y4;
+            //combine into string, with closure (Z) to vertice 1
+            return start + " " + side1 + " " + side2 + " " + side3 + " Z"
+        })
+        .style("fill", function (d) { return colour2(d.revitalization_score); })
+        .style("stroke", "white")
+
+    arcs3.append("path")
+        .attr("d", function (d) {
+            //start at vertice 1
+            let start = "M " + d.x1 + " " + d.y1;
+            //inner curve to vertice 2
+            let side1 = " Q " + d.controlPoint1x + " " + d.controlPoint1y + " " + d.x2 + " " + d.y2;
+            //straight line to vertice 3
+            let side2 = "L " + d.x3 + " " + d.y3;
+            //outer curve vertice 4
+            let side3 = " Q " + d.controlPoint2x + " " + d.controlPoint2y + " " + d.x4 + " " + d.y4;
+            //combine into string, with closure (Z) to vertice 1
+            return start + " " + side1 + " " + side2 + " " + side3 + " Z"
+        })
+        .style("fill", function (d) { return colour3(d.duration_score); })
+        .style("stroke", "white")
+
+    arcs4.append("path")
+        .attr("d", function (d) {
+            //start at vertice 1
+            let start = "M " + d.x1 + " " + d.y1;
+            //inner curve to vertice 2
+            let side1 = " Q " + d.controlPoint1x + " " + d.controlPoint1y + " " + d.x2 + " " + d.y2;
+            //straight line to vertice 3
+            let side2 = "L " + d.x3 + " " + d.y3;
+            //outer curve vertice 4
+            let side3 = " Q " + d.controlPoint2x + " " + d.controlPoint2y + " " + d.x4 + " " + d.y4;
+            //combine into string, with closure (Z) to vertice 1
+            return start + " " + side1 + " " + side2 + " " + side3 + " Z"
+        })
+        .style("fill", function (d) { return colour4(d.composition_score); })
         .style("stroke", "white")
 
 });

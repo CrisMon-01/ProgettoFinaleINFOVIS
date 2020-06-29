@@ -54,14 +54,12 @@ Le relazioni riscontrate grazie a questa visualizzazione sono:
 * conferma di sabato e domenica come outliers rispetto alla settimana
 * forte correlazione dei punteggi di martedì e mercoledì
 * Da fine Marzo e tutto Aprile, il giovedì risulta un giorno in cui vi è un maggiore punteggio del sonno
+* la revitalization ha un'andamento molto più regolare dell'overall score e in contro tendenza rimane alta anche durante la settimana (Martedì ha i valori più alti)
 
 ## Terza Visualizzazione:
 La terza ed ultima visualizzazione, è stata fatta andando a mediare il deep_sleep_in_minutes per ogni giorno. <br/>
 Questo ha confermato i dati ottenuti dalla seconda visualizzazione per quanto riguarda gli andamenti giornalieri sull'intero intervallo. <br/>
 Questa visualizzazione presenta la suddivisione in aree la cui grandezza corrisponde alla media sull'intero periodo di osservazione del giorno specifico della settimana. <br/>
-
-## Attuali TO-DO 
-- graficare deep_sleep_in_minutes
 
 ## Correlazioni
 Per un maggiore supporto alla visualizzazione sono state studiate e implementate tramite programmi pythoon delle metriche che riuscissero a quantificare in modo sintetico le correlazioni individuate dal grafico. <br/>
