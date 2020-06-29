@@ -77,9 +77,10 @@ dataset.then(function(data) {
     const xScale = d3.scaleTime().range([15,width-15]);
     //yrange
     const yScale1 = d3.scaleLinear().rangeRound([(height/3-150), 0]);    //fitbit
-    const yScale2 = d3.scaleLinear().range([(height/3-150), 0]);    //tramonto
+    const yScale2 = d3.scaleLinear().range([(height/3-150), 0]);    //restlessness
     const yScale3 = d3.scaleLinear().rangeRound([(2*(height/3)-150), (height/3)]);    //tmp 
     const yScale4 = d3.scaleLinear().range([height-150,2*height/3]); //pioggia
+    const yScale5 = d3.scaleLinear().range([(height/3-150), 0]);
 
     //update scale
     xScale.domain(d3.extent(data, function(d){
@@ -90,16 +91,18 @@ dataset.then(function(data) {
     yScale2.domain([0,d3.max(data,d => d.restlessness)])
     yScale3.domain([0,d3.max(data,d => Math.round(d.tmax))]);   //valori non interi! 
     yScale4.domain([0,d3.max(data,d => Math.round(d.pioggia))]);
+    yScale5.domain([0,d3.max(data,d =>Math.round(d.deep_sleep_in_minutes))]);
 
     //define axis
     const yaxis1 = d3.axisLeft().scale(yScale1); 
     const yaxis2 = d3.axisLeft().scale(yScale2);
     const yaxis3 = d3.axisLeft().scale(yScale3);
     const yaxis4 = d3.axisLeft().scale(yScale4);
+    const yaxis5 = d3.axisLeft().scale(yScale5);
     const xaxis = d3.axisBottom().scale(xScale).ticks(((slices[0].values).length-2)/7);    // 174/7 abbiamo slices.values.length - intestazio - ultima riga vuota  
 
     //draw axis 
-    //fitbit 2 tramonto
+    //fitbit 
     svg.append("g")
         .attr("class", "axis")
         .attr("transform", "translate(0," + ((height/3)-150) + ")")
@@ -114,9 +117,16 @@ dataset.then(function(data) {
 
     svg.append("g")
         .attr("class", "axis")
-        .attr('stroke', 'orange')
+        .attr('stroke', 'PaleTurquoise')
         .attr("transform", "translate("+(width-10)+",0)") //sposto per mettere diversi assi 
         .call(yaxis2)
+        .selectAll('text').attr("transform", "translate("+40+",0)").attr("text-anchor", "end");
+
+    svg.append("g")
+        .attr("class", "axis")
+        .attr('stroke', 'LightPink')
+        .attr("transform", "translate("+(width-10)+",0)") //sposto per mettere diversi assi 
+        .call(yaxis5)
         .selectAll('text').attr("transform", "translate("+40+",0)").attr("text-anchor", "end");
 
     // fitbit 2 temperatura    
@@ -217,19 +227,31 @@ dataset.then(function(data) {
         .x(function(d) { return xScale(d.date); })
         .y(function(d) { return yScale1(d.composition_score); });
 
-    const linerev = d3.line()
+    const linerevstacked = d3.line()
         .x(function(d) { return xScale(d.date); })
         .y(function(d) { return (yScale1(Math.round(d.revitalization_score)+Math.round(d.composition_score)));});
-        
+
+    const linerev = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale1(d.revitalization_score));});
+
     const lineduration = d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale1(d.duration_score));});
+        
+    const linedurationstacked = d3.line()
         .x(function(d) { return xScale(d.date); })
         .y(function(d) { return (yScale1(Math.round(d.duration_score)+Math.round(d.revitalization_score)+Math.round(d.composition_score)));});
 
     const lineheartrate = d3.line()
         .x(function(d) { return xScale(d.date); })
-        .y(function(d) { return (yScale1(d.resting_heart_rate));});
+        .y(function(d) { return (yScale1(d.resting_heart_rate)-10);});
 
-    const linetramonto = d3.line()
+    const linedeep =  d3.line()
+        .x(function(d) { return xScale(d.date); })
+        .y(function(d) { return (yScale5(d.deep_sleep_in_minutes)+30);});
+
+    const linerestlessness = d3.line()
         .x(function(d) { return xScale(d.date); })
         .y(function(d) { return (yScale2(d.restlessness));});
         // .y(function(d) { return (yScale2(d.tramonto));});
@@ -291,15 +313,15 @@ dataset.then(function(data) {
         .attr('stroke','PaleGreen');
 
     //secondo 
-    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+    lines.append("path").attr("d", function(d) { return linedurationstacked(d.values); })
         .attr('fill','none')
-        .attr('stroke','Chartreuse')
+        .attr('stroke','PaleGreen')
         .attr("transform", "translate(0,"+(height/3)+")");
 
     //terzo
-    lines.append("path").attr("d", function(d) { return lineduration(d.values); })
+    lines.append("path").attr("d", function(d) { return linedurationstacked(d.values); })
         .attr('fill','none')
-        .attr('stroke','Chartreuse')
+        .attr('stroke','PaleGreen')
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
     //primo revital
@@ -308,13 +330,13 @@ dataset.then(function(data) {
         .attr('stroke','MediumAquaMarine');
 
     //secondo
-    lines.append("path").attr("d", function(d) { return linerev(d.values); })
+    lines.append("path").attr("d", function(d) { return linerevstacked(d.values); })
         .attr('fill','none')
         .attr('stroke','MediumAquaMarine')
         .attr("transform", "translate(0,"+(height/3)+")");
 
     //terzo
-    lines.append("path").attr("d", function(d) { return linerev(d.values); })
+    lines.append("path").attr("d", function(d) { return linerevstacked(d.values); })
         .attr('fill','none')
         .attr('stroke','MediumAquaMarine')
         .attr("transform", "translate(0,"+(2*height/3)+")");
@@ -339,10 +361,15 @@ dataset.then(function(data) {
         .attr('stroke-width','2')
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
-    lines.append("path").attr("d", function(d) { return linetramonto(d.values); })
+    lines.append("path").attr("d", function(d) { return linedeep(d.values); })
         .attr('fill','none')
-        .attr('stroke-width','2')
-        .attr('stroke','orange');
+        .attr('stroke-width','1')
+        .attr('stroke','LightPink');
+
+    lines.append("path").attr("d", function(d) { return linerestlessness(d.values); })
+        .attr('fill','none')
+        .attr('stroke-width','1')
+        .attr('stroke','PaleTurquoise');
 
     lines.append("path").attr("d", function(d) { return linestmin(d.values); })
         .attr('fill','none')
@@ -422,13 +449,25 @@ dataset.then(function(data) {
         .attr('cx',300)
         .attr('cy',height/3-65)
         .attr('r',6)
-        .style('fill','orange')
+        .style('fill','PaleTurquoise')
     svg.append('text')
         .attr('x',310)
         .attr('y',height/3-65)
         .text('restlessness')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+
+    svg.append('circle')
+        .attr('cx',300)
+        .attr('cy',height/3-35)
+        .attr('r',6)
+        .style('fill','LightPink')
+    svg.append('text')
+        .attr('x',310)
+        .attr('y',height/3-35)
+        .text('deep sleep minutes')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle') 
 
     // secondo grafico
     // svg.append('circle')
@@ -576,27 +615,27 @@ dataset.then(function(data) {
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
-    svg.append('circle')
-        .attr('cx',350)
-        .attr('cy',height-35)
-        .attr('r',6)
-        .style('fill','CornflowerBlue')
-    svg.append('text')
-        .attr('x',360)
-        .attr('y',height-35)
-        .text('precipitazioni')
-        .style('font-size','15px')
-        .attr('alignment-baseline', 'middle')
+    // svg.append('circle')
+    //     .attr('cx',200)
+    //     .attr('cy',height-65)
+    //     .attr('r',6)
+    //     .style('fill','CornflowerBlue')
+    // svg.append('text')
+    //     .attr('cx',210)
+    //     .attr('cy',height-65)
+    //     .text('precipitazioni')
+    //     .style('font-size','15px')
+    //     .attr('alignment-baseline', 'middle')
 
     svg.append('circle')
         .attr('cx',200)
         .attr('cy',height-65)
         .attr('r',6)
-        .style('fill','Chartreuse')
+        .style('fill','CornflowerBlue')
     svg.append('text')
         .attr('x',210)
         .attr('y',height-65)
-        .text('composition score')
+        .text('precipitazioni')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
 
