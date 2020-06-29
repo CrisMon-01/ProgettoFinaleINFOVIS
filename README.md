@@ -64,7 +64,7 @@ Questa visualizzazione presenta la suddivisione in aree la cui grandezza corrisp
 - graficare deep_sleep_in_minutes
 
 ## Correlazioni
-Per un maggiore supporto alla visualizzazione sono state studiate delle metriche che riuscissero a quantificare in modo sintetico le correlazioni individuate dal grafico. <br/>
+Per un maggiore supporto alla visualizzazione sono state studiate e implementate tramite programmi pythoon delle metriche che riuscissero a quantificare in modo sintetico le correlazioni individuate dal grafico. <br/>
 Per quantificare quanto due serie fossero simili è stata utilizzata la metrica di Pearson (sono state testate anche quella di kendall e spearman ottenendo risualti simili) 
 ![Pearson](figure/pearson.jpg) <br/>
 Attraverso la metrica di Pearson sono state determinate correlazioni dirette e inverse per stabilire se quanto riportato dai grafici fosse o meno reale e in linea con le descrizioni riportate da Fitbit. <br>
