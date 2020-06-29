@@ -4,12 +4,11 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10},
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
-.append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
-.append("g")
-  .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");       
 
 // Read data
 d3.csv('dataset_sleep_deep_min_per_day.csv', function(data) {
@@ -40,7 +39,7 @@ console.log(root.leaves())
       .attr('width', function (d) { return d.x1 - d.x0; })
       .attr('height', function (d) { return d.y1 - d.y0; })
       .style("stroke", "black")
-      .style("fill", "#69b3a2");
+      .style('fill','DarkGreen')
 
   // and to add the text labels
   svg
