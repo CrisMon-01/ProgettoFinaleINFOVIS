@@ -496,6 +496,7 @@ dataset.then(function(data) {
     lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
         .attr('fill','none')
         .attr('stroke','green')
+        .attr('id', 'overall' )
         .attr('stroke-width','3');
 
     // lines.append("path").attr("d", function(d) { return lineoverall(d.values); })
@@ -513,17 +514,20 @@ dataset.then(function(data) {
     //prima comp
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
+        .attr('id', 'composition' )
         .attr('stroke','Chartreuse');
     
     //seconda
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
         .attr('stroke','Chartreuse')
+        .attr('id', 'composition' )
         .attr("transform", "translate(0,"+(height/3)+")");
 
     //terza
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
+        .attr('id', 'overall' )
         .attr('stroke','Chartreuse')
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
@@ -616,6 +620,8 @@ dataset.then(function(data) {
         .text('overall score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverOverall)
+        .on("mouseout", handleMouseOutOverall);
 
     svg.append('circle')
         .attr('cx',50)
@@ -876,6 +882,18 @@ dataset.then(function(data) {
     //     .on('mouseover', handleMouseOver)
 
 })
+const handleMouseOverOverall = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#overall')
+    .transition().duration(300)
+    .attr('stroke-width','5')
+}
+const handleMouseOutOverall = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#overall')
+    .transition().duration(300)
+    .attr('stroke-width','3')
+}
 
 // // event handler
 // const handleMouseOver = (d,i,n) => {
