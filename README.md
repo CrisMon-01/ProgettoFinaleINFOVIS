@@ -39,7 +39,7 @@ Una visualizzazione è stata rimossa in quanto ridondante, questa visualizzazion
 La visualizzazione è stata rimossa in quanto apportava poco contenuto informativo rispetto al grafico della temperatura.
 Per questa visualizzazione sono state presentate diverse versioni per verificare le incidenze del sabato e domenica sui dati, dato che le altre visualizzazioni esprimevano per loro natura questa caratteristica in modo più efficace. 
 L'overall score nei grafici seguenti al primo è stato sostituito dallo stacked graph di composition, duration e revitalizzation, in quanto somma aritmetica di questi. <br/>
-A supporto dei grafici, sono stati inseriti degli indicatori per evidenziare le correlazioni calcolate matematicamente. Le correlazioni sono espresse come delle righe blu orizzontali all'origine e alla fine dell'asse y in modo da non interferire con il disegno, e indicando quanto a coppie di due le grandezze siano correlate in quattro intervalli.<br/>
+A supporto dei grafici, sono stati inseriti degli indicatori, in modo da evidenziare le correlazioni tra misure. L'entità della correlazione è espressa come una riga orizzontale posizionata all'origine e alla fine dell'asse y in modo da non interferire con il disegno, il valore della correlazione influenza il colore della correlazione, dal rosso per una correlazione inversa al blu per una correlazione diretta<br/>
 Per il primo grafico le correlazioni graficate dall'alto verso il basso  (l'ordine di elenco rispecchia quello nel grafico dall'alto al basso) sono:
 * deep_sleep_in_minutes e duration_score
 * revitalization_score e restlessness
