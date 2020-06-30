@@ -24,7 +24,7 @@ duration_score | punteggio ottenuto dalla durata del sonno | Integer
 deep_sleep_in_minutes | quanti minuti si è stati nella fase profonda del sonno | Integer
 restlessness | quanto il sonno è stato irrequieto, influenzato da <br/> cambi di posizione, movimenti etc | Double
 
-I dati provenienti da fonti esterne a Fitbit sono state normalizzate e integrate per creare un'unico dataset utilizzabile. <br/>
+I dati provenienti da fonti esterne a Fitbit sono state normalizzate e integrate per creare un unico dataset utilizzabile. <br/>
 Per l'integrazione è stato utilizzato uno strumento legato all'analisi di Big Data: HIVE SQL. <br/>
 Il file utilizzato da hive è `hive.hql`
 
@@ -36,8 +36,8 @@ Questa visualizzazione si compone di diversi grafici:
 * Uno per mettere in relazione i dati biometrici con la variazione delle temperature nel corso del tempo (nell'intervallo specificato).
 * Uno per mettere in correlazione la presenza di precipitazioni con i dati biometrici.
 Una visualizzazione è stata rimossa in quanto ridondante, questa visualizzazione metteva in correlazione i dati biometrici con l'andamento del tramonto. <br/>
-La visualizzazione è stata rimossa in quanto apportava poco contenuto informativo rispotto al grafico della temperatura.
-Per questa visualizzazione sono stati presentate diverse versioni per verificare le incidenze del sabato e domenica sui dati, dato che le altre visualizzazioni esprimevano per loro natura questa caratteristica in modo più efficace. 
+La visualizzazione è stata rimossa in quanto apportava poco contenuto informativo rispetto al grafico della temperatura.
+Per questa visualizzazione sono state presentate diverse versioni per verificare le incidenze del sabato e domenica sui dati, dato che le altre visualizzazioni esprimevano per loro natura questa caratteristica in modo più efficace. 
 L'overall score nei grafici seguenti al primo è stato sostituito dallo stacked graph di composition, duration e revitalizzation, in quanto somma aritmetica di questi. <br/>
 A supporto dei grafici, sono stati inseriti degli indicatori per evidenziare le correlazioni calcolate matematicamente. Le correlazioni sono espresse come delle righe blu orizzontali all'origine e alla fine dell'asse y in modo da non interferire con il disegno, e indicando quanto a coppie di due le grandezze siano correlate in quattro intervalli.<br/>
 Per il primo grafico le correlazioni graficate dall'alto verso il basso  (l'ordine di elenco rispecchia quello nel grafico dall'alto al basso) sono:
