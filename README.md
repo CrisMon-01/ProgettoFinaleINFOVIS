@@ -44,13 +44,13 @@ Per il primo grafico le correlazioni graficate dall'alto verso il basso  (l'ordi
 * deep_sleep_in_minutes e duration_score
 * revitalization_score e restlessness
 * overall_score e duration_score
-* overall_score e composition
+* overall_score e composition  <br/>
 Per il secondo grafico le correlazioni dall'alto verso il basso sono:
 * overall_score e revitalization_score
 * temperatura minima e resting_hearth_rate
-* temperatura massima e resting_hearth_rate
+* temperatura massima e resting_hearth_rate  <br/>
 Per il terzo grafico le correlazioni dall'alto verso il basso sono:
-* pioggia e overall_score
+* pioggia e overall_score  <br/>
 Le relazioni riscontrate grazie a questa visualizzazione sono:
 * l'overall_score è la somma algebrica di composition duration e revitalization score
 * vi è correlazione inversa tra resting_hearth_rate e temperature (minime e massime)
