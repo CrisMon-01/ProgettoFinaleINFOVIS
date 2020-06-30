@@ -39,13 +39,25 @@ Una visualizzazione è stata rimossa in quanto ridondante, questa visualizzazion
 La visualizzazione è stata rimossa in quanto apportava poco contenuto informativo rispotto al grafico della temperatura.
 Per questa visualizzazione sono stati presentate diverse versioni per verificare le incidenze del sabato e domenica sui dati, dato che le altre visualizzazioni esprimevano per loro natura questa caratteristica in modo più efficace. 
 L'overall score nei grafici seguenti al primo è stato sostituito dallo stacked graph di composition, duration e revitalizzation, in quanto somma aritmetica di questi. <br/>
+A supporto dei grafici, sono stati inseriti degli indicatori per evidenziare le correlazioni calcolate matematicamente. Le correlazioni sono espresse come delle righe blu orizzontali all'origine e alla fine dell'asse y in modo da non interferire con il disegno, e indicando quanto a coppie di due le grandezze siano correlate in quattro intervalli.<br/>
+Per il primo grafico le correlazioni graficate dall'alto verso il basso  (l'ordine di elenco rispecchia quello nel grafico dall'alto al basso) sono:
+* deep_sleep_in_minutes e duration_score
+* revitalization_score e restlessness
+* overall_score e duration_score
+* overall_score e composition
+Per il secondo grafico le correlazioni dall'alto verso il basso sono:
+* overall_score e revitalization_score
+* temperatura minima e resting_hearth_rate
+* temperatura massima e resting_hearth_rate
+Per il terzo grafico le correlazioni dall'alto verso il basso sono:
+* pioggia e overall_score
 Le relazioni riscontrate grazie a questa visualizzazione sono:
 * l'overall_score è la somma algebrica di composition duration e revitalization score
 * vi è correlazione inversa tra resting_hearth_rate e temperature (minime e massime)
 * vi è correlazione inversa tra resting_hearth_rate e orario del tramonto
 * vi è forte correlazione tra pioggia e minor valore degli score del sonno.
 * vi è una variazione dei punteggi di sonno per gli esami (poco prima calo e poi aumento e dopo l'esame un'alterazione positiva e negativa) 
-TO-DO AGGIORNARE
+![Logo Roma Tre](figure/prima.png)
 ## Seconda Visualizzazione:
 La seconda visualizzazione ha una diversa granularità. <br/>
 La granularità dei grafici presenti in questa visualizzazione è settimanale, ed utilizza un grafico a spirale per evidenzia delle periodicità difficilmente riscontrabili per sua natura su un line graph.
@@ -55,11 +67,21 @@ Le relazioni riscontrate grazie a questa visualizzazione sono:
 * forte correlazione dei punteggi di martedì e mercoledì
 * Da fine Marzo e tutto Aprile, il giovedì risulta un giorno in cui vi è un maggiore punteggio del sonno
 * la revitalization ha un'andamento molto più regolare dell'overall score e in contro tendenza rimane alta anche durante la settimana (Martedì ha i valori più alti)
+La visualizzazione rappresenta i 4 principali score del sonno raccolti da Fitbit <br/>
+In senso orario troviamo:
+* overall_score
+* revitalization_score
+* duration_score
+* composition_score
+![Logo Roma Tre](figure/spirali.png)
 
 ## Terza Visualizzazione:
 La terza ed ultima visualizzazione, è stata fatta andando a mediare il deep_sleep_in_minutes per ogni giorno. <br/>
 Questo ha confermato i dati ottenuti dalla seconda visualizzazione per quanto riguarda gli andamenti giornalieri sull'intero intervallo. <br/>
 Questa visualizzazione presenta la suddivisione in aree la cui grandezza corrisponde alla media sull'intero periodo di osservazione del giorno specifico della settimana. <br/>
+![Logo Roma Tre](figure/treemap.png)
+
+I grafici sono interattivi, dato il gran numero di dati diversi da graficare, con il passaggio del mouse al di sopra di una legenda è possibile evidenziare la curva corrispondente. Nel caso la stessa curva sia presente in diversi grafici, questa viene evidenziata in tutto, in modo da poter avere una soluzione di continuità tra i grafici<br/>
 
 ## Correlazioni
 Per un maggiore supporto alla visualizzazione sono state studiate e implementate tramite programmi pythoon delle metriche che riuscissero a quantificare in modo sintetico le correlazioni individuate dal grafico. <br/>

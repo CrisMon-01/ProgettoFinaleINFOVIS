@@ -52,31 +52,6 @@ dataset.then(function(data) {
 
     scalecolposneg.domain([-1,1]);
 
-    console.log("Column headers", data.columns);
-    //["data", "ora", "overall_score", "composition_score", "revitalization_score", "duration_score", "deep_sleep_in_minutes", "resting_heart_rate", "restlessness", "giorno", "alba", "tramonto", "lunghezzadelgiorno"]
-    
-    // returns the sliced dataset
-    console.log("Slices",slices);  
-    // ritorna il dataset
-    
-    // returns the first slice
-    console.log("First slice",slices[0]);
-    // colonna [0] oltre data
-    
-    // returns the array in the first slice
-    console.log("A array",slices[0].values); 
-    // array valori prima colonna  OK con cambio date a data
-    
-    // returns the date of the first row in the first slice
-    console.log("Date element",slices[0].values[0].date);   //ok
-    console.log("Date h",slices[0].values[0].ora);   //ok
-    console.log("Date overall",slices[0].values[0].overall_score);     //ok
-    // ok Sun Oct 20 0019 00:00:00 GMT+0049 (Central European Summer Time
-    
-    // returns the array's length
-    console.log("Array length",(slices[0].values).length);
-    //176 # righe dati
-
     //define scale
     const xScale = d3.scaleTime().range([15,width-15]);
     //yrange
@@ -527,53 +502,61 @@ dataset.then(function(data) {
     //terza
     lines.append("path").attr("d", function(d) { return linecomp(d.values); })
         .attr('fill','none')
-        .attr('id', 'overall' )
+        .attr('id', 'composition' )
         .attr('stroke','Chartreuse')
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
     //primo grafo duration
     lines.append("path").attr("d", function(d) { return lineduration(d.values); })
         .attr('fill','none')
+        .attr('id', 'duration' )
         .attr('stroke','PaleGreen');
 
     //secondo 
     lines.append("path").attr("d", function(d) { return linedurationstacked(d.values); })
         .attr('fill','none')
         .attr('stroke','PaleGreen')
+        .attr('id', 'duration' )
         .attr("transform", "translate(0,"+(height/3)+")");
 
     //terzo
     lines.append("path").attr("d", function(d) { return linedurationstacked(d.values); })
         .attr('fill','none')
         .attr('stroke','PaleGreen')
+        .attr('id', 'duration' )
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
     //primo revital
     lines.append("path").attr("d", function(d) { return linerev(d.values); })
         .attr('fill','none')
+        .attr('id', 'revital' )
         .attr('stroke','MediumAquaMarine');
 
     //secondo
     lines.append("path").attr("d", function(d) { return linerevstacked(d.values); })
         .attr('fill','none')
+        .attr('id', 'revital' )
         .attr('stroke','MediumAquaMarine')
         .attr("transform", "translate(0,"+(height/3)+")");
 
     //terzo
     lines.append("path").attr("d", function(d) { return linerevstacked(d.values); })
         .attr('fill','none')
+        .attr('id', 'revital' )
         .attr('stroke','MediumAquaMarine')
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
     //primo cuore
     lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
         .attr('fill','none')
+        .attr('id', 'hr' )
         .attr('stroke','DarkRed')
         .attr('stroke-width','2');
         
     //secondo
     lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
         .attr('fill','none')
+        .attr('id', 'hr' )
         .attr('stroke','DarkRed')
         .attr('stroke-width','2')
         .attr("transform", "translate(0,"+(height/3)+")");
@@ -581,30 +564,36 @@ dataset.then(function(data) {
     //terzo
     lines.append("path").attr("d", function(d) { return lineheartrate(d.values); })
         .attr('fill','none')
+        .attr('id', 'hr' )
         .attr('stroke','DarkRed')
         .attr('stroke-width','2')
         .attr("transform", "translate(0,"+(2*height/3)+")");
 
     lines.append("path").attr("d", function(d) { return linedeep(d.values); })
         .attr('fill','none')
+        .attr('id', 'deepsleep' )
         .attr('stroke-width','1')
         .attr('stroke','LightPink');
 
     lines.append("path").attr("d", function(d) { return linerestlessness(d.values); })
         .attr('fill','none')
+        .attr('id', 'restlessness' )
         .attr('stroke-width','1')
         .attr('stroke','PaleTurquoise');
 
     lines.append("path").attr("d", function(d) { return linestmin(d.values); })
         .attr('fill','none')
+        .attr('id', 'tmin' )
         .attr('stroke','DodgerBlue');
 
     lines.append("path").attr("d", function(d) { return linestmax(d.values); })
         .attr('fill','none')
+        .attr('id', 'tmax' )
         .attr('stroke','Tomato');
 
     lines.append("path").attr("d", function(d) { return linespioggia(d.values); })
         .attr('fill','none')
+        .attr('id', 'pioggia' )
         .attr('stroke','CornflowerBlue');
 
     //leggend
@@ -634,6 +623,8 @@ dataset.then(function(data) {
         .text('duration score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverDuration)
+        .on("mouseout", handleMouseOutDuration);
     
     svg.append('circle')
         .attr('cx',160)
@@ -646,6 +637,8 @@ dataset.then(function(data) {
         .text('composition score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverComp)
+        .on("mouseout", handleMouseOutComp);
 
     svg.append('circle')
         .attr('cx',160)
@@ -658,6 +651,8 @@ dataset.then(function(data) {
         .text('revitalization score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverRevitalize)
+        .on("mouseout", handleMouseOutRevitalize);
 
     svg.append('circle')
         .attr('cx',400)
@@ -670,6 +665,8 @@ dataset.then(function(data) {
         .text('heart rate')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverHR)
+        .on("mouseout", handleMouseOutHR);
 
     svg.append('circle')
         .attr('cx',300)
@@ -682,6 +679,8 @@ dataset.then(function(data) {
         .text('restlessness')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverRestless)
+        .on("mouseout", handleMouseOutRestless);
 
     svg.append('circle')
         .attr('cx',300)
@@ -694,31 +693,23 @@ dataset.then(function(data) {
         .text('deep sleep minutes')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle') 
+        .on('mouseover',handleMouseOverDSM)
+        .on("mouseout", handleMouseOutDSM);
 
     // secondo grafico
     // svg.append('circle')
     //     .attr('cx',50)
-    //     .attr('cy',(2*height)/3-65)
+    //     .attr('cy',(2*height)/3-35)
     //     .attr('r',6)
-    //     .style('fill','green')
+    //     .style('fill','PaleGreen')
     // svg.append('text')
     //     .attr('x',60)
-    //     .attr('y',(2*height)/3-65)
-    //     .text('overall score')
+    //     .attr('y',(2*height)/3-35)
+    //     .text('duration score')
     //     .style('font-size','15px')
     //     .attr('alignment-baseline', 'middle')
-
-    svg.append('circle')
-        .attr('cx',50)
-        .attr('cy',(2*height)/3-35)
-        .attr('r',6)
-        .style('fill','PaleGreen')
-    svg.append('text')
-        .attr('x',60)
-        .attr('y',(2*height)/3-35)
-        .text('duration score')
-        .style('font-size','15px')
-        .attr('alignment-baseline', 'middle')
+    //     .on('mouseover',handleMouseOverDuration)
+    //     .on("mouseout", handleMouseOutDuration);
 
     svg.append('circle')
         .attr('cx',50)
@@ -731,6 +722,8 @@ dataset.then(function(data) {
         .text('composition score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverComp)
+        .on("mouseout", handleMouseOutComp);
 
     svg.append('circle')
         .attr('cx',350)
@@ -743,6 +736,8 @@ dataset.then(function(data) {
         .text('revitalization score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverRevitalize)
+        .on("mouseout", handleMouseOutRevitalize);
         
     svg.append('circle')
         .attr('cx',50)
@@ -755,6 +750,8 @@ dataset.then(function(data) {
         .text('duration score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverDuration)
+        .on("mouseout", handleMouseOutDuration);
 
     svg.append('circle')
         .attr('cx',350)
@@ -767,6 +764,8 @@ dataset.then(function(data) {
         .text('heart rate')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverHR)
+        .on("mouseout", handleMouseOutHR);
 
     svg.append('circle')
         .attr('cx',200)
@@ -779,6 +778,8 @@ dataset.then(function(data) {
         .text('temperatura minima')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverTMIN)
+        .on("mouseout", handleMouseOutTMIN);
 
     svg.append('circle')
         .attr('cx',200)
@@ -791,20 +792,10 @@ dataset.then(function(data) {
         .text('temperatura massima')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverTMAX)
+        .on("mouseout", handleMouseOutTMAX);
 
     // terzo grafico
-    // svg.append('circle')
-    //     .attr('cx',50)
-    //     .attr('cy',height-65)
-    //     .attr('r',6)
-    //     .style('fill','green')
-    // svg.append('text')
-    //     .attr('x',60)
-    //     .attr('y',height-65)
-    //     .text('overall score')
-    //     .style('font-size','15px')
-    //     .attr('alignment-baseline', 'middle')
-
     svg.append('circle')
         .attr('cx',50)
         .attr('cy',height-65)
@@ -816,6 +807,8 @@ dataset.then(function(data) {
         .text('composition score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverComp)
+        .on("mouseout", handleMouseOutComp);
         
     svg.append('circle')
         .attr('cx',50)
@@ -828,6 +821,8 @@ dataset.then(function(data) {
         .text('duration score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverDuration)
+        .on("mouseout", handleMouseOutDuration);
 
     svg.append('circle')
         .attr('cx',350)
@@ -840,18 +835,8 @@ dataset.then(function(data) {
         .text('heart rate')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
-
-    // svg.append('circle')
-    //     .attr('cx',200)
-    //     .attr('cy',height-65)
-    //     .attr('r',6)
-    //     .style('fill','CornflowerBlue')
-    // svg.append('text')
-    //     .attr('cx',210)
-    //     .attr('cy',height-65)
-    //     .text('precipitazioni')
-    //     .style('font-size','15px')
-    //     .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverHR)
+        .on("mouseout", handleMouseOutHR);
 
     svg.append('circle')
         .attr('cx',200)
@@ -864,6 +849,8 @@ dataset.then(function(data) {
         .text('precipitazioni')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverRAIN)
+        .on("mouseout", handleMouseOutRAIN);
 
     svg.append('circle')
         .attr('cx',200)
@@ -876,34 +863,129 @@ dataset.then(function(data) {
         .text('revitalization score')
         .style('font-size','15px')
         .attr('alignment-baseline', 'middle')
-
-    // //add event
-    // svg.selectAll('path')
-    //     .on('mouseover', handleMouseOver)
+        .on('mouseover',handleMouseOverRevitalize)
+        .on("mouseout", handleMouseOutRevitalize);
 
 })
 const handleMouseOverOverall = (d,i,n) => {
     const body = d3.select("body");
     body.selectAll('#overall')
-    .transition().duration(300)
+    .transition().duration(400)
     .attr('stroke-width','5')
 }
 const handleMouseOutOverall = (d,i,n) => {
     const body = d3.select("body");
     body.selectAll('#overall')
-    .transition().duration(300)
+    .transition().duration(400)
     .attr('stroke-width','3')
 }
+const handleMouseOverDuration = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#duration')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutDuration = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#duration')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverComp = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#composition')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutComp = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#composition')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverRevitalize = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#revital')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutRevitalize = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#revital')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverHR = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#hr')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutHR = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#hr')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverRestless = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#restlessness')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutRestless = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#restlessness')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverDSM  = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#deepsleep')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutDSM = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#deepsleep')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverTMIN  = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#tmin')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutTMIN = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#tmin')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverTMAX  = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#tmax')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutTMAX = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#tmax')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
+const handleMouseOverRAIN  = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#pioggia')
+    .transition().duration(400)
+    .attr('stroke-width','5')
+}
+const handleMouseOutRAIN = (d,i,n) => {
+    const body = d3.select("body");
+    body.selectAll('#pioggia')
+    .transition().duration(400)
+    .attr('stroke-width','1')
+}
 
-// // event handler
-// const handleMouseOver = (d,i,n) => {
-//     console.log(n[i]);   //OK
-//     d3.select(n[i]) 
-//         // .attr('fill','black')
-//         // .append('div')
-//     svg.append('text')
-//         .attr('text-anchor', 'middle')
-//         .attr('x', 200)
-//         .attr('y',200)
-//         .text('prova')
-// }
+
