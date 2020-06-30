@@ -19,6 +19,8 @@ const timeH = d3.timeParse("%H:%M:%S");
 
 const dataset = d3.csv('./dataset_sleep.csv');
 
+var scalecolposneg = d3.scaleSequential(d3.interpolateRdBu);
+
 dataset.then(function(data) {
     const slices = data.columns.slice(1).map(function() {   //function(id)
         return {
@@ -47,6 +49,8 @@ dataset.then(function(data) {
             })
         };
     });
+
+    scalecolposneg.domain([-1,1]);
 
     console.log("Column headers", data.columns);
     //["data", "ora", "overall_score", "composition_score", "revitalization_score", "duration_score", "deep_sleep_in_minutes", "resting_heart_rate", "restlessness", "giorno", "alba", "tramonto", "lunghezzadelgiorno"]
@@ -218,6 +222,222 @@ dataset.then(function(data) {
         .attr("width", 1)
         .attr("height", height/3-150)
         .attr('fill','grey');
+
+    // correlazioni
+    //overall composition
+    over2compf1 = svg.append("rect")
+        .attr("x",  15)
+        .attr("y", (height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.56));
+    over2compf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", (height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.8));
+    over2compf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20")))
+        .attr("y", (height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.78));
+    over2compf4 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20")))
+        .attr("y", (height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.66));
+
+    //overall deepsleep
+    over2deepsleepf1 = svg.append("rect")
+        .attr("x",  15)
+        .attr("y", (height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.67));
+    over2deepsleepf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", (height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.72));
+    over2deepsleepf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20")))
+        .attr("y", (height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.73));
+    over2deepsleepf4 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20")))
+        .attr("y", (height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.78));
+
+    //duration deepsleep minutes 
+    duration2deepf1 = svg.append("rect")
+        .attr("x",  15)
+        .attr("y", 0)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.59));
+    duration2deepf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", 0)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.771));
+    duration2deepf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20")))
+        .attr("y", 0)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.73));
+    duration2deepf4 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20")))
+        .attr("y", 0)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.69));
+
+    //rev restlessness
+    rev2rlnf1 = svg.append("rect")
+        .attr("x",  15)
+        .attr("y", 3)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.44));
+    rev2rlnf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", 3)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.503));
+    rev2rlnf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20")))
+        .attr("y", 3)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.61));
+    rev2rlnf4 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20")))
+        .attr("y", 3)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.28));
+
+    //overall resting hr
+    over2rhrf1 = svg.append("rect")
+        .attr("x", 15)
+        .attr("y", (height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.3));  
+        
+    over2rhrf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", (height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.35));
+
+    over2rhrf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20")))
+        .attr("y", (height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.13));
+
+    over2rhrf4 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20")))
+        .attr("y", (height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.17));
+
+    //sopra tmax sotto tmin rhr
+    tmin2rhrf1 = svg.append("rect")
+        .attr("x",  15)
+        .attr("y", (2*height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.45));
+    tax2rhrf1 = svg.append("rect")
+        .attr("x",  15)
+        .attr("y", (2*height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.67));
+
+    tmin2rhrf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", (2*height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.5784309125172407));
+    tax2rhrf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", (2*height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.53));
+
+    tmin2rhrf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20")))
+        .attr("y", (2*height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.04120543576779158));
+    tax2rhrf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20")))
+        .attr("y", (2*height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.3138589843449648));   
+        
+    tmin2rhrf4 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20")))
+        .attr("y", (2*height/3)-153)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.3010873431154804));
+    tax2rhrf4 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20")))
+        .attr("y", (2*height/3)-156)
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.13231528145321703));   
+
+    //pioggia rhr
+    pioggiarhrf1 = svg.append("rect")
+        .attr("x",  15)
+        .attr("y", (2*height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(0.35583880809233215));
+
+    pioggiarhrf2 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("24/11/19"))-15)
+        .attr("y", (2*height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("22/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.020539476090520106));
+
+    pioggiarhrf3 = svg.append("rect")
+        .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("26/01/20"))-15)
+        .attr("y", (2*height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("08/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.1));
+
+    pioggiarhrf3 = svg.append("rect")
+    .attr("x",  xScale(d3.timeParse("%d/%m/%Y")("14/03/20"))-15)
+        .attr("y", (2*height/3))
+        .attr("width", xScale(d3.timeParse("%d/%m/%Y")("07/12/19")))
+        .attr("height", 3)
+        .attr('fill',scalecolposneg(-0.140044132214026));
 
     const lineoverall = d3.line()
         .x(function(d) { return xScale(d.date); })

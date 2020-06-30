@@ -5,7 +5,7 @@ resting_heart_rate 2 pioggia 0.35583880809233215
 restlessness 2 pioggia 0.2677369253466109
 restlessness 2 tmin 0.2767224208056695
 restlessness 2 tmax 0.17905151165024438
-TRA 20/11 A 14/03
+TRA 20/11 A 14/03 (05/02/20)
 tmin/tmax tutte negative
 tmin 2 resting_heart_rate -0.4182455680191709
 tmax 2 revitalization_score -0.10766225512876303
