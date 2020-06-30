@@ -171,6 +171,12 @@ Run with Docker: <br/>
 All'indirizzo della macchina che ha lanciato i comandi docker, esposto sulla porta 80, al path / troverete i grafici della prima visualizzazione. <br/>
 Al path /index-spirale.html troverete il grafico della seconda visualizzazione per analizzare al meglio le periodicità settimanali. <br/>
 Al path /index-deepsleep-day.html troverete la terza visualizzazione calcolata sulla base della media dei minuti di sonno profondo per ogni giorno della settimana. <br/>
+Il progetto è integrato con Docker Hub, evitando la necessità di build locale dell'immagine:
+
+ `````
+  docker pull crismon01/progettofinaleinfovis:latest || crismon01/progettofinaleinfovis:dev
+  docker run -dit --name demoinfovisfinalecontainer -p 8080:80 crismon01/progettofinaleinfovis:latest
+ `````
 
 Utilizzo del logo da parte della comunità universitaria.
 Il logo dell’Università degli Studi Roma Tre è un marchio registrato di proprietà esclusiva dell’Università e può essere utilizzato dalla comunità universitaria nell’ambito delle attività scientifiche, didattiche e comunicative.
