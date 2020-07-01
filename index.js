@@ -21,6 +21,11 @@ const dataset = d3.csv('./dataset_sleep.csv');
 
 var scalecolposneg = d3.scaleSequential(d3.interpolateRdBu);
 
+// Add brushing
+var brush = d3.brushX()                   // Add the brush feature using the d3.brush function
+    .extent( [ [0,0], [width,height-150] ] )  // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+    // .on("end", updateChart)
+
 dataset.then(function(data) {
     const slices = data.columns.slice(1).map(function() {   //function(id)
         return {
@@ -865,6 +870,8 @@ dataset.then(function(data) {
         .attr('alignment-baseline', 'middle')
         .on('mouseover',handleMouseOverRevitalize)
         .on("mouseout", handleMouseOutRevitalize);
+
+        lines.call(brush);
 
 })
 const handleMouseOverOverall = (d,i,n) => {
