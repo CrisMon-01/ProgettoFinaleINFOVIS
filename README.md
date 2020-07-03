@@ -36,7 +36,7 @@ La prima deriva dall'insieme dei dati e sfrutta delle line graph per trovare del
 Questa visualizzazione si compone di diversi grafici:
 * Uno per confrontare i dati biometrici raccolti da Fitbit. 
 * Uno per mettere in relazione i dati biometrici con la variazione delle temperature nel corso del tempo (nell'intervallo specificato).
-* Uno per mettere in correlazione la presenza di precipitazioni con i dati biometrici.
+* Uno per mettere in correlazione la presenza di precipitazioni con i dati biometrici. <br/>
 Un'ulteriore visualizzazione è stata rimossa in quanto ridondante, questa visualizzazione metteva in correlazione i dati biometrici con l'andamento del tramonto. <br/>
 La visualizzazione è stata rimossa in quanto apportava poco contenuto informativo rispetto al grafico della temperatura. <br/>
 Per queste visualizzazioni sono state presentate diverse versioni per verificare le incidenze del sabato e domenica sui dati, dato che le altre visualizzazioni esprimevano per loro natura questa caratteristica in modo più efficace. 
