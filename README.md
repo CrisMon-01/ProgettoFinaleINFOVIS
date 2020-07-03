@@ -25,8 +25,10 @@ deep_sleep_in_minutes | quanti minuti si è stati nella fase profonda del sonno 
 restlessness | quanto il sonno è stato irrequieto, influenzato da <br/> cambi di posizione, movimenti etc | Double
 
 I dati provenienti da fonti esterne a Fitbit sono state normalizzate e integrate per creare un unico dataset utilizzabile. <br/>
-Per l'integrazione è stato utilizzato uno strumento legato all'analisi di Big Data: HIVE SQL. <br/>
-Il file utilizzato da hive è `hive.hql`
+In quanto partendo da fonti diverse (Open Data della regione Lazio, dataset di Fitbit e pagine web), vi erano diversi dati non utilizzabili direttamente. <br/>
+Prima di tutto sono stati uniti diversi mesi dei dati provenienti dagli Open Data mensili offerti dalla regione Lazio. <br/>
+E' stata eseguita un'operazione di conversione per la data, in quanto Fitbit la esprimeva in formato Americato MM-DD-YYYY, mentre gli altri dati, di fonti Europee, erano in formto DD/MM/YYYY, mentre HIVE SQL, utilizzato per il join dei singoli dataset, richiede un formato del tipo: DD/MM/YY.
+Il file utilizzato da hive per il join è `hive.hql` <br/>
 
 Il progetto si compone di diverse visualizzazioni:
 ## Prima Visualizzazione:
@@ -35,11 +37,12 @@ Questa visualizzazione si compone di diversi grafici:
 * Uno per confrontare i dati biometrici raccolti da Fitbit. 
 * Uno per mettere in relazione i dati biometrici con la variazione delle temperature nel corso del tempo (nell'intervallo specificato).
 * Uno per mettere in correlazione la presenza di precipitazioni con i dati biometrici.
-Una visualizzazione è stata rimossa in quanto ridondante, questa visualizzazione metteva in correlazione i dati biometrici con l'andamento del tramonto. <br/>
-La visualizzazione è stata rimossa in quanto apportava poco contenuto informativo rispetto al grafico della temperatura.
-Per questa visualizzazione sono state presentate diverse versioni per verificare le incidenze del sabato e domenica sui dati, dato che le altre visualizzazioni esprimevano per loro natura questa caratteristica in modo più efficace. 
-L'overall score nei grafici seguenti al primo è stato sostituito dallo stacked graph di composition, duration e revitalizzation, in quanto somma aritmetica di questi. <br/>
-A supporto dei grafici, sono stati inseriti degli indicatori, in modo da evidenziare le correlazioni tra misure. L'entità della correlazione è espressa come una riga orizzontale posizionata all'origine e alla fine dell'asse y in modo da non interferire con il disegno, il valore della correlazione influenza il colore della correlazione, dal rosso per una correlazione inversa al blu per una correlazione diretta<br/>
+Un'ulteriore visualizzazione è stata rimossa in quanto ridondante, questa visualizzazione metteva in correlazione i dati biometrici con l'andamento del tramonto. <br/>
+La visualizzazione è stata rimossa in quanto apportava poco contenuto informativo rispetto al grafico della temperatura. <br/>
+Per queste visualizzazioni sono state presentate diverse versioni per verificare le incidenze del sabato e domenica sui dati, dato che le altre visualizzazioni esprimevano per loro natura questa caratteristica in modo più efficace. 
+L'overall score, nei grafici seguenti al primo, è stato sostituito dallo stacked graph di composition, duration e revitalization, in quanto somma aritmetica di questi. <br/>
+A supporto dei grafici, sono stati inseriti degli indicatori, in modo da evidenziare le correlazioni tra misure. L'entità della correlazione è espressa come una riga orizzontale posizionata all'origine e alla fine dell'asse y in modo da non interferire con i grafici, il valore della correlazione influenza il colore dell'indicatore, dal rosso per una correlazione inversa al blu per una correlazione diretta, con l'intensità che segue il valore della correlazione tra due misure, mediante la metrica di pearson. La correlazione è stata calcolata in diversi intervalli, in modo da poter analizzare come questa variava nel tempo, ciò ha richiesto di splittare l'intero dataset per fasce, in modo da poter analizzare delle parti ben delimitate, attraverso lo script python: `pythoncorrelation_partial.py` eseguibile con python3. <br/>
+Il calcolo della correlazione sull'intero dataset può essere fatto tramite `pythoncorrelation.py`. <br/>
 Per il primo grafico le correlazioni graficate dall'alto verso il basso  (l'ordine di elenco rispecchia quello nel grafico dall'alto al basso) sono:
 * deep_sleep_in_minutes e duration_score
 * revitalization_score e restlessness
@@ -59,8 +62,7 @@ Le relazioni riscontrate grazie a questa visualizzazione sono:
 * vi è una variazione dei punteggi di sonno per gli esami (poco prima calo e poi aumento e dopo l'esame un'alterazione positiva e negativa) 
 ![Logo Roma Tre](figure/prima.png)
 ## Seconda Visualizzazione:
-La seconda visualizzazione ha una diversa granularità. <br/>
-La granularità dei grafici presenti in questa visualizzazione è settimanale, ed utilizza un grafico a spirale per evidenzia delle periodicità difficilmente riscontrabili per sua natura su un line graph.
+La periodicità dei grafici presenti in questa visualizzazione è settimanale, ed utilizza un grafico a spirale, che per sua natura, diversamente da un line graph, viene utilizzato per evidenziare delle periodicità.
 Grazie a questa visualizzazione abbiamo confermato alcune supposizioni fatte sulla base della prima visualizzazione.
 Le relazioni riscontrate grazie a questa visualizzazione sono:
 * conferma di sabato e domenica come outliers rispetto alla settimana
@@ -81,18 +83,19 @@ Questo ha confermato i dati ottenuti dalla seconda visualizzazione per quanto ri
 Questa visualizzazione presenta la suddivisione in aree la cui grandezza corrisponde alla media sull'intero periodo di osservazione del giorno specifico della settimana. <br/>
 ![Logo Roma Tre](figure/treemap.png)
 
-I grafici sono interattivi, dato il gran numero di dati diversi da graficare, con il passaggio del mouse al di sopra di una legenda è possibile evidenziare la curva corrispondente. Nel caso la stessa curva sia presente in diversi grafici, questa viene evidenziata in tutto, in modo da poter avere una soluzione di continuità tra i grafici<br/>
+I grafici sono interattivi, dato il gran numero di dati diversi da graficare, con il passaggio del mouse al di sopra di una legenda è possibile evidenziare la curva corrispondente. Nel caso la stessa curva sia presente in diversi grafici, questa viene evidenziata in tutto, in modo da poter avere una soluzione di continuità tra i grafici.<br/>
+Per un'analisi delle curve in un determinato intervallo temporale, abbiamo deciso di aiutare la visualizzazione con l'inserimento di una finestra, ridimensionabile e scorrevole, che evidenzi un intervallo desiderato su tutti i grafici della visualizzazione. Questo risulta particolamente utile, in quanto alcune curve sono presenti in più grafici per analizzarle in diversi contesti. <br/>
 
 ## Correlazioni
-Per un maggiore supporto alla visualizzazione sono state studiate e implementate tramite programmi pythoon delle metriche che riuscissero a quantificare in modo sintetico le correlazioni individuate dal grafico. <br/>
-Per quantificare quanto due serie fossero simili è stata utilizzata la metrica di Pearson (sono state testate anche quella di kendall e spearman ottenendo risualti simili) 
+Per un maggiore supporto alla visualizzazione sono state studiate e implementate tramite programmi python delle metriche che riuscissero a quantificare in modo sintetico le correlazioni individuate dal grafico. <br/>
+Per quantificare quanto due serie fossero simili è stata utilizzata la metrica di Pearson (sono state testate anche quella di Kendall e Spearman ottenendo risualti simili) 
 ![Pearson](figure/pearson.jpg) <br/>
 Attraverso la metrica di Pearson sono state determinate correlazioni dirette e inverse per stabilire se quanto riportato dai grafici fosse o meno reale e in linea con le descrizioni riportate da Fitbit. <br>
 Per la verifica, attraverso il programma pythoncorrelation.py, eseguibile come:
  `````
  python3 pythoncorrelation.py
  `````
-Si ottengono i seguenti risultati:
+Si ottengono i risultati sull'intero intervallo:
  `````
 overall 2 composition_score 0.7216263087378664
 overall 2 revitalization_score 0.04514058550961356
@@ -170,13 +173,23 @@ tmax 2 duration_score -0.022947933031111683
 tmax 2 deep_sleep_in_minutes 0.023068754764066102
 tmax 2 resting_heart_rate -0.6453034199889537
   `````
+Nella prima visualizzazione le correlazioni sono state misurate per intervalli temporali, calcolabili come:
+ `````
+ python3 pythoncorrelation_partial.py
+ `````
 Le correlazioni dirette possono essere considerate:
 * assenti o deboli per valori tra 0 e 0,3
 * notevoli per valori tra 0,3 e 0,7
-* forti per valori tra 0,7 e 1
+* forti per valori tra 0,7 e 1 <br/>
 Stessa scala può essere utilizzata per correlazioni inverse con il segno negativo. <br/>
-Ad esempio vi è la conferma che tra heart rate e le temperature vi sia una correlazione inversa notevole e  come dalla nostra valutazione iniziale sulla prima visualizzazione vi è una forte correlazione tra overall_score e duration_score (in quanto revitalization_score e composition_score riduco la loro influenza). <br/>
-Oltre le correlazioni sono state calcolate anche le distanze tra le curve, mediante la metrica: distanza di Fréchet per calcolare le curve più simili. La distanza Fréchet è una misura di similarità fra le curve che tiene conto della posizione e dell'ordinamento dei punti lungo le curve.
+Ad esempio vi è la conferma che tra heart rate e le temperature vi sia una correlazione inversa notevole e come dalla nostra valutazione iniziale, sulla prima visualizzazione, vi è una forte correlazione tra overall_score e duration_score. <br/>
+Oltre alle correlazioni, è stato ricercato un algoritmo che definisse una relazione di similarità tra curve, nella ricerca è stata indivisuata la metrica: distanza di Fréchet. <br/>
+La distanza Fréchet è una misura di similarità fra le curve che tiene conto della posizione e dell'ordinamento dei punti lungo le curve.
+Per il calcolo si può utilizzare il file pythondiffcurves, eseguibile come:
+ `````
+ python3 pythondiffcurves.py
+ `````
+Esempio:
   `````
     distance hr 2 hr: test 0.0
     distance hr 2 rev 50.0
@@ -193,10 +206,13 @@ Run with Docker: <br/>
 All'indirizzo della macchina che ha lanciato i comandi docker, esposto sulla porta 80, al path / troverete i grafici della prima visualizzazione. <br/>
 Al path /index-spirale.html troverete il grafico della seconda visualizzazione per analizzare al meglio le periodicità settimanali. <br/>
 Al path /index-deepsleep-day.html troverete la terza visualizzazione calcolata sulla base della media dei minuti di sonno profondo per ogni giorno della settimana. <br/>
+Al path /indexv1.html troverete i grafici della prima visualizzazione con la possibilità di creare finestre indipendenti per delimitare degli intervalli di tempo sui tre grafici. <br/>
+
+## Nota:
 Il progetto è integrato con Docker Hub, evitando la necessità di build locale dell'immagine:
 
  `````
-  docker pull crismon01/progettofinaleinfovis:latest || crismon01/progettofinaleinfovis:dev
+  docker pull crismon01/progettofinaleinfovis:latest 
   docker run -dit --name demoinfovisfinalecontainer -p 8080:80 crismon01/progettofinaleinfovis:latest
  `````
 
