@@ -27,7 +27,7 @@ restlessness | quanto il sonno è stato irrequieto, influenzato da <br/> cambi d
 I dati provenienti da fonti esterne a Fitbit sono state normalizzate e integrate per creare un unico dataset utilizzabile. <br/>
 In quanto partendo da fonti diverse (Open Data della regione Lazio, dataset di Fitbit e pagine web), vi erano diversi dati non utilizzabili direttamente. <br/>
 Prima di tutto sono stati uniti diversi mesi dei dati provenienti dagli Open Data mensili offerti dalla regione Lazio. <br/>
-E' stata eseguita un'operazione di conversione per la data, in quanto Fitbit la esprimeva in formato Americato MM-DD-YYYY, mentre gli altri dati, di fonti Europee, erano in formto DD/MM/YYYY, mentre HIVE SQL, utilizzato per il join dei singoli dataset, richiede un formato del tipo: DD/MM/YY.
+E' stata eseguita un'operazione di conversione per la data, in quanto Fitbit la esprimeva in formato Americato MM-DD-YYYY, mentre gli altri dati, di fonti Europee, erano in formato DD/MM/YYYY, mentre HIVE SQL, utilizzato per il join dei singoli dataset, richiede un formato del tipo: DD/MM/YY.
 Il file utilizzato da hive per il join è `hive.hql` <br/>
 
 Il progetto si compone di diverse visualizzazioni:
