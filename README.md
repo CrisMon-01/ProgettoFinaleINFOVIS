@@ -183,7 +183,7 @@ Le correlazioni dirette possono essere considerate:
 * forti per valori tra 0,7 e 1 <br/>
 Stessa scala può essere utilizzata per correlazioni inverse con il segno negativo. <br/>
 Ad esempio vi è la conferma che tra heart rate e le temperature vi sia una correlazione inversa notevole e come dalla nostra valutazione iniziale, sulla prima visualizzazione, vi è una forte correlazione tra overall_score e duration_score. <br/>
-Oltre alle correlazioni, è stato ricercato un algoritmo che definisse una relazione di similarità tra curve, nella ricerca è stata indivisuata la metrica: distanza di Fréchet. <br/>
+Oltre alle correlazioni, è stato ricercato un algoritmo che definisse una relazione di similarità tra curve, nella ricerca è stata individuata la metrica: distanza di Fréchet. <br/>
 La distanza Fréchet è una misura di similarità fra le curve che tiene conto della posizione e dell'ordinamento dei punti lungo le curve.
 Per il calcolo si può utilizzare il file pythondiffcurves, eseguibile come:
  `````
