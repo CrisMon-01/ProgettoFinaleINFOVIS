@@ -701,6 +701,24 @@ dataset.then(function(data) {
         .on('mouseover',handleMouseOverDSM)
         .on("mouseout", handleMouseOutDSM);
 
+    svg.append('text')
+        .attr('x',480)
+        .attr('y',height/3-65)
+        .text('Le barre sono correlazioni tra misure elencate nelle legende')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverHR)
+        .on("mouseout", handleMouseOutHR);
+
+    svg.append('text')
+        .attr('x',480)
+        .attr('y',height/3-35)
+        .text('vanno dal rosso, se inversamente correlate al blu se correlate, bianco: neutro')
+        .style('font-size','15px')
+        .attr('alignment-baseline', 'middle')
+        .on('mouseover',handleMouseOverHR)
+        .on("mouseout", handleMouseOutHR);
+
     // secondo grafico
     // svg.append('circle')
     //     .attr('cx',50)

@@ -52,11 +52,15 @@ const g1 = svg1.append("g")
     + ","
     + (margin.top + chartRadius) + ")");
 
+g1.append('text').text('OVERALL').attr("transform", "translate(-40,0)");
+
 const g2 = svg2.append("g")
     .attr("transform", "translate("
     + (margin.left + chartRadius)
     + ","
     + 300 +")");
+
+g2.append('text').text('REVITALIZATION').attr("transform", "translate(-65,0)");
 
 const g3 = svg3.append("g")
     .attr("transform", "translate("
@@ -64,11 +68,15 @@ const g3 = svg3.append("g")
     + ","
     + (margin.top + chartRadius) + ")");
 
+g3.append('text').text('DURATION').attr("transform", "translate(-40,0)");
+
 const g4 = svg4.append("g")
     .attr("transform", "translate("
     + 300
     + ","
     + 300 + ")");
+
+g4.append('text').text('COMPOSITION').attr("transform", "translate(-60,0)");
 
 //LOAD THE DATA
 const dataset = d3.csv('./dataset_sleep_sprial.csv');
