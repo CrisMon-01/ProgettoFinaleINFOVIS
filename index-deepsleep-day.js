@@ -1,55 +1,58 @@
-var margin = {top: 10, right: 10, bottom: 10, left: 10},
-  width = 445 - margin.left - margin.right,
-  height = 445 - margin.top - margin.bottom;
+var margin = {top: 20, right: 20, bottom: 70, left: 40},
+width = 600 - margin.left - margin.right,
+height = 300 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
-  .append("svg")
+var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+
+var y = d3.scale.linear().range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(10);
+
+var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");       
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
 
-// Read data
-d3.csv('dataset_sleep_deep_min_per_day.csv', function(data) {
+d3.csv("dataset_sleep_deep_min_per_day.csv", function(error, data) {
 
-  // stratify the data: reformatting for d3.js
-  var root = d3.stratify()
-    .id(function(d) { return d.giorno; })   // Name of the entity (column name is name in csv)
-    .parentId(function(d) { return d.parent; })   // Name of the parent (column name is parent in csv)
-    (data);
-  root.sum(function(d) { return +d.deep_sleep_in_minutes_medio })   // Compute the numeric value for each entity
+    x.domain(data.map(function(d) { return d.giorno; }));
+    y.domain([0, d3.max(data, function(d) { return +d.deep_sleep_in_minutes_medio; })]);
+  
+    svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis)
+  .selectAll("text")
+    .style("text-anchor", "end")
+    .attr("dx", "-.8em")
+    .attr("dy", "-.55em")
+    .attr("transform", "rotate(-90)" );
 
-  // Then d3.treemap computes the position of each element of the hierarchy
-  // The coordinates are added to the root object above
-  d3.treemap()
-    .size([width, height])
-    .padding(4)
-    (root)
+svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis)
+  .append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 6)
+    .attr("dy", ".71em")
+    .style("text-anchor", "end")
+    .text("Value ($)");
 
-console.log(root.leaves())
-  // use this information to add rectangles:
-  svg
-    .selectAll("rect")
-    .data(root.leaves())
-    .enter()
-    .append("rect")
-      .attr('x', function (d) { return d.x0; })
-      .attr('y', function (d) { return d.y0; })
-      .attr('width', function (d) { return d.x1 - d.x0; })
-      .attr('height', function (d) { return d.y1 - d.y0; })
-      .style("stroke", "black")
-      .style('fill','DarkGreen')
-
-  // and to add the text labels
-  svg
-    .selectAll("text")
-    .data(root.leaves())
-    .enter()
-    .append("text")
-      .attr("x", function(d){ return d.x0+10})    // +10 to adjust position (more right)
-      .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
-      .text(function(d){ return (d.data.giorno+":"+d.data.deep_sleep_in_minutes_medio.substring(0,6))})
-      .attr("font-size", "15px")
-      .attr("fill", "white")
-})
+svg.selectAll("bar")
+    .data(data)
+  .enter().append("rect")
+    .style("fill", "steelblue")
+    .attr("x", function(d) { return x(d.giorno); })
+    .attr("width", x.rangeBand())
+    .attr("y", function(d) { return y(d.deep_sleep_in_minutes_medio); })
+    .attr("height", function(d) { return height - y(d.deep_sleep_in_minutes_medio); });
+});

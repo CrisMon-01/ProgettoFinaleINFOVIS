@@ -1,9 +1,8 @@
 giorno,deep_sleep_in_minutes_medio,parent
-days,,
-domenica,114.666667,days
-giovedì,83.384615,days
 lunedì,87.666667,days
 martedì,84.480000,days
 mercoledì,87.500000,days
-sabato,120.680000,days
+giovedì,83.384615,days
 venerdì,89.000000,days
+sabato,120.680000,days
+domenica,114.666667,days
